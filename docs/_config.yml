@@ -1,6 +1,6 @@
 theme: jekyll-theme-giellalt
-title: Dictionary for __UNDEFINED_SOURCE__ ⇒ __UNDEFINED_TARGET__
-description: An electronic dictionary from __UNDEFINED_SOURCE__ to __UNDEFINED_TARGET__
+title: Dictionary for sme
+description: An electronic monolingual dictionary in North Sámi
 
 defaults:
   - scope: { path: "" }

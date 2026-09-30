@@ -1,6 +1,6 @@
-# Dictionary for __UND_SRC__ — __UND_TRG__
+# Dictionary for sme
 
-This repository contains source files for a dictionary from __UNDEFINED_SOURCE__ to __UNDEFINED_TARGET__. The content is licensed under the __LICENSE__ license.
+This repository contains source files for a monolingual dictionary in North Sámi. The content is licensed under the CC-BY-4.0 license.
 
 Many of the dictionaries are published on [sátni.org](https://sátni.org) and [NDS](https://sanit.oahpa.no).
 
