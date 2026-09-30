@@ -1,0 +1,18 @@
+# This template merge lang-config file should be stored in
+# .gut/ of each language repo. It contains:
+# - template: url of template repo
+# - rev_id: automatically maintained
+# - template_sha: sha of last known version merged with this language
+# - replacements: list of string replacements: placeholder -> real string
+template = "https://github.com/giellalt/template-dict-undS-undT"
+rev_id = 1
+template_sha = "cc09eb0168024b3d0fee9e69e98b78d579f96ce9"
+
+[replacements]
+__UND_SRC__ = "__UND_SRC__"
+__UND2C_SRC__ = "__UND2C_SRC__"
+__UNDEFINED_SOURCE__ = "__UNDEFINED_SOURCE__"
+__UND_TRG__ = "__UND_TRG__"
+__UND2C_TRG__ = "__UND2C_TRG__"
+__UNDEFINED_TARGET__ = "__UNDEFINED_TARGET__"
+__LICENSE__ = "__LICENSE__"
