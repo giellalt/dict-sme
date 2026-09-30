@@ -1,0 +1,108 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = r
+
+# variables
+pos.values =
+    "A" | "N" | "V" | "Adv" | "Po" | "Pr" | "Pron" | "Phrase" | "Rel" 
+    | "Det" | "Interj" | "Pcle" | "Num" | "CC" | "CS" 
+
+type.values =
+      "Rel" | "Pers" | "Indef" | "Refl" | "Dem" | "G3" | "G7" | "NomAg"
+      | "Ord" | "Prop" | "Recipr" | "Coll" | "Interr" | "ACR" | "ABBR"
+
+
+dial.values = "east" | "west" | "torne" | "varanger"
+
+
+# root and header
+r = element r {
+    attribute id { "dict-sme" }?,
+    attribute xml:lang { "sme" }?,
+    lics?,
+    e+
+}
+
+lics = element lics {
+    attribute xml:lang { "en" },
+    attribute xml:space { "default" | "preserve" }?,
+    lic,
+    ref*,
+    sourcenote*
+}
+
+lic = element lic {  mixed { a* } }
+ref = element ref { mixed { a* } }
+sourcenote = element sourcenote { mixed { a* } }
+a = element a { text }
+
+# entry
+e = element e {
+    status,
+    lg,
+    dg+,
+    ig*,
+    cg?
+}
+
+status = element status {
+    "edit" | "verify" | "publish"
+}
+
+# lemma group
+lg =
+  element lg {
+    l+
+  }
+
+# lemma
+l = element l {
+    attribute pos { pos.values },
+    attribute type { type.values }?,
+    attribute dial { dial.values }?,
+    text
+}
+
+# definiton group
+dg = element dg {
+    d+,
+    syng*,
+    antg*,
+    xg*
+}
+
+# definition
+d = element d { mixed { d_ref* } }
+
+# refrence to other relevent definition
+d_ref = element d_ref {
+    attribute analysis { text },
+    attribute dg_nr { xsd:positiveInteger },
+    text
+}
+
+# synonyms
+syng = element syng { element syn { text }+ }
+
+# antonyms
+antg = element antg { element ant { text }+ }
+
+# example group
+xg = element xg {
+    element x { text }+
+}
+
+
+# idiom group
+# i = idiom, id = idiom definition, ix = idiom example
+ig = element ig {
+    (element i { text },
+     element id { text }*,
+     element ix { text }*)+
+}
+
+
+# comments
+cg = element cg {
+    element c {text}+
+}
