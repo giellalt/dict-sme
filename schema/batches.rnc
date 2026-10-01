@@ -1,0 +1,20 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+# Batches of entries, for giving work to people.
+# An entry is put in a batch with <e batch="...">, see dict-sme.rnc.
+
+start = batches
+
+batches = element batches {
+    batch*
+}
+
+# id: what <e batch="..."> refers to; the year (two digits) followed by a
+#     number: 2601, 2602, ...
+# assignee: who works on the batch
+# The text is an optional note about the batch.
+batch = element batch {
+    attribute id { xsd:string { pattern = "[0-9]{2}[0-9]{2,}" } },
+    attribute assignee { text },
+    text
+}

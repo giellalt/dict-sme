@@ -1,0 +1,572 @@
+/*
+ * XMLmind XML Editor (XXE) style sheet for the dict-sme dictionary.
+ * Follows schema/dict-sme.rnc.
+ *
+ * Associate with a document by adding this line after the XML declaration:
+ *   <?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+ *
+ * The combo boxes for status and pos get their values from the schema, so
+ * the document must also point to dict-sme.rnc (<?xml-model ...?>). The
+ * values for type and batch are listed here and in batches.xml.
+ *
+ * "+ ..." buttons add an item to a group, or add a group that is missing.
+ * A button is only shown where clicking it gives a valid document.
+ * To delete something, select it and press Delete.
+ *
+ * How the buttons work: clicking a button selects the element the button
+ * is attached to, and then inserts something right after that element.
+ * (Inserting *into* the selected element only works when it is empty, so
+ * that is not used.) Hence:
+ *   - the button adding an item to a group is attached to the last item;
+ *   - the button adding a missing group is attached to whatever element
+ *     the schema wants just before that group, which depends on which of
+ *     the other groups are there.
+ */
+
+/* ---------------------------------------------------------------------
+ * Buttons
+ * --------------------------------------------------------------------- */
+
+/* action_ is what command-button() needs to know what to do: either
+   "command, ..., parameter, ..." or "menu, menu(...)" */
+@property-value styled-button(label_, action_)
+    command-button(text, label_,
+                   action_,
+                   font-size, 9pt,
+                   color, #2060a0,
+                   background-color, #e4eef8,
+                   border-radius, 3px,
+                   padding-left, 5px,
+                   padding-right, 5px);
+
+@property-value button(label_, command_, parameter_)
+    styled-button(label_, argument-list(command, command_, parameter, parameter_));
+
+/* a new element of the same kind, after the one the button is attached to */
+@property-value add-same(label_) button(label_, "insertNode", "sameElementAfter");
+
+/* a new group, after the element the button is attached to */
+@property-value add-dg()   button("+ definition group", "insert", "after dg");
+@property-value add-syng() button("+ synonyms", "insert", "after syng");
+@property-value add-antg() button("+ antonyms", "insert", "after antg");
+@property-value add-xg()   button("+ examples", "insert", "after xg");
+@property-value add-ig()   button("+ idiom", "insert", "after ig");
+@property-value add-id()   button("+ definition", "insert", "after id");
+@property-value add-ix()   button("+ example", "insert", "after ix");
+@property-value add-cg()   button("+ comments", "insert", "after cg");
+
+/* A line of buttons below the element. XXE puts the generated content of
+   an element that has block children outside its margin, border and
+   padding, so such a line needs the margin of the element itself. */
+@property-group button-row(margin-left_) {
+    display: block;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0.3ex 0 0.3ex margin-left_;
+}
+
+/* the groups of an entry are indented relative to the lemma */
+@property-value indent() 5ex;
+
+/* small grey text in front of an element, saying what it is */
+@property-group tag() {
+    font-size: 0.75em;
+    font-weight: normal;
+    font-style: normal;
+    color: #808080;
+}
+
+/* ---------------------------------------------------------------------
+ * Root and header
+ * --------------------------------------------------------------------- */
+
+r {
+    display: block;
+    font-family: sans-serif;
+    font-size: 12pt;
+    line-height: 1.3;
+    margin: 1ex;
+}
+
+lics {
+    display: block;
+    collapsible: yes;
+    collapsed: yes;
+    font-size: 0.85em;
+    color: #404040;
+    background-color: #f0f0f0;
+    border: 1px solid #c0c0c0;
+    padding: 0.5ex;
+    margin-bottom: 2ex;
+}
+
+lics:before {
+    display: block;
+    content: collapser() " License, attribution and source note";
+    font-weight: bold;
+}
+
+lic,
+ref,
+sourcenote {
+    display: block;
+    margin: 1ex 0 1ex 2ex;
+}
+
+lic {
+    white-space: pre;
+}
+
+lic:before,
+ref:before,
+sourcenote:before {
+    display: block;
+    font-weight: bold;
+    color: #808080;
+}
+
+lic:before {
+    content: "License";
+}
+
+ref:before {
+    content: "Attribution";
+}
+
+sourcenote:before {
+    content: "Source note";
+}
+
+a {
+    display: inline;
+    font-family: monospace;
+    color: #0000c0;
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------------------------
+ * Entry: lg, dg*, ig*, cg?
+ * --------------------------------------------------------------------- */
+
+e {
+    display: block;
+    margin-bottom: 3ex;
+}
+
+e:after {
+    property-group: button-row(0);
+    content: add-same("+ entry");
+}
+
+/* Status and batch, at the top right of the entry. The batch combo box
+   offers the batches in batches.xml, and the name of the person who has
+   the batch is shown next to it. */
+e:before {
+    display: block;
+    property-group: tag();
+    content: "status " combo-box(attribute, status) "     batch "
+        combo-box(attribute, batch,
+                  values, xpath("join(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch/@id, '\A')"))
+        remove-attribute-button(attribute, batch) "  "
+        xpath("document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[@id = current()/@batch]/@assignee");
+    text-align: right;
+    background-color: #e8f0f8;
+    border-top: 2px solid #a0b8d0;
+    padding: 0.5ex 1ex 0 1ex;
+}
+
+/* --- lemma group ----------------------------------------------------- */
+
+lg {
+    display: block;
+    background-color: #e8f0f8;
+    padding: 0 1ex 0.5ex 1ex;
+}
+
+/* An entry without dg (not valid, but it happens) gets the missing dg,
+   ig and cg after the lg... */
+lg:after {
+    property-group: button-row(indent());
+    content: add-dg() " " add-ig() " " add-cg();
+}
+
+e:contains-element(cg) > lg:after {
+    content: add-dg() " " add-ig();
+}
+
+e:contains-element(ig) > lg:after {
+    content: add-dg();
+}
+
+e:contains-element(dg) > lg:after {
+    display: inline;
+    content: "";
+}
+
+/* pos and type, on a line above the lemmas.
+   The schema allows any type with any pos. Here the type combo box only
+   offers the types that go with the pos, and a type that does not go
+   with the pos is flagged. (Tying them together in the schema would
+   make XXE refuse to change the pos.) */
+@property-value n-types()    "Prop\A NomAg\A Coll\A ACR\A ABBR\A G3\A G7";
+@property-value a-types()    "Ord";
+@property-value pron-types() "Pers\A Dem\A Indef\A Interr\A Recipr\A Refl\A Rel";
+
+@property-value pos-field() "pos " combo-box(attribute, pos);
+
+@property-value pos-and-type(types_)
+    pos-field() "   type " combo-box(attribute, type, values, types_)
+    remove-attribute-button(attribute, type);
+
+@property-value wrong-type()
+    text("   this type does not go with this pos", color, #c00000);
+
+lg:before {
+    display: block;
+    property-group: tag();
+    content: pos-field();
+    background-color: #e8f0f8;
+    padding: 0 1ex;
+}
+
+/* a pos that has no types */
+lg[type]:before {
+    content: pos-field() "   type " attr(type)
+        remove-attribute-button(attribute, type) wrong-type();
+}
+
+lg[pos="N"]:before {
+    content: pos-and-type(n-types());
+}
+
+lg[pos="A"]:before {
+    content: pos-and-type(a-types());
+}
+
+lg[pos="Pron"]:before {
+    content: pos-and-type(pron-types());
+}
+
+lg[pos="N"][type]:before {
+    content: pos-and-type(n-types()) wrong-type();
+}
+
+lg[pos="A"][type]:before {
+    content: pos-and-type(a-types()) wrong-type();
+}
+
+lg[pos="Pron"][type]:before {
+    content: pos-and-type(pron-types()) wrong-type();
+}
+
+lg[pos="N"][type="Prop"]:before,
+lg[pos="N"][type="NomAg"]:before,
+lg[pos="N"][type="Coll"]:before,
+lg[pos="N"][type="ACR"]:before,
+lg[pos="N"][type="ABBR"]:before,
+lg[pos="N"][type="G3"]:before,
+lg[pos="N"][type="G7"]:before {
+    content: pos-and-type(n-types());
+}
+
+lg[pos="A"][type="Ord"]:before {
+    content: pos-and-type(a-types());
+}
+
+lg[pos="Pron"][type="Pers"]:before,
+lg[pos="Pron"][type="Dem"]:before,
+lg[pos="Pron"][type="Indef"]:before,
+lg[pos="Pron"][type="Interr"]:before,
+lg[pos="Pron"][type="Recipr"]:before,
+lg[pos="Pron"][type="Refl"]:before,
+lg[pos="Pron"][type="Rel"]:before {
+    content: pos-and-type(pron-types());
+}
+
+l {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #004080;
+}
+
+l:last-child:after {
+    content: "   " add-same("+ lemma");
+    font-size: 0.55em;
+    font-weight: normal;
+}
+
+/* --- definition group: d+, syng*, antg*, xg* ------------------------- */
+
+dg {
+    display: block;
+    margin: 1ex 0 1ex indent();
+}
+
+dg:before {
+    display: marker;
+    content: simple-counter(n, decimal);
+    font-weight: bold;
+    color: #004080;
+}
+
+dg:after {
+    property-group: button-row(indent());
+    content: add-same("+ definition group");
+}
+
+/* ...and otherwise after the last dg... */
+e > dg:last-of-type:after {
+    content: add-same("+ definition group") " " add-ig() " " add-cg();
+}
+
+e:contains-element(cg) > dg:last-of-type:after {
+    content: add-same("+ definition group") " " add-ig();
+}
+
+e:contains-element(ig) > dg:last-of-type:after {
+    content: add-same("+ definition group");
+}
+
+/* the definitions of a group are on one line, separated by "; " */
+d {
+    display: inline;
+}
+
+d + d:before {
+    content: "; ";
+}
+
+/* A dg added in XXE gets id="???". The id is normally not shown; then it
+   is, in place of the number, with the ids already used in the entry so a
+   free one can be chosen. */
+dg[id="???"]:before {
+    display: block;
+    margin-left: 6.7ex; /* indent() at the smaller font size of tag() */
+    content: "id " text-field(attribute, id, columns, 3)
+        text("  choose an id not used in this entry ("
+             , color, #c00000)
+        xpath("join(../dg/@id[. != '???'], ', ')")
+        text(")", color, #c00000);
+    property-group: tag();
+}
+
+/* a definition that still has to be written */
+d:empty {
+    background-color: #ffe0e0;
+}
+
+/* A line break in generated content. XXE draws a mark where the line is
+   broken; white text hides it. */
+@property-value new-line() text("\A", color, white);
+
+/* missing syng, antg and xg are added after the last d, on a line of
+   their own... */
+dg > d:last-of-type:after {
+    content: "   " add-same("+ definition") new-line() add-syng() " " add-antg() " " add-xg();
+}
+
+dg:contains-element(xg) > d:last-of-type:after {
+    content: "   " add-same("+ definition") new-line() add-syng() " " add-antg();
+}
+
+dg:contains-element(antg) > d:last-of-type:after {
+    content: "   " add-same("+ definition") new-line() add-syng();
+}
+
+dg:contains-element(syng) > d:last-of-type:after {
+    content: "   " add-same("+ definition");
+}
+
+d_ref {
+    display: inline;
+    color: #006000;
+    text-decoration: underline;
+}
+
+d_ref:after {
+    content: " [" text-field(attribute, lemma, columns, 12)
+        " pos " text-field(attribute, pos, columns, 4)
+        " type " text-field(attribute, type, columns, 5)
+        " definition group " text-field(attribute, dg_id, columns, 4) "]";
+    property-group: tag();
+}
+
+/* --- synonyms and antonyms ------------------------------------------- */
+
+syng,
+antg {
+    display: block;
+}
+
+syng:before,
+antg:before {
+    property-group: tag();
+}
+
+syng:before {
+    content: "syn ";
+}
+
+antg:before {
+    content: "ant ";
+}
+
+syn,
+ant {
+    display: inline;
+}
+
+syn + syn:before,
+ant + ant:before {
+    content: ", ";
+}
+
+syn:last-child:after {
+    content: "   " add-same("+ synonym");
+}
+
+ant:last-child:after {
+    content: "   " add-same("+ antonym");
+}
+
+/* ...except that antg must come after syng, and xg after both; again on
+   a line of their own */
+syng:after {
+    content: new-line() add-antg() " " add-xg();
+}
+
+dg:contains-element(xg) > syng:after {
+    content: new-line() add-antg();
+}
+
+dg:contains-element(antg) > syng:after {
+    content: "";
+}
+
+antg:after {
+    content: new-line() add-xg();
+}
+
+dg:contains-element(xg) > antg:after {
+    content: "";
+}
+
+/* --- examples -------------------------------------------------------- */
+
+xg {
+    display: block;
+    margin-top: 0.5ex;
+}
+
+x {
+    display: block;
+    font-style: italic;
+}
+
+x:before {
+    property-group: tag();
+    content: "ex ";
+}
+
+x:last-child:after {
+    property-group: button-row(0);
+    content: add-same("+ example");
+}
+
+/* --- idiom group: i, id*, ix* (one idiom per ig) --------------------- */
+
+ig {
+    display: block;
+    margin: 1ex 0 1ex indent();
+}
+
+e > ig:first-of-type:before {
+    display: block;
+    content: "Idioms";
+    font-weight: bold;
+    color: #808080;
+    margin: 1.5ex 0 0 indent();
+}
+
+i {
+    display: block;
+    font-weight: bold;
+}
+
+id {
+    display: block;
+    margin-left: 2ex;
+}
+
+ix {
+    display: block;
+    font-style: italic;
+    margin-left: 2ex;
+}
+
+ix:before {
+    property-group: tag();
+    content: "ex ";
+}
+
+/* the first id and ix are added after the i... */
+i:after {
+    property-group: button-row(2ex);
+    content: add-id() " " add-ix();
+}
+
+ig:contains-element(ix) > i:after {
+    content: add-id();
+}
+
+ig:contains-element(id) > i:after {
+    display: inline;
+    content: "";
+}
+
+/* ...except that ix must come after id when there is one */
+id:last-of-type:after {
+    property-group: button-row(2ex);
+    content: add-same("+ definition") " " add-ix();
+}
+
+ig:contains-element(ix) > id:last-of-type:after {
+    content: add-same("+ definition");
+}
+
+ix:last-of-type:after {
+    property-group: button-row(2ex);
+    content: add-same("+ example");
+}
+
+/* ...except that cg must come after ig when there is one */
+e > ig:last-of-type:after {
+    property-group: button-row(indent());
+    content: add-same("+ idiom") " " add-cg();
+}
+
+e:contains-element(cg) > ig:last-of-type:after {
+    content: add-same("+ idiom");
+}
+
+/* --- comments -------------------------------------------------------- */
+
+cg {
+    display: block;
+    margin: 1.5ex 0 0 indent();
+    padding: 0.5ex 1ex;
+    background-color: #fff8d0;
+    border: 1px solid #e0d080;
+    border-radius: 0.5ex;
+}
+
+c {
+    display: block;
+    font-size: 0.9em;
+}
+
+c:last-child:after {
+    property-group: button-row(0);
+    content: add-same("+ comment");
+}
