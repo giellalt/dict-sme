@@ -61,3 +61,6 @@ m4/lt~obsolete.m4
 /bin
 
 **/__pycache__
+
+# PDF exports from scripts/batch2pdf.py
+/pdf/

@@ -24,28 +24,19 @@ src, context, dial, sem_type, paradigms, ...) is dropped.
 Entries with the same lemma+pos+type are merged into the first of them,
 and get a comment saying so.
 
-N_smenob.xml is too big for one file in XXE, so its entries are split by
-the first letter of the lemma into four files: N_a-d_sme.xml, N_e-k_sme.xml,
-N_l-p_sme.xml and N_r-z_sme.xml (r-z also gets æ, ø, å and anything that
-does not start with a letter).
-
-The entries of each file are sorted in North Sámi alphabetical order.
+In each file, entries with a definition come first, then the rest; both
+parts are sorted in North Sámi alphabetical order.
 The dgs of an entry get the ids a, b, c, ... in the order they come in.
 """
 import sys, re, collections
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
-from sme_alphabet import sort_key, RANK
+from sme_alphabet import sort_key
 
 ROOT = Path(__file__).resolve().parent.parent
 DST = ROOT / 'src'
 DEFAULT_SRC = ROOT.parent / 'dict-sme-nob' / 'src'
-
-# source file -> (output name, last first letter in it); None = the rest
-SPLIT = {
-    'N_smenob.xml': [('N_a-d', 'd'), ('N_e-k', 'k'), ('N_l-p', 'p'), ('N_r-z', None)],
-}
 
 HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
@@ -178,6 +169,12 @@ def write_entry(entry, out):
         out.append(f'{I*2}</cg>')
     out.append(f'{I}</e>')
 
+def has_definition(entry):
+    return any(ds for ds, *_ in entry.dgs)
+
+def entry_order(entry):
+    return (not has_definition(entry), sort_key(entry.lemmas[0]))
+
 def write_file(name, file_entries):
     out = []
     for entry in file_entries:
@@ -211,24 +208,9 @@ def main():
                 entries[key] = entry
                 per_file[f].append(entry)
     for f, file_entries in per_file.items():
-        name = f.name.replace('_smenob.xml', '')
-        file_entries.sort(key=lambda entry: sort_key(entry.lemmas[0]))
-        if f.name not in SPLIT:
-            write_file(name, file_entries)
-            continue
-        # the file is split instead; remove an unsplit one from earlier runs
-        if (DST / f'{name}_sme.xml').exists():
-            (DST / f'{name}_sme.xml').unlink()
-            print(f'removed src/{name}_sme.xml (now split)')
-        rest = file_entries
-        for part, last in SPLIT[f.name]:
-            if last is None:
-                part_entries, rest = rest, []
-            else:
-                part_entries = [e for e in rest if sort_key(e.lemmas[0])[0][:1] <= [RANK[last]]]
-                rest = rest[len(part_entries):]
-            write_file(part, part_entries)
-    with_d = sum(1 for e in entries.values() if any(ds for ds, *_ in e.dgs))
+        file_entries.sort(key=entry_order)
+        write_file(f.name.replace('_smenob.xml', ''), file_entries)
+    with_d = sum(1 for e in entries.values() if has_definition(e))
     print(f'{len(entries):6d} entries in all, {with_d} with a definition')
     for k, v in sorted(stats.items()):
         print(f'{v:6d}  {k}')

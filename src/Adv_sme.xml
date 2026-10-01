@@ -35,6 +35,57 @@
     </lics>
     <e status="edit">
         <lg pos="Adv">
+            <l>ceakkonjuolga</l>
+        </lg>
+        <dg id="a">
+            <d>parallealla loaddaárppuin</d>
+            <xg>
+                <x>Ladnit johtet láskkonjuolga ja ceakkonjuolga, nu guhkás go sirdi háliida.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Adv">
+            <l>čorrut</l>
+        </lg>
+        <dg id="a">
+            <d>parallealla loaddaárppuin</d>
+            <antg>
+                <ant>láskut</ant>
+            </antg>
+            <xg>
+                <x>Sáhtát deavdit ráiddu láskut, čorrut dahje čađan.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Adv">
+            <l>láskkonjuolga</l>
+        </lg>
+        <dg id="a">
+            <d>parallealla mearragierragiin</d>
+            <xg>
+                <x>Ladnit johtet láskkonjuolga ja ceakkonjuolga, nu guhkás go sirdi háliida.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Adv">
+            <l>láskut</l>
+        </lg>
+        <dg id="a">
+            <d>parallealla mearragierragiin</d>
+            <antg>
+                <ant>čorrut</ant>
+                <ant>ceaggut</ant>
+            </antg>
+            <xg>
+                <x>Sáhtát deavdit ráiddu láskut, ceaggut dahje čađan.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Adv">
             <l>agálaččat</l>
         </lg>
     </e>
@@ -1162,17 +1213,6 @@
     </e>
     <e status="edit">
         <lg pos="Adv">
-            <l>ceakkonjuolga</l>
-        </lg>
-        <dg id="a">
-            <d>parallealla loaddaárppuin</d>
-            <xg>
-                <x>Ladnit johtet láskkonjuolga ja ceakkonjuolga, nu guhkás go sirdi háliida.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Adv">
             <l>coahkásit</l>
         </lg>
     </e>
@@ -1334,20 +1374,6 @@
             <d/>
             <xg>
                 <x>Doppe orrot dušše čorpmadievva sámegielagat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Adv">
-            <l>čorrut</l>
-        </lg>
-        <dg id="a">
-            <d>parallealla loaddaárppuin</d>
-            <antg>
-                <ant>láskut</ant>
-            </antg>
-            <xg>
-                <x>Sáhtát deavdit ráiddu láskut, čorrut dahje čađan.</x>
             </xg>
         </dg>
     </e>
@@ -4500,32 +4526,6 @@
         <lg pos="Adv">
             <l>láhkai</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Adv">
-            <l>láskkonjuolga</l>
-        </lg>
-        <dg id="a">
-            <d>parallealla mearragierragiin</d>
-            <xg>
-                <x>Ladnit johtet láskkonjuolga ja ceakkonjuolga, nu guhkás go sirdi háliida.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Adv">
-            <l>láskut</l>
-        </lg>
-        <dg id="a">
-            <d>parallealla mearragierragiin</d>
-            <antg>
-                <ant>čorrut</ant>
-                <ant>ceaggut</ant>
-            </antg>
-            <xg>
-                <x>Sáhtát deavdit ráiddu láskut, ceaggut dahje čađan.</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="Adv">

@@ -256,11 +256,6 @@
     </e>
     <e status="edit">
         <lg pos="Num">
-            <l>čuođiduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
             <l>čuohtenáre</l>
         </lg>
         <dg id="a">
@@ -707,47 +702,6 @@
     </e>
     <e status="edit">
         <lg pos="Num">
-            <l>máŋgačuođi</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋgačuođiduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋgaduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋgalogi</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋganuppelohkái</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋganuppelohkáiduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>milj.</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>miljovdna</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
             <l>miljárda</l>
         </lg>
         <dg id="a">
@@ -771,37 +725,6 @@
         <cg>
             <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
         </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>moaddečuođi</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>moaddeduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>moaddelogi</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>moaddenuppelohkái</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>mrd.</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>miljárda</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="Num">
@@ -877,17 +800,6 @@
     </e>
     <e status="edit">
         <lg pos="Num">
-            <l>nuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Álttás ledje nuppelohkái sisagaikuma mannan vahkkoloahpa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
             <l>okta</l>
         </lg>
         <dg id="a">
@@ -908,11 +820,6 @@
                 <x>Soai gottiiga oktanuppelot kilosaš luosa.</x>
             </xg>
         </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>oktanuppelotčuohti</l>
-        </lg>
     </e>
     <e status="edit">
         <lg pos="Num">
@@ -1016,5 +923,98 @@
                 <x>Son lea vihttanuppelot jagi.</x>
             </xg>
         </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>čuođiduhát</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>máŋgačuođi</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>máŋgačuođiduhát</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>máŋgaduhát</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>máŋgalogi</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>máŋganuppelohkái</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>máŋganuppelohkáiduhát</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>milj.</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>miljovdna</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>moaddečuođi</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>moaddeduhát</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>moaddelogi</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>moaddenuppelohkái</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>mrd.</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>miljárda</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>nuppelohkái</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Álttás ledje nuppelohkái sisagaikuma mannan vahkkoloahpa.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Num">
+            <l>oktanuppelotčuohti</l>
+        </lg>
     </e>
 </r>

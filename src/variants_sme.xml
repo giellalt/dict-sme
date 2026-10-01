@@ -35,6 +35,313 @@
     </lics>
     <e status="edit">
         <lg pos="N">
+            <l>baromettar</l>
+        </lg>
+        <dg id="a">
+            <d>reaidu mainna mihtida áibmodeaddaga</d>
+        </dg>
+        <dg id="b">
+            <d>jurddašuvvon reaidu mii mihtida juoidá eará go áibmodeaddaga</d>
+            <xg>
+                <x>politihkalaš barometer</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>bussebisánanbáiki</l>
+        </lg>
+        <dg id="a">
+            <d>merkejuvvon sadji gos busse bisána ja luoitá mátkkošteddjiid eret dahje ala</d>
+            <syng>
+                <syn>bussebissehat</syn>
+                <syn>bussebisánansadji</syn>
+            </syng>
+            <xg>
+                <x>Gos lea lagamus bussebisánanbáiki?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>čalmmastit</l>
+        </lg>
+        <dg id="a">
+            <d>coggat árppu nállošalmmi čađa</d>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>eananmuorjemeastu</l>
+        </lg>
+        <dg id="a">
+            <d>meastu ráhkaduvvon eanamurjjiin</d>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>eaŋkallatnja</l>
+        </lg>
+        <dg id="a">
+            <d>latnja ovtta olbmui</d>
+            <syng>
+                <syn>ovttaolbmolatnja</syn>
+            </syng>
+            <xg>
+                <x>Son diŋgui eaŋkallanja.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>eatnanmuorjemeastu</l>
+        </lg>
+        <dg id="a">
+            <d>meastu ráhkaduvvon eanamurjjiin</d>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>eksámenkandidáhtta</l>
+        </lg>
+        <dg id="a">
+            <d>olmmoš gii lea dieđihuvvon eksámenii</d>
+            <xg>
+                <x>Eksámenkandidáhtat fertejit boahtit buori áiggis ovdal go eksámen álgá.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>fiskeslágán</l>
+        </lg>
+        <dg id="a">
+            <d>mas lea ivdni mii sulastahttá fiskada</d>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>gaskidja</l>
+        </lg>
+        <dg id="a">
+            <d>diibmu guoktenuppelohkái ihkku</d>
+            <xg>
+                <x>Bohten ruoktut ovdalaš gaskija.</x>
+                <x>Gávpi lea rabas gaskidjii.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N" type="Coll">
+            <l>guoktá</l>
+        </lg>
+        <dg id="a">
+            <d>guokte olbmo</d>
+            <xg>
+                <x>Guoktá eaba ožžon bálkáhuvvon virgelobi.</x>
+                <x>Mun sávan dan guoktái lihku ovddas guvlui.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N" type="Coll">
+            <l>guovttes</l>
+        </lg>
+        <dg id="a">
+            <d>guokte olbmo</d>
+            <xg>
+                <x>Guovttes eaba ožžon bálkáhuvvon virgelobi.</x>
+                <x>Mun sávan dan guoktásii lihku ovddas guvlui.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>heagganummár</l>
+        </lg>
+        <dg id="a">
+            <d>riegádannummára maŋimuš vihtta siffara</d>
+            <syng>
+                <syn>personnummár</syn>
+            </syng>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>heagganummir</l>
+        </lg>
+        <dg id="a">
+            <d>riegádannummára maŋimuš vihtta siffara</d>
+            <syng>
+                <syn>personnummár</syn>
+            </syng>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>minukta</l>
+        </lg>
+        <dg id="a">
+            <d>áigeovttadat mii bistá 60 sekundda dahje 1/60 diimmus</d>
+            <xg>
+                <x>Busse vuolgá juohke logát minuvtta.</x>
+                <x>Filbma bistá birrasii 20 minuvtta.</x>
+                <x>Son dáhtui minuvtta jaskatvuođa.</x>
+                <x>Minuvttas minuktii šattai seavdnjadeabbon ja seavdnjadeabbon.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>oambealli</l>
+        </lg>
+        <dg id="a">
+            <d>nissonolmmoš geainna lea oktasaš áhkku, áddjá, máttaráhkku, máttaráddjá, máttarmáttaráhkku dahje máttarmáttaráddjá</d>
+            <xg>
+                <x>Juohke dálvvi boahtiba mu oambealli ja vilbealli deike.</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d>Vuosttaš oambealli lea nissonolmmoš geainna lea oktasaš áhkku dahje áddjá.</d>
+            <xg>
+                <x>Son ii berreše náitalit iežas vuosttaš oambeliin.</x>
+            </xg>
+        </dg>
+        <dg id="c">
+            <d>Nubbi oambealli lea nissonolmmoš geainna lea oktasaš máttaráhkku dahje máttaráddjá.</d>
+            <xg>
+                <x>Sus leat vaikko man galle nuppit oambealit.</x>
+            </xg>
+        </dg>
+        <dg id="d">
+            <d>Goalmmát oambealli lea nissonolmmoš geainna lea oktasaš máttarmáttaráhkku dahje máttarmáttaráddjá.</d>
+            <xg>
+                <x>Son ii dovdda buot iežas goalmmát oambeliid.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>ođđajagimánnu</l>
+        </lg>
+        <dg id="a">
+            <d>jagi vuosttaš mánnu (gregoriánalaš kaleandara mielde)</d>
+            <xg>
+                <x>Su riegádanbeaivi lea ođđajagimánu 23. beaivvi.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>priváhttabiila</l>
+        </lg>
+        <dg id="a">
+            <d>personbiila man priváhtaolmmoš oamasta (ja geavaha)</d>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>sáhpánlágán</l>
+        </lg>
+        <dg id="a">
+            <d>mii muittuha sáhpána</d>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>tuiskalaš</l>
+        </lg>
+        <dg id="a">
+            <d>mii gullá Duiskii dahje Duiskka kultuvrii</d>
+            <xg>
+                <x>tuiskalaš vuolla</x>
+                <x>tuiskalaš spábbačiekčan</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>viđanuppelohjahkásaš</l>
+        </lg>
+        <dg id="a">
+            <d>gii lea 15 jagi boaris</d>
+            <xg>
+                <x>Nieida lea viđanuppelohjahkásaš.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>vihttanuppelohjahkásaš</l>
+        </lg>
+        <dg id="a">
+            <d>gii lea 15 jagi boaris</d>
+            <xg>
+                <x>Nieida lea vihttanuppelohjahkásaš.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>vihttanuppelotjahkásaš</l>
+        </lg>
+        <dg id="a">
+            <d>gii lea 15 jagi boaris</d>
+            <xg>
+                <x>Nieida lea vihttanuppelotjahkásaš.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>vilbealli</l>
+        </lg>
+        <dg id="a">
+            <d>dievdoolmmoš geainna lea oktasaš áhkku, áddjá, máttaráhkku, máttaráddjá, máttarmáttaráhkku dahje máttarmáttaráddjá</d>
+            <xg>
+                <x>Son juoiggastii iežas vilbeali.</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d>vuosttaš vilbealli lea dievdoolmmoš geainna lea oktasaš áhkku dahje áddjá</d>
+            <xg>
+                <x>Son ii berreše náitalit iežas vuosttaš vilbeliin.</x>
+            </xg>
+        </dg>
+        <dg id="c">
+            <d>nubbi vilbealli lea dievdoolmmoš geainna lea oktasaš máttaráhkku dahje máttaráddjá</d>
+            <xg>
+                <x>Sus leat vaikko man galle nuppit vilbealit.</x>
+            </xg>
+        </dg>
+        <dg id="d">
+            <d>goalmmát vilbealli lea dievdoolmmoš geainna lea oktasaš máttarmáttaráhkku dahje máttarmáttaráddjá</d>
+            <xg>
+                <x>Son ii dovdda buot iežas goalmmát vilbeliid.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>virtestit</l>
+        </lg>
+        <dg id="a">
+            <d>heaitit arvimis oanehassii</d>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>virtet</l>
+        </lg>
+        <dg id="a">
+            <d>heaitit arvimis</d>
+            <xg>
+                <x>Iđđedis arvvii lossadit, muhto virtii ovdal go vulggiimet.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
             <l>advokáhtafitnodat</l>
         </lg>
     </e>
@@ -631,20 +938,6 @@
         <lg pos="A">
             <l>bargorievttalaš</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
-            <l>baromettar</l>
-        </lg>
-        <dg id="a">
-            <d>reaidu mainna mihtida áibmodeaddaga</d>
-        </dg>
-        <dg id="b">
-            <d>jurddašuvvon reaidu mii mihtida juoidá eará go áibmodeaddaga</d>
-            <xg>
-                <x>politihkalaš barometer</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -1510,21 +1803,6 @@
     </e>
     <e status="edit">
         <lg pos="N">
-            <l>bussebisánanbáiki</l>
-        </lg>
-        <dg id="a">
-            <d>merkejuvvon sadji gos busse bisána ja luoitá mátkkošteddjiid eret dahje ala</d>
-            <syng>
-                <syn>bussebissehat</syn>
-                <syn>bussebisánansadji</syn>
-            </syng>
-            <xg>
-                <x>Gos lea lagamus bussebisánanbáiki?</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
             <l>bussegáhta</l>
         </lg>
     </e>
@@ -1597,14 +1875,6 @@
         <lg pos="N">
             <l>čakčaguohtuneatnan</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="V">
-            <l>čalmmastit</l>
-        </lg>
-        <dg id="a">
-            <d>coggat árppu nállošalmmi čađa</d>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -3387,14 +3657,6 @@
     </e>
     <e status="edit">
         <lg pos="N">
-            <l>eananmuorjemeastu</l>
-        </lg>
-        <dg id="a">
-            <d>meastu ráhkaduvvon eanamurjjiin</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
             <l>eananmuorji</l>
         </lg>
     </e>
@@ -3553,20 +3815,6 @@
         <lg pos="N">
             <l>eaŋkaldoallu</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
-            <l>eaŋkallatnja</l>
-        </lg>
-        <dg id="a">
-            <d>latnja ovtta olbmui</d>
-            <syng>
-                <syn>ovttaolbmolatnja</syn>
-            </syng>
-            <xg>
-                <x>Son diŋgui eaŋkallanja.</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -4564,14 +4812,6 @@
     </e>
     <e status="edit">
         <lg pos="N">
-            <l>eatnanmuorjemeastu</l>
-        </lg>
-        <dg id="a">
-            <d>meastu ráhkaduvvon eanamurjjiin</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
             <l>eatnanmuorji</l>
         </lg>
     </e>
@@ -4685,17 +4925,6 @@
         <lg pos="N">
             <l>eisseváldi</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
-            <l>eksámenkandidáhtta</l>
-        </lg>
-        <dg id="a">
-            <d>olmmoš gii lea dieđihuvvon eksámenii</d>
-            <xg>
-                <x>Eksámenkandidáhtat fertejit boahtit buori áiggis ovdal go eksámen álgá.</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -5130,14 +5359,6 @@
         </lg>
     </e>
     <e status="edit">
-        <lg pos="A">
-            <l>fiskeslágán</l>
-        </lg>
-        <dg id="a">
-            <d>mas lea ivdni mii sulastahttá fiskada</d>
-        </dg>
-    </e>
-    <e status="edit">
         <lg pos="N">
             <l>fitnodatboasta</l>
         </lg>
@@ -5314,18 +5535,6 @@
         <lg pos="A">
             <l>gaskariikkalas</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
-            <l>gaskidja</l>
-        </lg>
-        <dg id="a">
-            <d>diibmu guoktenuppelohkái ihkku</d>
-            <xg>
-                <x>Bohten ruoktut ovdalaš gaskija.</x>
-                <x>Gávpi lea rabas gaskidjii.</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -5849,18 +6058,6 @@
         </lg>
     </e>
     <e status="edit">
-        <lg pos="N" type="Coll">
-            <l>guoktá</l>
-        </lg>
-        <dg id="a">
-            <d>guokte olbmo</d>
-            <xg>
-                <x>Guoktá eaba ožžon bálkáhuvvon virgelobi.</x>
-                <x>Mun sávan dan guoktái lihku ovddas guvlui.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
         <lg pos="N">
             <l>guolástanberostupmi</l>
         </lg>
@@ -5949,18 +6146,6 @@
         <lg pos="A">
             <l>guovttelágán</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="N" type="Coll">
-            <l>guovttes</l>
-        </lg>
-        <dg id="a">
-            <d>guokte olbmo</d>
-            <xg>
-                <x>Guovttes eaba ožžon bálkáhuvvon virgelobi.</x>
-                <x>Mun sávan dan guoktásii lihku ovddas guvlui.</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -6231,28 +6416,6 @@
             <xg>
                 <x>Son heađásnuvai ođđa njuolggadusaid dihte.</x>
             </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
-            <l>heagganummár</l>
-        </lg>
-        <dg id="a">
-            <d>riegádannummára maŋimuš vihtta siffara</d>
-            <syng>
-                <syn>personnummár</syn>
-            </syng>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
-            <l>heagganummir</l>
-        </lg>
-        <dg id="a">
-            <d>riegádannummára maŋimuš vihtta siffara</d>
-            <syng>
-                <syn>personnummár</syn>
-            </syng>
         </dg>
     </e>
     <e status="edit">
@@ -9108,20 +9271,6 @@
         </lg>
     </e>
     <e status="edit">
-        <lg pos="N">
-            <l>minukta</l>
-        </lg>
-        <dg id="a">
-            <d>áigeovttadat mii bistá 60 sekundda dahje 1/60 diimmus</d>
-            <xg>
-                <x>Busse vuolgá juohke logát minuvtta.</x>
-                <x>Filbma bistá birrasii 20 minuvtta.</x>
-                <x>Son dáhtui minuvtta jaskatvuođa.</x>
-                <x>Minuvttas minuktii šattai seavdnjadeabbon ja seavdnjadeabbon.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
         <lg pos="N" type="Coll">
             <l>moattes</l>
         </lg>
@@ -9555,35 +9704,6 @@
     </e>
     <e status="edit">
         <lg pos="N">
-            <l>oambealli</l>
-        </lg>
-        <dg id="a">
-            <d>nissonolmmoš geainna lea oktasaš áhkku, áddjá, máttaráhkku, máttaráddjá, máttarmáttaráhkku dahje máttarmáttaráddjá</d>
-            <xg>
-                <x>Juohke dálvvi boahtiba mu oambealli ja vilbealli deike.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d>Vuosttaš oambealli lea nissonolmmoš geainna lea oktasaš áhkku dahje áddjá.</d>
-            <xg>
-                <x>Son ii berreše náitalit iežas vuosttaš oambeliin.</x>
-            </xg>
-        </dg>
-        <dg id="c">
-            <d>Nubbi oambealli lea nissonolmmoš geainna lea oktasaš máttaráhkku dahje máttaráddjá.</d>
-            <xg>
-                <x>Sus leat vaikko man galle nuppit oambealit.</x>
-            </xg>
-        </dg>
-        <dg id="d">
-            <d>Goalmmát oambealli lea nissonolmmoš geainna lea oktasaš máttarmáttaráhkku dahje máttarmáttaráddjá.</d>
-            <xg>
-                <x>Son ii dovdda buot iežas goalmmát oambeliid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
             <l>oarbmebealle</l>
         </lg>
     </e>
@@ -9726,17 +9846,6 @@
         <lg pos="N">
             <l>ođđaásahanráđđa</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
-            <l>ođđajagimánnu</l>
-        </lg>
-        <dg id="a">
-            <d>jagi vuosttaš mánnu (gregoriánalaš kaleandara mielde)</d>
-            <xg>
-                <x>Su riegádanbeaivi lea ođđajagimánu 23. beaivvi.</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -10325,14 +10434,6 @@
         <lg pos="A">
             <l>priváhtta</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="N">
-            <l>priváhttabiila</l>
-        </lg>
-        <dg id="a">
-            <d>personbiila man priváhtaolmmoš oamasta (ja geavaha)</d>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -11037,14 +11138,6 @@
         <lg pos="N">
             <l>sáhkavuorrolistá</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="A">
-            <l>sáhpánlágán</l>
-        </lg>
-        <dg id="a">
-            <d>mii muittuha sáhpána</d>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">
@@ -12778,18 +12871,6 @@
         </lg>
     </e>
     <e status="edit">
-        <lg pos="A">
-            <l>tuiskalaš</l>
-        </lg>
-        <dg id="a">
-            <d>mii gullá Duiskii dahje Duiskka kultuvrii</d>
-            <xg>
-                <x>tuiskalaš vuolla</x>
-                <x>tuiskalaš spábbačiekčan</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
         <lg pos="N">
             <l>tuiskkagiella</l>
         </lg>
@@ -13220,42 +13301,9 @@
         </dg>
     </e>
     <e status="edit">
-        <lg pos="A">
-            <l>viđanuppelohjahkásaš</l>
-        </lg>
-        <dg id="a">
-            <d>gii lea 15 jagi boaris</d>
-            <xg>
-                <x>Nieida lea viđanuppelohjahkásaš.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
         <lg pos="N">
             <l>vielljabealli</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="A">
-            <l>vihttanuppelohjahkásaš</l>
-        </lg>
-        <dg id="a">
-            <d>gii lea 15 jagi boaris</d>
-            <xg>
-                <x>Nieida lea vihttanuppelohjahkásaš.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="A">
-            <l>vihttanuppelotjahkásaš</l>
-        </lg>
-        <dg id="a">
-            <d>gii lea 15 jagi boaris</d>
-            <xg>
-                <x>Nieida lea vihttanuppelotjahkásaš.</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="Adv">
@@ -13268,57 +13316,9 @@
         </lg>
     </e>
     <e status="edit">
-        <lg pos="N">
-            <l>vilbealli</l>
-        </lg>
-        <dg id="a">
-            <d>dievdoolmmoš geainna lea oktasaš áhkku, áddjá, máttaráhkku, máttaráddjá, máttarmáttaráhkku dahje máttarmáttaráddjá</d>
-            <xg>
-                <x>Son juoiggastii iežas vilbeali.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d>vuosttaš vilbealli lea dievdoolmmoš geainna lea oktasaš áhkku dahje áddjá</d>
-            <xg>
-                <x>Son ii berreše náitalit iežas vuosttaš vilbeliin.</x>
-            </xg>
-        </dg>
-        <dg id="c">
-            <d>nubbi vilbealli lea dievdoolmmoš geainna lea oktasaš máttaráhkku dahje máttaráddjá</d>
-            <xg>
-                <x>Sus leat vaikko man galle nuppit vilbealit.</x>
-            </xg>
-        </dg>
-        <dg id="d">
-            <d>goalmmát vilbealli lea dievdoolmmoš geainna lea oktasaš máttarmáttaráhkku dahje máttarmáttaráddjá</d>
-            <xg>
-                <x>Son ii dovdda buot iežas goalmmát vilbeliid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
         <lg pos="V">
             <l>virrestit</l>
         </lg>
-    </e>
-    <e status="edit">
-        <lg pos="V">
-            <l>virtestit</l>
-        </lg>
-        <dg id="a">
-            <d>heaitit arvimis oanehassii</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="V">
-            <l>virtet</l>
-        </lg>
-        <dg id="a">
-            <d>heaitit arvimis</d>
-            <xg>
-                <x>Iđđedis arvvii lossadit, muhto virtii ovdal go vulggiimet.</x>
-            </xg>
-        </dg>
     </e>
     <e status="edit">
         <lg pos="N">

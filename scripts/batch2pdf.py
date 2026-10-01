@@ -4,7 +4,7 @@
 Usage: batch2pdf.py [--html] [-o OUTPUT] BATCH [BATCH ...]
 
 BATCH is a batch id like 2601. Collects the entries with <e batch="2601">
-from src/*.xml, sorts them alphabetically and writes batch-2601.pdf (or
+from src/*.xml, sorts them alphabetically and writes pdf/batch-2601.pdf (or
 OUTPUT when one batch is given).
 Who has the batch and when it is due is taken from batches.xml.
 
@@ -22,6 +22,7 @@ from sme_alphabet import sort_key
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / 'src'
 BATCHES = ROOT / 'batches.xml'
+EXPORTS = ROOT / 'pdf'   # not in git, see .gitignore
 
 
 def norm(t):
@@ -173,7 +174,11 @@ def main():
             print(f'{batch}: no entries, skipped', file=sys.stderr)
             continue
         html = page(batch, batches.get(batch), entries)
-        dst = output or f'batch-{batch}.{"html" if as_html else "pdf"}'
+        if output:
+            dst = output
+        else:
+            EXPORTS.mkdir(exist_ok=True)
+            dst = EXPORTS / f'batch-{batch}.{"html" if as_html else "pdf"}'
         if as_html:
             Path(dst).write_text(html, encoding='utf-8')
         else:
