@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<r id="dict-sme" xml:lang="sme">
+    <lics xml:lang="en" xml:space="preserve">
+        <lic>
+            This code is made available under a Creative Commons Attribution license
+            <a>https://creativecommons.org/licenses/by/4.0/</a>.
+
+            You are free to copy, distribute and adapt the work, as long as you always give
+            proper attribution using the attribution text below.
+
+            For the full license text, see the link above.
+        </lic>
+        <ref>
+            Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
+            and members of the language communities. Source code
+            available at <a>https://github.com/giellalt/dict-sme</a>.
+
+            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
+            Divvun at UiT, and members of the language communities, licensed
+            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
+        </ref>
+        <sourcenote>
+            THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+            published dictionary. As such it can and
+            will contain unfinished entries, unpublished entries, entries with
+            objectionable translations, etc. If you find any errors or want to add more
+            words, download the file, edit it, and send it back to
+            <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+            Please also note that the entries are not necessarily sorted,
+            or could be wrongly sorted.
+        </sourcenote>
+    </lics>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>didjiide</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muitalan didjiide.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dii</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>dii lehpet</x>
+                <x>Dis lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>din</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea din girji.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dinguin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dinin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dis</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dis lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>doai</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>doai leahppi</x>
+                <x>Dudnos lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>don</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dus lea gusto stuora beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>du</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea du girji.</x>
+                <x>Dát leat du girjjit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dudno</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea dudno girji.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dudnon</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dudnos</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dudnos lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dudnuide</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muitalan dudnuide.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dudnuin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>duinna</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dunin</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Sáhtángo logget dihtorii dunin.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dus</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dus lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>dutnje</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muitalan dutnje.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>midjiide</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muital midjiide!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>mii</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>mii leat</x>
+                <x>Mis lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>min</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea min girji.</x>
+                <x>Dát leat min girjjit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>minguin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>minin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>mis</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mis lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>moai</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>moai letne</x>
+                <x>Munnos lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>mon</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>mon lean</x>
+                <x>Mus lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>mu</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea mu girji.</x>
+                <x>Dát leat mu girjjit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>muinna</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>mun</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>mun lean</x>
+                <x>Mus lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>munin</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Don sáhtát logget dihtorii munin.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>munnje</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muital munnje!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>munno</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea munno girji.</x>
+                <x>Dát leat munno girjjit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>munnon</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>munnos</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Munnos lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>munnuide</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muital munnuide!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>munnuin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>mus</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mus lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sidjiide</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muital sidjiide!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sii</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>sii leat</x>
+                <x>Sis lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sin</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea sin girji.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>singuin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sinin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sis</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Sis lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>soai</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>soai leaba</x>
+                <x>Sudnos lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>son</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Son liiko stoahkat.</x>
+                <x>Sus lea ođđa beaivegirji.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>su</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea su girji.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sudno</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dát lea sudno girji.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sudnon</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sudnos</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Sudnos lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sudnuide</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muital sudnuide!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sudnuin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>suinna</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sunin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sus</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Sus lea beana.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Pers">
+            <l>sutnje</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Muital sutnje!</x>
+            </xg>
+        </dg>
+    </e>
+</r>

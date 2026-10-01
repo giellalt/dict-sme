@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<r id="dict-sme" xml:lang="sme">
+    <lics xml:lang="en" xml:space="preserve">
+        <lic>
+            This code is made available under a Creative Commons Attribution license
+            <a>https://creativecommons.org/licenses/by/4.0/</a>.
+
+            You are free to copy, distribute and adapt the work, as long as you always give
+            proper attribution using the attribution text below.
+
+            For the full license text, see the link above.
+        </lic>
+        <ref>
+            Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
+            and members of the language communities. Source code
+            available at <a>https://github.com/giellalt/dict-sme</a>.
+
+            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
+            Divvun at UiT, and members of the language communities, licensed
+            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
+        </ref>
+        <sourcenote>
+            THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+            published dictionary. As such it can and
+            will contain unfinished entries, unpublished entries, entries with
+            objectionable translations, etc. If you find any errors or want to add more
+            words, download the file, edit it, and send it back to
+            <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+            Please also note that the entries are not necessarily sorted,
+            or could be wrongly sorted.
+        </sourcenote>
+    </lics>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geaid</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Geaid Ráissa hárjeheaddji háliida jovkui?</x>
+                <x>Geaid sárgumat leat čájáhusas?</x>
+                <x>Doppe leat vihtta čiekči geaid Ráisa háliida iežaset jovkui.</x>
+                <x>Vuolábealde oainnát sin namaid geaid sárgumat leat čájáhusas.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geaidda</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Geaidda bohccot gulle?</x>
+                <x>Dađi bahábut ii lean vejolaš duođaštit, geaidda bohccot gulle.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geaiguin</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Geaiguin dii lehpet hárjehallan?</x>
+                <x>Šaddá hui somá čiekčat sin vuostá geaiguin mii leat fárrolaga hárjehallan.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geain</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Geain lea dakkár oahppu?</x>
+                <x>Doppe leat olbmot geain lea oahppu ja guhkes bargovásáhus.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geainna</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Geainna bat mun dál human?</x>
+                <x>Son lei gonagasnieida geainna ii oktage birgen.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>gean</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Gean ovddasvástádus dat lea?</x>
+                <x>Gean don oidnet?</x>
+                <x>Min spábbačiekčit leat lohkan gean sii háliidit hárjeheaddjin.</x>
+                <x>Gii diehtá gean miessi dat lea?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geanin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geas</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Geas lea nu ollu ruhta?</x>
+                <x>Virgái ohcat olbmo geas lea alit ekonomiija- ja hálddašanoahppu.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geasa</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Geasa dat lea ávkin?</x>
+                <x>Dábálaš olbmui lea váttis diehtit geasa galgá jáhkkit dán áššis.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>geat</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Geat leat váldoneavttárat filmmas?</x>
+                <x>Áššu humadii máŋgasiin geat eai lean duhtavaččat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>gii</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Gii bat don leat?</x>
+                <x>Dološ áigge lei muhtin geafes olmmái gii dávjá finadii báhpa luhtte ánuheame.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goabbá</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goabbái</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goabbán</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goappá</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goappáid</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goappáide</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goappáiguin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goappáin</l>
+        </lg>
+        <cg>
+            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+        </cg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goappás</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>goappát</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđe</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guđe riikkas don leat eret?</x>
+                <x>In leat mearridan guđe presideantaevttohasa jienastan.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđemuččat</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđemuš</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guđemuš lea dán bargan?</x>
+                <x>Guđemužžii áiggut riŋget?</x>
+                <x>Guđemuš viesuin orrot olbmot?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđes</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mii fertet geavahit daid čanastagaid mat guđesge leat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđet</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guđet leat dán bargan?</x>
+                <x>Guđet fáhcat leat du?</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Kurssat leat sin várás guđet máhttet veaháš sámegiela ovddežis.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđiid</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guđiid biktasiid mun galggan bassat?</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Daid biktasiid, guđiid mun lean aiddo bassan, ferte fas bassat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđiide</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guđiide viesuide leat don dolvon juovlaskeaŋkkaid?</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Daidda viesuide, guđiide don dolvot juovlaskeaŋkkaid, leat jo boahtán juovlaguossit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđiiguin</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guđiiguin mašiinnaiguin lea álkimus goarrut?</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Daiguin mašiinnaiguin, guđiiguin lea álkimus goarrut, leat álo olbmot goarrume.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guđiin</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guđiin biillain don bohtet?</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Guđiin viesuin leat biilavisttit?</x>
+            </xg>
+        </dg>
+        <dg id="c">
+            <d/>
+            <xg>
+                <x>Dat viesut, guđiin leat biilavisttit, leat divrasat.</x>
+            </xg>
+        </dg>
+        <cg>
+            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+        </cg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guhte</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guhte lea dán bargan?</x>
+                <x>Guhte seahkka lea losimus?</x>
+                <x>Elle muitalii maid guhte válddii.</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Kandidáhtta guhte buohccá skuvlaeksámena áigge, ferte dieđihit dan eksámenlanja váldofáktii.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guhtemuš</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guhtemuš lea dán bargan?</x>
+                <x>Guđemužžii áiggut riŋget?</x>
+                <x>Guđemuš viesuin orrot olbmot?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guhten</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guhten filbmanástin don háliidivččet šaddat?</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Dat filbmanásti, guhten don háliidivččet šaddat, lea biddjon giddagassii.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>guhtii</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guhtiige galgá 50 ruvdno bálkán.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>maid</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Maid dagat dáppe?</x>
+                <x>Máret jurddašii báŋkoloana birra maid galggai máksit odne.</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Dás beasat lohkat muhtin áššiid maid birra Áššu lea čállán mannan jagi.</x>
+            </xg>
+        </dg>
+        <cg>
+            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+        </cg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>maidda</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Buot dát ledje atnudávvirat, maidda beaivválaččat lei dárbu.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>maiguin</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dathan leat áššit maiguin Sámediggi bargá.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>main</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Buohkat leat ieža oastán ávdnasiid main gorrot buvssaid.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>mainna</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mainna lágiin leat vieksát ja gotkkat ovttaláganat?</x>
+                <x>Dat lea stuora biila mainna lea hui buorre vuodjit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkár</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkára</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkárii</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkáriid</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkáriidda</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkáriiguin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkáriin</l>
+        </lg>
+        <cg>
+            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+        </cg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkárin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Interr">
+            <l>makkáris</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>man</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Man birra čállibehtet?</x>
+                <x>Buoskavári guoras lea várri man namma lea Ráhpesvárri.</x>
+                <x>Vižžen mutuvrra, man Niillas lei divvon.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>manin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>mas</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mas leat eanemus vitamiinnat?</x>
+                <x>Jurdda lea ásahit čállingotti mas leat olles 8 virggi.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>masa</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Masa don áiggut dien geavahit?</x>
+                <x>Joavku čuojaha musihka masa guovdageaidnulaččat liikojit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>mat</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mat leat asteroiidat?</x>
+                <x>Ohcamat mat bohtet dan áigemeari maŋŋel, eai meannuduvvo.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="Pron" type="Rel">
+            <l>mii</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mii bat doppe lea?</x>
+                <x>Dat mii dáhpáhuvvá, dat dáhpáhuvvá.</x>
+            </xg>
+        </dg>
+    </e>
+</r>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<r id="dict-sme" xml:lang="sme">
+    <lics xml:lang="en" xml:space="preserve">
+        <lic>
+            This code is made available under a Creative Commons Attribution license
+            <a>https://creativecommons.org/licenses/by/4.0/</a>.
+
+            You are free to copy, distribute and adapt the work, as long as you always give
+            proper attribution using the attribution text below.
+
+            For the full license text, see the link above.
+        </lic>
+        <ref>
+            Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
+            and members of the language communities. Source code
+            available at <a>https://github.com/giellalt/dict-sme</a>.
+
+            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
+            Divvun at UiT, and members of the language communities, licensed
+            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
+        </ref>
+        <sourcenote>
+            THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+            published dictionary. As such it can and
+            will contain unfinished entries, unpublished entries, entries with
+            objectionable translations, etc. If you find any errors or want to add more
+            words, download the file, edit it, and send it back to
+            <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+            Please also note that the entries are not necessarily sorted,
+            or could be wrongly sorted.
+        </sourcenote>
+    </lics>
+    <e status="edit">
+        <lg pos="V">
+            <l>ale</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Ale boađe deike!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>allet</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Allet boađe deike!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>alli</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Alli boađe deike!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>allon</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mun jurdilin: Allon eisege mun dieinna lágiin badjelgeahča nuppi olbmo!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>allos</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Jus guhtege dan ii dovdda, de allos dovdda!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>alloset</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Alloset boađe mus bearrat dan vealggi!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>alloska</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Alloska mus jeara!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>allot</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Allot šat dubme guhtet guimmiideamet!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>allu</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Allu šat riidal!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eaba</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Ánne guovttos Ánddiin eaba boađe gávpogii odne.</x>
+                <x>Eaba boahtán iktege.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eabage</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Soai láhpiiga bálgá eabage šat diehtán gosa galgaba mannat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eahppi</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Eahppi go boađe gávpogii odne?</x>
+                <x>Eahppi go boahtán ikte?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eahppige</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dás eahppi oaččo rigeret, eahppige huikit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eai</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Nieiddat eai boađe gávpogii odne.</x>
+                <x>Nieiddat eai boahtán iktege.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eaige</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Sii eai máhte suomagiela, eaige eŋgelasgiela.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>ean</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Ean boađe gávpogii odne.</x>
+                <x>Ean boahtán ikte.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eange</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Moai ozaime ija miehtá, eange gávdnan maidege.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eat</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Eat boađe gávpogii odne.</x>
+                <x>Eat boahtán ikte.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>eatge</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mii eat máhte lohkat eatge čállit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>ehpet</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Ehpet go boađe gávpogii odne?</x>
+                <x>Ehpet go boahtán ikte?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>ehpetge</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mun čuorvvun din, ehpetge dii vástit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>ii</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Eadni ii boađe gávpogii odne.</x>
+                <x>Eadni ii boahtán ikte.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>iige</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Ovddasvástádus addo fitnodagaide, iige olbmuide.</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Son ii siđa gáfe iige deaja.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>in</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>In boađe gávpogii odne.</x>
+                <x>In boahtán ikte.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>inge</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>In máhte njuiket, inge gilvvu viehkat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>it</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>It go boađe gávpogii odne?</x>
+                <x>It go boahtán ikte?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>itge</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Don leat hui ceaggái, itge vuollán nu jođánit.</x>
+            </xg>
+        </dg>
+    </e>
+</r>

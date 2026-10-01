@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<r id="dict-sme" xml:lang="sme">
+    <lics xml:lang="en" xml:space="preserve">
+        <lic>
+            This code is made available under a Creative Commons Attribution license
+            <a>https://creativecommons.org/licenses/by/4.0/</a>.
+
+            You are free to copy, distribute and adapt the work, as long as you always give
+            proper attribution using the attribution text below.
+
+            For the full license text, see the link above.
+        </lic>
+        <ref>
+            Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
+            and members of the language communities. Source code
+            available at <a>https://github.com/giellalt/dict-sme</a>.
+
+            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
+            Divvun at UiT, and members of the language communities, licensed
+            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
+        </ref>
+        <sourcenote>
+            THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+            published dictionary. As such it can and
+            will contain unfinished entries, unpublished entries, entries with
+            objectionable translations, etc. If you find any errors or want to add more
+            words, download the file, edit it, and send it back to
+            <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+            Please also note that the entries are not necessarily sorted,
+            or could be wrongly sorted.
+        </sourcenote>
+    </lics>
+    <e status="edit">
+        <lg pos="V">
+            <l>amade</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Doai viehkaleahppi báhtui amade gávnnahallat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>amadet</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Fertebehtet guorrat dán luotta amadet láhppot.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>amame</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Moai fertejetne garvit jeakki amame njuoskat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>amamet</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Mii oahpahallat sámegiela amamet dárbbašit dárustit.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>aman</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dál boran dearvvašlaš borramuša ja lášmmohalan aman buohccát.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>amas</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Son ferte leat várrogas go vázzá amas gáhččat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>amaset</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Ovdal hálle ollesolbmot sámegiela amaset mánát áddet.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>amaska</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Soai jugisteigga gáfegohpu ja vulggiiga, amaska maŋŋonit menddo sakka.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>amat</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Ale váldde badjelasat eanet bargguid amat váibat.</x>
+            </xg>
+        </dg>
+    </e>
+</r>

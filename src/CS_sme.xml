@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<r id="dict-sme" xml:lang="sme">
+    <lics xml:lang="en" xml:space="preserve">
+        <lic>
+            This code is made available under a Creative Commons Attribution license
+            <a>https://creativecommons.org/licenses/by/4.0/</a>.
+
+            You are free to copy, distribute and adapt the work, as long as you always give
+            proper attribution using the attribution text below.
+
+            For the full license text, see the link above.
+        </lic>
+        <ref>
+            Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
+            and members of the language communities. Source code
+            available at <a>https://github.com/giellalt/dict-sme</a>.
+
+            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
+            Divvun at UiT, and members of the language communities, licensed
+            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
+        </ref>
+        <sourcenote>
+            THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+            published dictionary. As such it can and
+            will contain unfinished entries, unpublished entries, entries with
+            objectionable translations, etc. If you find any errors or want to add more
+            words, download the file, edit it, and send it back to
+            <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+            Please also note that the entries are not necessarily sorted,
+            or could be wrongly sorted.
+        </sourcenote>
+    </lics>
+    <e status="edit">
+        <lg pos="CS">
+            <l>ahte</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Lea hui mávssolaš ahte sin dárbbut váldojit vuhtii.</x>
+                <x>Heaika lei bávččagahttán čippi, nu ahte skierpmui máŋga beaivve.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>danne go</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dainna ferte juoidá dahkat, danne go dilli čuohcá mu dearvvasvuhtii.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>dannego</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Dainna ferte juoidá dahkat, dannego dilli čuohcá mu dearvvasvuhtii.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>de</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Go bárdni bođii dállui, de son lei áibbas galmmas.</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Jugatgo káfe? De jugan.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>dego</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Don borat dego spiidni.</x>
+                <x>Mii lea jorbbas dego spábba ja guhkki dego girkoseaidni?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>dugo</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Don borat dugo spiidni.</x>
+                <x>Mii lea jorbbas dugo spábba ja guhkki dugo girkoseaidni?</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>gitta</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Son bisánii ja vurddii gitta Máhtte lei su buohta.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>go</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Maid dál ges galgá dahkat, go ii leat hivssetbábir?</x>
+            </xg>
+        </dg>
+        <dg id="b">
+            <d/>
+            <xg>
+                <x>Ánte lea gievrrat go Elle.</x>
+            </xg>
+        </dg>
+        <dg id="c">
+            <d/>
+            <xg>
+                <x>Sidjiide lea sámegiella amas giella, maid fertejit oahppagoahtit seammá láhkai go eará amas gielaid.</x>
+                <x>Váldde dakkára go áiggut.</x>
+                <x>Boađe nu jođánit go vejolaš!</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>jos</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Jos ihttin lea buolaš, de eat vuolgge čuoigat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>jus</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Jus ihttin lea buolaš, de eat vuolgge čuoigat.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>maŋŋágo</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Sii bohtet ruovttoluotta maŋŋágo sii leat váldán oahpu.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>maŋŋelgo</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Sii bohtet ruovttoluotta maŋŋelgo sii leat váldán oahpu.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>nugo</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Daga nugo mun.</x>
+                <x>Nugo?</x>
+                <x>Dán áigásaš ođasmuitaleaddjit eai máhte ságaidge muitalit nugo dolin lávejedje.</x>
+                <x>Jieŋa alde ledje maid smávva suohtastallamat, nugo gámabálkesteapmi.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>ovdalgo</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Guokte jagi manne ovdalgo vástádus bođii.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>vai</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Ferten árrat nohkkat vai veaján lihkkat iđđes.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>vaikke</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Don gal borat vaikke man ollu.</x>
+                <x>Mun veahkehan du, vaikke it dárbbaš ge veahki.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>vaikko</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Don gal borat vaikko man ollu.</x>
+                <x>Mun veahkehan du, vaikko it dárbbaš ge veahki.</x>
+            </xg>
+        </dg>
+    </e>
+    <e status="edit">
+        <lg pos="CS">
+            <l>váikko</l>
+        </lg>
+        <dg id="a">
+            <d/>
+            <xg>
+                <x>Don gal borat váikko man ollu.</x>
+                <x>Mun veahkehan du, váikko it dárbbaš ge veahki.</x>
+            </xg>
+        </dg>
+    </e>
+</r>

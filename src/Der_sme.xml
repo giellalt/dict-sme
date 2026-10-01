@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<r id="dict-sme" xml:lang="sme">
+    <lics xml:lang="en" xml:space="preserve">
+        <lic>
+            This code is made available under a Creative Commons Attribution license
+            <a>https://creativecommons.org/licenses/by/4.0/</a>.
+
+            You are free to copy, distribute and adapt the work, as long as you always give
+            proper attribution using the attribution text below.
+
+            For the full license text, see the link above.
+        </lic>
+        <ref>
+            Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
+            and members of the language communities. Source code
+            available at <a>https://github.com/giellalt/dict-sme</a>.
+
+            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
+            Divvun at UiT, and members of the language communities, licensed
+            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
+        </ref>
+        <sourcenote>
+            THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+            published dictionary. As such it can and
+            will contain unfinished entries, unpublished entries, entries with
+            objectionable translations, etc. If you find any errors or want to add more
+            words, download the file, edit it, and send it back to
+            <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+            Please also note that the entries are not necessarily sorted,
+            or could be wrongly sorted.
+        </sourcenote>
+    </lics>
+    <e status="edit">
+        <lg pos="V">
+            <l>Actio+Ess</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/A</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Adv">
+            <l>Der/AAdv</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/adda</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/alla</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>Der/ár</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/Car</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/Caus</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/Comp</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/d</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>Der/Dimin</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>Der/eamoš</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/easti</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/geahtes</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/h</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/halla</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>Der/hat</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/huhtti</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/huvva</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/InchL</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/l</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/laagasj</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/laakan</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/las</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/lasj</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/meahttun</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>Der/muš</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>Der/NomAct</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/PassL</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/PassS</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/sasj</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/st</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/stuvva</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/Superl</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>Der/supmi</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Adv">
+            <l>Der/t</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="N">
+            <l>Der/upmi</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="Adv">
+            <l>Der/veara</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/viđá</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Der/viđi</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="A">
+            <l>Der/vuota</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Ger</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>Neg+Sup</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>VAbess</l>
+        </lg>
+    </e>
+    <e status="edit">
+        <lg pos="V">
+            <l>VGen</l>
+        </lg>
+    </e>
+</r>
