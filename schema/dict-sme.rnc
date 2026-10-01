@@ -57,7 +57,7 @@ l = element l {
 
 # definiton group
 dg = element dg {
-    attribute id { text },
+    attribute id { text }?,
     d+,
     syng*,
     antg*,
@@ -72,7 +72,7 @@ d_ref = element d_ref {
     attribute lemma { text },
     attribute pos { text },
     attribute type { text },
-    attribute dg_id { text },
+    attribute dg_id { text }?,
     text
 }
 
