@@ -70,8 +70,8 @@ d = element d { mixed { d_ref* } }
 # refrence to other relevent definition
 d_ref = element d_ref {
     attribute lemma { text },
-    attribute pos { text },
-    attribute type { text },
+    attribute pos { pos.values },
+    attribute type { type.values }?,
     attribute dg_id { text }?,
     text
 }

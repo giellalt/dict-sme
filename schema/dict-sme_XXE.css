@@ -5,9 +5,9 @@
  * Associate with a document by adding this line after the XML declaration:
  *   <?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
  *
- * The combo boxes for status and pos get their values from the schema, so
- * the document must also point to dict-sme.rnc (<?xml-model ...?>). The
- * values for type and batch are listed here and in batches.xml.
+ * The document must point to dict-sme.rnc (<?xml-model ...?>). The values
+ * offered for status, pos and type are listed here, so they must be kept in
+ * line with the schema.
  *
  * "+ ..." buttons add an item to a group, or add a group that is missing.
  * A button is only shown where clicking it gives a valid document.
@@ -41,6 +41,17 @@
 
 @property-value button(label_, command_, parameter_)
     styled-button(label_, argument-list(command, command_, parameter, parameter_));
+
+/* an attribute value shown as text, followed by a button to change it */
+@property-value value(value_) text(value_, color, #000000, font-size, 9pt) " ";
+@property-value set-menu(menu_)
+    command-button(text, "\25BE", menu, menu_,
+                   font-size, 12pt,
+                   color, #2060a0,
+                   background-color, #e4eef8,
+                   border-radius, 3px,
+                   padding-left, 6px,
+                   padding-right, 6px);
 
 /* a new element of the same kind, after the one the button is attached to */
 @property-value add-same(label_) button(label_, "insertNode", "sameElementAfter");
@@ -158,17 +169,23 @@ e:after {
     content: add-same("+ entry");
 }
 
-/* Status and batch, at the top right of the entry. The batch combo box
-   offers the batches in batches.xml, and the name of the person who has
-   the batch is shown next to it. */
+/* Status and batch, at the top right of the entry. Values are shown as
+   text with a menu button instead of combo boxes: a combo box in every
+   entry makes big files very slow to open in XXE.
+   The batch menu lists the batches in batches.xml. For that, the content
+   is put together as text by concatenate(): XPath turns the batch ids
+   into menu items, and XXE then reads the text as CSS. The name of the
+   person who has the batch is shown next to it. */
 e:before {
     display: block;
     property-group: tag();
-    content: "status " combo-box(attribute, status) "     batch "
-        combo-box(attribute, batch,
-                  values, xpath("join(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch/@id, '\A')"))
-        remove-attribute-button(attribute, batch) "  "
-        xpath("document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[@id = current()/@batch]/@assignee");
+    content: concatenate(
+        "'status ' text(attr(status), color, #000000, font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('edit', 'putAttribute', 'status edit', 'publish', 'putAttribute', 'status publish'), font-size, 12pt, color, #2060a0, background-color, #e4eef8, border-radius, 3px, padding-left, 6px, padding-right, 6px)",
+        "'     batch ' text(attr(batch), color, #000000, font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('no batch', 'removeAttribute', 'batch'",
+        xpath("replace(join(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch/@id, ' '), '([0-9]+)', \", '$1', 'putAttribute', 'batch $1'\")"),
+        "), font-size, 12pt, color, #2060a0, background-color, #e4eef8, border-radius, 3px, padding-left, 6px, padding-right, 6px) '  ",
+        xpath("document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[@id = current()/@batch]/@assignee"),
+        "'");
     text-align: right;
     background-color: #e8f0f8;
     border-top: 2px solid #a0b8d0;
@@ -203,20 +220,51 @@ e:contains-element(dg) > lg:after {
     content: "";
 }
 
-/* pos and type, on a line above the lemmas.
-   The schema allows any type with any pos. Here the type combo box only
-   offers the types that go with the pos, and a type that does not go
-   with the pos is flagged. (Tying them together in the schema would
-   make XXE refuse to change the pos.) */
-@property-value n-types()    "Prop\A NomAg\A Coll\A ACR\A ABBR\A G3\A G7";
-@property-value a-types()    "Ord";
-@property-value pron-types() "Pers\A Dem\A Indef\A Interr\A Recipr\A Refl\A Rel";
+/* pos and type, on a line above the lemmas, also with menu buttons.
+   The schema allows any type with any pos. Here the type menu only offers
+   the types that go with the pos, and a type that does not go with the
+   pos is flagged. (Tying them together in the schema would make XXE
+   refuse to change the pos.) */
+@property-value pos-menu()
+    set-menu(menu("A", "putAttribute", "pos A", "N", "putAttribute", "pos N",
+                  "V", "putAttribute", "pos V", "Adv", "putAttribute", "pos Adv",
+                  "Po", "putAttribute", "pos Po", "Pr", "putAttribute", "pos Pr",
+                  "Pron", "putAttribute", "pos Pron",
+                  "Phrase", "putAttribute", "pos Phrase",
+                  "Rel", "putAttribute", "pos Rel", "Det", "putAttribute", "pos Det",
+                  "Interj", "putAttribute", "pos Interj",
+                  "Pcle", "putAttribute", "pos Pcle", "Num", "putAttribute", "pos Num",
+                  "CC", "putAttribute", "pos CC", "CS", "putAttribute", "pos CS"));
 
-@property-value pos-field() "pos " combo-box(attribute, pos);
+@property-value n-types()
+    set-menu(menu("Prop", "putAttribute", "type Prop",
+                  "NomAg", "putAttribute", "type NomAg",
+                  "Coll", "putAttribute", "type Coll",
+                  "ACR", "putAttribute", "type ACR",
+                  "ABBR", "putAttribute", "type ABBR",
+                  "G3", "putAttribute", "type G3",
+                  "G7", "putAttribute", "type G7",
+                  "", "", "",
+                  "no type", "removeAttribute", "type"));
+@property-value a-types()
+    set-menu(menu("Ord", "putAttribute", "type Ord",
+                  "", "", "",
+                  "no type", "removeAttribute", "type"));
+@property-value pron-types()
+    set-menu(menu("Pers", "putAttribute", "type Pers",
+                  "Dem", "putAttribute", "type Dem",
+                  "Indef", "putAttribute", "type Indef",
+                  "Interr", "putAttribute", "type Interr",
+                  "Recipr", "putAttribute", "type Recipr",
+                  "Refl", "putAttribute", "type Refl",
+                  "Rel", "putAttribute", "type Rel",
+                  "", "", "",
+                  "no type", "removeAttribute", "type"));
+
+@property-value pos-field() "pos " value(attr(pos)) pos-menu();
 
 @property-value pos-and-type(types_)
-    pos-field() "   type " combo-box(attribute, type, values, types_)
-    remove-attribute-button(attribute, type);
+    pos-field() "     type " value(attr(type)) types_;
 
 @property-value wrong-type()
     text("   this type does not go with this pos", color, #c00000);
@@ -231,7 +279,7 @@ lg:before {
 
 /* a pos that has no types */
 lg[type]:before {
-    content: pos-field() "   type " attr(type)
+    content: pos-field() "     type " value(attr(type))
         remove-attribute-button(attribute, type) wrong-type();
 }
 
@@ -384,12 +432,14 @@ d_ref {
     text-decoration: underline;
 }
 
+/* What the link points to, in small grey after the linked word. The
+   attributes are edited in the Attributes tool of XXE, which shows them
+   when the caret is in the link. To type after a link that ends the
+   definition, put the caret in the link and press Insert (F1 on a Mac). */
 d_ref:after {
-    content: " [" text-field(attribute, lemma, columns, 12)
-        " pos " text-field(attribute, pos, columns, 4)
-        " type " text-field(attribute, type, columns, 5)
-        " definition group " text-field(attribute, dg_id, columns, 4) "]";
+    content: " " xpath("normalize-space(concat('\2192 ', @lemma, ' ', @pos, ' ', @type, ' ', @dg_id))");
     property-group: tag();
+    text-decoration: none;
 }
 
 /* --- synonyms and antonyms ------------------------------------------- */

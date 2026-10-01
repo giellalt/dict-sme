@@ -28,19 +28,23 @@ In each file, entries with a definition come first, then the rest; both
 parts are sorted in North Sámi alphabetical order.
 The dgs of an entry get the ids a, b, c, ... in the order they come in.
 """
-import sys, re, collections
-from pathlib import Path
+
+import collections
+import re
+import sys
 import xml.etree.ElementTree as ET
+from pathlib import Path
 from xml.sax.saxutils import escape
+
 from sme_alphabet import sort_key
 
 ROOT = Path(__file__).resolve().parent.parent
-DST = ROOT / 'src'
-DEFAULT_SRC = ROOT.parent / 'dict-sme-nob' / 'src'
+DST = ROOT / "src"
+DEFAULT_SRC = ROOT.parent / "dict-sme-nob" / "src"
 
-HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
+HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
     <lics xml:lang="en" xml:space="preserve">
         <lic>
@@ -56,11 +60,6 @@ HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
-
-            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
-            Divvun at UiT, and members of the language communities, licensed
-            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
-            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
         </ref>
         <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
@@ -73,64 +72,70 @@ HEADER = '''<?xml version="1.0" encoding="UTF-8"?>
             or could be wrongly sorted.
         </sourcenote>
     </lics>
-'''
+"""
 
-I = '    '
+I = "    "
 stats = collections.Counter()
 
+
 def norm(t):
-    return re.sub(r'\s+', ' ', t or '').strip()
+    return re.sub(r"\s+", " ", t or "").strip()
+
 
 def unique(items):
     return list(dict.fromkeys(i for i in items if i))
 
+
 class Entry:
     def __init__(self, pos, typ):
         self.pos, self.typ = pos, typ
-        self.lemmas = []    # strings
-        self.dgs = []       # (ds, syns, ants, xs)
-        self.igs = []       # (i, ids)
+        self.lemmas = []  # strings
+        self.dgs = []  # (ds, syns, ants, xs)
+        self.igs = []  # (i, ids)
         self.comments = []
         self.merged = 1
 
+
 def read_entry(e):
-    lg = e.find('lg')
-    l = lg.find('l')
-    entry = Entry(l.get('pos'), l.get('type'))
-    entry.lemmas = unique([norm(l.text)] + [norm(s.text) for s in lg.findall('lsub')])
-    stats['lsub -> extra l'] += len(entry.lemmas) - 1
-    for mg in e.findall('mg'):
+    lg = e.find("lg")
+    l = lg.find("l")
+    entry = Entry(l.get("pos"), l.get("type"))
+    entry.lemmas = unique([norm(l.text)] + [norm(s.text) for s in lg.findall("lsub")])
+    stats["lsub -> extra l"] += len(entry.lemmas) - 1
+    for mg in e.findall("mg"):
         ds = []
-        for dg in mg.findall('dg'):
-            re_ = norm(dg.findtext('re'))
-            for d in dg.findall('d'):
+        for dg in mg.findall("dg"):
+            re_ = norm(dg.findtext("re"))
+            for d in dg.findall("d"):
                 txt = norm(d.text)
                 if txt:
-                    ds.append(f'({re_}) {txt}' if re_ else txt)
-        syns = unique(norm(s.text) for s in mg.findall('sg/s'))
-        ants = unique(norm(a.text) for a in mg.findall('antg/ant'))
-        xs = unique(norm(x.text) for x in mg.iter('x'))
+                    ds.append(f"({re_}) {txt}" if re_ else txt)
+        syns = unique(norm(s.text) for s in mg.findall("sg/s"))
+        ants = unique(norm(a.text) for a in mg.findall("antg/ant"))
+        xs = unique(norm(x.text) for x in mg.iter("x"))
         if ds or syns or ants or xs:
             if not ds:
-                stats['dg with empty d'] += 1
+                stats["dg with empty d"] += 1
             entry.dgs.append((ds, syns, ants, xs))
-        for lr in mg.findall('l_ref'):
-            entry.comments.append(f'l_ref: {norm(lr.text)}')
-        if mg.get('c'):
-            entry.comments.append(norm(mg.get('c')))
-    for ig in e.findall('ig'):
-        i = norm(ig.findtext('i'))
+        for lr in mg.findall("l_ref"):
+            entry.comments.append(f"l_ref: {norm(lr.text)}")
+        if mg.get("c"):
+            entry.comments.append(norm(mg.get("c")))
+    for ig in e.findall("ig"):
+        i = norm(ig.findtext("i"))
         if i:
-            entry.igs.append((i, unique(norm(d.text) for d in ig.findall('id'))))
+            entry.igs.append((i, unique(norm(d.text) for d in ig.findall("id"))))
     return entry
+
 
 def dg_id(n):
     """a, b, ..., z, aa, ab, ... for n = 1, 2, ..."""
-    s = ''
+    s = ""
     while n:
         n, r = divmod(n - 1, 26)
-        s = chr(ord('a') + r) + s
+        s = chr(ord("a") + r) + s
     return s
+
 
 def merge(a, b):
     a.lemmas = unique(a.lemmas + b.lemmas)
@@ -139,80 +144,95 @@ def merge(a, b):
     a.comments += b.comments
     a.merged += 1
 
+
 def write_entry(entry, out):
     out.append(f'{I}<e status="edit">')
-    attrs = f' pos="{entry.pos}"' + (f' type="{entry.typ}"' if entry.typ else '')
-    out.append(f'{I*2}<lg{attrs}>')
-    out += [f'{I*3}<l>{escape(l)}</l>' for l in entry.lemmas]
-    out.append(f'{I*2}</lg>')
+    attrs = f' pos="{entry.pos}"' + (f' type="{entry.typ}"' if entry.typ else "")
+    out.append(f"{I * 2}<lg{attrs}>")
+    out += [f"{I * 3}<l>{escape(l)}</l>" for l in entry.lemmas]
+    out.append(f"{I * 2}</lg>")
     for n, (ds, syns, ants, xs) in enumerate(entry.dgs, 1):
-        out.append(f'{I*2}<dg id="{dg_id(n)}">')
-        out += [f'{I*3}<d>{escape(d)}</d>' for d in ds] or [f'{I*3}<d/>']
-        for tag, item, vals in (('syng', 'syn', syns), ('antg', 'ant', ants), ('xg', 'x', xs)):
+        out.append(f'{I * 2}<dg id="{dg_id(n)}">')
+        out += [f"{I * 3}<d>{escape(d)}</d>" for d in ds] or [f"{I * 3}<d/>"]
+        for tag, item, vals in (
+            ("syng", "syn", syns),
+            ("antg", "ant", ants),
+            ("xg", "x", xs),
+        ):
             if vals:
-                out.append(f'{I*3}<{tag}>')
-                out += [f'{I*4}<{item}>{escape(v)}</{item}>' for v in vals]
-                out.append(f'{I*3}</{tag}>')
-        out.append(f'{I*2}</dg>')
+                out.append(f"{I * 3}<{tag}>")
+                out += [f"{I * 4}<{item}>{escape(v)}</{item}>" for v in vals]
+                out.append(f"{I * 3}</{tag}>")
+        out.append(f"{I * 2}</dg>")
     for i, ids in entry.igs:
-        out.append(f'{I*2}<ig>')
-        out.append(f'{I*3}<i>{escape(i)}</i>')
-        out += [f'{I*3}<id>{escape(d)}</id>' for d in ids]
-        out.append(f'{I*2}</ig>')
+        out.append(f"{I * 2}<ig>")
+        out.append(f"{I * 3}<i>{escape(i)}</i>")
+        out += [f"{I * 3}<id>{escape(d)}</id>" for d in ids]
+        out.append(f"{I * 2}</ig>")
     comments = list(entry.comments)
     if entry.merged > 1:
-        comments.insert(0, f'merged from {entry.merged} entries with the same '
-                           'lemma+pos+type in dict-sme-nob')
+        comments.insert(
+            0,
+            f"merged from {entry.merged} entries with the same "
+            "lemma+pos+type in dict-sme-nob",
+        )
     if comments:
-        out.append(f'{I*2}<cg>')
-        out += [f'{I*3}<c>{escape(c)}</c>' for c in comments]
-        out.append(f'{I*2}</cg>')
-    out.append(f'{I}</e>')
+        out.append(f"{I * 2}<cg>")
+        out += [f"{I * 3}<c>{escape(c)}</c>" for c in comments]
+        out.append(f"{I * 2}</cg>")
+    out.append(f"{I}</e>")
+
 
 def has_definition(entry):
     return any(ds for ds, *_ in entry.dgs)
 
+
 def entry_order(entry):
     return (not has_definition(entry), sort_key(entry.lemmas[0]))
+
 
 def write_file(name, file_entries):
     out = []
     for entry in file_entries:
         write_entry(entry, out)
-    (DST / f'{name}_sme.xml').write_text(HEADER + '\n'.join(out) + '\n</r>\n',
-                                       encoding='utf-8')
-    print(f'{len(file_entries):6d} entries -> src/{name}_sme.xml')
+    (DST / f"{name}_sme.xml").write_text(
+        HEADER + "\n".join(out) + "\n</r>\n", encoding="utf-8"
+    )
+    print(f"{len(file_entries):6d} entries -> src/{name}_sme.xml")
+
 
 def main():
-    if len(sys.argv) > 2 or sys.argv[1:2] in (['-h'], ['--help']):
+    if len(sys.argv) > 2 or sys.argv[1:2] in (["-h"], ["--help"]):
         sys.exit(__doc__)
     src = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_SRC
-    files = sorted(f for f in src.glob('*_smenob.xml')
-                   if not f.name.startswith('N_Prop'))
+    files = sorted(
+        f for f in src.glob("*_smenob.xml") if not f.name.startswith("N_Prop")
+    )
     if not files:
-        sys.exit(f'no *_smenob.xml files in {src}')
+        sys.exit(f"no *_smenob.xml files in {src}")
     # key -> Entry; entries are written to the file where the key is first seen
     entries = {}
     per_file = {f: [] for f in files}
     for f in files:
-        for e in ET.parse(f).getroot().iter('e'):
+        for e in ET.parse(f).getroot().iter("e"):
             entry = read_entry(e)
-            if entry.typ == 'Prop':
-                stats['proper nouns left out'] += 1
+            if entry.typ == "Prop":
+                stats["proper nouns left out"] += 1
                 continue
             key = (entry.lemmas[0], entry.pos, entry.typ)
             if key in entries:
                 merge(entries[key], entry)
-                stats['merged into an earlier entry'] += 1
+                stats["merged into an earlier entry"] += 1
             else:
                 entries[key] = entry
                 per_file[f].append(entry)
     for f, file_entries in per_file.items():
         file_entries.sort(key=entry_order)
-        write_file(f.name.replace('_smenob.xml', ''), file_entries)
+        write_file(f.name.replace("_smenob.xml", ""), file_entries)
     with_d = sum(1 for e in entries.values() if has_definition(e))
-    print(f'{len(entries):6d} entries in all, {with_d} with a definition')
+    print(f"{len(entries):6d} entries in all, {with_d} with a definition")
     for k, v in sorted(stats.items()):
-        print(f'{v:6d}  {k}')
+        print(f"{v:6d}  {k}")
+
 
 main()

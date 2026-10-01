@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
     <lics xml:lang="en" xml:space="preserve">
         <lic>
@@ -16,11 +16,6 @@
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
-
-            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
-            Divvun at UiT, and members of the language communities, licensed
-            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
-            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
         </ref>
         <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and

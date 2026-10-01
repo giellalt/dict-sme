@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="../schema/dict-sme_XXE.css"?>
+<?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
     <lics xml:lang="en" xml:space="preserve">
         <lic>
@@ -16,11 +16,6 @@
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
-
-            Based on dict-sme-nob, work by Nils Jernsletten, Giellatekno and
-            Divvun at UiT, and members of the language communities, licensed
-            under CC BY 3.0 NO <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
-            Source code available at <a>https://github.com/giellalt/dict-sme-nob</a>.
         </ref>
         <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
@@ -46,7 +41,8 @@
         <dg id="b">
             <d/>
             <xg>
-                <x>Lean aitto doaibmagoahtán hárjeheaddjin, ja in leat vuos nu čeahppi.</x>
+                <x>Lean aitto doaibmagoahtán hárjeheaddjin, ja in leat vuos nu
+                čeahppi.</x>
             </xg>
         </dg>
     </e>
@@ -80,10 +76,12 @@
         <dg id="a">
             <d/>
             <xg>
-                <x>Son leaikkastallá vel ahte ammahal Norgga stáda ii oba dovdda ge dála márkaniid.</x>
+                <x>Son leaikkastallá vel ahte ammahal Norgga stáda ii oba
+                dovdda ge dála márkaniid.</x>
                 <x>Ammahal dál rohkkáha mu?</x>
                 <x>Ammahal sii galget diehtit gos leat ovddeš johtolagat.</x>
-                <x>Ammahal dál doaibmá go measta buohkat stivrras leat eret seamma báikkis.</x>
+                <x>Ammahal dál doaibmá go measta buohkat stivrras leat eret
+                seamma báikkis.</x>
             </xg>
         </dg>
     </e>
@@ -96,7 +94,8 @@
             <xg>
                 <x>Smihtten ahte ammal dál lea mu vuorru vuoitit fatnasa.</x>
                 <x>Mun vuolggán krossabánii, ammal dál leat doppe olbmot.</x>
-                <x>Muhto ammal sii háliidedje addit turisttaide eksohtalaš vásáhusa.</x>
+                <x>Muhto ammal sii háliidedje addit turisttaide eksohtalaš
+                vásáhusa.</x>
             </xg>
         </dg>
     </e>
@@ -109,7 +108,8 @@
             <xg>
                 <x>Mo ba dan galgá dahkat?</x>
                 <x>Ii ge gillen suinna ba hállat ge šat.</x>
-                <x>"Vuoi stáhkkár Niillas, leatgo ba oađđitge sáhttán?" jearrá son.</x>
+                <x>"Vuoi stáhkkár Niillas, leatgo ba oađđitge sáhttán?" jearrá
+                son.</x>
             </xg>
         </dg>
     </e>
@@ -120,7 +120,8 @@
         <dg id="a">
             <d/>
             <xg>
-                <x>Maid don boagustat? jearai Elle. Ii leat ban dáiga, vástidii Máret.</x>
+                <x>Maid don boagustat? jearai Elle. Ii leat ban dáiga,
+                vástidii Máret.</x>
                 <x>Maid ban dainna áiggut?</x>
                 <x>Mo ban oainnát erohusa?</x>
             </xg>
@@ -176,7 +177,8 @@
         <dg id="a">
             <d/>
             <xg>
-                <x>Go biktasiid lea bassan ja goikadan, ferte ges máhccut daid.</x>
+                <x>Go biktasiid lea bassan ja goikadan, ferte ges máhccut
+                daid.</x>
             </xg>
         </dg>
     </e>
@@ -188,7 +190,8 @@
             <d/>
             <xg>
                 <x>de son gis</x>
-                <x>Kárášjogas oahppit fitne maiddái duoddaris, Oslos gis besse fitnat erenoamáš turistabáikkiin.</x>
+                <x>Kárášjogas oahppit fitne maiddái duoddaris, Oslos gis besse
+                fitnat erenoamáš turistabáikkiin.</x>
             </xg>
         </dg>
     </e>
@@ -222,7 +225,8 @@
         <dg id="a">
             <d/>
             <xg>
-                <x>Vaikko liikojit biergogáhkuide, de goitge daidda dolket.</x>
+                <x>Vaikko liikojit biergogáhkuide, de goitge daidda
+                dolket.</x>
             </xg>
         </dg>
     </e>
@@ -275,13 +279,15 @@
         <dg id="b">
             <d/>
             <xg>
-                <x>Muhto eat doaivvo guhká gal vejolažžan na dahkat, leaš go šat vejolaš obanassiige.</x>
+                <x>Muhto eat doaivvo guhká gal vejolažžan na dahkat, leaš go
+                šat vejolaš obanassiige.</x>
             </xg>
         </dg>
         <dg id="c">
             <d/>
             <xg>
-                <x>Jus dus nai lea muhtun geasa áiggut skeaŋkka oastit, na de heive hui bures odne oastit girjji ja ruvssu.</x>
+                <x>Jus dus nai lea muhtun geasa áiggut skeaŋkka oastit, na de
+                heive hui bures odne oastit girjji ja ruvssu.</x>
             </xg>
         </dg>
     </e>
