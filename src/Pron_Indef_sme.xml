@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,894 +27,898 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>aktage</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dáin maŋimuš jagiin ii gávdnon aktage govva.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>buohkat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Čoahkkin lea rabas buohkaide – bures boahtin!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>buot</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ipmilii buot lea vejolaš.</x>
-                <x>Buot oahpahus lea sámegillii.</x>
-                <x>Álggus lea minikonsearta buot mánáide gaskal 0 ja 10 jagi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>dábbá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>duobbá dábbá</x>
-                <x>Áinnas vel reškkii go uhcastáloš ain čorpmahalai duoppá dáppá niidii.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>duobbá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>duobbá dábbá</x>
-                <x>Áinnas vel reškkii go uhcastáloš ain čorpmahalai duoppá dáppá niidii.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="A">
-            <l>eambbo</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii dárbbašit eambbo dieđuid dálkkádatrievdamiid birra.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>eambbosat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii sávvat ahte bohtet vel eambbosat boahtte jagi, lohká festiválajođiheaddji.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>eanas</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="A">
-            <l>eanet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii dárbbašit eanet dieđuid dálkkádatrievdamiid birra.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>eará</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dákkár viiddis máhttu ii leat nu gallásis earáin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>eatnat</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>gaittiinnat</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>gallát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>galle</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Galle máná dus leat?</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Gilážis eai oro nu galle olbmo.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>gallis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Gallis leat?</x>
-                <x>Eai leat gallis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>geainna nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Jus ovttasge lea dárbu geainna nu háleštit dáhpáhusa birra, de lea mis doppe olmmoš geainna sáhttá váldit oktavuođa</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>geanin nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Geanin nu dat logai dan olbmo, muhto in muitte šat geanin.</x>
-                <x>Háliidan leat geanin nu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>gean nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Gili olbmot dárbbašit gean nu gii sáhtášii jođánit čoavdit dán ášši.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>geasa nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Viimmat son ge lei geasa nu ávkin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>geas nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Livččii jallodat gáddit ahte mus dahje geas nu earás livčče miella dan bargat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>giige</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ii min eallindilli buorrán jus giige ii viša maidege bargat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>gii nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Jus guoli áiggošedje bivddestit, de sii fertejit oastit jándorkoartta seamma go gii nu eará golgolaš guovllus.</x>
-                <x>Láđus gullui gii nu skoahpamin. Lei go son dat Elle?</x>
-                <x>Gii nu lea váidán lobihis biilavuodjima politiijaide.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>goabbat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii doalahit dálá organiserema mas lea okta rektor goabbatge skuvllas.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Dán áššis orrot hálddahus ja stivra goabbat oaivilis.</x>
-                <x>De leigga oastán goabbat bohttala cola.</x>
-                <x>Moai čohkkájetne soffás goabbat telefovnnain.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>goabbáge</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>In eahpit ahte ledje 2000 olbmo goappáge konsearttas.</x>
-                <x>Goappá don válddát? In goappáge!</x>
-                <x>Ii lean šat doarrunvuoibmi goappásge.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>goabbánai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Máhtte ja Biera goabbánai bážiiga moala.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>goappaš</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Árvolassáneapmi lei jagis 1997 sullii seamma dásis goappaš riikkain.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>goappašagat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai leaba goappašagat vázzán dáiddaallaskuvlla.</x>
-                <x>Goappašagat dárbbašeigga doavtterdivššu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>goappašat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Goappašat dievddut dárbbašeigga doavtterdivššu.</x>
-                <x>Iskkadeapmi galgá čuvget goappašiid beliid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>guhtege</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii mihtidit man ollu badjelis áhpedási guhtege jávri lea.</x>
-                <x>Golbma bargojoavkku leat bargame ođđa orohatjuohkimiin, okta guđege boazoguovllus.</x>
-                <x>Gáffádaga eaiggát attii nuvttá gáhkkobihtá guhtiige.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>guhtenai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bivdit eai beasa báhčit eanet go guokte lotti guhtenai.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>guhtet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>- Mat leat dát? jerre guhtet guoimmisteaset.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>De manne sii guhtet guovlluidasaset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>guktot</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai letne guktot fitnan Helssegis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>iešguhtege</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dál leat biddjon iešguđetge ruskkaide kontainerat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>iešguhtet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Iešguhtet válddii doppe biillas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>iežá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>In sáhte iežáid váldit mielde dohko.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>juobbá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Juobbá munnos oažžu gal friddja.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>juobbágoabbá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Verddestallama vuođđojurdda lea lonuhangávpi, mas juobbágoabbá lea álo velggolaš nubbái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>juoga</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ođđa nominašuvnna sáhttá gáibidit jus lea juoga dahkkon formálalaččat boastut.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>juogamii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Muhto juogaman dihte nu ii leat.</x>
-                <x>Gal juogamasa lea aŋkke ávkin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>juohke</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>juohkehaš</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dain ledje fas juohkehaččas sierra nuohttunbáikkit ja fierbmunbáikkit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>maid nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Leat vuohttán maid nu Jorbaváris, jáhkkit ahte lea guovža.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>mainna nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mainna nu Elle dáidá gal leat boahtán.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>manin nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Manin nu dat áigu šaddat, go geargá skuvllas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>man nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Muhtin logaldalli boahtá muitalit man nu miellagiddevaš fáttá birra.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>masa nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ruhtaskeaŋkka gal háliidan geavahit masa nu earái, nu go mátkkošteapmái.</x>
-                <x>Lea buorre ahte juoba masa nu orun dohkkemin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>mas nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dát veahkkeneavvu lea mas nu ráhkaduvvon, muhto mun in dieđe mii dat lea.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>máŋga</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doppe ledje máŋga ealgga.</x>
-                <x>Dilli lea leamaš nu máŋggaid jagiid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>mihkke</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mis ii leat šat mihkke dadjamušaid dasa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>mihkkege</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Imaštallen gal veaháš manne eadni ii jienát maidege.</x>
-                <x>Mus ii leat mihkkege eará maid sáhtán geavahit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>miinai</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>mii nu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ii oktage leat heakkaheađis, muhto mii nu dáidá leat dáhpáhuvvan.</x>
-                <x>Láđus gullui mii nu skoahpamin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>moadde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bivden su vuordit moadde beaivvi.</x>
-                <x>Ožžon moatti oahppis rámi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>moanat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Lávdegoddi galgá mandáhtas mielde árvvoštallat moanaid dettolaš gažaldagaid.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Mun lean moanaid juo bovden.</x>
-                <x>Mun lean moanaid olbmuid juo bovden.</x>
-                <x>Vástádusaid in sáhte lohpidit nu moanaid vuos.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>muhtin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>De oahpaheaddji fuomáša muhtima gii viegada klássalanjas, muhto ii oainne gii dat lea.</x>
-                <x>Máŋga sápmelačča bohte ruovttoluotta Norgii, muhtimat fas ásaiduvve Alaskai.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>muhtun</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>De oahpaheaddji fuomáša muhtuma gii viegada klássalanjas, muhto ii oainne gii dat lea.</x>
-                <x>Máŋga sápmelačča bohte ruovttoluotta Norgii, muhtumat fas ásaiduvve Alaskai.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>nubbi</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ja de ii leat lohpi nuppiid borrat.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Nubbi lea stuoris, nubbi fas unni.</x>
-                <x>Ja nubbi dáhpáhus leai seammá áiggiid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>oktage</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dáin maŋimuš jagiin ii gávdnon oktage govva.</x>
-                <x>Jáhkán iežan áddet buorebut go oktage eará sudno jurdagiid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron">
-            <l>oktahat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>In gille guhká ovttahagaid bargat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>oktiige</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii eat atte du persovdnadieđuid oktiige.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>ollugat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ollugat leat fárren gielddas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>olus</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ii dás goit leat fylkkagielddas mihkkege váttisvuođaid, olus lohket.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>ovttage</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Elle ii dovdda ovttage ođđa skuvllas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>ovttainge</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mis ii leat leamaš šiehtadus ovttainge njuovahagain.</x>
-                <x>Sii eai leat hupman ovttainge heahteveahki birra.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>ovttasge</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Leat go ovttasge gámasuoinnit vuovdit?</x>
-                <x>Lei nu fiinnis go eai ovttasge lean seammalágan gárvvut.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Ođđa hálddašeapmi ii galgga gal ovttasge rivvet vuoigatvuođaid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>seammá</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>soames</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Muhto soapmásiin ledje áibbas eará beroštumit.</x>
-                <x>Lei buorre dálki ja soames guolli nai.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>soamis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Muhto soapmásiin ledje áibbas eará beroštumit.</x>
-                <x>Lei buorre dálki ja soames guolli nai.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>unnán</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Muhtun skuvllain leat unnán oahppit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>vaikko maid</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Rieban doalvu vaikko maid bidjui, dadjá Eriksen.</x>
-                <x>Luosas han sáhttá vaikko maid ráhkadit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>vaikko mainna</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Don fertet mátkkoštit lulás vaikko mainna.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>vaikko man</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Áddjá han lea vaikko man boaris juo, muhto dat ii gal hehtte su buori barggu bargamis.</x>
-                <x>Mun oidnen vaikko man ollu olbmuid gávpogis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>vaikko manin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Gal mu nai gohčodedje vaikko manin skuvllas.</x>
-                <x>Golggotmánu 31. beaivvi sáhttet sihke mánát ja ollesolbmot gárvodit vaikko manin ja vázzit dáluin ja jearrat njálgáid dahje gáhkuid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>vaikko mas</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vaikko mas leaččat leamaš mielde, de fertet almmatge dán geahččaleami čađahit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>vaikko masa</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dál fertet leat gearggus vaikko masa.</x>
-                <x>Dán leavgga sáhttá vaikko masa geavahit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>vaikko mii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mus lea vaikko mii dás.</x>
-                <x>Somámus mánnávuođamuitu lea reahkaburgin go doppe lei vaikko mii gávdnamis, sihke njálgát ja biktasat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>veahá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vuoidalin veahá juolgesuorpmaid nai, go lávejit nu bivastuvvat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Indef">
-            <l>veaháš</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Viežžal munnje veaháš čázi, vai beasan juhkat.</x>
-            </xg>
-        </dg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>aktage</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dáin maŋimuš jagiin ii gávdnon aktage govva.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>buohkat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Čoahkkin lea rabas buohkaide – bures boahtin!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>buot</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ipmilii buot lea vejolaš.</x>
+            <x>Buot oahpahus lea sámegillii.</x>
+            <x>Álggus lea minikonsearta buot mánáide gaskal 0 ja 10 jagi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>dábbá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>duobbá dábbá</x>
+            <x>Áinnas vel reškkii go uhcastáloš ain čorpmahalai duoppá dáppá niidii.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>duobbá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>duobbá dábbá</x>
+            <x>Áinnas vel reškkii go uhcastáloš ain čorpmahalai duoppá dáppá niidii.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="A">
+         <l>eambbo</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii dárbbašit eambbo dieđuid dálkkádatrievdamiid birra.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>eambbosat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii sávvat ahte bohtet vel eambbosat boahtte jagi, lohká festiválajođiheaddji.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>eanas</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="A">
+         <l>eanet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii dárbbašit eanet dieđuid dálkkádatrievdamiid birra.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>eará</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dákkár viiddis máhttu ii leat nu gallásis earáin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>eatnat</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>gaittiinnat</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>gallát</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>galle</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Galle máná dus leat?</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Gilážis eai oro nu galle olbmo.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>gallis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Gallis leat?</x>
+            <x>Eai leat gallis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>geainna nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Jus ovttasge lea dárbu geainna nu háleštit dáhpáhusa birra, de lea mis doppe olmmoš geainna sáhttá váldit
+            oktavuođa</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>geanin nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Geanin nu dat logai dan olbmo, muhto in muitte šat geanin.</x>
+            <x>Háliidan leat geanin nu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>gean nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Gili olbmot dárbbašit gean nu gii sáhtášii jođánit čoavdit dán ášši.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>geasa nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Viimmat son ge lei geasa nu ávkin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>geas nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Livččii jallodat gáddit ahte mus dahje geas nu earás livčče miella dan bargat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>giige</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ii min eallindilli buorrán jus giige ii viša maidege bargat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>gii nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Jus guoli áiggošedje bivddestit, de sii fertejit oastit jándorkoartta seamma go gii nu eará golgolaš
+            guovllus.</x>
+            <x>Láđus gullui gii nu skoahpamin. Lei go son dat Elle?</x>
+            <x>Gii nu lea váidán lobihis biilavuodjima politiijaide.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>goabbat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii doalahit dálá organiserema mas lea okta rektor goabbatge skuvllas.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Dán áššis orrot hálddahus ja stivra goabbat oaivilis.</x>
+            <x>De leigga oastán goabbat bohttala cola.</x>
+            <x>Moai čohkkájetne soffás goabbat telefovnnain.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>goabbáge</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>In eahpit ahte ledje 2000 olbmo goappáge konsearttas.</x>
+            <x>Goappá don válddát? In goappáge!</x>
+            <x>Ii lean šat doarrunvuoibmi goappásge.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>goabbánai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Máhtte ja Biera goabbánai bážiiga moala.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>goappaš</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Árvolassáneapmi lei jagis 1997 sullii seamma dásis goappaš riikkain.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>goappašagat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai leaba goappašagat vázzán dáiddaallaskuvlla.</x>
+            <x>Goappašagat dárbbašeigga doavtterdivššu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>goappašat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Goappašat dievddut dárbbašeigga doavtterdivššu.</x>
+            <x>Iskkadeapmi galgá čuvget goappašiid beliid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>guhtege</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii mihtidit man ollu badjelis áhpedási guhtege jávri lea.</x>
+            <x>Golbma bargojoavkku leat bargame ođđa orohatjuohkimiin, okta guđege boazoguovllus.</x>
+            <x>Gáffádaga eaiggát attii nuvttá gáhkkobihtá guhtiige.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>guhtenai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bivdit eai beasa báhčit eanet go guokte lotti guhtenai.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>guhtet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>- Mat leat dát? jerre guhtet guoimmisteaset.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>De manne sii guhtet guovlluidasaset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>guktot</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai letne guktot fitnan Helssegis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>iešguhtege</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dál leat biddjon iešguđetge ruskkaide kontainerat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>iešguhtet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Iešguhtet válddii doppe biillas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>iežá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>In sáhte iežáid váldit mielde dohko.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>juobbá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Juobbá munnos oažžu gal friddja.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>juobbágoabbá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Verddestallama vuođđojurdda lea lonuhangávpi, mas juobbágoabbá lea álo velggolaš nubbái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>juoga</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ođđa nominašuvnna sáhttá gáibidit jus lea juoga dahkkon formálalaččat boastut.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>juogamii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Muhto juogaman dihte nu ii leat.</x>
+            <x>Gal juogamasa lea aŋkke ávkin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>juohke</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>juohkehaš</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dain ledje fas juohkehaččas sierra nuohttunbáikkit ja fierbmunbáikkit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>maid nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Leat vuohttán maid nu Jorbaváris, jáhkkit ahte lea guovža.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>mainna nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mainna nu Elle dáidá gal leat boahtán.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>manin nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Manin nu dat áigu šaddat, go geargá skuvllas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>man nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Muhtin logaldalli boahtá muitalit man nu miellagiddevaš fáttá birra.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>masa nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ruhtaskeaŋkka gal háliidan geavahit masa nu earái, nu go mátkkošteapmái.</x>
+            <x>Lea buorre ahte juoba masa nu orun dohkkemin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>mas nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dát veahkkeneavvu lea mas nu ráhkaduvvon, muhto mun in dieđe mii dat lea.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>máŋga</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doppe ledje máŋga ealgga.</x>
+            <x>Dilli lea leamaš nu máŋggaid jagiid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>mihkke</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mis ii leat šat mihkke dadjamušaid dasa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>mihkkege</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Imaštallen gal veaháš manne eadni ii jienát maidege.</x>
+            <x>Mus ii leat mihkkege eará maid sáhtán geavahit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>miinai</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>mii nu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ii oktage leat heakkaheađis, muhto mii nu dáidá leat dáhpáhuvvan.</x>
+            <x>Láđus gullui mii nu skoahpamin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>moadde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bivden su vuordit moadde beaivvi.</x>
+            <x>Ožžon moatti oahppis rámi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>moanat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Lávdegoddi galgá mandáhtas mielde árvvoštallat moanaid dettolaš gažaldagaid.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Mun lean moanaid juo bovden.</x>
+            <x>Mun lean moanaid olbmuid juo bovden.</x>
+            <x>Vástádusaid in sáhte lohpidit nu moanaid vuos.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>muhtin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>De oahpaheaddji fuomáša muhtima gii viegada klássalanjas, muhto ii oainne gii dat lea.</x>
+            <x>Máŋga sápmelačča bohte ruovttoluotta Norgii, muhtimat fas ásaiduvve Alaskai.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>muhtun</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>De oahpaheaddji fuomáša muhtuma gii viegada klássalanjas, muhto ii oainne gii dat lea.</x>
+            <x>Máŋga sápmelačča bohte ruovttoluotta Norgii, muhtumat fas ásaiduvve Alaskai.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>nubbi</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ja de ii leat lohpi nuppiid borrat.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Nubbi lea stuoris, nubbi fas unni.</x>
+            <x>Ja nubbi dáhpáhus leai seammá áiggiid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>oktage</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dáin maŋimuš jagiin ii gávdnon oktage govva.</x>
+            <x>Jáhkán iežan áddet buorebut go oktage eará sudno jurdagiid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron">
+         <l>oktahat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>In gille guhká ovttahagaid bargat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>oktiige</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii eat atte du persovdnadieđuid oktiige.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>ollugat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ollugat leat fárren gielddas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>olus</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ii dás goit leat fylkkagielddas mihkkege váttisvuođaid, olus lohket.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>ovttage</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Elle ii dovdda ovttage ođđa skuvllas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>ovttainge</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mis ii leat leamaš šiehtadus ovttainge njuovahagain.</x>
+            <x>Sii eai leat hupman ovttainge heahteveahki birra.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>ovttasge</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Leat go ovttasge gámasuoinnit vuovdit?</x>
+            <x>Lei nu fiinnis go eai ovttasge lean seammalágan gárvvut.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Ođđa hálddašeapmi ii galgga gal ovttasge rivvet vuoigatvuođaid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>seammá</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>soames</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Muhto soapmásiin ledje áibbas eará beroštumit.</x>
+            <x>Lei buorre dálki ja soames guolli nai.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>soamis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Muhto soapmásiin ledje áibbas eará beroštumit.</x>
+            <x>Lei buorre dálki ja soames guolli nai.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>unnán</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Muhtun skuvllain leat unnán oahppit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>vaikko maid</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Rieban doalvu vaikko maid bidjui, dadjá Eriksen.</x>
+            <x>Luosas han sáhttá vaikko maid ráhkadit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>vaikko mainna</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Don fertet mátkkoštit lulás vaikko mainna.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>vaikko man</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Áddjá han lea vaikko man boaris juo, muhto dat ii gal hehtte su buori barggu bargamis.</x>
+            <x>Mun oidnen vaikko man ollu olbmuid gávpogis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>vaikko manin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Gal mu nai gohčodedje vaikko manin skuvllas.</x>
+            <x>Golggotmánu 31. beaivvi sáhttet sihke mánát ja ollesolbmot gárvodit vaikko manin ja vázzit dáluin ja
+            jearrat njálgáid dahje gáhkuid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>vaikko mas</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vaikko mas leaččat leamaš mielde, de fertet almmatge dán geahččaleami čađahit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>vaikko masa</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dál fertet leat gearggus vaikko masa.</x>
+            <x>Dán leavgga sáhttá vaikko masa geavahit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>vaikko mii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mus lea vaikko mii dás.</x>
+            <x>Somámus mánnávuođamuitu lea reahkaburgin go doppe lei vaikko mii gávdnamis, sihke njálgát ja
+            biktasat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>veahá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vuoidalin veahá juolgesuorpmaid nai, go lávejit nu bivastuvvat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Indef">
+         <l>veaháš</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Viežžal munnje veaháš čázi, vai beasan juhkat.</x>
+         </xg>
+      </dg>
+   </e>
 </r>

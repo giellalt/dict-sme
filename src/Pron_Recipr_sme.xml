@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,503 +27,503 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guimmiineame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai leaikkastalle goabbat guimmiineame.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guimmiineaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai leaikkastallaba goabbat guimmiineaskka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guimmiineatte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai leaikkastallabeahtti goabbat guimmiineatte.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoibmáme</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai dovde goabbat guoibmáme.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoibmáseame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai muitaletne ságaid goabbat guoibmáseame.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoibmáseaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai muitaleaba ságaid goabbat guoibmáseaskka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoibmáseatte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai muitaleahppi ságaid goabbat guoibmáseatte.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoimmáde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai dovdabeahtti goabbat guoimmáde.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoimmiska</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai dovdaba goabbat guoimmiska.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoimmisteame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai ožžo rávvagiid goabbat guoimmisteame.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoimmisteaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai oažžuba rávvagiid goabbat guoimmisteaskka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>goabbat guoimmisteatte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai oažžubeahtti rávvagiid goabbat guoimmisteatte.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiidasadet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii muitalehpet ságaid guhtet guimmiidasadet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiidasamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii muitalit ságaid guhtet guimmiidasamet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiidasaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii muitalit ságaid guhtet guimmiidasaset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiideamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii dovdat guhtet guimmiideamet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiideametguin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii leaikkastallat guhtet guimmiideametguin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiideaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii dovdet guhtet guimmiideaset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiideasetguin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii leaikkastallet guhtet guimmiideasetguin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiideattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii dovdabehtet guhtet guimmiideattet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiideattetguin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii leaikkastallabehtet guhtet guimmiideattetguin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiineamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii leaikkastallat guhtet guimmiineamet.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Mii oažžut rávvagiid guhtet guimmiineamet.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiineaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii leaikkastallet guhtet guimmiineaset.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Sii ožžot rávvagiid guhtet guimmiineaset.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guimmiineattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii leaikkastallabehtet guhtet guimmiineattet.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Dii oažžubehtet rávvagiid guhtet guimmiineattet.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoibmámet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii dovdat guhtet guoibmámet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoibmáseamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii muitalit ságaid guhtet guoibmáseamet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoibmáseaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii muitalit ságaid guhtet guoibmáseaset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoibmáseattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii muitalehpet ságaid guhtet guoibmáseattet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoimmádet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii dovdabehtet guhtet guoimmádet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoimmiset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii dovdet guhtet guoimmiset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoimmisteamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii oažžut rávvagiid guhtet guoimmisteamet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoimmisteaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii ožžot rávvagiid guhtet guoimmisteaset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>guhtet guoimmisteattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii oažžubehtet rávvagiid guhtet guoimmisteattet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nubbi nubbái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai muitaleaba ságaid nubbi nubbái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nubbi nubbin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai loggiiga sisa nubbi nubbin.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Sii loggejedje sisa nubbi nubbin.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nubbi nuppi</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai dovde nubbi nuppi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nubbi nuppiin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai leaikkastallaba nubbi nuppiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nubbi nuppis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai oažžuba rávvagiid nubbi nuppis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nuppit nuppiid</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii dovdet nuppit nuppiid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nuppit nuppiide</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii muitalit ságaid nuppit nuppiide.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nuppit nuppiiguin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii leaikkastallabehtet nuppit nuppiiguin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Recipr">
-            <l>nuppit nuppiin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii oažžut rávvagiid nuppit nuppiin.</x>
-            </xg>
-        </dg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guimmiineame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai leaikkastalle goabbat guimmiineame.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guimmiineaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai leaikkastallaba goabbat guimmiineaskka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guimmiineatte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai leaikkastallabeahtti goabbat guimmiineatte.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoibmáme</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai dovde goabbat guoibmáme.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoibmáseame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai muitaletne ságaid goabbat guoibmáseame.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoibmáseaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai muitaleaba ságaid goabbat guoibmáseaskka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoibmáseatte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai muitaleahppi ságaid goabbat guoibmáseatte.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoimmáde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai dovdabeahtti goabbat guoimmáde.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoimmiska</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai dovdaba goabbat guoimmiska.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoimmisteame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai ožžo rávvagiid goabbat guoimmisteame.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoimmisteaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai oažžuba rávvagiid goabbat guoimmisteaskka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>goabbat guoimmisteatte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai oažžubeahtti rávvagiid goabbat guoimmisteatte.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiidasadet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii muitalehpet ságaid guhtet guimmiidasadet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiidasamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii muitalit ságaid guhtet guimmiidasamet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiidasaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii muitalit ságaid guhtet guimmiidasaset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiideamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii dovdat guhtet guimmiideamet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiideametguin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii leaikkastallat guhtet guimmiideametguin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiideaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii dovdet guhtet guimmiideaset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiideasetguin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii leaikkastallet guhtet guimmiideasetguin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiideattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii dovdabehtet guhtet guimmiideattet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiideattetguin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii leaikkastallabehtet guhtet guimmiideattetguin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiineamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii leaikkastallat guhtet guimmiineamet.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Mii oažžut rávvagiid guhtet guimmiineamet.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiineaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii leaikkastallet guhtet guimmiineaset.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Sii ožžot rávvagiid guhtet guimmiineaset.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guimmiineattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii leaikkastallabehtet guhtet guimmiineattet.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Dii oažžubehtet rávvagiid guhtet guimmiineattet.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoibmámet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii dovdat guhtet guoibmámet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoibmáseamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii muitalit ságaid guhtet guoibmáseamet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoibmáseaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii muitalit ságaid guhtet guoibmáseaset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoibmáseattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii muitalehpet ságaid guhtet guoibmáseattet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoimmádet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii dovdabehtet guhtet guoimmádet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoimmiset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii dovdet guhtet guoimmiset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoimmisteamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii oažžut rávvagiid guhtet guoimmisteamet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoimmisteaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii ožžot rávvagiid guhtet guoimmisteaset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>guhtet guoimmisteattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii oažžubehtet rávvagiid guhtet guoimmisteattet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nubbi nubbái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai muitaleaba ságaid nubbi nubbái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nubbi nubbin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai loggiiga sisa nubbi nubbin.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Sii loggejedje sisa nubbi nubbin.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nubbi nuppi</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai dovde nubbi nuppi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nubbi nuppiin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai leaikkastallaba nubbi nuppiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nubbi nuppis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai oažžuba rávvagiid nubbi nuppis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nuppit nuppiid</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii dovdet nuppit nuppiid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nuppit nuppiide</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii muitalit ságaid nuppit nuppiide.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nuppit nuppiiguin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii leaikkastallabehtet nuppit nuppiiguin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Recipr">
+         <l>nuppit nuppiin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii oažžut rávvagiid nuppit nuppiin.</x>
+         </xg>
+      </dg>
+   </e>
 </r>

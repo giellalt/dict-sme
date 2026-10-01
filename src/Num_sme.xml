@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,989 +27,989 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="Num">
-            <l>akta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 1</d>
-            <xg>
-                <x>Mun áiggun dušše ovtta gáhkkobihtá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>beal</l>
-        </lg>
-        <dg id="a">
-            <d>30 minuhta ovdal olles diimmu</d>
-            <xg>
-                <x>Diibmu lea beal okta.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal čieža</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 06.30 dahje 18.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal gávcci</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 07.30 dahje 19.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>bealgoalmmát</l>
-        </lg>
-        <dg id="a">
-            <d>guokte ja bealle; 2½</d>
-            <xg>
-                <x>Mii vázzit bealgoalmmát kilomehtera.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal golbma</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 02.30 dahje 14.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal guhtta</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 05.30 dahje 17.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal guokte</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 01.30 dahje 13.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal guoktenuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 11.30 dahje 23.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal logi</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 09.30 dahje 21.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>bealnjealját</l>
-        </lg>
-        <dg id="a">
-            <d>golbma ja bealle; 3½</d>
-            <xg>
-                <x>Son lea orrun dáppe bealnjealját jagi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal njeallje</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 03.30 dahje 15.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal okta</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 00.30 dahje 12.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal oktanuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 10.30 dahje 22.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal ovcci</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 08.30 dahje 20.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>beal vihtta</l>
-        </lg>
-        <dg id="a">
-            <d>diibmomearri 04.30 dahje 16.30</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>beannot</l>
-        </lg>
-        <dg id="a">
-            <d>okta ja bealle; 1½</d>
-            <xg>
-                <x>Doppe oruimet beannot jagi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>biljovdna</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 1 000 000 000 000, miljovdna miljovnna</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čieža</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 7</d>
-            <xg>
-                <x>Diibmu lea čieža.</x>
-                <x>Vahkus leat čieža beaivvi.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: čiežas_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čiežačuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 700</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čiežaduhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 7000</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čiežalogi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 70</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čiežanuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 17</d>
-            <xg>
-                <x>Dál lea čiežanuppelot gráda olgun.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 100</d>
-            <xg>
-                <x>Dat bisttii badjel čuođi jagi.</x>
-                <x>Doppe ledje čuđiid mielde gávttehasat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čuohtenáre</l>
-        </lg>
-        <dg id="a">
-            <d>sullii čuohti</d>
-            <xg>
-                <x>Čuohtenáre oasseváldi ledje boahtán miehtá riikka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čuohti</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 100</d>
-            <xg>
-                <x>Dat bisttii badjel čuohte jagi.</x>
-                <x>Doppe ledje čuđiid mielde gávttehasat.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>eahpesihkar mo čuohti geavahuvvo, omd. akkusatiivvas?</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>duhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 1000</d>
-            <xg>
-                <x>Vuiten duhát ruvnnu.</x>
-                <x>Min máttut leat eallán dáppe duháhiid jagiid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>gávcci</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 8</d>
-            <xg>
-                <x>Busse vuolgá diibmu gávccis iđđes.</x>
-                <x>Mun orron gávcci jagi Álttás .</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: gávccis_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>gávccičuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 800</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>gávcciduhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 8000</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>gávccilogi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 80</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>gávccinuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 18</d>
-            <xg>
-                <x>Son lea gávccinuppelot jagi boaris.</x>
-                <x>Válddálašvuođaahki Norggas lea gávccinuppelohkái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>gieža</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 7</d>
-            <xg>
-                <x>Diibmu lea gieža.</x>
-                <x>Vahkus leat gieža beaivvi.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: giežas_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbma</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 3</d>
-            <xg>
-                <x>Mii vuolgit golmma áigge.</x>
-                <x>Čájáhus bistá dušše golbma beaivve.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: golmmas_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmačuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 300</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmaduhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 3000</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 30</d>
-            <xg>
-                <x>Son lea golbmalot jagi bargan bolesin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogičieža</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 37</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogigávcci</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 38</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogigolbma</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 33</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogiguhtta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 36</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogiguokte</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 32</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmaloginjeallje</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 34</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogiokta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 31</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogiovcci</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 39</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmalogivihtta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 35</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>golbmanuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 13</d>
-            <xg>
-                <x>Govas oaidnit golbmanuppelohkái olbmo.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guhtta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 6</d>
-            <xg>
-                <x>Kurssas ledje guhtta oasseváldi.</x>
-                <x>In leat leamaš doppe guđa jahkái.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: guđas_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guhttačuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 600</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guhttaduhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 6000</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guhttalogi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 60</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guhttanuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 16</d>
-            <xg>
-                <x>Girdimátki bisttii guhttanuppelohkái diimmu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guokte</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 2</d>
-            <xg>
-                <x>Son lea bargan guokte jagi dainna.</x>
-                <x>Mus leat guokte boarrásut vielja.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: guovttis_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktečuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 200</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guokteduhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 2000</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 20</d>
-            <xg>
-                <x>Dat máksá guoktelogi ruvnnu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogičieža</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 27</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogigávcci</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 28</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogigolbma</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 23</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogiguhtta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 26</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogiguokte</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 22</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guokteloginjeallje</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 24</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogiokta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 21</d>
-            <xg>
-                <x>Mun osten guoktelogiovtta guoli.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogiovcci</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 29</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktelogivihtta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 25</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>guoktenuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 12</d>
-            <xg>
-                <x>Jagis leat guoktenuppelohkái mánu.</x>
-                <x>Jesus vállje guoktenuppelot máhtajeaddji.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>logemat</l>
-        </lg>
-        <dg id="a">
-            <d>sullii logi</d>
-            <xg>
-                <x>Sii godde logemat guoli.</x>
-                <x>Dušše logemat olbmo oassálaste čoahkkimis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>logenáre</l>
-        </lg>
-        <dg id="a">
-            <d>sullii logi</d>
-            <xg>
-                <x>Dutkit leat gávdnan logenáre ráppi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>logi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 10</d>
-            <xg>
-                <x>Sii vuvde buot bileahtaid logi minuhtas.</x>
-                <x>Festivála álggahuvvui logi jagi dassái.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: logis_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>miljárda</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 1 000 000 000, duhát miljovnna, oaniduvvon mrd.</d>
-            <xg>
-                <x>2,2 miljárdda ruvnno</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>miljovdna</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 1 000 000, oaniduvvon milj.</d>
-            <xg>
-                <x>Dása lea biddjon 2 miljon ruvnno.</x>
-                <x>Boahtte jagi ožžot čieža miljovnna eanet go dán jagi.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>njeallje</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 4</d>
-            <xg>
-                <x>Son deavdá njeallje jagi.</x>
-                <x>Sámi álbmot ássá njealji riikkas.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: njealjis_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>njeallječuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 400</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>njealljeduhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 4000</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>njealljelogi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 40</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>njealljenuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 14</d>
-            <xg>
-                <x>Mun devden njealljenuppelot jagi ikte.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>nolla</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 0</d>
-            <xg>
-                <x>Iđđes lei skoaddu ja nolla gráda.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>nulla</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 0</d>
-            <xg>
-                <x>Iđđes lei skoaddu ja nulla gráda.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>okta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 1</d>
-            <xg>
-                <x>Mun áiggun dušše ovtta gáhkkobihtá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>oktanuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 11</d>
-            <xg>
-                <x>Gávpi rahpá oktanuppelogis.</x>
-                <x>Soai gottiiga oktanuppelot kilosaš luosa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>ovcci</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 9</d>
-            <xg>
-                <x>Gávpi lea rabas ovcci rádjái.</x>
-                <x>Min luohkás ledje ovcci oahppi.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: ovccis_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>ovccičuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 900</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>ovcciduhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 9000</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>ovccilogi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 90</d>
-            <xg>
-                <x>Áhkku lea ovccilogi jagi boaris.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>ovccinuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 19</d>
-            <xg>
-                <x>Ledje ovccinuppelot olbmo feasttas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>vihtta</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 5</d>
-            <xg>
-                <x>Diibmu lea vihtta váile vihtta.</x>
-                <x>Gieđas leat vihtta suorpma.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: viđas_n</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>vihttačuođi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 500</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>vihttaduhát</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 5000</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>vihttalogi</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 50</d>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>vihttanuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d>vuođđolohku 15</d>
-            <xg>
-                <x>Son lea vihttanuppelot jagi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>čuođiduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋgačuođi</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋgačuođiduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋgaduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋgalogi</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋganuppelohkái</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>máŋganuppelohkáiduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>milj.</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>miljovdna</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>moaddečuođi</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>moaddeduhát</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>moaddelogi</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>moaddenuppelohkái</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>mrd.</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>miljárda</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>nuppelohkái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Álttás ledje nuppelohkái sisagaikuma mannan vahkkoloahpa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Num">
-            <l>oktanuppelotčuohti</l>
-        </lg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="Num">
+         <l>akta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 1</d>
+         <xg>
+            <x>Mun áiggun dušše ovtta gáhkkobihtá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>beal</l>
+      </lg>
+      <dg id="a">
+         <d>30 minuhta ovdal olles diimmu</d>
+         <xg>
+            <x>Diibmu lea beal okta.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal čieža</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 06.30 dahje 18.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal gávcci</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 07.30 dahje 19.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>bealgoalmmát</l>
+      </lg>
+      <dg id="a">
+         <d>guokte ja bealle; 2½</d>
+         <xg>
+            <x>Mii vázzit bealgoalmmát kilomehtera.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal golbma</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 02.30 dahje 14.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal guhtta</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 05.30 dahje 17.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal guokte</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 01.30 dahje 13.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal guoktenuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 11.30 dahje 23.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal logi</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 09.30 dahje 21.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>bealnjealját</l>
+      </lg>
+      <dg id="a">
+         <d>golbma ja bealle; 3½</d>
+         <xg>
+            <x>Son lea orrun dáppe bealnjealját jagi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal njeallje</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 03.30 dahje 15.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal okta</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 00.30 dahje 12.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal oktanuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 10.30 dahje 22.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal ovcci</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 08.30 dahje 20.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>beal vihtta</l>
+      </lg>
+      <dg id="a">
+         <d>diibmomearri 04.30 dahje 16.30</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>beannot</l>
+      </lg>
+      <dg id="a">
+         <d>okta ja bealle; 1½</d>
+         <xg>
+            <x>Doppe oruimet beannot jagi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>biljovdna</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 1 000 000 000 000, miljovdna miljovnna</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čieža</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 7</d>
+         <xg>
+            <x>Diibmu lea čieža.</x>
+            <x>Vahkus leat čieža beaivvi.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: čiežas_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čiežačuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 700</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čiežaduhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 7000</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čiežalogi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 70</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čiežanuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 17</d>
+         <xg>
+            <x>Dál lea čiežanuppelot gráda olgun.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 100</d>
+         <xg>
+            <x>Dat bisttii badjel čuođi jagi.</x>
+            <x>Doppe ledje čuđiid mielde gávttehasat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čuohtenáre</l>
+      </lg>
+      <dg id="a">
+         <d>sullii čuohti</d>
+         <xg>
+            <x>Čuohtenáre oasseváldi ledje boahtán miehtá riikka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čuohti</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 100</d>
+         <xg>
+            <x>Dat bisttii badjel čuohte jagi.</x>
+            <x>Doppe ledje čuđiid mielde gávttehasat.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>eahpesihkar mo čuohti geavahuvvo, omd. akkusatiivvas?</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>duhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 1000</d>
+         <xg>
+            <x>Vuiten duhát ruvnnu.</x>
+            <x>Min máttut leat eallán dáppe duháhiid jagiid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>gávcci</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 8</d>
+         <xg>
+            <x>Busse vuolgá diibmu gávccis iđđes.</x>
+            <x>Mun orron gávcci jagi Álttás .</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: gávccis_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>gávccičuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 800</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>gávcciduhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 8000</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>gávccilogi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 80</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>gávccinuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 18</d>
+         <xg>
+            <x>Son lea gávccinuppelot jagi boaris.</x>
+            <x>Válddálašvuođaahki Norggas lea gávccinuppelohkái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>gieža</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 7</d>
+         <xg>
+            <x>Diibmu lea gieža.</x>
+            <x>Vahkus leat gieža beaivvi.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: giežas_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbma</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 3</d>
+         <xg>
+            <x>Mii vuolgit golmma áigge.</x>
+            <x>Čájáhus bistá dušše golbma beaivve.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: golmmas_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmačuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 300</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmaduhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 3000</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 30</d>
+         <xg>
+            <x>Son lea golbmalot jagi bargan bolesin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogičieža</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 37</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogigávcci</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 38</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogigolbma</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 33</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogiguhtta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 36</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogiguokte</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 32</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmaloginjeallje</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 34</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogiokta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 31</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogiovcci</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 39</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmalogivihtta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 35</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>golbmanuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 13</d>
+         <xg>
+            <x>Govas oaidnit golbmanuppelohkái olbmo.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guhtta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 6</d>
+         <xg>
+            <x>Kurssas ledje guhtta oasseváldi.</x>
+            <x>In leat leamaš doppe guđa jahkái.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: guđas_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guhttačuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 600</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guhttaduhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 6000</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guhttalogi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 60</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guhttanuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 16</d>
+         <xg>
+            <x>Girdimátki bisttii guhttanuppelohkái diimmu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guokte</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 2</d>
+         <xg>
+            <x>Son lea bargan guokte jagi dainna.</x>
+            <x>Mus leat guokte boarrásut vielja.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: guovttis_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktečuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 200</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guokteduhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 2000</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 20</d>
+         <xg>
+            <x>Dat máksá guoktelogi ruvnnu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogičieža</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 27</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogigávcci</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 28</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogigolbma</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 23</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogiguhtta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 26</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogiguokte</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 22</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guokteloginjeallje</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 24</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogiokta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 21</d>
+         <xg>
+            <x>Mun osten guoktelogiovtta guoli.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogiovcci</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 29</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktelogivihtta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 25</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>guoktenuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 12</d>
+         <xg>
+            <x>Jagis leat guoktenuppelohkái mánu.</x>
+            <x>Jesus vállje guoktenuppelot máhtajeaddji.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>logemat</l>
+      </lg>
+      <dg id="a">
+         <d>sullii logi</d>
+         <xg>
+            <x>Sii godde logemat guoli.</x>
+            <x>Dušše logemat olbmo oassálaste čoahkkimis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>logenáre</l>
+      </lg>
+      <dg id="a">
+         <d>sullii logi</d>
+         <xg>
+            <x>Dutkit leat gávdnan logenáre ráppi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>logi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 10</d>
+         <xg>
+            <x>Sii vuvde buot bileahtaid logi minuhtas.</x>
+            <x>Festivála álggahuvvui logi jagi dassái.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: logis_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>miljárda</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 1 000 000 000, duhát miljovnna, oaniduvvon mrd.</d>
+         <xg>
+            <x>2,2 miljárdda ruvnno</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>miljovdna</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 1 000 000, oaniduvvon milj.</d>
+         <xg>
+            <x>Dása lea biddjon 2 miljon ruvnno.</x>
+            <x>Boahtte jagi ožžot čieža miljovnna eanet go dán jagi.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>njeallje</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 4</d>
+         <xg>
+            <x>Son deavdá njeallje jagi.</x>
+            <x>Sámi álbmot ássá njealji riikkas.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: njealjis_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>njeallječuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 400</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>njealljeduhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 4000</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>njealljelogi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 40</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>njealljenuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 14</d>
+         <xg>
+            <x>Mun devden njealljenuppelot jagi ikte.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>nolla</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 0</d>
+         <xg>
+            <x>Iđđes lei skoaddu ja nolla gráda.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>nulla</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 0</d>
+         <xg>
+            <x>Iđđes lei skoaddu ja nulla gráda.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>okta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 1</d>
+         <xg>
+            <x>Mun áiggun dušše ovtta gáhkkobihtá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>oktanuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 11</d>
+         <xg>
+            <x>Gávpi rahpá oktanuppelogis.</x>
+            <x>Soai gottiiga oktanuppelot kilosaš luosa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>ovcci</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 9</d>
+         <xg>
+            <x>Gávpi lea rabas ovcci rádjái.</x>
+            <x>Min luohkás ledje ovcci oahppi.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: ovccis_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>ovccičuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 900</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>ovcciduhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 9000</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>ovccilogi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 90</d>
+         <xg>
+            <x>Áhkku lea ovccilogi jagi boaris.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>ovccinuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 19</d>
+         <xg>
+            <x>Ledje ovccinuppelot olbmo feasttas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>vihtta</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 5</d>
+         <xg>
+            <x>Diibmu lea vihtta váile vihtta.</x>
+            <x>Gieđas leat vihtta suorpma.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: viđas_n</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>vihttačuođi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 500</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>vihttaduhát</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 5000</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>vihttalogi</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 50</d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>vihttanuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d>vuođđolohku 15</d>
+         <xg>
+            <x>Son lea vihttanuppelot jagi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>čuođiduhát</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>máŋgačuođi</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>máŋgačuođiduhát</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>máŋgaduhát</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>máŋgalogi</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>máŋganuppelohkái</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>máŋganuppelohkáiduhát</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>milj.</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>miljovdna</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>moaddečuođi</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>moaddeduhát</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>moaddelogi</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>moaddenuppelohkái</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>mrd.</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>miljárda</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>nuppelohkái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Álttás ledje nuppelohkái sisagaikuma mannan vahkkoloahpa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Num">
+         <l>oktanuppelotčuohti</l>
+      </lg>
+   </e>
 </r>

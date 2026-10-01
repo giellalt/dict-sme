@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,26 +27,26 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="A">
-            <l>buorre</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Diet girji lea buorre.</x>
-                <x>Buorre beaivi!</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Mun ledjen buorre sutnje.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: bures_adv</c>
-        </cg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="A">
+         <l>buorre</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Diet girji lea buorre.</x>
+            <x>Buorre beaivi!</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Mun ledjen buorre sutnje.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: bures_adv</c>
+      </cg>
+   </e>
 </r>

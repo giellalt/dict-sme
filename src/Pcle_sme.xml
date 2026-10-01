@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,304 +27,294 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>aitto</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mo dal aitto geavvá?</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Lean aitto doaibmagoahtán hárjeheaddjin, ja in leat vuos nu
-                čeahppi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>almma</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Almma muittát dan?</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>amma</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai vulge ihttin gávpogii, amma nu?</x>
-                <x>Amma sus lea ášši go sihtan mu deike boahtit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>ammahal</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son leaikkastallá vel ahte ammahal Norgga stáda ii oba
-                dovdda ge dála márkaniid.</x>
-                <x>Ammahal dál rohkkáha mu?</x>
-                <x>Ammahal sii galget diehtit gos leat ovddeš johtolagat.</x>
-                <x>Ammahal dál doaibmá go measta buohkat stivrras leat eret
-                seamma báikkis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>ammal</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Smihtten ahte ammal dál lea mu vuorru vuoitit fatnasa.</x>
-                <x>Mun vuolggán krossabánii, ammal dál leat doppe olbmot.</x>
-                <x>Muhto ammal sii háliidedje addit turisttaide eksohtalaš
-                vásáhusa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>ba</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mo ba dan galgá dahkat?</x>
-                <x>Ii ge gillen suinna ba hállat ge šat.</x>
-                <x>"Vuoi stáhkkár Niillas, leatgo ba oađđitge sáhttán?" jearrá
-                son.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>ban</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Maid don boagustat? jearai Elle. Ii leat ban dáiga,
-                vástidii Máret.</x>
-                <x>Maid ban dainna áiggut?</x>
-                <x>Mo ban oainnát erohusa?</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>bat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Nu bat dat lea?</x>
-                <x>Gii bat dan ii háliidivčče!</x>
-                <x>Gos bat Biret lea?</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>dat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dievasčoahkkin dat mearrida bušeahta.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>ge</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>In nagodan gozihit smávva beaivválaš áššiid ge.</x>
-                <x>Ii ge leat duohta.</x>
-                <x>Eat soaitte oba oažžut ge áirasa Sámediggái.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Danin lea ge mu mielas nu ártet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>ges</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Go biktasiid lea bassan ja goikadan, ferte ges máhccut
-                daid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>gis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>de son gis</x>
-                <x>Kárášjogas oahppit fitne maiddái duoddaris, Oslos gis besse
-                fitnat erenoamáš turistabáikkiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>go</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Boađát go deike?</x>
-                <x>Dat dušše bođii jearrat áiggun go dánset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>goit</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Máret goit boahtá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>goitge</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vaikko liikojit biergogáhkuide, de goitge daidda
-                dolket.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>hal</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Máhtte logai ahte ii hal son goit dan oaivvildan.</x>
-                <x>Ii hal dohko goit vuolgge?</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>han</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Nu han lea.</x>
-                <x>Finnmárku han ii lean vearromatrikulerejuvvon.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>hás</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Hás it njuike fárrui!</x>
-                <x>Hás moai vulge duohko.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>na</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Almmuhuvvo go girji sámegillii, na dan ii dieđe oktage.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Muhto eat doaivvo guhká gal vejolažžan na dahkat, leaš go
-                šat vejolaš obanassiige.</x>
-            </xg>
-        </dg>
-        <dg id="c">
-            <d/>
-            <xg>
-                <x>Jus dus nai lea muhtun geasa áiggut skeaŋkka oastit, na de
-                heive hui bures odne oastit girjji ja ruvssu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>nai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Máret nai boahtá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>samat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Samat dutnje heivešii dát gákti!</x>
-                <x>Samat mii vuogit dál juo gávpái!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pcle">
-            <l>son</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Maid son Issát jurddaša?</x>
-                <x>Boahtá go son Ánne ihttin?</x>
-                <x>Lea go son dát riekta?</x>
-            </xg>
-        </dg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>aitto</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mo dal aitto geavvá?</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Lean aitto doaibmagoahtán hárjeheaddjin, ja in leat vuos nu čeahppi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>almma</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Almma muittát dan?</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>amma</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai vulge ihttin gávpogii, amma nu?</x>
+            <x>Amma sus lea ášši go sihtan mu deike boahtit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>ammahal</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son leaikkastallá vel ahte ammahal Norgga stáda ii oba dovdda ge dála márkaniid.</x>
+            <x>Ammahal dál rohkkáha mu?</x>
+            <x>Ammahal sii galget diehtit gos leat ovddeš johtolagat.</x>
+            <x>Ammahal dál doaibmá go measta buohkat stivrras leat eret seamma báikkis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>ammal</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Smihtten ahte ammal dál lea mu vuorru vuoitit fatnasa.</x>
+            <x>Mun vuolggán krossabánii, ammal dál leat doppe olbmot.</x>
+            <x>Muhto ammal sii háliidedje addit turisttaide eksohtalaš vásáhusa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>ba</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mo ba dan galgá dahkat?</x>
+            <x>Ii ge gillen suinna ba hállat ge šat.</x>
+            <x>"Vuoi stáhkkár Niillas, leatgo ba oađđitge sáhttán?" jearrá son.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>ban</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Maid don boagustat? jearai Elle. Ii leat ban dáiga, vástidii Máret.</x>
+            <x>Maid ban dainna áiggut?</x>
+            <x>Mo ban oainnát erohusa?</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>bat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Nu bat dat lea?</x>
+            <x>Gii bat dan ii háliidivčče!</x>
+            <x>Gos bat Biret lea?</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>dat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dievasčoahkkin dat mearrida bušeahta.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>ge</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>In nagodan gozihit smávva beaivválaš áššiid ge.</x>
+            <x>Ii ge leat duohta.</x>
+            <x>Eat soaitte oba oažžut ge áirasa Sámediggái.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Danin lea ge mu mielas nu ártet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>ges</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Go biktasiid lea bassan ja goikadan, ferte ges máhccut daid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>gis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>de son gis</x>
+            <x>Kárášjogas oahppit fitne maiddái duoddaris, Oslos gis besse fitnat erenoamáš turistabáikkiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>go</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Boađát go deike?</x>
+            <x>Dat dušše bođii jearrat áiggun go dánset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>goit</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Máret goit boahtá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>goitge</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vaikko liikojit biergogáhkuide, de goitge daidda dolket.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>hal</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Máhtte logai ahte ii hal son goit dan oaivvildan.</x>
+            <x>Ii hal dohko goit vuolgge?</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>han</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Nu han lea.</x>
+            <x>Finnmárku han ii lean vearromatrikulerejuvvon.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>hás</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Hás it njuike fárrui!</x>
+            <x>Hás moai vulge duohko.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>na</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Almmuhuvvo go girji sámegillii, na dan ii dieđe oktage.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Muhto eat doaivvo guhká gal vejolažžan na dahkat, leaš go šat vejolaš obanassiige.</x>
+         </xg>
+      </dg>
+      <dg id="c">
+         <d/>
+         <xg>
+            <x>Jus dus nai lea muhtun geasa áiggut skeaŋkka oastit, na de heive hui bures odne oastit girjji ja
+            ruvssu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>nai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Máret nai boahtá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>samat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Samat dutnje heivešii dát gákti!</x>
+            <x>Samat mii vuogit dál juo gávpái!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pcle">
+         <l>son</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Maid son Issát jurddaša?</x>
+            <x>Boahtá go son Ánne ihttin?</x>
+            <x>Lea go son dát riekta?</x>
+         </xg>
+      </dg>
+   </e>
 </r>

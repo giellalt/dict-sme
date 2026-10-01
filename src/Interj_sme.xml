@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,149 +27,149 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="Interj">
-            <l>a-a</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>A-a, dan in háliit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>buorre beaivi</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Buorre beaivi, rávkkai Ovllá. Ipmel atti, vástidii Elle.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>buorre eahket</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Buorre eahket, logai Risten kurssa oasseváldiide. Ipmel atti, vástidedje sii.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>buorre idja</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>buorre iđit</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Buorre iđit, dajai Ánne go bođii kantuvrii. Ipmel atti, vástidii Biera.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Interj">
-            <l>bures</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bures!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>bures bures</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bures bures!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Interj">
-            <l>dearvva</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Interj">
-            <l>gea</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Gea, beana skierbmu!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>giittos eatnat</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>ipmel atti</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Buorre iđit, dajai Ánne go bođii kantuvrii. Ipmel atti, vástidii Biera.</x>
-                <x>Buorre beaivi, rávkkai Ovllá. Ipmel atti, vástidii Elle.</x>
-                <x>Buorre eahket, logai Risten kurssa oasseváldiide. Ipmel atti, vástidedje sii.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Interj">
-            <l>já</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Interj">
-            <l>jugis</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Interj">
-            <l>máistte</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Interj">
-            <l>vuoi</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vuoi, go lea váivi.</x>
-                <x>Vuoi, man somá go soamis mus maid ballá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Phrase">
-            <l>vuoi ihán</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vuoi ihán, don leat čeahppi.</x>
-                <x>Vuoi ihán, dáppe lea moivvas.</x>
-            </xg>
-        </dg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="Interj">
+         <l>a-a</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>A-a, dan in háliit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>buorre beaivi</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Buorre beaivi, rávkkai Ovllá. Ipmel atti, vástidii Elle.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>buorre eahket</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Buorre eahket, logai Risten kurssa oasseváldiide. Ipmel atti, vástidedje sii.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>buorre idja</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>buorre iđit</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Buorre iđit, dajai Ánne go bođii kantuvrii. Ipmel atti, vástidii Biera.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Interj">
+         <l>bures</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bures!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>bures bures</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bures bures!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Interj">
+         <l>dearvva</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Interj">
+         <l>gea</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Gea, beana skierbmu!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>giittos eatnat</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>ipmel atti</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Buorre iđit, dajai Ánne go bođii kantuvrii. Ipmel atti, vástidii Biera.</x>
+            <x>Buorre beaivi, rávkkai Ovllá. Ipmel atti, vástidii Elle.</x>
+            <x>Buorre eahket, logai Risten kurssa oasseváldiide. Ipmel atti, vástidedje sii.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Interj">
+         <l>já</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Interj">
+         <l>jugis</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Interj">
+         <l>máistte</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Interj">
+         <l>vuoi</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vuoi, go lea váivi.</x>
+            <x>Vuoi, man somá go soamis mus maid ballá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Phrase">
+         <l>vuoi ihán</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vuoi ihán, don leat čeahppi.</x>
+            <x>Vuoi ihán, dáppe lea moivvas.</x>
+         </xg>
+      </dg>
+   </e>
 </r>

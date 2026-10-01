@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,115 +27,115 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="CC">
-            <l>ahte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>eanet ahte eanet</x>
-                <x>Ruhta šaddá deaŧalaččat ahte deaŧalaččat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>dahe</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>dahege</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>dahje</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Buohkat ledje gávdnan biktasiid dahje eará dávviriid maid háliidedje oastit.</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: vai_cc</c>
-        </cg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>dahjege</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>dehe</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>dehege</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>earret</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Buohkat bohte earret Niillas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>ja</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dat lea sihke buorre ja heittot.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>muhto</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun sáhtán áinnas veahkehit du, muhto odne in astta.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>sihke</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dat lea sihke buorre ja heittot.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="CC">
-            <l>vai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Leat go don dat guhte galgá boahtit, vai galgat go vuordit muhtun eará?</x>
-                <x>Siđat go gáfe vai deaja?</x>
-            </xg>
-        </dg>
-        <cg>
-            <c>l_ref: dahje_cc</c>
-        </cg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="CC">
+         <l>ahte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>eanet ahte eanet</x>
+            <x>Ruhta šaddá deaŧalaččat ahte deaŧalaččat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>dahe</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>dahege</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>dahje</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Buohkat ledje gávdnan biktasiid dahje eará dávviriid maid háliidedje oastit.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: vai_cc</c>
+      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>dahjege</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>dehe</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>dehege</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>earret</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Buohkat bohte earret Niillas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>ja</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dat lea sihke buorre ja heittot.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>muhto</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun sáhtán áinnas veahkehit du, muhto odne in astta.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>sihke</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dat lea sihke buorre ja heittot.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="CC">
+         <l>vai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Leat go don dat guhte galgá boahtit, vai galgat go vuordit muhtun eará?</x>
+            <x>Siđat go gáfe vai deaja?</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: dahje_cc</c>
+      </cg>
+   </e>
 </r>

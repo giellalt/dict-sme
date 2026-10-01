@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,937 +27,937 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccade</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai oastibeahtti alccade.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccadet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii oastibehtet alccadet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai oste alccame.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii dajaimet alccamet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccan</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun dadjen alccan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Don oasttát alccat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccede</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai oastibeahtti alccede.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccedet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii oastibehtet alccedet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceme</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai oste alcceme.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccemet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii dajaimet alccemet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccen</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun dadjen alccen.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcces</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eadni oastá alcces.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccesan</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun dadjen alccesan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccesat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Don oasttát alccesat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceseame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai oste alcceseame.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceseamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii dajaimet alcceseamet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceseaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii ostet alcceseaset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceseaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai oastiba alcceseaskka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceseatte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai oastibeahtti alcceseatte.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceseattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii oastibehtet alcceseattet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii ostet alcceset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccesis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eadni oastá alccesis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcceska</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai oastiba alcceska.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Don oasttát alccet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alccis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eadni oastá alccis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcciset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii ostet alcciset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alcciska</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai oastiba alcciska.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddáde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dudnos lea alddáde biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddádet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dis lea alddádet biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddáme</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Munnos lea alddáme biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddámet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mis lea alddámet biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddán</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mus lea alddán biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddát</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dus lea alddát biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddes</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eatnis lea alddes biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddeset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sis lea alddeset biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddeska</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sudnos lea alddeska biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddiineame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Munnos lea alddiineame biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddiineamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mis lea alddiineamet biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddiineaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sis lea alddiineaset biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddiineaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sudnos lea alddiineaskka biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddiineatte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dudnos lea alddiineatte biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddiineattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dis lea alddiineattet biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eatnis lea alddis biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddiset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sis lea alddiset biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>alddiska</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sudnos lea alddiska biila.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai oidne iehčame speadjalis.</x>
-                <x>Moai stohke iehčame ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii oaidnit iehčamet speadjalis.</x>
-                <x>Mii stoahkat iehčamet ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčan</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun oainnán iehčan speadjalis.</x>
-                <x>Mun stoagan iežan ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčanan</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun ledjen doppe iehčanan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčanat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Don ledjet doppe iehčanat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčaneame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai leimme doppe iehčaneame.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčaneamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii leimmet doppe iehčaneamet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčaneaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii ledje doppe iehčaneaset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčaneaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai leigga doppe iehčaneaskka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčaneatte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai leidde doppe iehčaneatte.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčaneattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii leiddet doppe iehčaneattet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iehčanis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eadni lei doppe iehčanis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>ieš</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun lean dan ieš dahkan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>ieža</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai leaba dan ieža dahkan.</x>
-                <x>Mii leat dan ieža dahkan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežade</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai oaidnibeahtti iežade speadjalis.</x>
-                <x>Doai stoahkabeahtti iežade ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežadet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii oaidnibehtet iežadet speadjalis.</x>
-                <x>Dii stoahkabehtet iežadet ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaideame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai oidne iežaideame speadjalis.</x>
-                <x>Moai stohke iežaideame ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaideamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii oaidnit iežaideamet speadjalis.</x>
-                <x>Mii stoahkat iežaideamet ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaideaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii oidnet iežaideaset speadjalis.</x>
-                <x>Sii stohket iežaideaset ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaideaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai oaidniba iežaideaskka speadjalis.</x>
-                <x>Soai stoahkaba iežaideaskka ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaideatte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai oaidnibeahtti iežaideatte speadjalis.</x>
-                <x>Doai stoahkabeahtti iežaideatte ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaideattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii oaidnibehtet iežaideattet speadjalis.</x>
-                <x>Dii stoahkabehtet iežaideattet ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežainan</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun hupmen iežainan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežainat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Don hupmet iežainat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaineame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai humaime iežaineame.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaineamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii humaimet iežaineamet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaineaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii hupme iežaineaset.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaineaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai humaiga iežaineaskka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaineatte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doai humaide iežaineatte.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaineattet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dii humaidet iežaineattet.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežainis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eadni humai iežainis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežame</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai oidne iežame speadjalis.</x>
-                <x>Moai stohke iežame ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežamet</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii oaidnit iežamet speadjalis.</x>
-                <x>Mii stoahkat iežamet ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežan</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun oainnán iežan speadjalis.</x>
-                <x>Mun stoagan iežan ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežas</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eadni oaidná iežas speadjalis.</x>
-                <x>Lásse stoahká iežas ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaset</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sii oidnet iežaset speadjalis.</x>
-                <x>Sii stohket iežaset ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežaska</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Soai oaidniba iežaska speadjalis.</x>
-                <x>Soai stoahkaba iežaska ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Pron" type="Refl">
-            <l>iežat</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Don oainnát iežat speadjalis.</x>
-                <x>Don stoagat iežat ustibiin.</x>
-            </xg>
-        </dg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccade</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai oastibeahtti alccade.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccadet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii oastibehtet alccadet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai oste alccame.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii dajaimet alccamet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccan</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun dadjen alccan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Don oasttát alccat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccede</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai oastibeahtti alccede.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccedet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii oastibehtet alccedet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceme</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai oste alcceme.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccemet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii dajaimet alccemet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccen</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun dadjen alccen.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcces</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eadni oastá alcces.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccesan</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun dadjen alccesan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccesat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Don oasttát alccesat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceseame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai oste alcceseame.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceseamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii dajaimet alcceseamet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceseaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii ostet alcceseaset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceseaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai oastiba alcceseaskka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceseatte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai oastibeahtti alcceseatte.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceseattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii oastibehtet alcceseattet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii ostet alcceset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccesis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eadni oastá alccesis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcceska</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai oastiba alcceska.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Don oasttát alccet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alccis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eadni oastá alccis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcciset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii ostet alcciset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alcciska</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai oastiba alcciska.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddáde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dudnos lea alddáde biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddádet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dis lea alddádet biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddáme</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Munnos lea alddáme biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddámet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mis lea alddámet biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddán</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mus lea alddán biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddát</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dus lea alddát biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddes</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eatnis lea alddes biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddeset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sis lea alddeset biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddeska</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sudnos lea alddeska biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddiineame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Munnos lea alddiineame biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddiineamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mis lea alddiineamet biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddiineaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sis lea alddiineaset biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddiineaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sudnos lea alddiineaskka biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddiineatte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dudnos lea alddiineatte biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddiineattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dis lea alddiineattet biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eatnis lea alddis biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddiset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sis lea alddiset biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>alddiska</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sudnos lea alddiska biila.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai oidne iehčame speadjalis.</x>
+            <x>Moai stohke iehčame ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii oaidnit iehčamet speadjalis.</x>
+            <x>Mii stoahkat iehčamet ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčan</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun oainnán iehčan speadjalis.</x>
+            <x>Mun stoagan iežan ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčanan</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun ledjen doppe iehčanan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčanat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Don ledjet doppe iehčanat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčaneame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai leimme doppe iehčaneame.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčaneamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii leimmet doppe iehčaneamet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčaneaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii ledje doppe iehčaneaset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčaneaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai leigga doppe iehčaneaskka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčaneatte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai leidde doppe iehčaneatte.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčaneattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii leiddet doppe iehčaneattet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iehčanis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eadni lei doppe iehčanis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>ieš</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun lean dan ieš dahkan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>ieža</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai leaba dan ieža dahkan.</x>
+            <x>Mii leat dan ieža dahkan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežade</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai oaidnibeahtti iežade speadjalis.</x>
+            <x>Doai stoahkabeahtti iežade ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežadet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii oaidnibehtet iežadet speadjalis.</x>
+            <x>Dii stoahkabehtet iežadet ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaideame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai oidne iežaideame speadjalis.</x>
+            <x>Moai stohke iežaideame ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaideamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii oaidnit iežaideamet speadjalis.</x>
+            <x>Mii stoahkat iežaideamet ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaideaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii oidnet iežaideaset speadjalis.</x>
+            <x>Sii stohket iežaideaset ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaideaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai oaidniba iežaideaskka speadjalis.</x>
+            <x>Soai stoahkaba iežaideaskka ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaideatte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai oaidnibeahtti iežaideatte speadjalis.</x>
+            <x>Doai stoahkabeahtti iežaideatte ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaideattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii oaidnibehtet iežaideattet speadjalis.</x>
+            <x>Dii stoahkabehtet iežaideattet ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežainan</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun hupmen iežainan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežainat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Don hupmet iežainat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaineame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai humaime iežaineame.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaineamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii humaimet iežaineamet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaineaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii hupme iežaineaset.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaineaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai humaiga iežaineaskka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaineatte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doai humaide iežaineatte.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaineattet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dii humaidet iežaineattet.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežainis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eadni humai iežainis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežame</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai oidne iežame speadjalis.</x>
+            <x>Moai stohke iežame ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežamet</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii oaidnit iežamet speadjalis.</x>
+            <x>Mii stoahkat iežamet ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežan</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun oainnán iežan speadjalis.</x>
+            <x>Mun stoagan iežan ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežas</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eadni oaidná iežas speadjalis.</x>
+            <x>Lásse stoahká iežas ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaset</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sii oidnet iežaset speadjalis.</x>
+            <x>Sii stohket iežaset ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežaska</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Soai oaidniba iežaska speadjalis.</x>
+            <x>Soai stoahkaba iežaska ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Pron" type="Refl">
+         <l>iežat</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Don oainnát iežat speadjalis.</x>
+            <x>Don stoagat iežat ustibiin.</x>
+         </xg>
+      </dg>
+   </e>
 </r>

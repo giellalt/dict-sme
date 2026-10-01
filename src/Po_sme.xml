@@ -2,8 +2,8 @@
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
-    <lics xml:lang="en" xml:space="preserve">
-        <lic>
+   <lics xml:lang="en" xml:space="preserve">
+      <lic>
             This code is made available under a Creative Commons Attribution license
             <a>https://creativecommons.org/licenses/by/4.0/</a>.
 
@@ -12,12 +12,12 @@
 
             For the full license text, see the link above.
         </lic>
-        <ref>
+      <ref>
             Work by The Centre for Sámi Lexicography, Giellatekno and Divvun at UiT,
             and members of the language communities. Source code
             available at <a>https://github.com/giellalt/dict-sme</a>.
         </ref>
-        <sourcenote>
+      <sourcenote>
             THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
             published dictionary. As such it can and
             will contain unfinished entries, unpublished entries, entries with
@@ -27,1487 +27,1490 @@
             Please also note that the entries are not necessarily sorted,
             or could be wrongly sorted.
         </sourcenote>
-    </lics>
-    <e status="edit">
-        <lg pos="Po">
-            <l>ala</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bija dan beavddi ala!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>alde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Lunttat ledje stoahkame skohteriin eanu alde.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>alu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Duot soahki lea golbma mehtera alu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>áigi</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Sárá bođii guovtti beaivvi áigi.</x>
-                <x>Sárá bođii guokte beaivvi áigi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>álggogeahčen</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ruški álgá čakčamánu álggogeahčen ja bistá guokte-golbma vahku.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>badjel</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Rohttejin ránu oaivvi badjel vai oaččun nahkáriid.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>badjelis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Doppe leat sarritdakŋasat vuovderáji badjelis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>badjin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Biret orru joga badjin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bajábealde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Min viessu lea luotta bajábealde.</x>
-                <x>Dássážii lea leamaš hui unnán luossabivdu bajábealde goržži.</x>
-                <x>Dasto sáhttet sápmelaččain leat leamen sierra vuoigatvuođat bajábealde namuhuvvon prinsihpaid vuođul.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bajábeallai</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bajábeallái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ánne heŋgii čuovgga seaidnái seaŋgga bajábeallái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>báldda</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Máze skuvlla báldda golggai ája.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bálddas</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mánná oađđá eatni bálddas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>báldii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vellet mu báldii!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bále</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Lea dehálaš čohkket boazodoallotearpmaid, dan bále go ain gávdnojit boazosámit geat máhttet dáid.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Bivdde veahki áiggi bále.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>báras</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bárrii</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bealde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vázzu dán bealde šaldi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>beale</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Nuppi beale joga lea min gieddi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bealis</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>beallai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dan maŋŋá son fárrii ovttas bearrašiinnis rájá nuppe beallai.</x>
-                <x>Doivon duođai ahte dát ášši állana min beallai.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>beallái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dan maŋŋá son fárrii ovttas bearrašiinnis rájá nuppe beallái.</x>
-                <x>Doivon duođai ahte dát ášši állana min beallái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bearrái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun galggan geahččat dán viesu bearrái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>belos</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dakko galgá vuodjit Norgga belos.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>birra</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Gánddat čuiget gietti birra.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Mii dárbbašit dieđuid geavaheddjiid giela ja kultuvrra birra.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bokte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>EU-doarjja Interreg bokte sáhttá mannat dakkár prošeavttaide.</x>
-                <x>Dakko bokte lea sestojuvvon ollu ruhta.</x>
-                <x>Finnmárkkus leat ássan dušše sápmelaččat, geat giela ja kultuvrra bokte ovddastit čearddalaš unnitlogu Norggas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>bottain</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dat ii leat mu bottain.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>buohta</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Stuora luottaid buohta leat unna luottažat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>čađa</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vázzen gili čađa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>čieŋu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Fielbmá lea njeallje mehter čieŋu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>davábealde</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>davábeallái</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>dáfus</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>dan dáfus</x>
-                <x>Nu lea maid lobihis áiddiid dáfus.</x>
-                <x>Sámegiella lea máŋgga dáfus ártegis giella.</x>
-                <x>Dan dáfus leage Snehvit-huksen dehálaš Finnmárkui.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>dássá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun devden gári ravddaid dássá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>dievva</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mus leat sala dievva lieđit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>dihte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mun dál boađán du lusa čállin dihte dan reivve.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Dan dihte fertejit ráhkadit oktasaš listtu Sámediggeválgii.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>dihtii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Olbmot šaddet dál vuodjit olles beaivvi viežžan dihtii bensiinna.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Dien mearrádusa dihtii ánssáša ovdagoddi rámi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>duogábealde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ánte duogábealde ledje muhtun nieiddat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>duoge</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ánne bođii viesu duoge.</x>
-                <x>Lásse njágai sealggeduoge.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>duogi</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bussá liiko go Ánne njávká su beljiid duogi.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>duohkai</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>duohkái</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>duohken</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son čuožžu uvssa duohken.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Bargovuohki lea oahpaheaddji duohken.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>duohkin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son čuožžu uvssa duohkin.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Bargovuohki lea oahpaheaddji duohkin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>ektui</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>dan ektui</x>
-                <x>Vuosttaš logi minuhta lei buorre áigodat Nordlysa ektui.</x>
-                <x>Dat golut leat govttolaččat veahki ektui.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>fárrui</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Vuolgge min fárrui!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>fárus</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eadni lea min fárus.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>galju</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Duot soajit leat ovtta galju.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gaskii</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gaskka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Jođán ollu Álaheaju ja Romssa gaskka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gaskkas</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Guhtura ja Avvila gaskkas leat 30 guoikasaji.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gasu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dimbarat leat olbmo gasu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>geahčai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Boađe min geahčai!</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Son čievččasta čižžedoalana nuppi geahčái viesu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>geahčen</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son lea min geahčen fitnan juohke geasi.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Guđa mánu geahčen oažžu dollet Olmmáivággái.</x>
-            </xg>
-        </dg>
-        <dg id="c">
-            <d/>
-            <xg>
-                <x>Álggu geahčen juovlamánu ráhkkanišgohte mánát juovllaide.</x>
-                <x>Skohter suoláduvvui nuppe geahčen márkangili.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>geaže</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dat johte dán geaže.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>geažes</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Eadni galgá viežžat mu vahku geažes duottarstobus.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>geažil</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>dan geažil</x>
-                <x>Ruhtadili geažil dat ii leat vel ollašuvvan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gieđas</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Olles fitnodat lea dál du gieđas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gievrru</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai letne ovtta gievrru.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>goris</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ođđa láhka lea dán goris geahnoheabbo go boares láhka.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gorrái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Oahpahusa gorrái lea mis hui buorre dilli juste dál.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>govddu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Latnja lea njeallje mehtera govddu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>guhku</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Čálus lea 4 siiddu guhku.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gullut</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son dajai dan mu gullut.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gulu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ale muital dan mánáid gulu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>guora</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bálgá guora golggai jogaš, ja njoammil bisánii juhkat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>guoras</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mánná čohkká eatni guoras.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>guotkku</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Biera ii leat Máhte guotkku.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>guovdelas</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>guovdu</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>gurrii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Jovnna čohkkeda ommana gurrii ja coggala dollii moadde muora.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>guvlui</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Liikká orru mannamin dan guvlui.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>haga</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ale vuolgge ruđa haga!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>hárrái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>dan hárrái</x>
-                <x>Min bellodagas lea čielga politihkalaš oaidnu sámi rivttiid hárrái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>jelgii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>lága jelgii</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>lahka</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>In beassan lahka ge uvssa.</x>
-                <x>Mii máksit lahka 10 ruvnno bensinlittaris.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>láhkai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dán láhkai sáhttá mannat.</x>
-                <x>Bárdni lei áhčis láhkai.</x>
-                <x>Mun lea láhčán seaŋgga oađđin láhkai.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>loahpageahčen</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son osttii bulldozera 1950-jagiid loahpageahčen.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>losu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Moai letne ovtta losu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>luhtte</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dat lea mu luhtte.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>lulábealde</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>lusa</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son manai áhči lusa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>maŋil</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ánte bođii vácci ja Biera su maŋil.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>maŋis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Olbmot manne nubbi nuppi maŋis.</x>
-                <x>Ánte bođii viega ja Biera bođii maŋis.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>In gille čorget earáid maŋis.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>maŋŋá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Háliidan diehtit movt sudnuin manai dáhpáhusa maŋŋá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>maŋŋái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Áhkku viehkalii mánáid maŋŋái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>maŋŋel</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Guhkes dálvvi maŋŋel boahtá álo nu čáppa giđđa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>maŋŋil</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>2. máilmmisoađi maŋŋil biliduvvui stuorra oassi Finnmárkku viesuin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>meaddel</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>meaddil</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>meattá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Oahpaheaddji vujii min viesu meattá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>mielas</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mu mielas lea somá skuvlla vázzit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>mielde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son vuolgá mu mielde Supmii.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>geainnu mielde</x>
-            </xg>
-        </dg>
-        <dg id="c">
-            <d/>
-            <xg>
-                <x>Biera ságaid mielde leaba Ánte guovttos náitaleame.</x>
-            </xg>
-        </dg>
-        <dg id="d">
-            <d/>
-            <xg>
-                <x>Jus galgá media beroštumi mielde dubmet, de lei olu garrasut riidu Deanus go Gáivuonas.</x>
-            </xg>
-        </dg>
-        <dg id="e">
-            <d/>
-            <xg>
-                <x>Dáinna fertet otná beaivvi mielde geargat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>nala</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bija dan beavddi nala!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>nalde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Lunttat ledje stoahkame skohteriin eanu nalde.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>nammii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Juohke olbmo nammii galgá leat stuollu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>njeaiga</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dávjá lea buoret vuodjit ealli njeaiga go stivret luottas eret.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>njeaigga</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>dan njeaigga</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>nuorttabealde</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>oaidnut</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>In jolggat boradit earáid oaidnut.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>oaivái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Válden vealggi vielljan oaivái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>olggobeallái</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>olggul</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Cokka beaskka gávtti olggul!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>olis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>dan olis</x>
-                <x>Boazologu mearrádusat mat leat dahkkon 1978-lága olis, gustojit dassážii go ođđa boazologu mearrádusat dahkkojit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>ollodahkii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Áiggi ollodahkii lea olu čáhci golgan merrii.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>oskálii</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Du oskálii guođán gálvvuid Elle lusa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>ovddabealde</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>ovddabeallai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Ale fal nahket gieđa stáidnára njálmmi ovddabeallai!</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>ovddal</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son bođii mu ovddal.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>ovddas</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Giitu dan ovddas!</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Don leat mu ovddas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>ovdii</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>rastá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Váccán geainnu rastá.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>rádjai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjai.</x>
-                <x>Prošeaktaruhtadeapmi bistá 2001 rádjai, ja dan maŋŋá doaivumis rievdaduvvo bissovažžan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>rádjái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjái.</x>
-                <x>Prošeaktaruhtadeapmi bistá 2001 rádjái, ja dan maŋŋá doaivumis rievdaduvvo bissovažžan.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>rájes</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjái.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Mun lean orron dáppe geasi rájes.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>rájiin</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mii leimmet jo Gárasavvona rájiin.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>sajis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Galggašii geavahit daid riggodagaid mat mis leat, dan sajis go viežžat importaguliid Lulli-Amerihkás.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>seagis</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Olbmuid seagis lea muhtumin lossat leat.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>sisa</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son bidjalii reivve girjji sisa.</x>
-                <x>Plána sisa galget guovllu golbma álgoálbmoga.</x>
-                <x>Mielki suvrrui spánnja sisa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>siskkobealde</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>siste</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Girjji siste gávdnui reive.</x>
-            </xg>
-        </dg>
-        <ig>
-            <i>leat olbmuid siste</i>
-            <id>leat doppe gos eará olbmot leat</id>
-        </ig>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>stuoru</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Skuvllat leat ovtta stuoru.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>várás</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Joatkkaskuvlla várás eai báljo gávdno oahppogirjjit sámegillii.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>veardde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>dan veardde</x>
-                <x>Dán sátnegirjjis leat guđđon eret muhtun veardde hárvenaš suopmansánit, mat leat leamaš fárus SKES materiálas.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>viđa</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Buolašin ferte ruvjet njuovvan viđa.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>viđe</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Buolašin ferte ruvjet njuovvan viđe.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>viiddu</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Gieddi lea dušše logi mihtu viiddu.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>vuođul</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dán materiála vuođul lea váttis mearridit.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>vuolábealde</l>
-        </lg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>vuolde</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Dat lea beavddi vuolde.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>vuollai</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Mánná čáŋai seaŋgga vuollai.</x>
-            </xg>
-        </dg>
-        <dg id="b">
-            <d/>
-            <xg>
-                <x>Heaika vulggii mátkái ija vuollai.</x>
-            </xg>
-        </dg>
-        <dg id="c">
-            <d/>
-            <xg>
-                <x>Norga šattai Dánmárkku vuollai.</x>
-                <x>Son lea šaddan vealggi vuollai.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>vuollái</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Bija dan beavddi vuollái.</x>
-            </xg>
-        </dg>
-    </e>
-    <e status="edit">
-        <lg pos="Po">
-            <l>vuostá</l>
-        </lg>
-        <dg id="a">
-            <d/>
-            <xg>
-                <x>Son ceggii sabehiid seainni vuostá.</x>
-            </xg>
-        </dg>
-    </e>
+   </lics>
+   <e status="edit">
+      <lg pos="Po">
+         <l>ala</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bija dan beavddi ala!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>alde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Lunttat ledje stoahkame skohteriin eanu alde.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>alu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Duot soahki lea golbma mehtera alu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>áigi</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Sárá bođii guovtti beaivvi áigi.</x>
+            <x>Sárá bođii guokte beaivvi áigi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>álggogeahčen</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ruški álgá čakčamánu álggogeahčen ja bistá guokte-golbma vahku.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>badjel</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Rohttejin ránu oaivvi badjel vai oaččun nahkáriid.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>badjelis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Doppe leat sarritdakŋasat vuovderáji badjelis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>badjin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Biret orru joga badjin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bajábealde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Min viessu lea luotta bajábealde.</x>
+            <x>Dássážii lea leamaš hui unnán luossabivdu bajábealde goržži.</x>
+            <x>Dasto sáhttet sápmelaččain leat leamen sierra vuoigatvuođat bajábealde namuhuvvon prinsihpaid vuođul.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bajábeallai</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bajábeallái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ánne heŋgii čuovgga seaidnái seaŋgga bajábeallái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>báldda</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Máze skuvlla báldda golggai ája.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bálddas</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mánná oađđá eatni bálddas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>báldii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vellet mu báldii!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bále</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Lea dehálaš čohkket boazodoallotearpmaid, dan bále go ain gávdnojit boazosámit geat máhttet dáid.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Bivdde veahki áiggi bále.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>báras</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bárrii</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bealde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vázzu dán bealde šaldi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>beale</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Nuppi beale joga lea min gieddi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bealis</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>beallai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dan maŋŋá son fárrii ovttas bearrašiinnis rájá nuppe beallai.</x>
+            <x>Doivon duođai ahte dát ášši állana min beallai.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>beallái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dan maŋŋá son fárrii ovttas bearrašiinnis rájá nuppe beallái.</x>
+            <x>Doivon duođai ahte dát ášši állana min beallái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bearrái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun galggan geahččat dán viesu bearrái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>belos</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dakko galgá vuodjit Norgga belos.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>birra</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Gánddat čuiget gietti birra.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Mii dárbbašit dieđuid geavaheddjiid giela ja kultuvrra birra.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bokte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>EU-doarjja Interreg bokte sáhttá mannat dakkár prošeavttaide.</x>
+            <x>Dakko bokte lea sestojuvvon ollu ruhta.</x>
+            <x>Finnmárkkus leat ássan dušše sápmelaččat, geat giela ja kultuvrra bokte ovddastit čearddalaš unnitlogu
+            Norggas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>bottain</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dat ii leat mu bottain.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>buohta</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Stuora luottaid buohta leat unna luottažat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>čađa</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vázzen gili čađa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>čieŋu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Fielbmá lea njeallje mehter čieŋu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>davábealde</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>davábeallái</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>dáfus</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>dan dáfus</x>
+            <x>Nu lea maid lobihis áiddiid dáfus.</x>
+            <x>Sámegiella lea máŋgga dáfus ártegis giella.</x>
+            <x>Dan dáfus leage Snehvit-huksen dehálaš Finnmárkui.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>dássá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun devden gári ravddaid dássá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>dievva</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mus leat sala dievva lieđit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>dihte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mun dál boađán du lusa čállin dihte dan reivve.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Dan dihte fertejit ráhkadit oktasaš listtu Sámediggeválgii.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>dihtii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Olbmot šaddet dál vuodjit olles beaivvi viežžan dihtii bensiinna.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Dien mearrádusa dihtii ánssáša ovdagoddi rámi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>duogábealde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ánte duogábealde ledje muhtun nieiddat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>duoge</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ánne bođii viesu duoge.</x>
+            <x>Lásse njágai sealggeduoge.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>duogi</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bussá liiko go Ánne njávká su beljiid duogi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>duohkai</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>duohkái</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>duohken</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son čuožžu uvssa duohken.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Bargovuohki lea oahpaheaddji duohken.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>duohkin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son čuožžu uvssa duohkin.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Bargovuohki lea oahpaheaddji duohkin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>ektui</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>dan ektui</x>
+            <x>Vuosttaš logi minuhta lei buorre áigodat Nordlysa ektui.</x>
+            <x>Dat golut leat govttolaččat veahki ektui.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>fárrui</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Vuolgge min fárrui!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>fárus</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eadni lea min fárus.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>galju</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Duot soajit leat ovtta galju.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gaskii</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gaskka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Jođán ollu Álaheaju ja Romssa gaskka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gaskkas</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Guhtura ja Avvila gaskkas leat 30 guoikasaji.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gasu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dimbarat leat olbmo gasu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>geahčai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Boađe min geahčai!</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Son čievččasta čižžedoalana nuppi geahčái viesu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>geahčen</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son lea min geahčen fitnan juohke geasi.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Guđa mánu geahčen oažžu dollet Olmmáivággái.</x>
+         </xg>
+      </dg>
+      <dg id="c">
+         <d/>
+         <xg>
+            <x>Álggu geahčen juovlamánu ráhkkanišgohte mánát juovllaide.</x>
+            <x>Skohter suoláduvvui nuppe geahčen márkangili.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>geaže</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dat johte dán geaže.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>geažes</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Eadni galgá viežžat mu vahku geažes duottarstobus.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>geažil</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>dan geažil</x>
+            <x>Ruhtadili geažil dat ii leat vel ollašuvvan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gieđas</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Olles fitnodat lea dál du gieđas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gievrru</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai letne ovtta gievrru.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>goris</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ođđa láhka lea dán goris geahnoheabbo go boares láhka.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gorrái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Oahpahusa gorrái lea mis hui buorre dilli juste dál.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>govddu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Latnja lea njeallje mehtera govddu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>guhku</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Čálus lea 4 siiddu guhku.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gullut</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son dajai dan mu gullut.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gulu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ale muital dan mánáid gulu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>guora</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bálgá guora golggai jogaš, ja njoammil bisánii juhkat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>guoras</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mánná čohkká eatni guoras.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>guotkku</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Biera ii leat Máhte guotkku.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>guovdelas</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>guovdu</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>gurrii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Jovnna čohkkeda ommana gurrii ja coggala dollii moadde muora.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>guvlui</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Liikká orru mannamin dan guvlui.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>haga</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ale vuolgge ruđa haga!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>hárrái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>dan hárrái</x>
+            <x>Min bellodagas lea čielga politihkalaš oaidnu sámi rivttiid hárrái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>jelgii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>lága jelgii</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>lahka</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>In beassan lahka ge uvssa.</x>
+            <x>Mii máksit lahka 10 ruvnno bensinlittaris.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>láhkai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dán láhkai sáhttá mannat.</x>
+            <x>Bárdni lei áhčis láhkai.</x>
+            <x>Mun lea láhčán seaŋgga oađđin láhkai.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>loahpageahčen</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son osttii bulldozera 1950-jagiid loahpageahčen.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>losu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Moai letne ovtta losu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>luhtte</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dat lea mu luhtte.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>lulábealde</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>lusa</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son manai áhči lusa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>maŋil</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ánte bođii vácci ja Biera su maŋil.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>maŋis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Olbmot manne nubbi nuppi maŋis.</x>
+            <x>Ánte bođii viega ja Biera bođii maŋis.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>In gille čorget earáid maŋis.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>maŋŋá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Háliidan diehtit movt sudnuin manai dáhpáhusa maŋŋá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>maŋŋái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Áhkku viehkalii mánáid maŋŋái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>maŋŋel</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Guhkes dálvvi maŋŋel boahtá álo nu čáppa giđđa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>maŋŋil</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>2. máilmmisoađi maŋŋil biliduvvui stuorra oassi Finnmárkku viesuin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>meaddel</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>meaddil</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>meattá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Oahpaheaddji vujii min viesu meattá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>mielas</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mu mielas lea somá skuvlla vázzit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>mielde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son vuolgá mu mielde Supmii.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>geainnu mielde</x>
+         </xg>
+      </dg>
+      <dg id="c">
+         <d/>
+         <xg>
+            <x>Biera ságaid mielde leaba Ánte guovttos náitaleame.</x>
+         </xg>
+      </dg>
+      <dg id="d">
+         <d/>
+         <xg>
+            <x>Jus galgá media beroštumi mielde dubmet, de lei olu garrasut riidu Deanus go Gáivuonas.</x>
+         </xg>
+      </dg>
+      <dg id="e">
+         <d/>
+         <xg>
+            <x>Dáinna fertet otná beaivvi mielde geargat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>nala</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bija dan beavddi nala!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>nalde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Lunttat ledje stoahkame skohteriin eanu nalde.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>nammii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Juohke olbmo nammii galgá leat stuollu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>njeaiga</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dávjá lea buoret vuodjit ealli njeaiga go stivret luottas eret.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>njeaigga</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>dan njeaigga</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>nuorttabealde</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>oaidnut</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>In jolggat boradit earáid oaidnut.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>oaivái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Válden vealggi vielljan oaivái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>olggobeallái</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>olggul</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Cokka beaskka gávtti olggul!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>olis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>dan olis</x>
+            <x>Boazologu mearrádusat mat leat dahkkon 1978-lága olis, gustojit dassážii go ođđa boazologu mearrádusat
+            dahkkojit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>ollodahkii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Áiggi ollodahkii lea olu čáhci golgan merrii.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>oskálii</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Du oskálii guođán gálvvuid Elle lusa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>ovddabealde</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>ovddabeallai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Ale fal nahket gieđa stáidnára njálmmi ovddabeallai!</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>ovddal</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son bođii mu ovddal.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>ovddas</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Giitu dan ovddas!</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Don leat mu ovddas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>ovdii</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>rastá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Váccán geainnu rastá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>rádjai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjai.</x>
+            <x>Prošeaktaruhtadeapmi bistá 2001 rádjai, ja dan maŋŋá doaivumis rievdaduvvo bissovažžan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>rádjái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjái.</x>
+            <x>Prošeaktaruhtadeapmi bistá 2001 rádjái, ja dan maŋŋá doaivumis rievdaduvvo bissovažžan.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>rájes</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjái.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Mun lean orron dáppe geasi rájes.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>rájiin</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mii leimmet jo Gárasavvona rájiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>sajis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Galggašii geavahit daid riggodagaid mat mis leat, dan sajis go viežžat importaguliid Lulli-Amerihkás.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>seagis</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Olbmuid seagis lea muhtumin lossat leat.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>sisa</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son bidjalii reivve girjji sisa.</x>
+            <x>Plána sisa galget guovllu golbma álgoálbmoga.</x>
+            <x>Mielki suvrrui spánnja sisa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>siskkobealde</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>siste</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Girjji siste gávdnui reive.</x>
+         </xg>
+      </dg>
+      <ig>
+         <i>leat olbmuid siste</i>
+         <id>leat doppe gos eará olbmot leat</id>
+      </ig>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>stuoru</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Skuvllat leat ovtta stuoru.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>várás</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Joatkkaskuvlla várás eai báljo gávdno oahppogirjjit sámegillii.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>veardde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>dan veardde</x>
+            <x>Dán sátnegirjjis leat guđđon eret muhtun veardde hárvenaš suopmansánit, mat leat leamaš fárus SKES
+            materiálas.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>viđa</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Buolašin ferte ruvjet njuovvan viđa.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>viđe</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Buolašin ferte ruvjet njuovvan viđe.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>viiddu</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Gieddi lea dušše logi mihtu viiddu.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>vuođul</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dán materiála vuođul lea váttis mearridit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>vuolábealde</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>vuolde</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Dat lea beavddi vuolde.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>vuollai</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Mánná čáŋai seaŋgga vuollai.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Heaika vulggii mátkái ija vuollai.</x>
+         </xg>
+      </dg>
+      <dg id="c">
+         <d/>
+         <xg>
+            <x>Norga šattai Dánmárkku vuollai.</x>
+            <x>Son lea šaddan vealggi vuollai.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>vuollái</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Bija dan beavddi vuollái.</x>
+         </xg>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="Po">
+         <l>vuostá</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Son ceggii sabehiid seainni vuostá.</x>
+         </xg>
+      </dg>
+   </e>
 </r>
