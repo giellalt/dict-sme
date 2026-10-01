@@ -10,15 +10,18 @@ Navigering i "treet":
 |---|---|---|---|
 | Opp i hierarkiet | cmd+↑ | ctrl+↑ | - |
 | Ned i hierarkiet | cmd+↓ | ctrl+↓ | - |
-| Legg til etter | cmd+J | ctrl+J | Jälkeen |
-| Legg til før | cmd+B | ctrl+H | Before/Høyere |
-| Legg til attributt | cmd+E | ctrl+E | Ekspander |
-| Kopier | cmd+C | ctrl+C | Copy |
-| Lim inn | cmd+V | ctrl+V | Vlim inn :-) |
-| Angre | cmd+Z | ctrl+Z | - |
-| Lagre | cmd+S | ctrl+S | Save |
-| Finn ord | cmd+F | ctrl+F | Finn dette  |
-| Søk | cmd+G | ctrl+G | Gå for å finne det |
+| Legg til etter | cmd+j | ctrl+J | Jälkeen / Jetter :-) |
+| Legg til før | cmd+b | ctrl+h | Before / Høyere |
+| Legg til attributt | cmd+e | ctrl+e | Ekspander |
+| Legg til lenke | cmd+i| ctrl+i | Insert |
+| Kopier | cmd+c | ctrl+c | Copy |
+| Lim inn | cmd+v | ctrl+v | Vlim inn :-) |
+| Angre | cmd+z | ctrl+z | - |
+| Angre det du angret | cmd+y | ctrl+y | - |
+| Lagre | cmd+s | ctrl+s | Save |
+| Finn dette ordet | cmd+f | ctrl+f | Finn   |
+| Søk | cmd+g | ctrl+g | Gå ned for å finne ordet |
+| Søk | cmd+G | ctrl+G | Gå opp for å finne ordet |
 
 
 ## xml-strukturen og terminologien vi bruker
