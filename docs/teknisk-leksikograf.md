@@ -19,7 +19,7 @@ Navigering i "treet":
 | Angre | cmd+z | ctrl+z | - |
 | Angre det du angret | cmd+y | ctrl+y | - |
 | Lagre | cmd+s | ctrl+s | Save |
-| Finn ord | cmd+f | ctrl+f | Finn dette  |
+| Finn dette ordet | cmd+f | ctrl+f | Finn   |
 | Søk | cmd+g | ctrl+g | Gå ned for å finne ordet |
 | Søk | cmd+G | ctrl+G | Gå opp for å finne ordet |
 
