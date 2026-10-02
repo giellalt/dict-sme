@@ -528,24 +528,24 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>čiežalogát</l>
+      <lg pos="A">
+         <l type="Ord">čiežalogát</l>
       </lg>
       <dg id="a">
          <d>nummir 70 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>čiežanuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">čiežanuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 17 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>čihččet</l>
+      <lg pos="A">
+         <l type="Ord">čihččet</l>
       </lg>
       <dg id="a">
          <d>nummir 7 muhtun ortnega mielde</d>
@@ -564,8 +564,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>čuođát</l>
+      <lg pos="A">
+         <l type="Ord">čuođát</l>
       </lg>
       <dg id="a">
          <d>nummir 100 muhtun ortnega mielde</d>
@@ -642,8 +642,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>duháhat</l>
+      <lg pos="A">
+         <l type="Ord">duháhat</l>
       </lg>
       <dg id="a">
          <d>nummir 1000 muhtun ortnega mielde</d>
@@ -805,8 +805,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>gávccát</l>
+      <lg pos="A">
+         <l type="Ord">gávccát</l>
       </lg>
       <dg id="a">
          <d>nummir 8 muhtun ortnega mielde</d>
@@ -821,16 +821,16 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>gávccilogát</l>
+      <lg pos="A">
+         <l type="Ord">gávccilogát</l>
       </lg>
       <dg id="a">
          <d>nummir 80 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>gávccinuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">gávccinuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 18 muhtun ortnega mielde</d>
@@ -848,8 +848,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>goalmmát</l>
+      <lg pos="A">
+         <l type="Ord">goalmmát</l>
       </lg>
       <dg id="a">
          <d>nummir 3 muhtun ortnega mielde</d>
@@ -860,88 +860,88 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmalogát</l>
+      <lg pos="A">
+         <l type="Ord">golbmalogát</l>
       </lg>
       <dg id="a">
          <d>nummir 30 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmalogičihččet</l>
+      <lg pos="A">
+         <l type="Ord">golbmalogičihččet</l>
       </lg>
       <dg id="a">
          <d>nummir 37 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmalogigávccát</l>
+      <lg pos="A">
+         <l type="Ord">golbmalogigávccát</l>
       </lg>
       <dg id="a">
          <d>nummir 38 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmalogigoalmmát</l>
+      <lg pos="A">
+         <l type="Ord">golbmalogigoalmmát</l>
       </lg>
       <dg id="a">
          <d>nummir 33 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmalogiguđát</l>
+      <lg pos="A">
+         <l type="Ord">golbmalogiguđát</l>
       </lg>
       <dg id="a">
          <d>nummir 36 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmaloginjealját</l>
+      <lg pos="A">
+         <l type="Ord">golbmaloginjealját</l>
       </lg>
       <dg id="a">
          <d>nummir 34 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmaloginubbi</l>
+      <lg pos="A">
+         <l type="Ord">golbmaloginubbi</l>
       </lg>
       <dg id="a">
          <d>nummir 32 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmalogiovccát</l>
+      <lg pos="A">
+         <l type="Ord">golbmalogiovccát</l>
       </lg>
       <dg id="a">
          <d>nummir 39 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmalogiviđát</l>
+      <lg pos="A">
+         <l type="Ord">golbmalogiviđát</l>
       </lg>
       <dg id="a">
          <d>nummir 35 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmalogivuosttaš</l>
+      <lg pos="A">
+         <l type="Ord">golbmalogivuosttaš</l>
       </lg>
       <dg id="a">
          <d>nummir 31 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>golbmanuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">golbmanuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 13 muhtun ortnega mielde</d>
@@ -997,8 +997,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guđat</l>
+      <lg pos="A">
+         <l type="Ord">guđat</l>
       </lg>
       <dg id="a">
          <d>nummir 6 muhtun ortnega mielde</d>
@@ -1009,8 +1009,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guđát</l>
+      <lg pos="A">
+         <l type="Ord">guđát</l>
       </lg>
       <dg id="a">
          <d>nummir 6 muhtun ortnega mielde</d>
@@ -1043,16 +1043,16 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guhttalogát</l>
+      <lg pos="A">
+         <l type="Ord">guhttalogát</l>
       </lg>
       <dg id="a">
          <d>nummir 60 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guhttanuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">guhttanuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 16 muhtun ortnega mielde</d>
@@ -1067,88 +1067,88 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktelogát</l>
+      <lg pos="A">
+         <l type="Ord">guoktelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 20 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktelogičihččet</l>
+      <lg pos="A">
+         <l type="Ord">guoktelogičihččet</l>
       </lg>
       <dg id="a">
          <d>nummir 27 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktelogigávccát</l>
+      <lg pos="A">
+         <l type="Ord">guoktelogigávccát</l>
       </lg>
       <dg id="a">
          <d>nummir 28 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktelogigoalmmát</l>
+      <lg pos="A">
+         <l type="Ord">guoktelogigoalmmát</l>
       </lg>
       <dg id="a">
          <d>nummir 23 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktelogiguđát</l>
+      <lg pos="A">
+         <l type="Ord">guoktelogiguđát</l>
       </lg>
       <dg id="a">
          <d>nummir 26 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guokteloginjealját</l>
+      <lg pos="A">
+         <l type="Ord">guokteloginjealját</l>
       </lg>
       <dg id="a">
          <d>nummir 24 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guokteloginubbi</l>
+      <lg pos="A">
+         <l type="Ord">guokteloginubbi</l>
       </lg>
       <dg id="a">
          <d>nummir 22 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktelogiovccát</l>
+      <lg pos="A">
+         <l type="Ord">guoktelogiovccát</l>
       </lg>
       <dg id="a">
          <d>nummir 29 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktelogiviđát</l>
+      <lg pos="A">
+         <l type="Ord">guoktelogiviđát</l>
       </lg>
       <dg id="a">
          <d>nummir 25 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktelogivuosttaš</l>
+      <lg pos="A">
+         <l type="Ord">guoktelogivuosttaš</l>
       </lg>
       <dg id="a">
          <d>nummir 21 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>guoktenuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">guoktenuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 12 muhtun ortnega mielde</d>
@@ -1482,8 +1482,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>logát</l>
+      <lg pos="A">
+         <l type="Ord">logát</l>
       </lg>
       <dg id="a">
          <d>nummir 10 muhtun ortnega mielde</d>
@@ -1697,8 +1697,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>njealját</l>
+      <lg pos="A">
+         <l type="Ord">njealját</l>
       </lg>
       <dg id="a">
          <d>nummir 4 muhtun ortnega mielde</d>
@@ -1748,16 +1748,16 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>njealljelogát</l>
+      <lg pos="A">
+         <l type="Ord">njealljelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 40 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>njealljenuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">njealljenuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 14 muhtun ortnega mielde</d>
@@ -1822,8 +1822,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>oktanuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">oktanuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 11 muhtun ortnega mielde</d>
@@ -1838,24 +1838,24 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>ovccát</l>
+      <lg pos="A">
+         <l type="Ord">ovccát</l>
       </lg>
       <dg id="a">
          <d>nummir 9 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>ovccilogát</l>
+      <lg pos="A">
+         <l type="Ord">ovccilogát</l>
       </lg>
       <dg id="a">
          <d>nummir 90 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>ovccinuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">ovccinuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 19 muhtun ortnega mielde</d>
@@ -2336,8 +2336,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>viđat</l>
+      <lg pos="A">
+         <l type="Ord">viđat</l>
       </lg>
       <dg id="a">
          <d>nummir 5 muhtun ortnega mielde</d>
@@ -2348,8 +2348,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>viđát</l>
+      <lg pos="A">
+         <l type="Ord">viđát</l>
       </lg>
       <dg id="a">
          <d>nummir 5 muhtun ortnega mielde</d>
@@ -2360,16 +2360,16 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>vihttalogát</l>
+      <lg pos="A">
+         <l type="Ord">vihttalogát</l>
       </lg>
       <dg id="a">
          <d>nummir 50 muhtun ortnega mielde</d>
       </dg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>vihttanuppelogát</l>
+      <lg pos="A">
+         <l type="Ord">vihttanuppelogát</l>
       </lg>
       <dg id="a">
          <d>nummir 15 muhtun ortnega mielde</d>
@@ -9984,8 +9984,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>nubbi</l>
+      <lg pos="A">
+         <l type="Ord">nubbi</l>
       </lg>
       <dg id="a">
          <d/>
@@ -13680,13 +13680,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>vuosttas</l>
+      <lg pos="A">
+         <l type="Ord">vuosttas</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="A" type="Ord">
-         <l>vuosttaš</l>
+      <lg pos="A">
+         <l type="Ord">vuosttaš</l>
       </lg>
    </e>
    <e status="edit">

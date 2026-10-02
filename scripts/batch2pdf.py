@@ -59,14 +59,24 @@ def missing(what):
 def entry_html(e):
     lg = e.find("lg")
     ls = lg.findall("l")
-    # pos and type are on lg; older files have them on the first l
+    # pos is on lg (on l in older files), type on each l
     pos = lg.get("pos") or ls[0].get("pos") or ""
-    typ = lg.get("type") or ls[0].get("type") or ""
-    lemmas = ", ".join(f'<span class="lemma">{escape(norm(l.text))}</span>' for l in ls)
+    types = [l.get("type") or "" for l in ls]
+    if len(set(types)) == 1:
+        # all variants have the same type: write it once, after the pos
+        lemmas = ", ".join(f'<span class="lemma">{escape(norm(l.text))}</span>' for l in ls)
+        tail = f"{escape(pos)}{' ' + escape(types[0]) if types[0] else ''}"
+        head = f'{lemmas} <span class="pos">{tail}</span>'
+    else:
+        # the types differ: pos and type after each variant
+        head = ", ".join(
+            f'<span class="lemma">{escape(norm(l.text))}</span>'
+            f' <span class="pos">{escape(pos)}{" " + escape(t) if t else ""}</span>'
+            for l, t in zip(ls, types)
+        )
     out = [
         '<div class="entry">',
-        f'<p class="head">{lemmas} <span class="pos">{escape(pos)}'
-        f"{' ' + escape(typ) if typ else ''}</span></p>",
+        f'<p class="head">{head}</p>',
     ]
     dgs = e.findall("dg")
     for n, dg in enumerate(dgs, 1):

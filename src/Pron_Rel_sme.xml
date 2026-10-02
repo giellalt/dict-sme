@@ -29,8 +29,8 @@
         </sourcenote>
    </lics>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geaid</l>
+      <lg pos="Pron">
+         <l type="Rel">geaid</l>
       </lg>
       <dg id="a">
          <d/>
@@ -43,8 +43,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geaidda</l>
+      <lg pos="Pron">
+         <l type="Rel">geaidda</l>
       </lg>
       <dg id="a">
          <d/>
@@ -55,8 +55,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geaiguin</l>
+      <lg pos="Pron">
+         <l type="Rel">geaiguin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -67,8 +67,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geain</l>
+      <lg pos="Pron">
+         <l type="Rel">geain</l>
       </lg>
       <dg id="a">
          <d/>
@@ -79,8 +79,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geainna</l>
+      <lg pos="Pron">
+         <l type="Rel">geainna</l>
       </lg>
       <dg id="a">
          <d/>
@@ -91,8 +91,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>gean</l>
+      <lg pos="Pron">
+         <l type="Rel">gean</l>
       </lg>
       <dg id="a">
          <d/>
@@ -105,13 +105,13 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geanin</l>
+      <lg pos="Pron">
+         <l type="Rel">geanin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geas</l>
+      <lg pos="Pron">
+         <l type="Rel">geas</l>
       </lg>
       <dg id="a">
          <d/>
@@ -122,8 +122,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geasa</l>
+      <lg pos="Pron">
+         <l type="Rel">geasa</l>
       </lg>
       <dg id="a">
          <d/>
@@ -134,8 +134,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>geat</l>
+      <lg pos="Pron">
+         <l type="Rel">geat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -146,8 +146,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>gii</l>
+      <lg pos="Pron">
+         <l type="Rel">gii</l>
       </lg>
       <dg id="a">
          <d/>
@@ -158,61 +158,61 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goabbá</l>
+      <lg pos="Pron">
+         <l type="Rel">goabbá</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goabbái</l>
+      <lg pos="Pron">
+         <l type="Rel">goabbái</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goabbán</l>
+      <lg pos="Pron">
+         <l type="Rel">goabbán</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goappá</l>
+      <lg pos="Pron">
+         <l type="Rel">goappá</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goappáid</l>
+      <lg pos="Pron">
+         <l type="Rel">goappáid</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goappáide</l>
+      <lg pos="Pron">
+         <l type="Rel">goappáide</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goappáiguin</l>
+      <lg pos="Pron">
+         <l type="Rel">goappáiguin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goappáin</l>
+      <lg pos="Pron">
+         <l type="Rel">goappáin</l>
       </lg>
       <cg>
          <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goappás</l>
+      <lg pos="Pron">
+         <l type="Rel">goappás</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>goappát</l>
+      <lg pos="Pron">
+         <l type="Rel">goappát</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđe</l>
+      <lg pos="Pron">
+         <l type="Rel">guđe</l>
       </lg>
       <dg id="a">
          <d/>
@@ -223,13 +223,13 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđemuččat</l>
+      <lg pos="Pron">
+         <l type="Rel">guđemuččat</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđemuš</l>
+      <lg pos="Pron">
+         <l type="Rel">guđemuš</l>
       </lg>
       <dg id="a">
          <d/>
@@ -241,8 +241,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđes</l>
+      <lg pos="Pron">
+         <l type="Rel">guđes</l>
       </lg>
       <dg id="a">
          <d/>
@@ -252,8 +252,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđet</l>
+      <lg pos="Pron">
+         <l type="Rel">guđet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -270,8 +270,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđiid</l>
+      <lg pos="Pron">
+         <l type="Rel">guđiid</l>
       </lg>
       <dg id="a">
          <d/>
@@ -287,8 +287,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđiide</l>
+      <lg pos="Pron">
+         <l type="Rel">guđiide</l>
       </lg>
       <dg id="a">
          <d/>
@@ -304,8 +304,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđiiguin</l>
+      <lg pos="Pron">
+         <l type="Rel">guđiiguin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -321,8 +321,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guđiin</l>
+      <lg pos="Pron">
+         <l type="Rel">guđiin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -347,8 +347,8 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guhte</l>
+      <lg pos="Pron">
+         <l type="Rel">guhte</l>
       </lg>
       <dg id="a">
          <d/>
@@ -366,8 +366,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guhtemuš</l>
+      <lg pos="Pron">
+         <l type="Rel">guhtemuš</l>
       </lg>
       <dg id="a">
          <d/>
@@ -379,8 +379,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guhten</l>
+      <lg pos="Pron">
+         <l type="Rel">guhten</l>
       </lg>
       <dg id="a">
          <d/>
@@ -396,8 +396,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>guhtii</l>
+      <lg pos="Pron">
+         <l type="Rel">guhtii</l>
       </lg>
       <dg id="a">
          <d/>
@@ -407,8 +407,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>maid</l>
+      <lg pos="Pron">
+         <l type="Rel">maid</l>
       </lg>
       <dg id="a">
          <d/>
@@ -428,8 +428,8 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>maidda</l>
+      <lg pos="Pron">
+         <l type="Rel">maidda</l>
       </lg>
       <dg id="a">
          <d/>
@@ -439,8 +439,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>maiguin</l>
+      <lg pos="Pron">
+         <l type="Rel">maiguin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -450,8 +450,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>main</l>
+      <lg pos="Pron">
+         <l type="Rel">main</l>
       </lg>
       <dg id="a">
          <d/>
@@ -461,8 +461,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>mainna</l>
+      <lg pos="Pron">
+         <l type="Rel">mainna</l>
       </lg>
       <dg id="a">
          <d/>
@@ -473,56 +473,56 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkár</l>
+      <lg pos="Pron">
+         <l type="Interr">makkár</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkára</l>
+      <lg pos="Pron">
+         <l type="Interr">makkára</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkárii</l>
+      <lg pos="Pron">
+         <l type="Interr">makkárii</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkáriid</l>
+      <lg pos="Pron">
+         <l type="Interr">makkáriid</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkáriidda</l>
+      <lg pos="Pron">
+         <l type="Interr">makkáriidda</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkáriiguin</l>
+      <lg pos="Pron">
+         <l type="Interr">makkáriiguin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkáriin</l>
+      <lg pos="Pron">
+         <l type="Interr">makkáriin</l>
       </lg>
       <cg>
          <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkárin</l>
+      <lg pos="Pron">
+         <l type="Interr">makkárin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Interr">
-         <l>makkáris</l>
+      <lg pos="Pron">
+         <l type="Interr">makkáris</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>man</l>
+      <lg pos="Pron">
+         <l type="Rel">man</l>
       </lg>
       <dg id="a">
          <d/>
@@ -534,13 +534,13 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>manin</l>
+      <lg pos="Pron">
+         <l type="Rel">manin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>mas</l>
+      <lg pos="Pron">
+         <l type="Rel">mas</l>
       </lg>
       <dg id="a">
          <d/>
@@ -551,8 +551,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>masa</l>
+      <lg pos="Pron">
+         <l type="Rel">masa</l>
       </lg>
       <dg id="a">
          <d/>
@@ -563,8 +563,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>mat</l>
+      <lg pos="Pron">
+         <l type="Rel">mat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -575,8 +575,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Rel">
-         <l>mii</l>
+      <lg pos="Pron">
+         <l type="Rel">mii</l>
       </lg>
       <dg id="a">
          <d/>

@@ -29,8 +29,8 @@
         </sourcenote>
    </lics>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccade</l>
+      <lg pos="Pron">
+         <l type="Refl">alccade</l>
       </lg>
       <dg id="a">
          <d/>
@@ -40,8 +40,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccadet</l>
+      <lg pos="Pron">
+         <l type="Refl">alccadet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -51,8 +51,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccame</l>
+      <lg pos="Pron">
+         <l type="Refl">alccame</l>
       </lg>
       <dg id="a">
          <d/>
@@ -62,8 +62,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccamet</l>
+      <lg pos="Pron">
+         <l type="Refl">alccamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -73,8 +73,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccan</l>
+      <lg pos="Pron">
+         <l type="Refl">alccan</l>
       </lg>
       <dg id="a">
          <d/>
@@ -84,8 +84,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccat</l>
+      <lg pos="Pron">
+         <l type="Refl">alccat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -95,8 +95,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccede</l>
+      <lg pos="Pron">
+         <l type="Refl">alccede</l>
       </lg>
       <dg id="a">
          <d/>
@@ -106,8 +106,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccedet</l>
+      <lg pos="Pron">
+         <l type="Refl">alccedet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -117,8 +117,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceme</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceme</l>
       </lg>
       <dg id="a">
          <d/>
@@ -128,8 +128,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccemet</l>
+      <lg pos="Pron">
+         <l type="Refl">alccemet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -139,8 +139,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccen</l>
+      <lg pos="Pron">
+         <l type="Refl">alccen</l>
       </lg>
       <dg id="a">
          <d/>
@@ -150,8 +150,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcces</l>
+      <lg pos="Pron">
+         <l type="Refl">alcces</l>
       </lg>
       <dg id="a">
          <d/>
@@ -161,8 +161,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccesan</l>
+      <lg pos="Pron">
+         <l type="Refl">alccesan</l>
       </lg>
       <dg id="a">
          <d/>
@@ -172,8 +172,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccesat</l>
+      <lg pos="Pron">
+         <l type="Refl">alccesat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -183,8 +183,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceseame</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceseame</l>
       </lg>
       <dg id="a">
          <d/>
@@ -194,8 +194,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceseamet</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceseamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -205,8 +205,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceseaset</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceseaset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -216,8 +216,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceseaskka</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceseaskka</l>
       </lg>
       <dg id="a">
          <d/>
@@ -227,8 +227,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceseatte</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceseatte</l>
       </lg>
       <dg id="a">
          <d/>
@@ -238,8 +238,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceseattet</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceseattet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -249,8 +249,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceset</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -260,8 +260,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccesis</l>
+      <lg pos="Pron">
+         <l type="Refl">alccesis</l>
       </lg>
       <dg id="a">
          <d/>
@@ -271,8 +271,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcceska</l>
+      <lg pos="Pron">
+         <l type="Refl">alcceska</l>
       </lg>
       <dg id="a">
          <d/>
@@ -282,8 +282,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccet</l>
+      <lg pos="Pron">
+         <l type="Refl">alccet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -293,8 +293,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alccis</l>
+      <lg pos="Pron">
+         <l type="Refl">alccis</l>
       </lg>
       <dg id="a">
          <d/>
@@ -304,8 +304,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcciset</l>
+      <lg pos="Pron">
+         <l type="Refl">alcciset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -315,8 +315,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alcciska</l>
+      <lg pos="Pron">
+         <l type="Refl">alcciska</l>
       </lg>
       <dg id="a">
          <d/>
@@ -326,8 +326,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddáde</l>
+      <lg pos="Pron">
+         <l type="Refl">alddáde</l>
       </lg>
       <dg id="a">
          <d/>
@@ -337,8 +337,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddádet</l>
+      <lg pos="Pron">
+         <l type="Refl">alddádet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -348,8 +348,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddáme</l>
+      <lg pos="Pron">
+         <l type="Refl">alddáme</l>
       </lg>
       <dg id="a">
          <d/>
@@ -359,8 +359,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddámet</l>
+      <lg pos="Pron">
+         <l type="Refl">alddámet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -370,8 +370,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddán</l>
+      <lg pos="Pron">
+         <l type="Refl">alddán</l>
       </lg>
       <dg id="a">
          <d/>
@@ -381,8 +381,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddát</l>
+      <lg pos="Pron">
+         <l type="Refl">alddát</l>
       </lg>
       <dg id="a">
          <d/>
@@ -392,8 +392,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddes</l>
+      <lg pos="Pron">
+         <l type="Refl">alddes</l>
       </lg>
       <dg id="a">
          <d/>
@@ -403,8 +403,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddeset</l>
+      <lg pos="Pron">
+         <l type="Refl">alddeset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -414,8 +414,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddeska</l>
+      <lg pos="Pron">
+         <l type="Refl">alddeska</l>
       </lg>
       <dg id="a">
          <d/>
@@ -425,8 +425,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddiineame</l>
+      <lg pos="Pron">
+         <l type="Refl">alddiineame</l>
       </lg>
       <dg id="a">
          <d/>
@@ -436,8 +436,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddiineamet</l>
+      <lg pos="Pron">
+         <l type="Refl">alddiineamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -447,8 +447,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddiineaset</l>
+      <lg pos="Pron">
+         <l type="Refl">alddiineaset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -458,8 +458,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddiineaskka</l>
+      <lg pos="Pron">
+         <l type="Refl">alddiineaskka</l>
       </lg>
       <dg id="a">
          <d/>
@@ -469,8 +469,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddiineatte</l>
+      <lg pos="Pron">
+         <l type="Refl">alddiineatte</l>
       </lg>
       <dg id="a">
          <d/>
@@ -480,8 +480,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddiineattet</l>
+      <lg pos="Pron">
+         <l type="Refl">alddiineattet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -491,8 +491,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddis</l>
+      <lg pos="Pron">
+         <l type="Refl">alddis</l>
       </lg>
       <dg id="a">
          <d/>
@@ -502,8 +502,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddiset</l>
+      <lg pos="Pron">
+         <l type="Refl">alddiset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -513,8 +513,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>alddiska</l>
+      <lg pos="Pron">
+         <l type="Refl">alddiska</l>
       </lg>
       <dg id="a">
          <d/>
@@ -524,8 +524,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčame</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčame</l>
       </lg>
       <dg id="a">
          <d/>
@@ -536,8 +536,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčamet</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -548,8 +548,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčan</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčan</l>
       </lg>
       <dg id="a">
          <d/>
@@ -560,8 +560,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčanan</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčanan</l>
       </lg>
       <dg id="a">
          <d/>
@@ -571,8 +571,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčanat</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčanat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -582,8 +582,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčaneame</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčaneame</l>
       </lg>
       <dg id="a">
          <d/>
@@ -593,8 +593,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčaneamet</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčaneamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -604,8 +604,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčaneaset</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčaneaset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -615,8 +615,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčaneaskka</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčaneaskka</l>
       </lg>
       <dg id="a">
          <d/>
@@ -626,8 +626,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčaneatte</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčaneatte</l>
       </lg>
       <dg id="a">
          <d/>
@@ -637,8 +637,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčaneattet</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčaneattet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -648,8 +648,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iehčanis</l>
+      <lg pos="Pron">
+         <l type="Refl">iehčanis</l>
       </lg>
       <dg id="a">
          <d/>
@@ -659,8 +659,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>ieš</l>
+      <lg pos="Pron">
+         <l type="Refl">ieš</l>
       </lg>
       <dg id="a">
          <d/>
@@ -670,8 +670,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>ieža</l>
+      <lg pos="Pron">
+         <l type="Refl">ieža</l>
       </lg>
       <dg id="a">
          <d/>
@@ -682,8 +682,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežade</l>
+      <lg pos="Pron">
+         <l type="Refl">iežade</l>
       </lg>
       <dg id="a">
          <d/>
@@ -694,8 +694,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežadet</l>
+      <lg pos="Pron">
+         <l type="Refl">iežadet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -706,8 +706,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaideame</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaideame</l>
       </lg>
       <dg id="a">
          <d/>
@@ -718,8 +718,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaideamet</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaideamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -730,8 +730,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaideaset</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaideaset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -742,8 +742,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaideaskka</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaideaskka</l>
       </lg>
       <dg id="a">
          <d/>
@@ -754,8 +754,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaideatte</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaideatte</l>
       </lg>
       <dg id="a">
          <d/>
@@ -766,8 +766,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaideattet</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaideattet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -778,8 +778,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežainan</l>
+      <lg pos="Pron">
+         <l type="Refl">iežainan</l>
       </lg>
       <dg id="a">
          <d/>
@@ -789,8 +789,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežainat</l>
+      <lg pos="Pron">
+         <l type="Refl">iežainat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -800,8 +800,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaineame</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaineame</l>
       </lg>
       <dg id="a">
          <d/>
@@ -811,8 +811,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaineamet</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaineamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -822,8 +822,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaineaset</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaineaset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -833,8 +833,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaineaskka</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaineaskka</l>
       </lg>
       <dg id="a">
          <d/>
@@ -844,8 +844,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaineatte</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaineatte</l>
       </lg>
       <dg id="a">
          <d/>
@@ -855,8 +855,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaineattet</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaineattet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -866,8 +866,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežainis</l>
+      <lg pos="Pron">
+         <l type="Refl">iežainis</l>
       </lg>
       <dg id="a">
          <d/>
@@ -877,8 +877,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežame</l>
+      <lg pos="Pron">
+         <l type="Refl">iežame</l>
       </lg>
       <dg id="a">
          <d/>
@@ -889,8 +889,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežamet</l>
+      <lg pos="Pron">
+         <l type="Refl">iežamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -901,8 +901,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežan</l>
+      <lg pos="Pron">
+         <l type="Refl">iežan</l>
       </lg>
       <dg id="a">
          <d/>
@@ -913,8 +913,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežas</l>
+      <lg pos="Pron">
+         <l type="Refl">iežas</l>
       </lg>
       <dg id="a">
          <d/>
@@ -925,8 +925,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaset</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaset</l>
       </lg>
       <dg id="a">
          <d/>
@@ -937,8 +937,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežaska</l>
+      <lg pos="Pron">
+         <l type="Refl">iežaska</l>
       </lg>
       <dg id="a">
          <d/>
@@ -949,8 +949,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Refl">
-         <l>iežat</l>
+      <lg pos="Pron">
+         <l type="Refl">iežat</l>
       </lg>
       <dg id="a">
          <d/>

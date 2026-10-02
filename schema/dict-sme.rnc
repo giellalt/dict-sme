@@ -33,9 +33,12 @@ a = element a { text }
 
 # entry
 # batch: the batch the entry is in, see batches.xml
+# assignee: who works on the entry, when that is not the person who has the
+#   batch (batches.xml), or when the entry is in no batch
 e = element e {
     attribute status { "edit" | "publish" },
     attribute batch { batch.id }?,
+    attribute assignee { text }?,
     lg,
     dg*,
     ig*,
@@ -46,12 +49,14 @@ e = element e {
 lg =
   element lg {
     attribute pos { pos.values },
-    attribute type { type.values }?,
     l+
   }
 
 # lemma
+# type is per variant, since variants of a word can differ in it, e.g.
+# gássa (N) and gássa (N G3) are dialect variants of the same word
 l = element l {
+    attribute type { type.values }?,
     text
 }
 

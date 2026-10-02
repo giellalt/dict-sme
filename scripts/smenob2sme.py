@@ -9,7 +9,7 @@ what is in src/. Proper nouns (type="Prop") are left out, and so are the
 N_Prop* files, which only contain proper nouns.
 
 What is kept:
-  - lemma, pos and type; lsub becomes an extra l (a variant)
+  - lemma, pos (on lg) and type (on l); lsub becomes an extra l (a variant)
   - each meaning (mg) that has a definition, examples, synonyms or
     antonyms becomes a dg; a meaning without a definition gets an empty
     <d/>, to be written later
@@ -148,9 +148,10 @@ def merge(a, b):
 
 def write_entry(entry, out):
     out.append(f'{I}<e status="edit">')
-    attrs = f' pos="{entry.pos}"' + (f' type="{entry.typ}"' if entry.typ else "")
-    out.append(f"{I * 2}<lg{attrs}>")
-    out += [f"{I * 3}<l>{escape(l)}</l>" for l in entry.lemmas]
+    out.append(f'{I * 2}<lg pos="{entry.pos}">')
+    # the type is on each l; an lsub has the type of the l it belongs to
+    typ = f' type="{entry.typ}"' if entry.typ else ""
+    out += [f"{I * 3}<l{typ}>{escape(l)}</l>" for l in entry.lemmas]
     out.append(f"{I * 2}</lg>")
     for n, (ds, syns, ants, xs) in enumerate(entry.dgs, 1):
         out.append(f'{I * 2}<dg id="{dg_id(n)}">')

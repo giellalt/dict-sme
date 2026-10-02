@@ -290,8 +290,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ámmátvuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">ámmátvuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš geas lea biilavuodjin ámmáhin</d>
@@ -762,8 +762,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>biilavuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">biilavuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii vuodjá biilla</d>
@@ -1095,8 +1095,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bussevuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">bussevuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii vuodjá busse ámmáhin</d>
@@ -1354,8 +1354,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čiekči</l>
+      <lg pos="N">
+         <l type="NomAg">čiekči</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii čiekčá spáppa</d>
@@ -1368,8 +1368,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>čiežas</l>
+      <lg pos="N">
+         <l type="Coll">čiežas</l>
       </lg>
       <dg id="a">
          <d>čieža olbmo</d>
@@ -1481,8 +1481,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dáksevuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">dáksevuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii vuodjá dáksse ámmáhin</d>
@@ -1495,8 +1495,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dálkedieđiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dálkedieđiheaddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii gaskkusta dálkedieđáhusa</d>
@@ -1648,8 +1648,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diktačálli</l>
+      <lg pos="N">
+         <l type="NomAg">diktačálli</l>
       </lg>
       <dg id="a">
          <d>čálli gii čállá divttaid</d>
@@ -1751,8 +1751,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>drošševuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">drošševuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii vuodjá drošše ámmáhin</d>
@@ -2476,8 +2476,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gárrenvuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">gárrenvuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii vuodjá mohtorvuojána gárrenoaivvis</d>
@@ -2487,8 +2487,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>gávccis</l>
+      <lg pos="N">
+         <l type="Coll">gávccis</l>
       </lg>
       <dg id="a">
          <d>gávcci olbmo</d>
@@ -2821,8 +2821,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>giežas</l>
+      <lg pos="N">
+         <l type="Coll">giežas</l>
       </lg>
       <dg id="a">
          <d>gieža olbmo</d>
@@ -2897,8 +2897,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>girdivuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">girdivuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii stivre girdi</d>
@@ -3042,8 +3042,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>golmmas</l>
+      <lg pos="N">
+         <l type="Coll">golmmas</l>
       </lg>
       <dg id="a">
          <d>golbma olbmo</d>
@@ -3131,8 +3131,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>guđas</l>
+      <lg pos="N">
+         <l type="Coll">guđas</l>
       </lg>
       <dg id="a">
          <d>guhtta olbmo</d>
@@ -3162,8 +3162,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guorbmebiilavuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">guorbmebiilavuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii vuodjá guorbmebiilla</d>
@@ -3219,8 +3219,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>guovttis</l>
+      <lg pos="N">
+         <l type="Coll">guovttis</l>
       </lg>
       <dg id="a">
          <d>guokte olbmo</d>
@@ -3702,8 +3702,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>jábmi</l>
+      <lg pos="N">
+         <l type="NomAg">jábmi</l>
       </lg>
       <dg id="a">
          <d>jápmán olmmoš</d>
@@ -4094,8 +4094,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>krossavuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">krossavuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii gilvvohallá motocrossas</d>
@@ -4383,8 +4383,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>logis</l>
+      <lg pos="N">
+         <l type="Coll">logis</l>
       </lg>
       <dg id="a">
          <d>logi olbmo</d>
@@ -4618,8 +4618,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mánáidskuvlaoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">mánáidskuvlaoahppi</l>
       </lg>
       <dg id="a">
          <d>oahppi gii vázzá mánáidskuvlla</d>
@@ -5155,8 +5155,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>násteoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">násteoahppi</l>
       </lg>
       <dg id="a">
          <d>čeahpes oahppi gii oažžu hui buriid árvosániid</d>
@@ -5268,8 +5268,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>njealjis</l>
+      <lg pos="N">
+         <l type="Coll">njealjis</l>
       </lg>
       <dg id="a">
          <d>njeallje olbmo</d>
@@ -5310,8 +5310,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>nuoraidskuvlaoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">nuoraidskuvlaoahppi</l>
       </lg>
       <dg id="a">
          <d>oahppi gii vázzá nuoraidskuvlla</d>
@@ -5652,8 +5652,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>ovccis</l>
+      <lg pos="N">
+         <l type="Coll">ovccis</l>
       </lg>
       <dg id="a">
          <d>ovcci olbmo</d>
@@ -6271,8 +6271,8 @@
       </ig>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skohtervuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">skohtervuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii vuodjá skohtera</d>
@@ -6339,8 +6339,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skuvlaoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">skuvlaoahppi</l>
       </lg>
       <dg id="a">
          <d>oahppi gii vázzá skuvlla</d>
@@ -6390,8 +6390,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>smávvaskuvlaoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">smávvaskuvlaoahppi</l>
       </lg>
       <dg id="a">
          <d>oahppi gii vázzá smávvaskuvlla</d>
@@ -6478,8 +6478,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>spábbačiekči</l>
+      <lg pos="N">
+         <l type="NomAg">spábbačiekči</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii čiekčá spáppa</d>
@@ -6745,8 +6745,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>šáhkkaspealli</l>
+      <lg pos="N">
+         <l type="NomAg">šáhkkaspealli</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii speallá šáhka</d>
@@ -6780,8 +6780,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>togavuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">togavuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii vuodjá toga</d>
@@ -7064,8 +7064,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>viđas</l>
+      <lg pos="N">
+         <l type="Coll">viđas</l>
       </lg>
       <dg id="a">
          <d>vihtta olbmo</d>
@@ -7086,8 +7086,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>viehkki</l>
+      <lg pos="N">
+         <l type="NomAg">viehkki</l>
       </lg>
       <dg id="a">
          <d>šáhkkagáhppálat mii sáhttá johtit vitnjalassii</d>
@@ -7261,8 +7261,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuoddji</l>
       </lg>
       <dg id="a">
          <d>olmmoš gii máhttá vuodjat, erenomážit olbmo birra gii gilvvohallá vuodjamis</d>
@@ -7273,8 +7273,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuođđoskuvlaoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">vuođđoskuvlaoahppi</l>
       </lg>
       <dg id="a">
          <d>oahppi gii vázzá vuođđoskuvlla</d>
@@ -7343,8 +7343,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuostespealli</l>
+      <lg pos="N">
+         <l type="NomAg">vuostespealli</l>
       </lg>
       <dg id="a">
          <d>olmmoš gean vuostá speallá</d>
@@ -7387,8 +7387,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>addi</l>
+      <lg pos="N">
+         <l type="NomAg">addi</l>
       </lg>
    </e>
    <e status="edit">
@@ -8104,8 +8104,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>alitbossu</l>
+      <lg pos="N">
+         <l type="NomAg">alitbossu</l>
       </lg>
    </e>
    <e status="edit">
@@ -8525,8 +8525,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>almmuheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">almmuheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -9180,8 +9180,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>arkiivabargi</l>
+      <lg pos="N">
+         <l type="NomAg">arkiivabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -9544,8 +9544,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>astoáiggebivdi</l>
+      <lg pos="N">
+         <l type="NomAg">astoáiggebivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -9564,13 +9564,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>astoáiggeguolásteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">astoáiggeguolásteaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>astoáiggejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">astoáiggejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -9606,8 +9606,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>astoáiggevuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">astoáiggevuoddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -10123,8 +10123,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áhpebivdi</l>
+      <lg pos="N">
+         <l type="NomAg">áhpebivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -10438,8 +10438,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áici</l>
+      <lg pos="N">
+         <l type="NomAg">áici</l>
       </lg>
    </e>
    <e status="edit">
@@ -10770,8 +10770,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áigodatguollebivdi</l>
+      <lg pos="N">
+         <l type="NomAg">áigodatguollebivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -10940,8 +10940,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">áittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -11357,8 +11357,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>álbmotriekteáššedovdi</l>
+      <lg pos="N">
+         <l type="NomAg">álbmotriekteáššedovdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -11387,8 +11387,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>álbmotriekteráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">álbmotriekteráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -11533,8 +11533,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>álggahalli</l>
+      <lg pos="N">
+         <l type="NomAg">álggahalli</l>
       </lg>
       <dg id="a">
          <d/>
@@ -11659,8 +11659,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>álggaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">álggaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -11744,8 +11744,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>álgoálbmotáššedovdi</l>
+      <lg pos="N">
+         <l type="NomAg">álgoálbmotáššedovdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -11914,8 +11914,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>álgoálbmotjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">álgoálbmotjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -12019,8 +12019,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>álgoálbmotovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">álgoálbmotovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -12389,8 +12389,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>álli</l>
+      <lg pos="N">
+         <l type="G3">álli</l>
       </lg>
    </e>
    <e status="edit">
@@ -12570,8 +12570,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ámmátrehketdoallodárkkisteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ámmátrehketdoallodárkkisteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -12641,8 +12641,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ánuheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ánuheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -12686,8 +12686,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áŋgirušši</l>
+      <lg pos="N">
+         <l type="NomAg">áŋgirušši</l>
       </lg>
    </e>
    <e status="edit">
@@ -13405,8 +13405,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>árvvoštalli</l>
+      <lg pos="N">
+         <l type="NomAg">árvvoštalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -13470,8 +13470,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ásaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ásaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -13780,8 +13780,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ássi</l>
+      <lg pos="N">
+         <l type="NomAg">ássi</l>
       </lg>
       <dg id="a">
          <d/>
@@ -13887,8 +13887,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áššečuoččuheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">áššečuoččuheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -13917,8 +13917,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áššedovdi</l>
+      <lg pos="N">
+         <l type="NomAg">áššedovdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -14007,8 +14007,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áššejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">áššejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -14102,8 +14102,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>áššemeannudeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">áššemeannudeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -14324,8 +14324,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ávnnaslágideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ávnnaslágideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -14344,8 +14344,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ávnnasoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ávnnasoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -14757,8 +14757,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bagadalli</l>
+      <lg pos="N">
+         <l type="NomAg">bagadalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -14807,8 +14807,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bagadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bagadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -14848,8 +14848,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bahádahkki</l>
+      <lg pos="N">
+         <l type="NomAg">bahádahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -15079,8 +15079,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bajásšaddanjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bajásšaddanjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -15396,8 +15396,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>barggaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">barggaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -15481,8 +15481,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bargi</l>
+      <lg pos="N">
+         <l type="NomAg">bargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -15546,8 +15546,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bargiidoaivadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bargiidoaivadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -15601,13 +15601,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bargit</l>
+      <lg pos="N">
+         <l type="NomAg">bargit</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bargoaddi</l>
+      <lg pos="N">
+         <l type="NomAg">bargoaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -15976,8 +15976,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bargojođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bargojođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -16211,8 +16211,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bargoohcci</l>
+      <lg pos="N">
+         <l type="NomAg">bargoohcci</l>
       </lg>
    </e>
    <e status="edit">
@@ -16321,8 +16321,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bargosisafárrejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bargosisafárrejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -16412,8 +16412,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bargoveahkajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bargoveahkajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -16620,8 +16620,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bassi</l>
+      <lg pos="N">
+         <l type="NomAg">bassi</l>
       </lg>
       <dg id="a">
          <d/>
@@ -16997,8 +16997,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bággolonisteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bággolonisteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -17088,8 +17088,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>báhčči</l>
+      <lg pos="N">
+         <l type="NomAg">báhčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -17124,8 +17124,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>báhčinčuoigi</l>
+      <lg pos="N">
+         <l type="NomAg">báhčinčuoigi</l>
       </lg>
    </e>
    <e status="edit">
@@ -17185,8 +17185,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>báhkkebossu</l>
+      <lg pos="N">
+         <l type="NomAg">báhkkebossu</l>
       </lg>
    </e>
    <e status="edit">
@@ -17275,8 +17275,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>báhtareaddji</l>
+      <lg pos="N">
+         <l type="NomAg">báhtareaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -17410,8 +17410,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>báikenammadutki</l>
+      <lg pos="N">
+         <l type="NomAg">báikenammadutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -17616,8 +17616,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>báktegizzu</l>
+      <lg pos="N">
+         <l type="NomAg">báktegizzu</l>
       </lg>
    </e>
    <e status="edit">
@@ -17783,8 +17783,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bálkábargi</l>
+      <lg pos="N">
+         <l type="NomAg">bálkábargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -17969,8 +17969,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bálvaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bálvaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -18070,8 +18070,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bálvaluslágideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bálvaluslágideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -18411,8 +18411,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bátnedearvvašvuođabargi</l>
+      <lg pos="N">
+         <l type="NomAg">bátnedearvvašvuođabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -18421,8 +18421,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bátnedearvvašvuođačálli</l>
+      <lg pos="N">
+         <l type="NomAg">bátnedearvvašvuođačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -18461,8 +18461,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bátnedikšu</l>
+      <lg pos="N">
+         <l type="NomAg">bátnedikšu</l>
       </lg>
    </e>
    <e status="edit">
@@ -18471,8 +18471,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bátnedikšunbargi</l>
+      <lg pos="N">
+         <l type="NomAg">bátnedikšunbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -18506,8 +18506,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bátnedoavtteroahppi</l>
+      <lg pos="N">
+         <l type="NomAg">bátnedoavtteroahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -18683,8 +18683,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bázzedahkki</l>
+      <lg pos="N">
+         <l type="NomAg">bázzedahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -18698,8 +18698,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>bb.</l>
+      <lg pos="N">
+         <l type="ABBR">bb.</l>
       </lg>
       <dg id="a">
          <d/>
@@ -18804,8 +18804,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>beaivebuohcci</l>
+      <lg pos="N">
+         <l type="NomAg">beaivebuohcci</l>
       </lg>
    </e>
    <e status="edit">
@@ -18961,8 +18961,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>beaivválašjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">beaivválašjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -19353,8 +19353,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bealušteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bealušteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -19397,8 +19397,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>beanahálddašeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">beanahálddašeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -19517,8 +19517,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bearašmánáidgárdejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bearašmánáidgárdejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -19537,8 +19537,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bearašoaivadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bearašoaivadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -19732,8 +19732,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bearráigeahčči</l>
+      <lg pos="N">
+         <l type="NomAg">bearráigeahčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -19946,8 +19946,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>beassi</l>
+      <lg pos="N">
+         <l type="G3">beassi</l>
       </lg>
       <dg id="a">
          <d/>
@@ -19957,8 +19957,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>beasti</l>
+      <lg pos="N">
+         <l type="NomAg">beasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -20022,8 +20022,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>beavdegirječálli</l>
+      <lg pos="N">
+         <l type="NomAg">beavdegirječálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -20092,8 +20092,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>befálaoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">befálaoahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -20117,8 +20117,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>beliidovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">beliidovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -20137,8 +20137,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bellodatčálli</l>
+      <lg pos="N">
+         <l type="NomAg">bellodatčálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -20162,8 +20162,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bellodatjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bellodatjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -20247,8 +20247,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>berošteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">berošteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -20652,8 +20652,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>biebmoealli</l>
+      <lg pos="N">
+         <l type="NomAg">biebmoealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -20973,8 +20973,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bieggafápmobealušteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bieggafápmobealušteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -21269,8 +21269,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>biergobuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">biergobuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -21720,8 +21720,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>biiladivodeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">biiladivodeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -21870,8 +21870,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>biirreoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">biirreoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -22046,8 +22046,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>birasbargi</l>
+      <lg pos="N">
+         <l type="NomAg">birasbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -22211,8 +22211,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>birasgáhttenjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">birasgáhttenjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -22247,8 +22247,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>birasgáhttenráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">birasgáhttenráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -22497,8 +22497,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>birečálli</l>
+      <lg pos="N">
+         <l type="NomAg">birečálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -22597,8 +22597,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>birračuoigi</l>
+      <lg pos="N">
+         <l type="NomAg">birračuoigi</l>
       </lg>
    </e>
    <e status="edit">
@@ -22844,8 +22844,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bivdi</l>
+      <lg pos="N">
+         <l type="NomAg">bivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -23009,8 +23009,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bivdojođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bivdojođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -23246,8 +23246,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bivttasgoarru</l>
+      <lg pos="N">
+         <l type="NomAg">bivttasgoarru</l>
       </lg>
    </e>
    <e status="edit">
@@ -23256,8 +23256,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bivttashábmejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bivttashábmejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -23977,8 +23977,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boastajuogadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">boastajuogadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -24108,8 +24108,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boazobargi</l>
+      <lg pos="N">
+         <l type="NomAg">boazobargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -24168,8 +24168,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boazodoalli</l>
+      <lg pos="N">
+         <l type="NomAg">boazodoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -24218,8 +24218,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boazodoallobearráigeahčči</l>
+      <lg pos="N">
+         <l type="NomAg">boazodoallobearráigeahčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -24440,8 +24440,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boazodoallooahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">boazodoallooahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -24450,8 +24450,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boazodoallooahppi</l>
+      <lg pos="N">
+         <l type="NomAg">boazodoallooahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -24475,8 +24475,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boazodoalloovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">boazodoalloovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -24665,8 +24665,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boazogeahčči</l>
+      <lg pos="N">
+         <l type="NomAg">boazogeahčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -24925,8 +24925,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>boazovázzi</l>
+      <lg pos="N">
+         <l type="NomAg">boazovázzi</l>
       </lg>
    </e>
    <e status="edit">
@@ -25027,8 +25027,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bohccobiergobuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">bohccobiergobuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -25591,8 +25591,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>borjjasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">borjjasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -25778,8 +25778,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>borri</l>
+      <lg pos="N">
+         <l type="NomAg">borri</l>
       </lg>
       <dg id="a">
          <d/>
@@ -25826,8 +25826,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bossu</l>
+      <lg pos="N">
+         <l type="NomAg">bossu</l>
       </lg>
    </e>
    <e status="edit">
@@ -26194,8 +26194,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>buhcciidáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">buhcciidáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -26204,8 +26204,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>buhcciiddikšu</l>
+      <lg pos="N">
+         <l type="NomAg">buhcciiddikšu</l>
       </lg>
    </e>
    <e status="edit">
@@ -26647,8 +26647,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>buohccedikšu</l>
+      <lg pos="N">
+         <l type="NomAg">buohccedikšu</l>
       </lg>
    </e>
    <e status="edit">
@@ -26717,8 +26717,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>buohcci</l>
+      <lg pos="N">
+         <l type="NomAg">buohcci</l>
       </lg>
    </e>
    <e status="edit">
@@ -26848,8 +26848,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>buokči</l>
+      <lg pos="N">
+         <l type="NomAg">buokči</l>
       </lg>
    </e>
    <e status="edit">
@@ -26930,8 +26930,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>buollinčáskadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">buollinčáskadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -27308,8 +27308,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bussáealli</l>
+      <lg pos="N">
+         <l type="NomAg">bussáealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -27673,8 +27673,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>bušeahttavuoiti</l>
+      <lg pos="N">
+         <l type="NomAg">bušeahttavuoiti</l>
       </lg>
    </e>
    <e status="edit">
@@ -27775,8 +27775,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>buvttadahkki</l>
+      <lg pos="N">
+         <l type="NomAg">buvttadahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -28045,8 +28045,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>buvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">buvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -28250,13 +28250,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>cand.mag.</l>
+      <lg pos="N">
+         <l type="ABBR">cand.mag.</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>cand.scient.</l>
+      <lg pos="N">
+         <l type="ABBR">cand.scient.</l>
       </lg>
    </e>
    <e status="edit">
@@ -28295,8 +28295,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ACR">
-         <l>cd</l>
+      <lg pos="N">
+         <l type="ACR">cd</l>
       </lg>
    </e>
    <e status="edit">
@@ -28816,8 +28816,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>č.</l>
+      <lg pos="N">
+         <l type="ABBR">č.</l>
       </lg>
    </e>
    <e status="edit">
@@ -29873,8 +29873,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čájeheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">čájeheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -29963,8 +29963,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čálgobuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">čálgobuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -30043,8 +30043,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čálli</l>
+      <lg pos="N">
+         <l type="NomAg">čálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -31238,8 +31238,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čoaggi</l>
+      <lg pos="N">
+         <l type="NomAg">čoaggi</l>
       </lg>
       <dg id="a">
          <d/>
@@ -31385,8 +31385,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čoahkkinčálli</l>
+      <lg pos="N">
+         <l type="NomAg">čoahkkinčálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -31445,8 +31445,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čoahkkinguldaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">čoahkkinguldaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -31455,8 +31455,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čoahkkinjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">čoahkkinjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -31475,13 +31475,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čoahkkinlágideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">čoahkkinlágideaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čoahkkinoasseváldi</l>
+      <lg pos="N">
+         <l type="NomAg">čoahkkinoasseváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -31958,8 +31958,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čorgejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">čorgejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -32222,8 +32222,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čuoiganbagadalli</l>
+      <lg pos="N">
+         <l type="NomAg">čuoiganbagadalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -32283,8 +32283,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čuoigi</l>
+      <lg pos="N">
+         <l type="NomAg">čuoigi</l>
       </lg>
    </e>
    <e status="edit">
@@ -32330,8 +32330,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čuojaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">čuojaheaddji</l>
       </lg>
       <dg id="a">
          <d/>
@@ -32546,8 +32546,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>čuovgahábmejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">čuovgahábmejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -33276,8 +33276,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dáhkádusoasti</l>
+      <lg pos="N">
+         <l type="NomAg">dáhkádusoasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -33754,8 +33754,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dálkkádatdutki</l>
+      <lg pos="N">
+         <l type="NomAg">dálkkádatdutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -33849,8 +33849,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dálkkádatráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">dálkkádatráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -33939,8 +33939,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dállodoalli</l>
+      <lg pos="N">
+         <l type="NomAg">dállodoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -33995,8 +33995,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dálloruhtadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">dálloruhtadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -34015,8 +34015,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dáluealátoažžu</l>
+      <lg pos="N">
+         <l type="NomAg">dáluealátoažžu</l>
       </lg>
    </e>
    <e status="edit">
@@ -34235,8 +34235,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dánsejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dánsejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -34310,8 +34310,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dáppeorru</l>
+      <lg pos="N">
+         <l type="NomAg">dáppeorru</l>
       </lg>
    </e>
    <e status="edit">
@@ -34365,8 +34365,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dárju</l>
+      <lg pos="N">
+         <l type="NomAg">dárju</l>
       </lg>
    </e>
    <e status="edit">
@@ -34475,8 +34475,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dárkkisteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dárkkisteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -34490,8 +34490,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dárkodeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dárkodeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -34540,8 +34540,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dárogieloahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dárogieloahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -34695,8 +34695,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dásseárvoáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dásseárvoáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -34835,8 +34835,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dásseárvvuoaivadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dásseárvvuoaivadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -35101,8 +35101,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>db.</l>
+      <lg pos="N">
+         <l type="ABBR">db.</l>
       </lg>
       <dg id="a">
          <d/>
@@ -35378,8 +35378,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dearvvasvuođabargi</l>
+      <lg pos="N">
+         <l type="NomAg">dearvvasvuođabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -35503,8 +35503,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dearvvašvuođabargi</l>
+      <lg pos="N">
+         <l type="NomAg">dearvvašvuođabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -36404,8 +36404,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dieđiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dieđiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -36434,8 +36434,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diehtoaddi</l>
+      <lg pos="N">
+         <l type="NomAg">diehtoaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -36634,8 +36634,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diehtojuohkinjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">diehtojuohkinjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -36709,8 +36709,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diehtojuohkinráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">diehtojuohkinráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -36759,8 +36759,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diehtojuohkki</l>
+      <lg pos="N">
+         <l type="NomAg">diehtojuohkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -36835,8 +36835,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diehtti</l>
+      <lg pos="N">
+         <l type="NomAg">diehtti</l>
       </lg>
       <dg id="a">
          <d/>
@@ -36998,8 +36998,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dievasčoahkkinjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dievasčoahkkinjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -37160,8 +37160,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>digaštallanjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">digaštallanjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -37180,8 +37180,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>digaštalli</l>
+      <lg pos="N">
+         <l type="NomAg">digaštalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -37225,8 +37225,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diggeoasseváldi</l>
+      <lg pos="N">
+         <l type="NomAg">diggeoasseváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -37347,8 +37347,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dihtorgeavaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dihtorgeavaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -37487,8 +37487,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diibmooahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">diibmooahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -37571,8 +37571,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dikšu</l>
+      <lg pos="N">
+         <l type="NomAg">dikšu</l>
       </lg>
       <dg id="a">
          <d/>
@@ -37838,8 +37838,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>diŋgojeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">diŋgojeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -37928,8 +37928,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>dirri</l>
+      <lg pos="N">
+         <l type="G3">dirri</l>
       </lg>
    </e>
    <e status="edit">
@@ -38348,13 +38348,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doaibmaálggaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">doaibmaálggaheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doaibmabargi</l>
+      <lg pos="N">
+         <l type="NomAg">doaibmabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -38373,8 +38373,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doaibmabiddji</l>
+      <lg pos="N">
+         <l type="NomAg">doaibmabiddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -38473,8 +38473,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doaibmadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">doaibmadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -38578,8 +38578,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doaibmajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">doaibmajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -38618,8 +38618,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doaibmalobidoalli</l>
+      <lg pos="N">
+         <l type="NomAg">doaibmalobidoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -38984,8 +38984,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doaimmaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">doaimmaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -39004,8 +39004,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doaimmahusčálli</l>
+      <lg pos="N">
+         <l type="NomAg">doaimmahusčálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -39079,8 +39079,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doalli</l>
+      <lg pos="N">
+         <l type="NomAg">doalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -39560,8 +39560,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doarjjaoažžu</l>
+      <lg pos="N">
+         <l type="NomAg">doarjjaoažžu</l>
       </lg>
    </e>
    <e status="edit">
@@ -39575,8 +39575,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doarjjaohcci</l>
+      <lg pos="N">
+         <l type="NomAg">doarjjaohcci</l>
       </lg>
    </e>
    <e status="edit">
@@ -39670,8 +39670,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>doarjjavuostáiváldi</l>
+      <lg pos="N">
+         <l type="NomAg">doarjjavuostáiváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -39962,8 +39962,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dohkkeheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dohkkeheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -40313,8 +40313,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dorvoohcci</l>
+      <lg pos="N">
+         <l type="NomAg">dorvoohcci</l>
       </lg>
    </e>
    <e status="edit">
@@ -40499,8 +40499,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>dr.art.</l>
+      <lg pos="N">
+         <l type="ABBR">dr.art.</l>
       </lg>
    </e>
    <e status="edit">
@@ -40559,8 +40559,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>dr.philos.</l>
+      <lg pos="N">
+         <l type="ABBR">dr.philos.</l>
       </lg>
    </e>
    <e status="edit">
@@ -40704,8 +40704,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>duhpátborri</l>
+      <lg pos="N">
+         <l type="NomAg">duhpátborri</l>
       </lg>
    </e>
    <e status="edit">
@@ -41665,8 +41665,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>duovvi</l>
+      <lg pos="N">
+         <l type="G7">duovvi</l>
       </lg>
    </e>
    <e status="edit">
@@ -41726,8 +41726,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dustejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dustejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -41946,8 +41946,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dutkanjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dutkanjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -42126,8 +42126,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dutki</l>
+      <lg pos="N">
+         <l type="NomAg">dutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -42156,8 +42156,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>dutkkusgeavaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">dutkkusgeavaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -42339,8 +42339,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eahpideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">eahpideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -42499,8 +42499,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eaktobiddji</l>
+      <lg pos="N">
+         <l type="NomAg">eaktobiddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -42580,8 +42580,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ealáhusbargi</l>
+      <lg pos="N">
+         <l type="NomAg">ealáhusbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -42690,8 +42690,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ealáhusdoalli</l>
+      <lg pos="N">
+         <l type="NomAg">ealáhusdoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -42775,8 +42775,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ealáhusguolásteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ealáhusguolásteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -42815,8 +42815,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ealáhusjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ealáhusjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -43166,8 +43166,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ealli</l>
+      <lg pos="N">
+         <l type="NomAg">ealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -43439,8 +43439,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eamiálbmotáššedovdi</l>
+      <lg pos="N">
+         <l type="NomAg">eamiálbmotáššedovdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -43669,8 +43669,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eamiálbmotovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">eamiálbmotovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -43784,8 +43784,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eamiorru</l>
+      <lg pos="N">
+         <l type="NomAg">eamiorru</l>
       </lg>
    </e>
    <e status="edit">
@@ -43914,8 +43914,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eanadállodoalli</l>
+      <lg pos="N">
+         <l type="NomAg">eanadállodoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -43939,8 +43939,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eanadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">eanadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -44104,8 +44104,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eanadoallooahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">eanadoallooahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -44912,8 +44912,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>earenoamášraporterejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">earenoamášraporterejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -45043,8 +45043,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>easkaálgi</l>
+      <lg pos="N">
+         <l type="NomAg">easkaálgi</l>
       </lg>
    </e>
    <e status="edit">
@@ -45123,8 +45123,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eatnigieloahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">eatnigieloahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -45191,8 +45191,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eavttuidbiddji</l>
+      <lg pos="N">
+         <l type="NomAg">eavttuidbiddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -45786,8 +45786,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>elošteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">elošteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -46256,8 +46256,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>eretfárrejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">eretfárrejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -46654,8 +46654,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>evttoheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">evttoheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -46674,8 +46674,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fabrihkkabargi</l>
+      <lg pos="N">
+         <l type="NomAg">fabrihkkabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -46864,13 +46864,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>faláštalli</l>
+      <lg pos="N">
+         <l type="NomAg">faláštalli</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>falleheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">falleheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -47132,8 +47132,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fágagirječálli</l>
+      <lg pos="N">
+         <l type="NomAg">fágagirječálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -47147,8 +47147,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fágagirjjálašvuođačálli</l>
+      <lg pos="N">
+         <l type="NomAg">fágagirjjálašvuođačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -47177,13 +47177,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fágaoahpahalli</l>
+      <lg pos="N">
+         <l type="NomAg">fágaoahpahalli</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fágaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fágaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -47432,8 +47432,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fálesbivdohistorjádutki</l>
+      <lg pos="N">
+         <l type="NomAg">fálesbivdohistorjádutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -47527,8 +47527,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fápmobuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fápmobuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -48082,8 +48082,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>festiválabuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">festiválabuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -48102,13 +48102,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>festiválajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">festiválajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>festiválaoassálasti</l>
+      <lg pos="N">
+         <l type="NomAg">festiválaoassálasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -48172,8 +48172,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fidnobagadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fidnobagadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -48182,8 +48182,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fidnobargi</l>
+      <lg pos="N">
+         <l type="NomAg">fidnobargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -48252,8 +48252,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fidnohárjehalli</l>
+      <lg pos="N">
+         <l type="NomAg">fidnohárjehalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -48282,8 +48282,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fidnomearrabivdi</l>
+      <lg pos="N">
+         <l type="NomAg">fidnomearrabivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -48302,8 +48302,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fidnooahppi</l>
+      <lg pos="N">
+         <l type="NomAg">fidnooahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -48463,8 +48463,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fierbmeguolásteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fierbmeguolásteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -48695,8 +48695,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fievrredanbargi</l>
+      <lg pos="N">
+         <l type="NomAg">fievrredanbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -48755,8 +48755,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fievrredeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fievrredeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -48870,8 +48870,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fievrrideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fievrrideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -48970,8 +48970,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>filbmadahkki</l>
+      <lg pos="N">
+         <l type="NomAg">filbmadahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -49862,8 +49862,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fuolaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fuolaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -49888,8 +49888,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fuolahusbargi</l>
+      <lg pos="N">
+         <l type="NomAg">fuolahusbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -50080,8 +50080,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fuomášeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fuomášeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -50115,8 +50115,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fuorráoasti</l>
+      <lg pos="N">
+         <l type="NomAg">fuorráoasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -50302,8 +50302,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fylkkajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fylkkajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -50468,8 +50468,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>fylkkasátnejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">fylkkasátnejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -51258,8 +51258,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gazzaealli</l>
+      <lg pos="N">
+         <l type="NomAg">gazzaealli</l>
       </lg>
       <dg id="a">
          <d/>
@@ -51294,8 +51294,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gažadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gažadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -51409,8 +51409,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gáddju</l>
+      <lg pos="N">
+         <l type="NomAg">gáddju</l>
       </lg>
    </e>
    <e status="edit">
@@ -51699,8 +51699,8 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gáhttejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gáhttejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -52170,8 +52170,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>gálli</l>
+      <lg pos="N">
+         <l type="G7">gálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -52185,8 +52185,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>gálloláđđi</l>
+      <lg pos="N">
+         <l type="G7">gálloláđđi</l>
       </lg>
    </e>
    <e status="edit">
@@ -52211,8 +52211,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>gállu</l>
+      <lg pos="N">
+         <l type="G3">gállu</l>
       </lg>
       <dg id="a">
          <d/>
@@ -52308,8 +52308,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>gálvojorri</l>
+      <lg pos="N">
+         <l type="G7">gálvojorri</l>
       </lg>
    </e>
    <e status="edit">
@@ -52628,8 +52628,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gárrenávnnasgeavaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gárrenávnnasgeavaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -52788,8 +52788,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>gássa</l>
+      <lg pos="N">
+         <l type="G3">gássa</l>
       </lg>
       <dg id="a">
          <d/>
@@ -52822,8 +52822,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gássabuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gássabuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -52963,8 +52963,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gávohalli</l>
+      <lg pos="N">
+         <l type="NomAg">gávohalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -52988,8 +52988,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gávpebargi</l>
+      <lg pos="N">
+         <l type="NomAg">gávpebargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -53063,8 +53063,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gávpehálddašeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gávpehálddašeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -53253,8 +53253,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gávpotráđđejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gávpotráđđejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -53425,8 +53425,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geađgejorgu</l>
+      <lg pos="N">
+         <l type="NomAg">geađgejorgu</l>
       </lg>
    </e>
    <e status="edit">
@@ -53525,8 +53525,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geahččaladdanjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">geahččaladdanjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -53550,8 +53550,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geahččalanáigebargi</l>
+      <lg pos="N">
+         <l type="NomAg">geahččalanáigebargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -53600,8 +53600,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geahččalanjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">geahččalanjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -53680,8 +53680,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geahčči</l>
+      <lg pos="N">
+         <l type="NomAg">geahčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -53840,8 +53840,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geaidnobargi</l>
+      <lg pos="N">
+         <l type="NomAg">geaidnobargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -53925,8 +53925,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geaidnojuohkki</l>
+      <lg pos="N">
+         <l type="NomAg">geaidnojuohkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -54322,8 +54322,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gearjideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gearjideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -54387,8 +54387,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geassebargi</l>
+      <lg pos="N">
+         <l type="NomAg">geassebargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -54809,8 +54809,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geavaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">geavaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -54869,8 +54869,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geavaheaddjiovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">geavaheaddjiovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -54919,8 +54919,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>geavahusáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">geavahusáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -55321,8 +55321,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>generálačálli</l>
+      <lg pos="N">
+         <l type="NomAg">generálačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -55432,8 +55432,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>giddagasbargi</l>
+      <lg pos="N">
+         <l type="NomAg">giddagasbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -55566,8 +55566,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gieddebargi</l>
+      <lg pos="N">
+         <l type="NomAg">gieddebargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -55586,8 +55586,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gieddejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gieddejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -55616,8 +55616,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gieddeveahkkebargi</l>
+      <lg pos="N">
+         <l type="NomAg">gieddeveahkkebargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -55808,8 +55808,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gielddabargi</l>
+      <lg pos="N">
+         <l type="NomAg">gielddabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -55913,8 +55913,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gielddarehketdoalli</l>
+      <lg pos="N">
+         <l type="NomAg">gielddarehketdoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -55933,8 +55933,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gielddaruhtadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">gielddaruhtadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -56116,8 +56116,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>giellabargi</l>
+      <lg pos="N">
+         <l type="NomAg">giellabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -56273,8 +56273,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gielladutki</l>
+      <lg pos="N">
+         <l type="NomAg">gielladutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -56383,8 +56383,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>giellageavaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">giellageavaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -56408,8 +56408,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>giellaguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">giellaguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -56578,8 +56578,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>giellamielbargi</l>
+      <lg pos="N">
+         <l type="NomAg">giellamielbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -56708,8 +56708,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>giellaoččodeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">giellaoččodeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -57035,8 +57035,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gierdodahkki</l>
+      <lg pos="N">
+         <l type="NomAg">gierdodahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -57535,8 +57535,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gilvaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gilvaleaddji</l>
       </lg>
       <dg id="a">
          <d/>
@@ -57813,8 +57813,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>girdi</l>
+      <lg pos="N">
+         <l type="NomAg">girdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -57958,8 +57958,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>girječálli</l>
+      <lg pos="N">
+         <l type="NomAg">girječálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -58088,8 +58088,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>girjerádjobargi</l>
+      <lg pos="N">
+         <l type="NomAg">girjerádjobargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -58188,8 +58188,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>girjerájusbargi</l>
+      <lg pos="N">
+         <l type="NomAg">girjerájusbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -58409,8 +58409,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>girkolávlu</l>
+      <lg pos="N">
+         <l type="NomAg">girkolávlu</l>
       </lg>
    </e>
    <e status="edit">
@@ -58559,8 +58559,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gitáračuojaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gitáračuojaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -58746,8 +58746,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>goahtegasvázzi</l>
+      <lg pos="N">
+         <l type="NomAg">goahtegasvázzi</l>
       </lg>
    </e>
    <e status="edit">
@@ -58973,8 +58973,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>goarru</l>
+      <lg pos="N">
+         <l type="NomAg">goarru</l>
       </lg>
    </e>
    <e status="edit">
@@ -59162,8 +59162,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>goddebivdi</l>
+      <lg pos="N">
+         <l type="NomAg">goddebivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -59197,8 +59197,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>goddi</l>
+      <lg pos="N">
+         <l type="NomAg">goddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -59343,8 +59343,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gohččunovddasvástideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gohččunovddasvástideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -59505,8 +59505,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>golaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">golaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -59555,8 +59555,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>golgadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">golgadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -59670,8 +59670,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>golleroggi</l>
+      <lg pos="N">
+         <l type="NomAg">golleroggi</l>
       </lg>
    </e>
    <e status="edit">
@@ -59725,8 +59725,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>golloguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">golloguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -60245,8 +60245,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>govvalohkki</l>
+      <lg pos="N">
+         <l type="NomAg">govvalohkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -60285,8 +60285,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>govvasárgu</l>
+      <lg pos="N">
+         <l type="NomAg">govvasárgu</l>
       </lg>
    </e>
    <e status="edit">
@@ -60305,8 +60305,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>govvejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">govvejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -60320,8 +60320,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>govvideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">govvideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -60854,8 +60854,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gulahallanoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">gulahallanoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -60894,8 +60894,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gulahallanráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">gulahallanráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -61059,8 +61059,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guldaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">guldaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -61099,8 +61099,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gulli</l>
+      <lg pos="N">
+         <l type="NomAg">gulli</l>
       </lg>
       <ig>
          <i>ii daga gullin ge</i>
@@ -61232,8 +61232,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guoddi</l>
+      <lg pos="N">
+         <l type="NomAg">guoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -61302,8 +61302,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guođoheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">guođoheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -61601,8 +61601,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guoimmuhanoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">guoimmuhanoahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -61757,8 +61757,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guolásteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">guolásteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -61799,8 +61799,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guolástusbearráigeahčči</l>
+      <lg pos="N">
+         <l type="NomAg">guolástusbearráigeahčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -61924,8 +61924,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guolástusráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">guolástusráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -62091,8 +62091,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guolgaealli</l>
+      <lg pos="N">
+         <l type="NomAg">guolgaealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -62181,8 +62181,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guollebivdi</l>
+      <lg pos="N">
+         <l type="NomAg">guollebivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -62237,8 +62237,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guollebuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">guollebuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -62487,8 +62487,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guollevuostáiváldi</l>
+      <lg pos="N">
+         <l type="NomAg">guollevuostáiváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -62502,8 +62502,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guollevuostáváldi</l>
+      <lg pos="N">
+         <l type="NomAg">guollevuostáváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -62796,8 +62796,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guosseoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">guosseoahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -62821,8 +62821,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guossoheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">guossoheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -62861,8 +62861,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guottiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">guottiheaddji</l>
       </lg>
       <dg id="a">
          <d/>
@@ -62952,8 +62952,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guovddáščiekči</l>
+      <lg pos="N">
+         <l type="NomAg">guovddáščiekči</l>
       </lg>
    </e>
    <e status="edit">
@@ -62972,8 +62972,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guovddášduostuheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">guovddášduostuheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -63057,8 +63057,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>guovddášnjunuščiekči</l>
+      <lg pos="N">
+         <l type="NomAg">guovddášnjunuščiekči</l>
       </lg>
    </e>
    <e status="edit">
@@ -63511,8 +63511,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>guovttos</l>
+      <lg pos="N">
+         <l type="Coll">guovttos</l>
       </lg>
       <dg id="a">
          <d/>
@@ -63693,8 +63693,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>gussaealli</l>
+      <lg pos="N">
+         <l type="NomAg">gussaealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -64218,8 +64218,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>hálddahusbargi</l>
+      <lg pos="N">
+         <l type="NomAg">hálddahusbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -64743,8 +64743,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>hálddašeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">hálddašeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -64753,8 +64753,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>háldejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">háldejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -64818,8 +64818,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>hálla</l>
+      <lg pos="N">
+         <l type="G3">hálla</l>
       </lg>
    </e>
    <e status="edit">
@@ -64868,8 +64868,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>hálli</l>
+      <lg pos="N">
+         <l type="NomAg">hálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -64992,8 +64992,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>hárdoláđđi</l>
+      <lg pos="N">
+         <l type="G7">hárdoláđđi</l>
       </lg>
    </e>
    <e status="edit">
@@ -65097,8 +65097,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>hárjeheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">hárjeheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -65127,8 +65127,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>hárri</l>
+      <lg pos="N">
+         <l type="G3">hárri</l>
       </lg>
    </e>
    <e status="edit">
@@ -65591,8 +65591,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>heaibu</l>
+      <lg pos="N">
+         <l type="NomAg">heaibu</l>
       </lg>
    </e>
    <e status="edit">
@@ -65786,8 +65786,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>heargevuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">heargevuoddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -65974,8 +65974,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>heavylávlu</l>
+      <lg pos="N">
+         <l type="NomAg">heavylávlu</l>
       </lg>
    </e>
    <e status="edit">
@@ -66325,13 +66325,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>historjádovdi</l>
+      <lg pos="N">
+         <l type="NomAg">historjádovdi</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>historjádutki</l>
+      <lg pos="N">
+         <l type="NomAg">historjádutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -66523,8 +66523,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>hoiganjorri</l>
+      <lg pos="N">
+         <l type="G7">hoiganjorri</l>
       </lg>
    </e>
    <e status="edit">
@@ -66731,8 +66731,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>hubmi</l>
+      <lg pos="N">
+         <l type="NomAg">hubmi</l>
       </lg>
    </e>
    <e status="edit">
@@ -66746,8 +66746,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>hukseheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">hukseheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -66766,8 +66766,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>huksejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">huksejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -67269,8 +67269,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>identitehtaguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">identitehtaguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -68088,8 +68088,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>industriijabargi</l>
+      <lg pos="N">
+         <l type="NomAg">industriijabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -68543,8 +68543,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>internáhtajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">internáhtajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -68563,8 +68563,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>internáhtaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">internáhtaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -68999,8 +68999,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>iskkadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">iskkadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -69759,8 +69759,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>jávrebivdi</l>
+      <lg pos="N">
+         <l type="NomAg">jávrebivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -70209,8 +70209,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>jienasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">jienasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -70399,8 +70399,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>jietnalohkkit</l>
+      <lg pos="N">
+         <l type="NomAg">jietnalohkkit</l>
       </lg>
    </e>
    <e status="edit">
@@ -70429,8 +70429,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>jietnavuostáiváldi</l>
+      <lg pos="N">
+         <l type="NomAg">jietnavuostáiváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -70532,8 +70532,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>joavkočálli</l>
+      <lg pos="N">
+         <l type="NomAg">joavkočálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -70567,8 +70567,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>joavkojođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">joavkojođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -70823,8 +70823,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>jođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">jođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -70966,8 +70966,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>johtaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">johtaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -71336,18 +71336,18 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>johtti</l>
+      <lg pos="N">
+         <l type="NomAg">johtti</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>johttibargi</l>
+      <lg pos="N">
+         <l type="NomAg">johttibargi</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>johttiealli</l>
+      <lg pos="N">
+         <l type="NomAg">johttiealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -71426,13 +71426,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>johttiskuvlaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">johttiskuvlaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>johttivuovdaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">johttivuovdaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -71560,8 +71560,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>jorgaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">jorgaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -71610,8 +71610,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>jorri</l>
+      <lg pos="N">
+         <l type="G7">jorri</l>
       </lg>
    </e>
    <e status="edit">
@@ -71807,8 +71807,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>juhkki</l>
+      <lg pos="N">
+         <l type="NomAg">juhkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -72073,8 +72073,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>juoigi</l>
+      <lg pos="N">
+         <l type="NomAg">juoigi</l>
       </lg>
    </e>
    <e status="edit">
@@ -72787,8 +72787,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kantiidnajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">kantiidnajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -73142,8 +73142,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kántorbargi</l>
+      <lg pos="N">
+         <l type="NomAg">kántorbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -73182,13 +73182,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kánttordoaimmaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">kánttordoaimmaheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kánttorjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">kánttorjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -73252,8 +73252,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kártatevdnejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">kártatevdnejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -73503,8 +73503,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>klássa</l>
+      <lg pos="N">
+         <l type="G3">klássa</l>
       </lg>
    </e>
    <e status="edit">
@@ -74061,18 +74061,18 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>konferánsalágideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">konferánsalágideaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>konferánsaoassálasti</l>
+      <lg pos="N">
+         <l type="NomAg">konferánsaoassálasti</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>konferánsaoasseváldi</l>
+      <lg pos="N">
+         <l type="NomAg">konferánsaoasseváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -74792,8 +74792,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>kr</l>
+      <lg pos="N">
+         <l type="ABBR">kr</l>
       </lg>
    </e>
    <e status="edit">
@@ -75079,8 +75079,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kulturbargi</l>
+      <lg pos="N">
+         <l type="NomAg">kulturbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -75379,9 +75379,9 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kulturguoddi</l>
-         <l>kultuvraguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">kulturguoddi</l>
+         <l type="NomAg">kultuvraguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -76143,8 +76143,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kursajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">kursajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -76198,8 +76198,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>kuvllasuhppejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">kuvllasuhppejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -76808,8 +76808,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lakti</l>
+      <lg pos="N">
+         <l type="NomAg">lakti</l>
       </lg>
    </e>
    <e status="edit">
@@ -77455,8 +77455,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>láđđi</l>
+      <lg pos="N">
+         <l type="G7">láđđi</l>
       </lg>
    </e>
    <e status="edit">
@@ -77496,8 +77496,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lágádusbargi</l>
+      <lg pos="N">
+         <l type="NomAg">lágádusbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -77577,8 +77577,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lágideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">lágideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -77625,8 +77625,8 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>láhkaaddi</l>
+      <lg pos="N">
+         <l type="NomAg">láhkaaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -77716,8 +77716,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>láhkadovdi</l>
+      <lg pos="N">
+         <l type="NomAg">láhkadovdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -77980,8 +77980,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>láidesteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">láidesteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -78045,8 +78045,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>láigoheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">láigoheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -78328,8 +78328,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lášmmohallanhárjeheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">lášmmohallanhárjeheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -78448,8 +78448,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lávdedávvirháhkki</l>
+      <lg pos="N">
+         <l type="NomAg">lávdedávvirháhkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -78488,8 +78488,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lávdegoddejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">lávdegoddejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -78528,8 +78528,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lávdehábmejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">lávdehábmejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -78638,8 +78638,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lávllačálli</l>
+      <lg pos="N">
+         <l type="NomAg">lávllačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -78660,8 +78660,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lávlu</l>
+      <lg pos="N">
+         <l type="NomAg">lávlu</l>
       </lg>
       <dg id="a">
          <d/>
@@ -79082,8 +79082,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>leavgabuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">leavgabuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -79862,8 +79862,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>liigeoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">liigeoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -80178,13 +80178,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>lk</l>
+      <lg pos="N">
+         <l type="ABBR">lk</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>lk.</l>
+      <lg pos="N">
+         <l type="ABBR">lk.</l>
       </lg>
    </e>
    <e status="edit">
@@ -80333,8 +80333,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>loahppageavaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">loahppageavaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -80548,8 +80548,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>loddejievži</l>
+      <lg pos="N">
+         <l type="NomAg">loddejievži</l>
       </lg>
    </e>
    <e status="edit">
@@ -80639,8 +80639,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>logaldalli</l>
+      <lg pos="N">
+         <l type="NomAg">logaldalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -80996,8 +80996,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lohkki</l>
+      <lg pos="N">
+         <l type="NomAg">lohkki</l>
       </lg>
       <dg id="a">
          <d/>
@@ -81160,13 +81160,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>loneheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">loneheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lonejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">lonejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -81365,8 +81365,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lottospealli</l>
+      <lg pos="N">
+         <l type="NomAg">lottospealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -81620,8 +81620,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luoddadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">luoddadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -81820,8 +81820,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luođubargi</l>
+      <lg pos="N">
+         <l type="NomAg">luođubargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -81895,8 +81895,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luohkkájođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">luohkkájođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -81925,8 +81925,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luohkkáoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">luohkkáoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -82191,8 +82191,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luondduealáhusbargi</l>
+      <lg pos="N">
+         <l type="NomAg">luondduealáhusbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -82221,8 +82221,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luonddugáhttejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">luonddugáhttejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -82617,8 +82617,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luossabivdi</l>
+      <lg pos="N">
+         <l type="NomAg">luossabivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -82637,8 +82637,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luossadutki</l>
+      <lg pos="N">
+         <l type="NomAg">luossadutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -82738,8 +82738,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>luovosčiekči</l>
+      <lg pos="N">
+         <l type="NomAg">luovosčiekči</l>
       </lg>
    </e>
    <e status="edit">
@@ -82779,8 +82779,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>lustabivdi</l>
+      <lg pos="N">
+         <l type="NomAg">lustabivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -82860,8 +82860,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>mag.art.</l>
+      <lg pos="N">
+         <l type="ABBR">mag.art.</l>
       </lg>
    </e>
    <e status="edit">
@@ -83106,13 +83106,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>maŋisboahtti</l>
+      <lg pos="N">
+         <l type="NomAg">maŋisboahtti</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>maŋisčuovvu</l>
+      <lg pos="N">
+         <l type="NomAg">maŋisčuovvu</l>
       </lg>
    </e>
    <e status="edit">
@@ -83146,8 +83146,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>maŋŋečiekči</l>
+      <lg pos="N">
+         <l type="NomAg">maŋŋečiekči</l>
       </lg>
    </e>
    <e status="edit">
@@ -83161,8 +83161,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>maŋŋeguovddáščiekči</l>
+      <lg pos="N">
+         <l type="NomAg">maŋŋeguovddáščiekči</l>
       </lg>
    </e>
    <e status="edit">
@@ -83421,8 +83421,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>matematihkkaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">matematihkkaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -83576,8 +83576,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>máhtajeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">máhtajeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -83646,8 +83646,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>máhttájeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">máhttájeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -84325,8 +84325,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>málejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">málejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -84410,8 +84410,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mánáidáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mánáidáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -84515,8 +84515,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mánáidgárdejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mánáidgárdejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -84765,8 +84765,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mánáidsuodjalusjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mánáidsuodjalusjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -84855,8 +84855,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mánnageahčči</l>
+      <lg pos="N">
+         <l type="NomAg">mánnageahčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -84880,8 +84880,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mánnáoaidni</l>
+      <lg pos="N">
+         <l type="NomAg">mánnáoaidni</l>
       </lg>
    </e>
    <e status="edit">
@@ -84961,8 +84961,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mánusčálli</l>
+      <lg pos="N">
+         <l type="NomAg">mánusčálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -85051,8 +85051,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>máŋggas</l>
+      <lg pos="N">
+         <l type="Coll">máŋggas</l>
       </lg>
       <dg id="a">
          <d/>
@@ -85116,8 +85116,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>márkanastinjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">márkanastinjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -85232,8 +85232,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>márkanoaivadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">márkanoaivadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -85473,8 +85473,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mátkeealáhusbuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mátkeealáhusbuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -85598,8 +85598,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mátkeeallinoassálasti</l>
+      <lg pos="N">
+         <l type="NomAg">mátkeeallinoassálasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -85813,8 +85813,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mátkkošteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mátkkošteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -85975,8 +85975,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>meaddelvuoddji</l>
+      <lg pos="N">
+         <l type="NomAg">meaddelvuoddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -86085,8 +86085,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>meahcásteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">meahcásteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -86242,8 +86242,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>meahccegeavaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">meahccegeavaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -86392,8 +86392,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>meahciealli</l>
+      <lg pos="N">
+         <l type="NomAg">meahciealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -86568,8 +86568,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mearkagieloahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mearkagieloahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -87547,8 +87547,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mieđušteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mieđušteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -87627,8 +87627,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mielbargi</l>
+      <lg pos="N">
+         <l type="NomAg">mielbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -87637,8 +87637,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mielčuovvu</l>
+      <lg pos="N">
+         <l type="NomAg">mielčuovvu</l>
       </lg>
    </e>
    <e status="edit">
@@ -87712,8 +87712,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mielkebuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mielkebuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -87812,8 +87812,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>miellačájeheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">miellačájeheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -87977,8 +87977,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mielvázzi</l>
+      <lg pos="N">
+         <l type="NomAg">mielvázzi</l>
       </lg>
       <dg id="a">
          <d/>
@@ -87988,8 +87988,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mielvázzit</l>
+      <lg pos="N">
+         <l type="NomAg">mielvázzit</l>
       </lg>
    </e>
    <e status="edit">
@@ -88218,8 +88218,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>militearabiehttaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">militearabiehttaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -88643,8 +88643,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>miššonjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">miššonjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -88749,18 +88749,18 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>moallačiekči</l>
+      <lg pos="N">
+         <l type="NomAg">moallačiekči</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>moalladahkki</l>
+      <lg pos="N">
+         <l type="NomAg">moalladahkki</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>moalladuostu</l>
+      <lg pos="N">
+         <l type="NomAg">moalladuostu</l>
       </lg>
    </e>
    <e status="edit">
@@ -88779,8 +88779,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>moallasuodjaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">moallasuodjaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -88817,8 +88817,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="Coll">
-         <l>moattis</l>
+      <lg pos="N">
+         <l type="Coll">moattis</l>
       </lg>
       <dg id="a">
          <d/>
@@ -89130,8 +89130,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>molssaspealli</l>
+      <lg pos="N">
+         <l type="NomAg">molssaspealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -89605,8 +89605,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>muitaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">muitaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -89749,8 +89749,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>mun-muitaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">mun-muitaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -89947,8 +89947,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>muohtovuoidi</l>
+      <lg pos="N">
+         <l type="NomAg">muohtovuoidi</l>
       </lg>
    </e>
    <e status="edit">
@@ -89982,8 +89982,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>muorječoaggi</l>
+      <lg pos="N">
+         <l type="NomAg">muorječoaggi</l>
       </lg>
    </e>
    <e status="edit">
@@ -90595,8 +90595,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>muvrejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">muvrejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -90781,8 +90781,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>nammaguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">nammaguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -91329,8 +91329,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>nákkáhalli</l>
+      <lg pos="N">
+         <l type="NomAg">nákkáhalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -91562,8 +91562,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>návetvázzi</l>
+      <lg pos="N">
+         <l type="NomAg">návetvázzi</l>
       </lg>
    </e>
    <e status="edit">
@@ -91672,8 +91672,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>neahttageavaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">neahttageavaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -91692,8 +91692,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>neahttalohkki</l>
+      <lg pos="N">
+         <l type="NomAg">neahttalohkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -91702,8 +91702,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>neahttaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">neahttaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -91747,8 +91747,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ACR">
-         <l>neahtta-TV</l>
+      <lg pos="N">
+         <l type="ACR">neahtta-TV</l>
       </lg>
    </e>
    <e status="edit">
@@ -91787,8 +91787,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>nealgudeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">nealgudeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -92294,8 +92294,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>nissonoaivadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">nissonoaivadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -92792,8 +92792,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>njoammu</l>
+      <lg pos="N">
+         <l type="NomAg">njoammu</l>
       </lg>
    </e>
    <e status="edit">
@@ -92982,8 +92982,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>njunuščiekči</l>
+      <lg pos="N">
+         <l type="NomAg">njunuščiekči</l>
       </lg>
    </e>
    <e status="edit">
@@ -93002,8 +93002,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>njunušravdačiekči</l>
+      <lg pos="N">
+         <l type="NomAg">njunušravdačiekči</l>
       </lg>
    </e>
    <e status="edit">
@@ -93373,8 +93373,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>njuovvanjorri</l>
+      <lg pos="N">
+         <l type="G7">njuovvanjorri</l>
       </lg>
    </e>
    <e status="edit">
@@ -93408,8 +93408,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>njuovvi</l>
+      <lg pos="N">
+         <l type="NomAg">njuovvi</l>
       </lg>
    </e>
    <e status="edit">
@@ -93604,8 +93604,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>Norggaáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">Norggaáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -93668,8 +93668,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>nr</l>
+      <lg pos="N">
+         <l type="ABBR">nr</l>
       </lg>
    </e>
    <e status="edit">
@@ -93704,8 +93704,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>nubbijođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">nubbijođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -93954,8 +93954,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>nuoraidovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">nuoraidovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -94629,8 +94629,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpahalli</l>
+      <lg pos="N">
+         <l type="NomAg">oahpahalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -94910,8 +94910,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -95005,8 +95005,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpahusčálli</l>
+      <lg pos="N">
+         <l type="NomAg">oahpahusčálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -95140,8 +95140,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpahusgoziheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahpahusgoziheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -95175,8 +95175,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpahusjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahpahusjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -95385,8 +95385,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpisteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahpisteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -95462,8 +95462,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahppaneavvobuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahppaneavvobuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -95577,13 +95577,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahppi</l>
+      <lg pos="N">
+         <l type="NomAg">oahppi</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahppiáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahppiáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -95667,13 +95667,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahppobagadalli</l>
+      <lg pos="N">
+         <l type="NomAg">oahppobagadalli</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahppobagadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahppobagadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -95857,8 +95857,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahppojođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahppojođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -95977,8 +95977,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpponeavvočálli</l>
+      <lg pos="N">
+         <l type="NomAg">oahpponeavvočálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -96042,8 +96042,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpponeavvoovddideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahpponeavvoovddideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -96187,8 +96187,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oahpporávvejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oahpporávvejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -96316,8 +96316,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oaidni</l>
+      <lg pos="N">
+         <l type="NomAg">oaidni</l>
       </lg>
       <ig>
          <i>ii daga oaidnin ge</i>
@@ -96527,8 +96527,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oaivedoaimmaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oaivedoaimmaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -96649,8 +96649,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oaivilguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">oaivilguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -96784,8 +96784,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oalgegálvobuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oalgegálvobuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -96799,8 +96799,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>oalgeláđđi</l>
+      <lg pos="N">
+         <l type="G7">oalgeláđđi</l>
       </lg>
    </e>
    <e status="edit">
@@ -96899,8 +96899,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oamasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oamasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -97087,8 +97087,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>oarri</l>
+      <lg pos="N">
+         <l type="G7">oarri</l>
       </lg>
    </e>
    <e status="edit">
@@ -97117,13 +97117,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oassádalli</l>
+      <lg pos="N">
+         <l type="NomAg">oassádalli</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oassálasti</l>
+      <lg pos="N">
+         <l type="NomAg">oassálasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -97232,8 +97232,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oasseguollebivdi</l>
+      <lg pos="N">
+         <l type="NomAg">oasseguollebivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -97348,8 +97348,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oasseváldi</l>
+      <lg pos="N">
+         <l type="NomAg">oasseváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -97368,8 +97368,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oasti</l>
+      <lg pos="N">
+         <l type="NomAg">oasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -97443,8 +97443,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oasusdoalli</l>
+      <lg pos="N">
+         <l type="NomAg">oasusdoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -97538,8 +97538,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oavnnjildeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oavnnjildeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -97679,8 +97679,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>oč</l>
+      <lg pos="N">
+         <l type="ABBR">oč</l>
       </lg>
    </e>
    <e status="edit">
@@ -97729,13 +97729,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>Od.prp.</l>
+      <lg pos="N">
+         <l type="ABBR">Od.prp.</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>od.prp.</l>
+      <lg pos="N">
+         <l type="ABBR">od.prp.</l>
       </lg>
    </e>
    <e status="edit">
@@ -97914,8 +97914,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ođđaássi</l>
+      <lg pos="N">
+         <l type="NomAg">ođđaássi</l>
       </lg>
    </e>
    <e status="edit">
@@ -98075,8 +98075,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>ohcaláđđi</l>
+      <lg pos="N">
+         <l type="G7">ohcaláđđi</l>
       </lg>
    </e>
    <e status="edit">
@@ -98293,8 +98293,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ohcci</l>
+      <lg pos="N">
+         <l type="NomAg">ohcci</l>
       </lg>
    </e>
    <e status="edit">
@@ -98348,8 +98348,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ohppiidáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ohppiidáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -98733,8 +98733,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oktavuođadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">oktavuođadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -98823,8 +98823,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oktiiheiveheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">oktiiheiveheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -99959,8 +99959,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>olmmošvuoigatvuođadutki</l>
+      <lg pos="N">
+         <l type="NomAg">olmmošvuoigatvuođadutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -100064,8 +100064,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>operalávlu</l>
+      <lg pos="N">
+         <l type="NomAg">operalávlu</l>
       </lg>
    </e>
    <e status="edit">
@@ -100169,13 +100169,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>opmodatsoabadalli</l>
+      <lg pos="N">
+         <l type="NomAg">opmodatsoabadalli</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>opmodatsoabaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">opmodatsoabaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -100209,8 +100209,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>opmodatvuovdi</l>
+      <lg pos="N">
+         <l type="NomAg">opmodatvuovdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -100229,8 +100229,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>oppalašfágaoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">oppalašfágaoahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -100304,8 +100304,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>opposišuvdnajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">opposišuvdnajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -100635,8 +100635,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>orohatjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">orohatjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -100885,8 +100885,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ossodatbuhcciiddikšu</l>
+      <lg pos="N">
+         <l type="NomAg">ossodatbuhcciiddikšu</l>
       </lg>
    </e>
    <e status="edit">
@@ -100920,8 +100920,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ossodatjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ossodatjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -101050,8 +101050,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdajuvladoaibmi</l>
+      <lg pos="N">
+         <l type="NomAg">ovdajuvladoaibmi</l>
       </lg>
    </e>
    <e status="edit">
@@ -101090,8 +101090,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdalávlu</l>
+      <lg pos="N">
+         <l type="NomAg">ovdalávlu</l>
       </lg>
    </e>
    <e status="edit">
@@ -101100,8 +101100,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdamanni</l>
+      <lg pos="N">
+         <l type="NomAg">ovdamanni</l>
       </lg>
    </e>
    <e status="edit">
@@ -101200,8 +101200,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdanvázzi</l>
+      <lg pos="N">
+         <l type="NomAg">ovdanvázzi</l>
       </lg>
    </e>
    <e status="edit">
@@ -101335,9 +101335,9 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdaskuvlaoahpaheaddji</l>
-         <l>ovdaskuvllaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovdaskuvlaoahpaheaddji</l>
+         <l type="NomAg">ovdaskuvllaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -101351,8 +101351,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdavázzi</l>
+      <lg pos="N">
+         <l type="NomAg">ovdavázzi</l>
       </lg>
    </e>
    <e status="edit">
@@ -101431,8 +101431,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdánahttinjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovdánahttinjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -101662,13 +101662,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovddasduvdi</l>
+      <lg pos="N">
+         <l type="NomAg">ovddasduvdi</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovddasmanni</l>
+      <lg pos="N">
+         <l type="NomAg">ovddasmanni</l>
       </lg>
    </e>
    <e status="edit">
@@ -101728,8 +101728,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -101803,8 +101803,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovddasvástideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovddasvástideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -101843,8 +101843,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovddidanbargi</l>
+      <lg pos="N">
+         <l type="NomAg">ovddidanbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -102058,8 +102058,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovddideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovddideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -102083,13 +102083,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdogohcci</l>
+      <lg pos="N">
+         <l type="NomAg">ovdogohcci</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovdogoziheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovdogoziheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -102143,8 +102143,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovttadássásašvuođaoaivadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovttadássásašvuođaoaivadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -102158,8 +102158,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovttagálvobuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovttagálvobuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -102238,8 +102238,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovttaoaivvildeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ovttaoaivvildeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -102253,8 +102253,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovttasássi</l>
+      <lg pos="N">
+         <l type="NomAg">ovttasássi</l>
       </lg>
    </e>
    <e status="edit">
@@ -102293,8 +102293,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovttasbargi</l>
+      <lg pos="N">
+         <l type="NomAg">ovttasbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -102653,8 +102653,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ovttasorru</l>
+      <lg pos="N">
+         <l type="NomAg">ovttasorru</l>
       </lg>
    </e>
    <e status="edit">
@@ -102808,13 +102808,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>panelajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">panelajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>panelaoasseváldi</l>
+      <lg pos="N">
+         <l type="NomAg">panelaoasseváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -103118,8 +103118,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>pc</l>
+      <lg pos="N">
+         <l type="ABBR">pc</l>
       </lg>
    </e>
    <e status="edit">
@@ -103939,8 +103939,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>plánejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">plánejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -104154,8 +104154,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>poastajuogadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">poastajuogadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -104638,8 +104638,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>preassadieđiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">preassadieđiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -104683,8 +104683,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>preassagulahalli</l>
+      <lg pos="N">
+         <l type="NomAg">preassagulahalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -104963,8 +104963,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>priváhtaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">priváhtaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -105148,13 +105148,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prográmmabuvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">prográmmabuvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prográmmačálli</l>
+      <lg pos="N">
+         <l type="NomAg">prográmmačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -105208,8 +105208,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prográmmagálvolágideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">prográmmagálvolágideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -105228,8 +105228,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prográmmaháhkki</l>
+      <lg pos="N">
+         <l type="NomAg">prográmmaháhkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -105238,8 +105238,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prográmmajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">prográmmajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -105248,8 +105248,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prográmmaláidesteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">prográmmaláidesteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -105473,8 +105473,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prošeaktabargi</l>
+      <lg pos="N">
+         <l type="NomAg">prošeaktabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -105533,8 +105533,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prošeaktajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">prošeaktajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -105568,8 +105568,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prošeaktamielbargi</l>
+      <lg pos="N">
+         <l type="NomAg">prošeaktamielbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -105593,8 +105593,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>prošeaktaohcci</l>
+      <lg pos="N">
+         <l type="NomAg">prošeaktaohcci</l>
       </lg>
    </e>
    <e status="edit">
@@ -106174,8 +106174,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ravdačiekči</l>
+      <lg pos="N">
+         <l type="NomAg">ravdačiekči</l>
       </lg>
    </e>
    <e status="edit">
@@ -106341,8 +106341,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rádioságadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">rádioságadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -106482,8 +106482,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rádjeovttasbargobuohtalasti</l>
+      <lg pos="N">
+         <l type="NomAg">rádjeovttasbargobuohtalasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -106577,8 +106577,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">ráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -106642,8 +106642,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ráđđehusáššedovdi</l>
+      <lg pos="N">
+         <l type="NomAg">ráđđehusáššedovdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -106677,8 +106677,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ráđđehusjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ráđđehusjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -106742,8 +106742,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ráđđejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ráđđejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -106862,8 +106862,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>ráffi</l>
+      <lg pos="N">
+         <l type="G7">ráffi</l>
       </lg>
    </e>
    <e status="edit">
@@ -107235,8 +107235,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rámburbargi</l>
+      <lg pos="N">
+         <l type="NomAg">rámburbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -107763,8 +107763,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rávdnjefievrredeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">rávdnjefievrredeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -107887,8 +107887,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rávvejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">rávvejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -107927,8 +107927,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>reabbáealli</l>
+      <lg pos="N">
+         <l type="NomAg">reabbáealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -108243,13 +108243,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>redakšuvdnabargi</l>
+      <lg pos="N">
+         <l type="NomAg">redakšuvdnabargi</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>redakšuvdnačálli</l>
+      <lg pos="N">
+         <l type="NomAg">redakšuvdnačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -108718,8 +108718,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rehketdoalli</l>
+      <lg pos="N">
+         <l type="NomAg">rehketdoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -108743,8 +108743,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rehketdoallodárkkisteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">rehketdoallodárkkisteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -109638,8 +109638,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>riddobivdi</l>
+      <lg pos="N">
+         <l type="NomAg">riddobivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -109859,8 +109859,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>riegádahtti</l>
+      <lg pos="N">
+         <l type="NomAg">riegádahtti</l>
       </lg>
    </e>
    <e status="edit">
@@ -110259,13 +110259,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>riekteguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">riekteguoddi</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>riektehistorjádutki</l>
+      <lg pos="N">
+         <l type="NomAg">riektehistorjádutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -110698,8 +110698,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rievssatbivdi</l>
+      <lg pos="N">
+         <l type="NomAg">rievssatbivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -110759,8 +110759,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>riggeealli</l>
+      <lg pos="N">
+         <l type="NomAg">riggeealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -110779,8 +110779,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rihcceealli</l>
+      <lg pos="N">
+         <l type="NomAg">rihcceealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -111286,8 +111286,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>riikkasoabaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">riikkasoabaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -111535,8 +111535,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>risttalašvuođaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">risttalašvuođaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -111567,8 +111567,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>rišša</l>
+      <lg pos="N">
+         <l type="G3">rišša</l>
       </lg>
       <dg id="a">
          <d/>
@@ -112086,8 +112086,8 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>ru</l>
+      <lg pos="N">
+         <l type="ABBR">ru</l>
       </lg>
    </e>
    <e status="edit">
@@ -112338,8 +112338,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ruhtadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ruhtadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -112353,8 +112353,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ruhtadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">ruhtadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -112563,8 +112563,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ruhttejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ruhttejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -112704,13 +112704,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rumbbostaddi</l>
+      <lg pos="N">
+         <l type="NomAg">rumbbostaddi</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>rumbbostalli</l>
+      <lg pos="N">
+         <l type="NomAg">rumbbostalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -113217,8 +113217,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ruovttubuohccedikšu</l>
+      <lg pos="N">
+         <l type="NomAg">ruovttubuohccedikšu</l>
       </lg>
    </e>
    <e status="edit">
@@ -113282,8 +113282,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ruovttuealli</l>
+      <lg pos="N">
+         <l type="NomAg">ruovttuealli</l>
       </lg>
       <cg>
          <c>l_ref: biebmoealli_n</c>
@@ -113748,8 +113748,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sabetnjuikejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sabetnjuikejeaddji</l>
       </lg>
       <dg id="a">
          <d/>
@@ -113984,8 +113984,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sarvvaealli</l>
+      <lg pos="N">
+         <l type="NomAg">sarvvaealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -114081,8 +114081,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sáddejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sáddejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -114146,13 +114146,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ságadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">ságadoalli</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>ságajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">ságajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -114273,18 +114273,18 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sáhkadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">sáhkadoalli</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sáhkaovddideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sáhkaovddideaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sáhkavuorrodoalli</l>
+      <lg pos="N">
+         <l type="NomAg">sáhkavuorrodoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -114465,8 +114465,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sáitebálkesteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sáitebálkesteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -114988,9 +114988,9 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sámegieloahpaheaddji</l>
-         <l>sámegielaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sámegieloahpaheaddji</l>
+         <l type="NomAg">sámegielaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -114999,8 +114999,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sámegieloahppi</l>
+      <lg pos="N">
+         <l type="NomAg">sámegieloahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -115227,8 +115227,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sámeskuvlaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sámeskuvlaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -115363,8 +115363,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sárdnideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sárdnideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -115413,8 +115413,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sárgu</l>
+      <lg pos="N">
+         <l type="NomAg">sárgu</l>
       </lg>
    </e>
    <e status="edit">
@@ -115498,8 +115498,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sátnegirječálli</l>
+      <lg pos="N">
+         <l type="NomAg">sátnegirječálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -115523,8 +115523,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sátnejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sátnejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -115654,8 +115654,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sáttagoddejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sáttagoddejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -115803,8 +115803,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sávzadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">sávzadoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -115955,8 +115955,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>seailluheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">seailluheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -116026,8 +116026,8 @@
       </ig>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>sealla</l>
+      <lg pos="N">
+         <l type="G3">sealla</l>
       </lg>
    </e>
    <e status="edit">
@@ -116397,8 +116397,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sekšuvdnajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sekšuvdnajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -116484,8 +116484,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>semináraoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">semináraoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -116524,8 +116524,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>seniordutki</l>
+      <lg pos="N">
+         <l type="NomAg">seniordutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -116539,8 +116539,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>seniorráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">seniorráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -116690,8 +116690,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>servodatdutki</l>
+      <lg pos="N">
+         <l type="NomAg">servodatdutki</l>
       </lg>
    </e>
    <e status="edit">
@@ -116770,8 +116770,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>servodathuksejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">servodathuksejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -116840,8 +116840,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>servodatoassálasti</l>
+      <lg pos="N">
+         <l type="NomAg">servodatoassálasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -116885,8 +116885,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>servodatplánejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">servodatplánejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -117315,8 +117315,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sierraraporterejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sierraraporterejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -117651,8 +117651,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sihkkelasti</l>
+      <lg pos="N">
+         <l type="NomAg">sihkkelasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -118132,8 +118132,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sisabahkkejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sisabahkkejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -118242,8 +118242,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sisafárrejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sisafárrejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -118493,8 +118493,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ACR">
-         <l>siskkáldas-TV</l>
+      <lg pos="N">
+         <l type="ACR">siskkáldas-TV</l>
       </lg>
    </e>
    <e status="edit">
@@ -118604,8 +118604,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sivdnideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sivdnideaddji</l>
       </lg>
       <dg id="a">
          <d/>
@@ -118625,8 +118625,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>siviilaáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">siviilaáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -118932,8 +118932,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skearrojoraheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">skearrojoraheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -118958,8 +118958,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skeŋkejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">skeŋkejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -119127,8 +119127,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skirvehalli</l>
+      <lg pos="N">
+         <l type="NomAg">skirvehalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -119377,8 +119377,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skuovvadivodeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">skuovvadivodeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -119639,8 +119639,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skuvladoalli</l>
+      <lg pos="N">
+         <l type="NomAg">skuvladoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -119724,8 +119724,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skuvlagirjerádjobargi</l>
+      <lg pos="N">
+         <l type="NomAg">skuvlagirjerádjobargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -119754,8 +119754,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skuvlagoziheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">skuvlagoziheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -119799,8 +119799,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skuvlajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">skuvlajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -120115,8 +120115,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>skuvlastivrrajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">skuvlastivrrajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -120296,13 +120296,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>smávvafanasbivdi</l>
+      <lg pos="N">
+         <l type="NomAg">smávvafanasbivdi</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>smávvafuođđobivdi</l>
+      <lg pos="N">
+         <l type="NomAg">smávvafuođđobivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -120406,8 +120406,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>smirezasti</l>
+      <lg pos="N">
+         <l type="NomAg">smirezasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -120456,13 +120456,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>snihkkároahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">snihkkároahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>snihkkároahppi</l>
+      <lg pos="N">
+         <l type="NomAg">snihkkároahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -120567,8 +120567,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>soabaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">soabaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -120608,8 +120608,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>soadjegeašláđđi</l>
+      <lg pos="N">
+         <l type="G7">soadjegeašláđđi</l>
       </lg>
    </e>
    <e status="edit">
@@ -121297,8 +121297,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sosiálabargi</l>
+      <lg pos="N">
+         <l type="NomAg">sosiálabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -121313,8 +121313,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sosiálačálli</l>
+      <lg pos="N">
+         <l type="NomAg">sosiálačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -121403,8 +121403,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sosiálajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sosiálajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -121423,8 +121423,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sosiálaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sosiálaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -121528,8 +121528,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>sotnabeaiskuvlaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">sotnabeaiskuvlaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -121753,8 +121753,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>spealli</l>
+      <lg pos="N">
+         <l type="NomAg">spealli</l>
       </lg>
       <dg id="a">
          <d/>
@@ -121819,8 +121819,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>spesiálaraporterejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">spesiálaraporterejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -122106,8 +122106,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stádačálli</l>
+      <lg pos="N">
+         <l type="NomAg">stádačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -122136,8 +122136,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>stáđđi</l>
+      <lg pos="N">
+         <l type="G7">stáđđi</l>
       </lg>
    </e>
    <e status="edit">
@@ -122151,8 +122151,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stággobivdi</l>
+      <lg pos="N">
+         <l type="NomAg">stággobivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -122241,8 +122241,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stáhtačálli</l>
+      <lg pos="N">
+         <l type="NomAg">stáhtačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -122381,8 +122381,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stáhtaministtarčálli</l>
+      <lg pos="N">
+         <l type="NomAg">stáhtaministtarčálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -122436,8 +122436,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stáhtaráđđečálli</l>
+      <lg pos="N">
+         <l type="NomAg">stáhtaráđđečálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -122777,8 +122777,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stipeandaoažžu</l>
+      <lg pos="N">
+         <l type="NomAg">stipeandaoažžu</l>
       </lg>
    </e>
    <e status="edit">
@@ -123062,8 +123062,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stivrrajođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">stivrrajođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -123093,8 +123093,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stivrraoassálasti</l>
+      <lg pos="N">
+         <l type="NomAg">stivrraoassálasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -123103,8 +123103,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stivrraovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">stivrraovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -123469,8 +123469,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>studeantaovddasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">studeantaovddasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -123539,8 +123539,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>stuibmideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">stuibmideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -123949,8 +123949,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>suhkki</l>
+      <lg pos="N">
+         <l type="NomAg">suhkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -124145,8 +124145,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>suodjalusáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">suodjalusáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -124300,8 +124300,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>suohkanbargi</l>
+      <lg pos="N">
+         <l type="NomAg">suohkanbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -124917,8 +124917,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>suovvabuokči</l>
+      <lg pos="N">
+         <l type="NomAg">suovvabuokči</l>
       </lg>
    </e>
    <e status="edit">
@@ -125266,8 +125266,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>šaddoborri</l>
+      <lg pos="N">
+         <l type="NomAg">šaddoborri</l>
       </lg>
    </e>
    <e status="edit">
@@ -125411,8 +125411,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>šattosborri</l>
+      <lg pos="N">
+         <l type="NomAg">šattosborri</l>
       </lg>
    </e>
    <e status="edit">
@@ -125731,8 +125731,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>šiehtadallanjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">šiehtadallanjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -125816,8 +125816,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>šiehtadalli</l>
+      <lg pos="N">
+         <l type="NomAg">šiehtadalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -126116,8 +126116,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>šlieddaealli</l>
+      <lg pos="N">
+         <l type="NomAg">šlieddaealli</l>
       </lg>
       <dg id="a">
          <d/>
@@ -126331,8 +126331,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>šuokŋadahkki</l>
+      <lg pos="N">
+         <l type="NomAg">šuokŋadahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -126381,8 +126381,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>tabeallavuoiti</l>
+      <lg pos="N">
+         <l type="NomAg">tabeallavuoiti</l>
       </lg>
    </e>
    <e status="edit">
@@ -126502,8 +126502,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>tálla</l>
+      <lg pos="N">
+         <l type="G3">tálla</l>
       </lg>
    </e>
    <e status="edit">
@@ -126517,8 +126517,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>tb.</l>
+      <lg pos="N">
+         <l type="ABBR">tb.</l>
       </lg>
       <dg id="a">
          <d/>
@@ -126575,8 +126575,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>teakstačálli</l>
+      <lg pos="N">
+         <l type="NomAg">teakstačálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -126720,8 +126720,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>teáhterbargi</l>
+      <lg pos="N">
+         <l type="NomAg">teáhterbargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -127272,8 +127272,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>tevdnejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">tevdnejeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -127317,8 +127317,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>tiibmooahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">tiibmooahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -127800,8 +127800,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ACR">
-         <l>TV</l>
+      <lg pos="N">
+         <l type="ACR">TV</l>
       </lg>
    </e>
    <e status="edit">
@@ -127810,8 +127810,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>tv-buvttadeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">tv-buvttadeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -128315,8 +128315,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>unnitálbmotgeahčči</l>
+      <lg pos="N">
+         <l type="NomAg">unnitálbmotgeahčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -128649,8 +128649,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vahátealli</l>
+      <lg pos="N">
+         <l type="NomAg">vahátealli</l>
       </lg>
    </e>
    <e status="edit">
@@ -128838,8 +128838,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>valáštallanhárjeheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">valáštallanhárjeheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -128853,8 +128853,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>valáštallanjođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">valáštallanjođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -128943,8 +128943,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>valáštalli</l>
+      <lg pos="N">
+         <l type="NomAg">valáštalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -129385,8 +129385,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váhnenráđđejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">váhnenráđđejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -129485,8 +129485,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váibmobuohcci</l>
+      <lg pos="N">
+         <l type="NomAg">váibmobuohcci</l>
       </lg>
    </e>
    <e status="edit">
@@ -129684,8 +129684,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váidi</l>
+      <lg pos="N">
+         <l type="NomAg">váidi</l>
       </lg>
    </e>
    <e status="edit">
@@ -129909,8 +129909,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váikkuheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">váikkuheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -130169,8 +130169,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váldeguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">váldeguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -130289,8 +130289,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váldobuohccedikšu</l>
+      <lg pos="N">
+         <l type="NomAg">váldobuohccedikšu</l>
       </lg>
    </e>
    <e status="edit">
@@ -130314,8 +130314,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váldočálli</l>
+      <lg pos="N">
+         <l type="NomAg">váldočálli</l>
       </lg>
    </e>
    <e status="edit">
@@ -130390,18 +130390,18 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="ABBR">
-         <l>váldodoaimm.</l>
+      <lg pos="N">
+         <l type="ABBR">váldodoaimm.</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váldodoaimmaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">váldodoaimmaheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váldodoalli</l>
+      <lg pos="N">
+         <l type="NomAg">váldodoalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -130780,8 +130780,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váldoráđđeaddi</l>
+      <lg pos="N">
+         <l type="NomAg">váldoráđđeaddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -130815,8 +130815,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váldoságastalli</l>
+      <lg pos="N">
+         <l type="NomAg">váldoságastalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -130830,8 +130830,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>váldosárdnideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">váldosárdnideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -131011,8 +131011,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>válgabargi</l>
+      <lg pos="N">
+         <l type="NomAg">válgabargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -131362,8 +131362,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vánddardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vánddardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -131533,8 +131533,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>várrejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">várrejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -131578,13 +131578,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>várreságadoalli</l>
+      <lg pos="N">
+         <l type="NomAg">várreságadoalli</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>várresátnejođiheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">várresátnejođiheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -131861,8 +131861,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vázzi</l>
+      <lg pos="N">
+         <l type="NomAg">vázzi</l>
       </lg>
    </e>
    <e status="edit">
@@ -132075,8 +132075,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>veahkaváldi</l>
+      <lg pos="N">
+         <l type="NomAg">veahkaváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -132095,8 +132095,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>veahkeheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">veahkeheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -132130,8 +132130,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>veahkkebargi</l>
+      <lg pos="N">
+         <l type="NomAg">veahkkebargi</l>
       </lg>
    </e>
    <e status="edit">
@@ -132205,8 +132205,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>veahkkeheiveheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">veahkkeheiveheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -132230,8 +132230,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>veahkkeoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">veahkkeoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -132280,8 +132280,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>veahkkeváldeguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">veahkkeváldeguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -132421,8 +132421,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vealahanáittardeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vealahanáittardeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -132617,8 +132617,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vearredahkki</l>
+      <lg pos="N">
+         <l type="NomAg">vearredahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -132658,8 +132658,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vearroáššemeannudeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vearroáššemeannudeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -132673,8 +132673,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vearrodahkki</l>
+      <lg pos="N">
+         <l type="NomAg">vearrodahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -132885,8 +132885,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vearromáksi</l>
+      <lg pos="N">
+         <l type="NomAg">vearromáksi</l>
       </lg>
    </e>
    <e status="edit">
@@ -133070,8 +133070,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>velgoheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">velgoheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -133344,8 +133344,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>viessobearráigeahčči</l>
+      <lg pos="N">
+         <l type="NomAg">viessobearráigeahčči</l>
       </lg>
    </e>
    <e status="edit">
@@ -134473,13 +134473,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuodjinoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuodjinoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuodjinoahppi</l>
+      <lg pos="N">
+         <l type="NomAg">vuodjinoahppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -135006,8 +135006,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuođđoskuvlaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuođđoskuvlaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -135156,8 +135156,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuođusháhkki</l>
+      <lg pos="N">
+         <l type="NomAg">vuođusháhkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -135181,13 +135181,13 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuogádathuksejeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuogádathuksejeaddji</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuogádatlágideaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuogádatlágideaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -135301,8 +135301,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuoigatvuođaguoddi</l>
+      <lg pos="N">
+         <l type="NomAg">vuoigatvuođaguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -135426,8 +135426,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuoigŋadahkki</l>
+      <lg pos="N">
+         <l type="NomAg">vuoigŋadahkki</l>
       </lg>
    </e>
    <e status="edit">
@@ -135578,8 +135578,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuoiti</l>
+      <lg pos="N">
+         <l type="NomAg">vuoiti</l>
       </lg>
    </e>
    <e status="edit">
@@ -135777,8 +135777,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuoktačuohppi</l>
+      <lg pos="N">
+         <l type="NomAg">vuoktačuohppi</l>
       </lg>
    </e>
    <e status="edit">
@@ -136384,8 +136384,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuorroskuvlaoahpaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuorroskuvlaoahpaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -136410,8 +136410,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G3">
-         <l>vuorru</l>
+      <lg pos="N">
+         <l type="G3">vuorru</l>
       </lg>
       <dg id="a">
          <d/>
@@ -136492,8 +136492,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="G7">
-         <l>vuossi</l>
+      <lg pos="N">
+         <l type="G7">vuossi</l>
       </lg>
       <dg id="a">
          <d/>
@@ -136518,8 +136518,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuostáiváldi</l>
+      <lg pos="N">
+         <l type="NomAg">vuostáiváldi</l>
       </lg>
    </e>
    <e status="edit">
@@ -136558,8 +136558,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuostálasti</l>
+      <lg pos="N">
+         <l type="NomAg">vuostálasti</l>
       </lg>
    </e>
    <e status="edit">
@@ -136683,8 +136683,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuostedigaštalli</l>
+      <lg pos="N">
+         <l type="NomAg">vuostedigaštalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -136753,8 +136753,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuostenákkáhalli</l>
+      <lg pos="N">
+         <l type="NomAg">vuostenákkáhalli</l>
       </lg>
    </e>
    <e status="edit">
@@ -136838,8 +136838,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuosttaldeaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuosttaldeaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -136853,8 +136853,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuosttasjienasteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuosttasjienasteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -136978,8 +136978,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuotnabivdi</l>
+      <lg pos="N">
+         <l type="NomAg">vuotnabivdi</l>
       </lg>
    </e>
    <e status="edit">
@@ -136988,8 +136988,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuotnabossu</l>
+      <lg pos="N">
+         <l type="NomAg">vuotnabossu</l>
       </lg>
    </e>
    <e status="edit">
@@ -137018,8 +137018,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuotnaguolásteaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuotnaguolásteaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -137128,8 +137128,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuovdaleaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuovdaleaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -137265,8 +137265,8 @@
       </lg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuovdehálddaheaddji</l>
+      <lg pos="N">
+         <l type="NomAg">vuovdehálddaheaddji</l>
       </lg>
    </e>
    <e status="edit">
@@ -137337,8 +137337,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="N" type="NomAg">
-         <l>vuovdi</l>
+      <lg pos="N">
+         <l type="NomAg">vuovdi</l>
       </lg>
       <dg id="a">
          <d/>

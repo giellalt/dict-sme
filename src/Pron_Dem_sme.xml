@@ -29,33 +29,33 @@
         </sourcenote>
    </lics>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>daid</l>
+      <lg pos="Pron">
+         <l type="Dem">daid</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>daidda</l>
+      <lg pos="Pron">
+         <l type="Dem">daidda</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>daiguin</l>
+      <lg pos="Pron">
+         <l type="Dem">daiguin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dain</l>
+      <lg pos="Pron">
+         <l type="Dem">dain</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dainna</l>
+      <lg pos="Pron">
+         <l type="Dem">dainna</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkár</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkár</l>
       </lg>
       <dg id="a">
          <d/>
@@ -66,8 +66,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkára</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkára</l>
       </lg>
       <dg id="a">
          <d/>
@@ -77,8 +77,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkárii</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkárii</l>
       </lg>
       <dg id="a">
          <d/>
@@ -88,8 +88,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkáriid</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkáriid</l>
       </lg>
       <dg id="a">
          <d/>
@@ -99,8 +99,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkáriidda</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkáriidda</l>
       </lg>
       <dg id="a">
          <d/>
@@ -110,8 +110,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkáriiguin</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkáriiguin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -121,8 +121,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkáriin</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkáriin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -141,8 +141,8 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkárin</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkárin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -152,8 +152,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dakkáris</l>
+      <lg pos="Pron">
+         <l type="Dem">dakkáris</l>
       </lg>
       <dg id="a">
          <d/>
@@ -163,18 +163,18 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>das</l>
+      <lg pos="Pron">
+         <l type="Dem">das</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dasa</l>
+      <lg pos="Pron">
+         <l type="Dem">dasa</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dat</l>
+      <lg pos="Pron">
+         <l type="Dem">dat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -187,33 +187,33 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dáid</l>
+      <lg pos="Pron">
+         <l type="Dem">dáid</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dáidda</l>
+      <lg pos="Pron">
+         <l type="Dem">dáidda</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dáiguin</l>
+      <lg pos="Pron">
+         <l type="Dem">dáiguin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dáin</l>
+      <lg pos="Pron">
+         <l type="Dem">dáin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dáinna</l>
+      <lg pos="Pron">
+         <l type="Dem">dáinna</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkár</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkár</l>
       </lg>
       <dg id="a">
          <d/>
@@ -224,8 +224,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkára</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkára</l>
       </lg>
       <dg id="a">
          <d/>
@@ -235,8 +235,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkárii</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkárii</l>
       </lg>
       <dg id="a">
          <d/>
@@ -246,8 +246,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkáriid</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkáriid</l>
       </lg>
       <dg id="a">
          <d/>
@@ -257,8 +257,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkáriidda</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkáriidda</l>
       </lg>
       <dg id="a">
          <d/>
@@ -268,8 +268,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkáriiguin</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkáriiguin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -279,8 +279,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkáriin</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkáriin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -299,8 +299,8 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkárin</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkárin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -311,23 +311,23 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dákkáris</l>
+      <lg pos="Pron">
+         <l type="Dem">dákkáris</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dás</l>
+      <lg pos="Pron">
+         <l type="Dem">dás</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dása</l>
+      <lg pos="Pron">
+         <l type="Dem">dása</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dát</l>
+      <lg pos="Pron">
+         <l type="Dem">dát</l>
       </lg>
       <dg id="a">
          <d/>
@@ -359,33 +359,33 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dieid</l>
+      <lg pos="Pron">
+         <l type="Dem">dieid</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dieidda</l>
+      <lg pos="Pron">
+         <l type="Dem">dieidda</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dieiguin</l>
+      <lg pos="Pron">
+         <l type="Dem">dieiguin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diein</l>
+      <lg pos="Pron">
+         <l type="Dem">diein</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dieinna</l>
+      <lg pos="Pron">
+         <l type="Dem">dieinna</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkár</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkár</l>
       </lg>
       <dg id="a">
          <d/>
@@ -396,13 +396,13 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkára</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkára</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkárii</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkárii</l>
       </lg>
       <dg id="a">
          <d/>
@@ -412,8 +412,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkáriid</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkáriid</l>
       </lg>
       <dg id="a">
          <d/>
@@ -423,8 +423,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkáriidda</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkáriidda</l>
       </lg>
       <dg id="a">
          <d/>
@@ -434,8 +434,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkáriiguin</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkáriiguin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -445,8 +445,8 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkáriin</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkáriin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -465,13 +465,13 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkárin</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkárin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diekkáris</l>
+      <lg pos="Pron">
+         <l type="Dem">diekkáris</l>
       </lg>
       <dg id="a">
          <d/>
@@ -481,18 +481,18 @@
       </dg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dies</l>
+      <lg pos="Pron">
+         <l type="Dem">dies</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diesa</l>
+      <lg pos="Pron">
+         <l type="Dem">diesa</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>diet</l>
+      <lg pos="Pron">
+         <l type="Dem">diet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -525,28 +525,28 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>doid</l>
+      <lg pos="Pron">
+         <l type="Dem">doid</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>doidda</l>
+      <lg pos="Pron">
+         <l type="Dem">doidda</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>doiguin</l>
+      <lg pos="Pron">
+         <l type="Dem">doiguin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>doin</l>
+      <lg pos="Pron">
+         <l type="Dem">doin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>dot</l>
+      <lg pos="Pron">
+         <l type="Dem">dot</l>
       </lg>
       <dg id="a">
          <d/>
@@ -561,43 +561,43 @@
       </cg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>duoid</l>
+      <lg pos="Pron">
+         <l type="Dem">duoid</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>duoidda</l>
+      <lg pos="Pron">
+         <l type="Dem">duoidda</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>duoiguin</l>
+      <lg pos="Pron">
+         <l type="Dem">duoiguin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>duoin</l>
+      <lg pos="Pron">
+         <l type="Dem">duoin</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>duoinna</l>
+      <lg pos="Pron">
+         <l type="Dem">duoinna</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>duos</l>
+      <lg pos="Pron">
+         <l type="Dem">duos</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>duosa</l>
+      <lg pos="Pron">
+         <l type="Dem">duosa</l>
       </lg>
    </e>
    <e status="edit">
-      <lg pos="Pron" type="Dem">
-         <l>duot</l>
+      <lg pos="Pron">
+         <l type="Dem">duot</l>
       </lg>
       <dg id="a">
          <d/>

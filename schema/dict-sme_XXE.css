@@ -169,13 +169,15 @@ e:after {
     content: add-same("+ entry");
 }
 
-/* Status and batch, at the top right of the entry. Values are shown as
-   text with a menu button instead of combo boxes: a combo box in every
-   entry makes big files very slow to open in XXE.
-   The batch menu lists the batches in batches.xml. For that, the content
-   is put together as text by concatenate(): XPath turns the batch ids
-   into menu items, and XXE then reads the text as CSS. The name of the
-   person who has the batch is shown next to it. */
+/* Status, batch and assignee, at the top right of the entry. Values are
+   shown as text with a menu button instead of combo boxes: a combo box in
+   every entry makes big files very slow to open in XXE.
+   The batch menu lists the batches in batches.xml, and the assignee menu
+   the people there. For that, the content is put together as text by
+   concatenate(): XPath turns batches.xml into menu items, and XXE then
+   reads the text as CSS.
+   An entry without an assignee of its own is worked on by the person who
+   has its batch; that name is shown with "(batch)" after it. */
 e:before {
     display: block;
     property-group: tag();
@@ -183,9 +185,11 @@ e:before {
         "'status ' text(attr(status), color, #000000, font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('edit', 'putAttribute', 'status edit', 'publish', 'putAttribute', 'status publish'), font-size, 12pt, color, #2060a0, background-color, #e4eef8, border-radius, 3px, padding-left, 6px, padding-right, 6px)",
         "'     batch ' text(attr(batch), color, #000000, font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('no batch', 'removeAttribute', 'batch'",
         xpath("replace(join(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch/@id, ' '), '([0-9]+)', \", '$1', 'putAttribute', 'batch $1'\")"),
-        "), font-size, 12pt, color, #2060a0, background-color, #e4eef8, border-radius, 3px, padding-left, 6px, padding-right, 6px) '  ",
-        xpath("document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[@id = current()/@batch]/@assignee"),
-        "'");
+        "), font-size, 12pt, color, #2060a0, background-color, #e4eef8, border-radius, 3px, padding-left, 6px, padding-right, 6px) '     assignee ' text('",
+        xpath("if(@assignee, string(@assignee), document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[@id = current()/@batch], concat(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[@id = current()/@batch]/@assignee, ' (batch)'), '-')"),
+        "', color, #000000, font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('the person who has the batch', 'removeAttribute', 'assignee'",
+        xpath("replace(join(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[not(@assignee = preceding-sibling::batch/@assignee)]/@assignee, '|'), '([^|]+)[|]?', concat(', \"$1\", \"putAttribute\", \"assignee ', \"'\", '$1', \"'\", '\"'))"),
+        "), font-size, 12pt, color, #2060a0, background-color, #e4eef8, border-radius, 3px, padding-left, 6px, padding-right, 6px)");
     text-align: right;
     background-color: #e8f0f8;
     border-top: 2px solid #a0b8d0;
@@ -220,11 +224,13 @@ e:contains-element(dg) > lg:after {
     content: "";
 }
 
-/* pos and type, on a line above the lemmas, also with menu buttons.
-   The schema allows any type with any pos. Here the type menu only offers
-   the types that go with the pos, and a type that does not go with the
-   pos is flagged. (Tying them together in the schema would make XXE
-   refuse to change the pos.) */
+/* pos, on a line above the lemmas, and the type of each lemma after it,
+   with menu buttons.
+   The type is per lemma, since variants of a word can differ in it
+   (gássa N and gássa N G3). The schema allows any type with any pos. Here
+   the type menu only offers the types that go with the pos, and a type
+   that does not go with the pos is flagged. (Tying them together in the
+   schema would make XXE refuse to change the pos.) */
 @property-value pos-menu()
     set-menu(menu("A", "putAttribute", "pos A", "N", "putAttribute", "pos N",
                   "V", "putAttribute", "pos V", "Adv", "putAttribute", "pos Adv",
@@ -263,8 +269,7 @@ e:contains-element(dg) > lg:after {
 
 @property-value pos-field() "pos " value(attr(pos)) pos-menu();
 
-@property-value pos-and-type(types_)
-    pos-field() "     type " value(attr(type)) types_;
+@property-value type-field(types_) "   type " value(attr(type)) types_;
 
 @property-value wrong-type()
     text("   this type does not go with this pos", color, #c00000);
@@ -277,60 +282,6 @@ lg:before {
     padding: 0 1ex;
 }
 
-/* a pos that has no types */
-lg[type]:before {
-    content: pos-field() "     type " value(attr(type))
-        remove-attribute-button(attribute, type) wrong-type();
-}
-
-lg[pos="N"]:before {
-    content: pos-and-type(n-types());
-}
-
-lg[pos="A"]:before {
-    content: pos-and-type(a-types());
-}
-
-lg[pos="Pron"]:before {
-    content: pos-and-type(pron-types());
-}
-
-lg[pos="N"][type]:before {
-    content: pos-and-type(n-types()) wrong-type();
-}
-
-lg[pos="A"][type]:before {
-    content: pos-and-type(a-types()) wrong-type();
-}
-
-lg[pos="Pron"][type]:before {
-    content: pos-and-type(pron-types()) wrong-type();
-}
-
-lg[pos="N"][type="Prop"]:before,
-lg[pos="N"][type="NomAg"]:before,
-lg[pos="N"][type="Coll"]:before,
-lg[pos="N"][type="ACR"]:before,
-lg[pos="N"][type="ABBR"]:before,
-lg[pos="N"][type="G3"]:before,
-lg[pos="N"][type="G7"]:before {
-    content: pos-and-type(n-types());
-}
-
-lg[pos="A"][type="Ord"]:before {
-    content: pos-and-type(a-types());
-}
-
-lg[pos="Pron"][type="Pers"]:before,
-lg[pos="Pron"][type="Dem"]:before,
-lg[pos="Pron"][type="Indef"]:before,
-lg[pos="Pron"][type="Interr"]:before,
-lg[pos="Pron"][type="Recipr"]:before,
-lg[pos="Pron"][type="Refl"]:before,
-lg[pos="Pron"][type="Rel"]:before {
-    content: pos-and-type(pron-types());
-}
-
 l {
     display: block;
     font-size: 1.4em;
@@ -338,10 +289,67 @@ l {
     color: #004080;
 }
 
-l:last-child:after {
-    content: "   " add-same("+ lemma");
+@property-value add-lemma() "   " add-same("+ lemma");
+
+/* a pos that has no types */
+l:after {
+    content: add-lemma();
     font-size: 0.55em;
     font-weight: normal;
+    color: #808080;
+}
+
+l[type]:after {
+    content: "   type " value(attr(type))
+        remove-attribute-button(attribute, type) wrong-type() add-lemma();
+}
+
+lg[pos="N"] > l:after {
+    content: type-field(n-types()) add-lemma();
+}
+
+lg[pos="A"] > l:after {
+    content: type-field(a-types()) add-lemma();
+}
+
+lg[pos="Pron"] > l:after {
+    content: type-field(pron-types()) add-lemma();
+}
+
+lg[pos="N"] > l[type]:after {
+    content: type-field(n-types()) wrong-type() add-lemma();
+}
+
+lg[pos="A"] > l[type]:after {
+    content: type-field(a-types()) wrong-type() add-lemma();
+}
+
+lg[pos="Pron"] > l[type]:after {
+    content: type-field(pron-types()) wrong-type() add-lemma();
+}
+
+lg[pos="N"] > l[type="Prop"]:after,
+lg[pos="N"] > l[type="NomAg"]:after,
+lg[pos="N"] > l[type="Coll"]:after,
+lg[pos="N"] > l[type="ACR"]:after,
+lg[pos="N"] > l[type="ABBR"]:after,
+lg[pos="N"] > l[type="G3"]:after,
+lg[pos="N"] > l[type="G7"]:after {
+    content: type-field(n-types()) add-lemma();
+}
+
+lg[pos="A"] > l[type="Ord"]:after {
+    content: type-field(a-types()) add-lemma();
+}
+
+lg[pos="Pron"] > l[type="Pers"]:after,
+lg[pos="Pron"] > l[type="Dem"]:after,
+lg[pos="Pron"] > l[type="Indef"]:after,
+lg[pos="Pron"] > l[type="Interr"]:after,
+lg[pos="Pron"] > l[type="Recipr"]:after,
+lg[pos="Pron"] > l[type="Refl"]:after,
+lg[pos="Pron"] > l[type="Rel"]:after {
+    content: type-field(pron-types()) add-lemma();
 }
 
 /* --- definition group: d+, syng*, antg*, xg* ------------------------- */
