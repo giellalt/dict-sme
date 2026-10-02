@@ -12,13 +12,17 @@ Please see [this page](https://giellalt.github.io/dicts/index.html) for more gen
 - [Teknisk for programmerere](teknisk-programmerer.html)
 - [Teknisk for leksikografisk](teknisk-leksikograf.html)
 
+## Resurssat
+
+- [Semanttalaš taggat davvisámegiela analysáhtoris](lister/semtags.html)
+- [Sánit sme-nob-loggas jagis 2025, freveanssa mielde](lister/smenob.20205.freq.html)
 
 ## Bargoplánat
 
 - [Plan for ordforråd å definere](ord-aa-definere.html)
 - [Arbeidsplan 2024](arbeidsplan.html)
 
-## Arrangement
+## Lágideamit
 
 - [Oppstartsseminar september 2026](seminarprogram_2026.html)
 

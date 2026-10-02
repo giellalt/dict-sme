@@ -1,0 +1,269 @@
+Semtaggar i den nordsamiske analysatoren
+========================================
+
+
+``` 
+4222 Sem/Act
+   1 Sem/Act_Fruit
+   5 Sem/Act_Group
+   1 Sem/Act_Hum
+   4 Sem/Act_Plc
+   1 Sem/Act_Route
+   7 Sem/Act_Tool-it
+ 554 Sem/Amount
+   1 Sem/Amount_Build
+   2 Sem/Amount_Semcon
+2397 Sem/Ani
+ 224 Sem/Ani-fish
+   1 Sem/Ani_Body-abstr_Hum
+   5 Sem/Ani_Build
+   2 Sem/Ani_Build_Hum_Obj-clo_Txt
+   1 Sem/Ani_Build_Hum_Txt
+   1 Sem/Ani_Buildpart
+  90 Sem/Ani_Group
+   5 Sem/Ani_Group_Hum
+   3 Sem/Ani_Group_Prod-vis
+ 250 Sem/Ani_Hum
+   1 Sem/Ani_Hum_Plc
+   1 Sem/Ani_Hum_Time
+   2 Sem/Ani_Plc
+   1 Sem/Ani_Plc_Txt
+   2 Sem/Ani_Time
+  52 Sem/Ani_Veh
+  37 Sem/Aniprod
+   1 Sem/Aniprod_Hum
+   3 Sem/Aniprod_Obj-clo
+   2 Sem/Aniprod_Perc-phys
+   1 Sem/Aniprod_Plc_Route
+ 863 Sem/Body
+  17 Sem/Body-abstr
+   1 Sem/Body-abstr_Feat-psych
+   1 Sem/Body-abstr_Prod-audio_Semcon
+   1 Sem/Body_Body-abstr
+   1 Sem/Body_Clth
+   5 Sem/Body_Food
+   2 Sem/Body_Group_Hum_Time
+  18 Sem/Body_Hum
+   8 Sem/Body_Mat
+   1 Sem/Body_Measr
+   3 Sem/Body_Obj_Tool-catch
+   1 Sem/Body_Plant
+   3 Sem/Body_Plc
+   1 Sem/Body_Plc-elevate
+   1 Sem/Body_Time
+1065 Sem/Build
+ 506 Sem/Build-room
+   2 Sem/Build-room_Cat_Ctain_Mat
+   1 Sem/Build_Clthpart
+  51 Sem/Build_Edu_Org
+   1 Sem/Build_Event_Org
+   1 Sem/Build_Obj
+ 194 Sem/Build_Org
+   1 Sem/Build_Route
+ 205 Sem/Buildpart
+   3 Sem/Buildpart_Ctain_Mat
+   3 Sem/Buildpart_Ctain_Obj
+   1 Sem/Buildpart_Plc
+ 729 Sem/Cat
+   2 Sem/Cat_Edu
+  80 Sem/Cat_Group_Hum
+   1 Sem/Cat_Group_Hum_Plc
+   2 Sem/Cat_Obj
+ 642 Sem/Clth
+ 115 Sem/Clth-jewl
+   5 Sem/Clth-jewl_Curr
+   2 Sem/Clth-jewl_Curr_Obj_Org
+   1 Sem/Clth-jewl_Fruit
+   6 Sem/Clth-jewl_Money
+   1 Sem/Clth-jewl_Plant
+   2 Sem/Clth_Hum
+   1 Sem/Clth_Obj-clo
+  65 Sem/Clthpart
+ 837 Sem/Ctain
+ 164 Sem/Ctain-abstr
+  39 Sem/Ctain-abstr_Org
+  81 Sem/Ctain-clth
+   1 Sem/Ctain-clth_Plant
+   1 Sem/Ctain-clth_Veh
+   1 Sem/Ctain_Feat-phys
+  18 Sem/Ctain_Furn
+   1 Sem/Ctain_Plc
+  12 Sem/Ctain_Tool
+   4 Sem/Ctain_Tool-measr
+  38 Sem/Curr
+   2 Sem/Curr_Org
+  33 Sem/Dance
+   1 Sem/Dance_Org
+   4 Sem/Dance_Prod-audio
+  18 Sem/Dir
+ 686 Sem/Domain
+   1 Sem/Domain_Food-med
+  47 Sem/Domain_Prod-audio
+ 190 Sem/Drink
+   4 Sem/Drink_Plant
+17274 Sem/Dummytag
+1446 Sem/Edu
+   4 Sem/Edu_Event
+   3 Sem/Edu_Geom
+   2 Sem/Edu_Group_Hum
+   1 Sem/Edu_Mat
+ 191 Sem/Edu_Org
+2870 Sem/Event
+  15 Sem/Event_Food
+   1 Sem/Event_Hum
+   3 Sem/Event_Plc
+   1 Sem/Event_Plc-elevate
+  26 Sem/Event_Time
+2497 Sem/Feat
+ 126 Sem/Feat-measr
+   3 Sem/Feat-measr_Plc
+ 282 Sem/Feat-phys
+   1 Sem/Feat-phys_Tool-write
+   1 Sem/Feat-phys_Veh
+   1 Sem/Feat-phys_Wthr
+ 250 Sem/Feat-psych
+   1 Sem/Feat-psych_Hum
+   1 Sem/Feat-psych_Plc
+   1 Sem/Feat_Plant
+ 780 Sem/Food
+  55 Sem/Food-med
+   1 Sem/Food_Obj-surfc
+   3 Sem/Food_Perc-phys
+   5 Sem/Food_Plant
+   1 Sem/Food_Sign
+ 276 Sem/Fruit
+   1 Sem/Fruit_Hum
+ 189 Sem/Furn
+ 129 Sem/Game
+  19 Sem/Game_Obj-play
+  64 Sem/Geom
+   1 Sem/Geom_Hum_Plc
+   1 Sem/Geom_Obj
+   4 Sem/Group
+1226 Sem/Group_Hum
+  20 Sem/Group_Hum_Org
+   4 Sem/Group_Hum_Plc
+   1 Sem/Group_Hum_Plc-abstr
+   1 Sem/Group_Hum_Prod-vis
+   1 Sem/Group_Hum_Time
+   8 Sem/Group_Org
+   3 Sem/Group_Sign
+   7 Sem/Group_Txt
+6922 Sem/Hum
+  49 Sem/Hum_Lang
+   1 Sem/Hum_Lang_Plc
+   2 Sem/Hum_Lang_Time
+   1 Sem/Hum_Mat_Tool
+   2 Sem/Hum_Obj
+ 125 Sem/Hum_Org
+  12 Sem/Hum_Org_Pos
+   1 Sem/Hum_Part
+   2 Sem/Hum_Plant
+  10 Sem/Hum_Plc
+4650 Sem/Hum_Pos
+   1 Sem/Hum_Prod-vis
+   4 Sem/Hum_Sign
+   1 Sem/Hum_Tool-it
+   5 Sem/Hum_Veh
+   5 Sem/Hum_Wthr
+ 237 Sem/Ideol
+ 468 Sem/Lang
+   5 Sem/Lang_Tool
+ 211 Sem/Mat
+   3 Sem/Mat_Plant
+   6 Sem/Mat_Txt
+ 241 Sem/Measr
+   7 Sem/Measr_Obj_Time
+   1 Sem/Measr_Plc_Time
+   3 Sem/Measr_Sign
+  20 Sem/Measr_Time
+2029 Sem/Money
+   2 Sem/Money_Obj
+   1 Sem/Money_Org
+   1 Sem/Money_Part
+  23 Sem/Money_Txt
+ 853 Sem/Obj
+ 144 Sem/Obj-clo
+   1 Sem/Obj-cogn
+ 480 Sem/Obj-el
+ 233 Sem/Obj-ling
+   2 Sem/Obj-ling_Obj-surfc
+  29 Sem/Obj-play
+   5 Sem/Obj-play_Sport
+ 118 Sem/Obj-rope
+  88 Sem/Obj-surfc
+   2 Sem/Obj_Semcon
+   1 Sem/Obj_Sign
+   1 Sem/Obj_State
+  12 Sem/Obj_Veh
+4946 Sem/Org
+   2 Sem/Org_Prod-cogn
+   5 Sem/Org_Rule
+ 113 Sem/Org_Txt
+   3 Sem/Org_Veh
+ 296 Sem/Part
+   6 Sem/Part_Prod-cogn
+  15 Sem/Part_Substnc
+   5 Sem/Perc-cogn
+ 589 Sem/Perc-emo
+   1 Sem/Perc-emo_Wthr
+ 134 Sem/Perc-phys
+1055 Sem/Plant
+   2 Sem/Plant_Plantpart
+   1 Sem/Plant_Tool
+  77 Sem/Plantpart
+4158 Sem/Plc
+1366 Sem/Plc-abstr
+   2 Sem/Plc-abstr_Rel_State
+   3 Sem/Plc-abstr_Route
+  34 Sem/Plc-elevate
+ 163 Sem/Plc-line
+  71 Sem/Plc-water
+  10 Sem/Plc_Pos
+   7 Sem/Plc_Route
+   1 Sem/Plc_Semcon
+   2 Sem/Plc_State
+   3 Sem/Plc_Substnc
+   8 Sem/Plc_Substnc_Wthr
+  13 Sem/Plc_Time
+   1 Sem/Plc_Time_Wthr
+   2 Sem/Plc_Tool-catch
+   5 Sem/Plc_Txt
+  10 Sem/Plc_Wthr
+ 354 Sem/Pos
+ 231 Sem/Process
+ 200 Sem/Prod
+ 401 Sem/Prod-audio
+   2 Sem/Prod-audio_Rule
+  18 Sem/Prod-audio_Txt
+1825 Sem/Prod-cogn
+ 124 Sem/Prod-cogn_Txt
+1221 Sem/Prod-ling
+ 481 Sem/Prod-vis
+  79 Sem/Rel
+ 655 Sem/Route
+2571 Sem/Rule
+1773 Sem/Semcon
+   4 Sem/Semcon_Txt
+ 483 Sem/Sign
+  33 Sem/Sport
+1534 Sem/State
+ 383 Sem/State-sick
+  21 Sem/State-sick_Substnc
+ 619 Sem/Substnc
+  19 Sem/Substnc_Wthr
+2258 Sem/Time
+  14 Sem/Time_Wthr
+ 808 Sem/Tool
+  80 Sem/Tool-catch
+  32 Sem/Tool-clean
+  75 Sem/Tool-it
+ 107 Sem/Tool-measr
+  92 Sem/Tool-music
+  54 Sem/Tool-write
+2389 Sem/Txt
+ 708 Sem/Veh
+  73 Sem/Wpn
+ 468 Sem/Wthr
+```
+
