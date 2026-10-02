@@ -269,14 +269,14 @@ e:contains-element(dg) > lg:after {
 
 @property-value pos-field() "pos " value(attr(pos)) pos-menu();
 
-/* homonym number of a lemma: different words spelled the same, with the
+/* homograph number of a lemma: different words spelled the same, with the
    same pos and type */
 @property-value hid-field()
-    "     homonym " value(attr(hid))
+    "     homograph " value(attr(hid))
     set-menu(menu("1", "putAttribute", "hid 1", "2", "putAttribute", "hid 2",
                   "3", "putAttribute", "hid 3", "4", "putAttribute", "hid 4",
                   "", "", "",
-                  "not a homonym", "removeAttribute", "hid"));
+                  "not a homograph", "removeAttribute", "hid"));
 
 @property-value type-field(types_) "   type " value(attr(type)) types_;
 
@@ -298,7 +298,7 @@ l {
     color: #004080;
 }
 
-/* the homonym number and "+ lemma" end every lemma line */
+/* the homograph number and "+ lemma" end every lemma line */
 @property-value add-lemma() hid-field() "   " add-same("+ lemma");
 
 /* a pos that has no types */
@@ -650,6 +650,6 @@ c {
 }
 
 c:last-child:after {
-    property-group: button-row(0);
-    content: add-same("+ comment");
+  property-group: button-row(0);
+  content: add-same("+ comment");
 }

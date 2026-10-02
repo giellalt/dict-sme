@@ -55,7 +55,7 @@ lg =
 # lemma
 # type is per variant, since variants of a word can differ in it, e.g.
 # gássa (N) and gássa (N G3) are dialect variants of the same word
-# hid: homonym number, for different words that are spelled the same and
+# hid: homograph number, for different words that are spelled the same and
 #   have the same pos and type, e.g. giella 1 (language) and giella 2
 #   (snare). The analysers do not tell them apart. It is per lemma, since
 #   it is the spelling that is shared: báhkka 1 (heat) and páhkka/báhkka 2
