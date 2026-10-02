@@ -187,6 +187,8 @@
    <e status="edit">
       <lg pos="Adv">
          <l>albma ládje</l>
+         <l>albma ládjii</l>
+         <l>albma láhkai</l>
       </lg>
       <dg id="a">
          <d/>
@@ -398,6 +400,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>álfárot</l>
+         <l>álfárut</l>
       </lg>
    </e>
    <e status="edit">
@@ -610,6 +613,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>badjelmeare</l>
+         <l>badjelmeari</l>
       </lg>
       <dg id="a">
          <d/>
@@ -1422,6 +1426,9 @@
    <e status="edit">
       <lg pos="Adv">
          <l>dađibahábut</l>
+         <l>dađebahábut</l>
+         <l>dađe bahábut</l>
+         <l>dađi bahábut</l>
       </lg>
    </e>
    <e status="edit">
@@ -1583,6 +1590,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>dasto</l>
+         <l>dastto</l>
       </lg>
       <dg id="a">
          <d/>
@@ -1746,25 +1754,12 @@
    <e status="edit">
       <lg pos="Adv">
          <l>dálvet</l>
-      </lg>
-      <dg id="a">
-         <d/>
-         <xg>
-            <x>Dálvet sáhttá čuoigat, muhto geasset ii gal sáhte.</x>
-         </xg>
-      </dg>
-      <cg>
-         <c>l_ref: dálvi_n</c>
-      </cg>
-   </e>
-   <e status="edit">
-      <lg pos="Adv">
          <l>dálvit</l>
       </lg>
       <dg id="a">
          <d/>
          <xg>
-            <x>Dálvit sáhttá čuoigat, muhto geassit ii gal sáhte.</x>
+            <x>Dálvet sáhttá čuoigat, muhto geasset ii gal sáhte.</x>
          </xg>
       </dg>
       <cg>
@@ -2132,6 +2127,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>dobbeleappos</l>
+         <l>dobbelabbos</l>
       </lg>
       <dg id="a">
          <d/>
@@ -2240,6 +2236,8 @@
    <e status="edit">
       <lg pos="Adv">
          <l>duohkut deike</l>
+         <l>duohkot deike</l>
+         <l>duohkut deikke</l>
       </lg>
    </e>
    <e status="edit">
@@ -2260,6 +2258,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>duokkot dákko</l>
+         <l>duokkot-dákko</l>
       </lg>
       <dg id="a">
          <d/>
@@ -2337,6 +2336,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>duššefal</l>
+         <l>dušše fal</l>
       </lg>
    </e>
    <e status="edit">
@@ -2403,6 +2403,8 @@
    <e status="edit">
       <lg pos="Adv">
          <l>eambbo</l>
+         <l>eambo</l>
+         <l>eambu</l>
       </lg>
    </e>
    <e status="edit">
@@ -2462,6 +2464,8 @@
    <e status="edit">
       <lg pos="Adv">
          <l>eará ládje</l>
+         <l>eará ládjii</l>
+         <l>eará láhkai</l>
       </lg>
       <dg id="a">
          <d/>
@@ -2474,17 +2478,6 @@
       <lg pos="Adv">
          <l>earálágan</l>
       </lg>
-   </e>
-   <e status="edit">
-      <lg pos="Adv">
-         <l>eará láhkai</l>
-      </lg>
-      <dg id="a">
-         <d/>
-         <xg>
-            <x>Vaikko mun jurddašan eará láhkai go dii, de ehpet oaččo mu hárdit.</x>
-         </xg>
-      </dg>
    </e>
    <e status="edit">
       <lg pos="Adv">
@@ -2522,11 +2515,13 @@
    <e status="edit">
       <lg pos="Adv">
          <l>earret eará</l>
+         <l>earet eará</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="Adv">
          <l>easka</l>
+         <l>easká</l>
       </lg>
       <dg id="a">
          <d/>
@@ -2827,6 +2822,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>gaitin</l>
+         <l>gaittin</l>
       </lg>
    </e>
    <e status="edit">
@@ -3122,25 +3118,12 @@
    <e status="edit">
       <lg pos="Adv">
          <l>geasset</l>
-      </lg>
-      <dg id="a">
-         <d/>
-         <xg>
-            <x>Dálvet sáhttá čuoigat, muhto geasset ii gal sáhte.</x>
-         </xg>
-      </dg>
-      <cg>
-         <c>l_ref: geassi_n</c>
-      </cg>
-   </e>
-   <e status="edit">
-      <lg pos="Adv">
          <l>geassit</l>
       </lg>
       <dg id="a">
          <d/>
          <xg>
-            <x>Dálvit sáhttá čuoigat, muhto geassit ii gal sáhte.</x>
+            <x>Dálvet sáhttá čuoigat, muhto geasset ii gal sáhte.</x>
          </xg>
       </dg>
       <cg>
@@ -3713,6 +3696,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>háreheamet</l>
+         <l>háreheamit</l>
       </lg>
    </e>
    <e status="edit">
@@ -3812,6 +3796,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>hiljit</l>
+         <l>hiljet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -3936,6 +3921,8 @@
    <e status="edit">
       <lg pos="Adv">
          <l>iešguđet ládje</l>
+         <l>iešguđet ládjii</l>
+         <l>iešguđet láhkai</l>
       </lg>
    </e>
    <e status="edit">
@@ -4006,6 +3993,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>ihttážii</l>
+         <l>ihtážii</l>
       </lg>
       <dg id="a">
          <d/>
@@ -4022,6 +4010,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>ihttin</l>
+         <l>ihtin</l>
       </lg>
       <dg id="a">
          <d/>
@@ -4388,6 +4377,8 @@
    <e status="edit">
       <lg pos="Adv">
          <l>juoga ládje</l>
+         <l>juoga ládjii</l>
+         <l>juoga láhkai</l>
       </lg>
    </e>
    <e status="edit">
@@ -4405,6 +4396,8 @@
    <e status="edit">
       <lg pos="Adv">
          <l>juohke ládje</l>
+         <l>juohke ládjii</l>
+         <l>juohke láhkai</l>
       </lg>
    </e>
    <e status="edit">
@@ -4533,6 +4526,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>láhkai</l>
+         <l>láhkái</l>
       </lg>
    </e>
    <e status="edit">
@@ -4616,6 +4610,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>lobiheamit</l>
+         <l>lobiheamet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -4796,11 +4791,13 @@
    <e status="edit">
       <lg pos="Adv">
          <l>maid</l>
+         <l>máid</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="Adv">
          <l>maiddái</l>
+         <l>maiddai</l>
       </lg>
       <dg id="a">
          <d/>
@@ -4887,6 +4884,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>maŋimus</l>
+         <l>maŋemus</l>
       </lg>
    </e>
    <e status="edit">
@@ -4897,6 +4895,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>maŋimussii</l>
+         <l>maŋemussii</l>
       </lg>
       <dg id="a">
          <d/>
@@ -4934,6 +4933,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>maŋŋel</l>
+         <l>maŋŋil</l>
       </lg>
       <dg id="a">
          <d/>
@@ -5712,24 +5712,14 @@
    <e status="edit">
       <lg pos="Adv">
          <l>nuppe ládje</l>
+         <l>nuppe ládjii</l>
+         <l>nuppe láhkai</l>
       </lg>
       <dg id="a">
          <d/>
          <xg>
             <x>Mii šaddat bargat nuppe ládje Sámis go Norggas, oažžut dievdduid mielde.</x>
             <x>Vehádat-giella kopiere eanetlogugiela sániid, hárve nuppe ládje.</x>
-         </xg>
-      </dg>
-   </e>
-   <e status="edit">
-      <lg pos="Adv">
-         <l>nuppe láhkai</l>
-      </lg>
-      <dg id="a">
-         <d/>
-         <xg>
-            <x>Mii šaddat bargat nuppe láhkai Sámis go Norggas, oažžut dievdduid mielde.</x>
-            <x>Vehádat-giella kopiere eanetlogugiela sániid, hárve nuppe láhkai.</x>
          </xg>
       </dg>
    </e>
@@ -6735,6 +6725,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>sealggaduohkai</l>
+         <l>sealggaduohkái</l>
       </lg>
    </e>
    <e status="edit">
@@ -6777,26 +6768,32 @@
    <e status="edit">
       <lg pos="Adv">
          <l>sealggeduohkai</l>
+         <l>sealggeduohkái</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="Adv">
          <l>sealggeduohken</l>
+         <l>sealggeduohkin</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="Adv">
          <l>sealggoduohkai</l>
+         <l>sealggoduohkái</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="Adv">
          <l>sealggoduohken</l>
+         <l>sealggoduohkin</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="Adv">
          <l>seamma ládje</l>
+         <l>seamma ládjii</l>
+         <l>seamma láhkai</l>
       </lg>
       <dg id="a">
          <d/>
@@ -6807,18 +6804,8 @@
    </e>
    <e status="edit">
       <lg pos="Adv">
-         <l>seamma láhkai</l>
-      </lg>
-      <dg id="a">
-         <d/>
-         <xg>
-            <x>Eará bivdojoavkkut fertejit maid dahkat juste seamma láhkai.</x>
-         </xg>
-      </dg>
-   </e>
-   <e status="edit">
-      <lg pos="Adv">
          <l>seammá</l>
+         <l>seamma</l>
       </lg>
       <dg id="a">
          <d/>
@@ -7137,12 +7124,8 @@
    </e>
    <e status="edit">
       <lg pos="Adv">
-         <l>uhcán</l>
-      </lg>
-   </e>
-   <e status="edit">
-      <lg pos="Adv">
          <l>uhccán</l>
+         <l>uhcán</l>
       </lg>
       <dg id="a">
          <d/>
@@ -7154,6 +7137,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>uhccánaš</l>
+         <l>uhcánaš</l>
       </lg>
       <dg id="a">
          <d/>
@@ -7376,6 +7360,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>várrugasat</l>
+         <l>várrogasat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -7545,6 +7530,7 @@
    <e status="edit">
       <lg pos="Adv">
          <l>viidáseappot</l>
+         <l>viidásabbot</l>
       </lg>
    </e>
    <e status="edit">

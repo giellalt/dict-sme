@@ -311,6 +311,7 @@
    <e status="edit">
       <lg pos="V">
          <l>firtestit</l>
+         <l>virtestit</l>
       </lg>
       <dg id="a">
          <d>heaitit arvimis oanehassii</d>
@@ -319,6 +320,7 @@
    <e status="edit">
       <lg pos="V">
          <l>firtet</l>
+         <l>virtet</l>
       </lg>
       <dg id="a">
          <d>heaitit arvimis</d>
@@ -815,6 +817,7 @@
    <e status="edit">
       <lg pos="V">
          <l>šalmmastit</l>
+         <l>čalmmastit</l>
       </lg>
       <dg id="a">
          <d>coggat árppu nállošalmmi čađa</d>
@@ -2759,6 +2762,7 @@
    <e status="edit">
       <lg pos="V">
          <l>behtohallat</l>
+         <l>behtohaddat</l>
       </lg>
    </e>
    <e status="edit">
@@ -3481,6 +3485,7 @@
    <e status="edit">
       <lg pos="V">
          <l>boarásmuvvat</l>
+         <l>boarásnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -4007,6 +4012,7 @@
    <e status="edit">
       <lg pos="V">
          <l>buhtásmuvvat</l>
+         <l>buhtásnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -4234,10 +4240,6 @@
    <e status="edit">
       <lg pos="V">
          <l>buoredit</l>
-      </lg>
-   </e>
-   <e status="edit">
-      <lg pos="V">
          <l>buoridit</l>
       </lg>
    </e>
@@ -4311,6 +4313,8 @@
    <e status="edit">
       <lg pos="V">
          <l>bušeteret</l>
+         <l>bušehteret</l>
+         <l>bušetteret</l>
       </lg>
    </e>
    <e status="edit">
@@ -5448,6 +5452,7 @@
    <e status="edit">
       <lg pos="V">
          <l>čiehkádit</l>
+         <l>čiehkadit</l>
       </lg>
       <dg id="a">
          <d/>
@@ -6280,6 +6285,7 @@
    <e status="edit">
       <lg pos="V">
          <l>čuovvulit</l>
+         <l>čuovvolit</l>
       </lg>
    </e>
    <e status="edit">
@@ -6844,6 +6850,7 @@
    <e status="edit">
       <lg pos="V">
          <l>dásásmuvvat</l>
+         <l>dásásnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -7028,6 +7035,7 @@
    <e status="edit">
       <lg pos="V">
          <l>dearvvasmuvvat</l>
+         <l>dearvvasnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -8943,6 +8951,7 @@
    <e status="edit">
       <lg pos="V">
          <l>fievrridit</l>
+         <l>fievrredit</l>
       </lg>
       <dg id="a">
          <d/>
@@ -9017,6 +9026,7 @@
    <e status="edit">
       <lg pos="V">
          <l>firrestit</l>
+         <l>virrestit</l>
       </lg>
    </e>
    <e status="edit">
@@ -9104,6 +9114,7 @@
    <e status="edit">
       <lg pos="V">
          <l>fuoikut</l>
+         <l>vuoikut</l>
       </lg>
    </e>
    <e status="edit">
@@ -9198,22 +9209,12 @@
    <e status="edit">
       <lg pos="V">
          <l>gaccohaddat</l>
-      </lg>
-      <dg id="a">
-         <d/>
-         <xg>
-            <x>Go gaccohaddá beatnagii dahje bussái, de sáhttá vuolšut.</x>
-         </xg>
-      </dg>
-   </e>
-   <e status="edit">
-      <lg pos="V">
          <l>gaccohallat</l>
       </lg>
       <dg id="a">
          <d/>
          <xg>
-            <x>Go gaccohallá beatnagii dahje bussái, de sáhttá vuolšut.</x>
+            <x>Go gaccohaddá beatnagii dahje bussái, de sáhttá vuolšut.</x>
          </xg>
       </dg>
    </e>
@@ -10666,6 +10667,7 @@
    <e status="edit">
       <lg pos="V">
          <l>gierásmuvvat</l>
+         <l>gierásnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -11612,22 +11614,12 @@
    <e status="edit">
       <lg pos="V">
          <l>govahaddat</l>
-      </lg>
-      <dg id="a">
-         <d/>
-         <xg>
-            <x>Dán láhkai govahaddá Finnmárkku eananvuovdinhoavda boahtteáiggi dili.</x>
-         </xg>
-      </dg>
-   </e>
-   <e status="edit">
-      <lg pos="V">
          <l>govahallat</l>
       </lg>
       <dg id="a">
          <d/>
          <xg>
-            <x>Dán láhkai govahallá Finnmárkku eananvuovdinhoavda boahtteáiggi dili.</x>
+            <x>Dán láhkai govahaddá Finnmárkku eananvuovdinhoavda boahtteáiggi dili.</x>
          </xg>
       </dg>
    </e>
@@ -12794,6 +12786,7 @@
    <e status="edit">
       <lg pos="V">
          <l>heađásmuvvat</l>
+         <l>heađásnuvvat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -13717,6 +13710,7 @@
    <e status="edit">
       <lg pos="V">
          <l>ilosmuvvat</l>
+         <l>ilosnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -14214,6 +14208,7 @@
    <e status="edit">
       <lg pos="V">
          <l>jierásmuvvat</l>
+         <l>jierásnuvvat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -14495,6 +14490,7 @@
    <e status="edit">
       <lg pos="V">
          <l>jorggihit</l>
+         <l>jorggehit</l>
       </lg>
       <dg id="a">
          <d/>
@@ -15559,6 +15555,7 @@
    <e status="edit">
       <lg pos="V">
          <l>leat</l>
+         <l>leahkit</l>
       </lg>
       <dg id="a">
          <d/>
@@ -15930,6 +15927,7 @@
    <e status="edit">
       <lg pos="V">
          <l>loaččihit</l>
+         <l>loaččehit</l>
       </lg>
       <dg id="a">
          <d/>
@@ -16772,6 +16770,7 @@
    <e status="edit">
       <lg pos="V">
          <l>márkanfievrridit</l>
+         <l>márkanfievrredit</l>
       </lg>
    </e>
    <e status="edit">
@@ -17694,11 +17693,13 @@
    <e status="edit">
       <lg pos="V">
          <l>nanosmuvvat</l>
+         <l>nanosnuvvat</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="V">
          <l>nanusmuvvat</l>
+         <l>nanusnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -17962,6 +17963,11 @@
    <e status="edit">
       <lg pos="V">
          <l>nettobušeteret</l>
+         <l>nettobudjeteret</l>
+         <l>nettobudsjetteret</l>
+         <l>nettobudšetteret</l>
+         <l>nettobusjetteret</l>
+         <l>nettobušetteret</l>
       </lg>
    </e>
    <e status="edit">
@@ -18501,6 +18507,7 @@
    <e status="edit">
       <lg pos="V">
          <l>njoađvvasmuvvat</l>
+         <l>njoađvvasnuvvat</l>
       </lg>
       <dg id="a">
          <d/>
@@ -18699,6 +18706,7 @@
    <e status="edit">
       <lg pos="V">
          <l>njuorasmuvvat</l>
+         <l>njuorasnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -18916,6 +18924,7 @@
    <e status="edit">
       <lg pos="V">
          <l>nummarastit</l>
+         <l>nummárastit</l>
       </lg>
    </e>
    <e status="edit">
@@ -19107,6 +19116,7 @@
    <e status="edit">
       <lg pos="V">
          <l>oahpásmuvvat</l>
+         <l>oahpásnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -19302,10 +19312,6 @@
    <e status="edit">
       <lg pos="V">
          <l>oavnnjildit</l>
-      </lg>
-   </e>
-   <e status="edit">
-      <lg pos="V">
          <l>oavŋŋildit</l>
       </lg>
    </e>
@@ -19407,6 +19413,7 @@
    <e status="edit">
       <lg pos="V">
          <l>oktiiheivehit</l>
+         <l>aktiiheivehit</l>
       </lg>
    </e>
    <e status="edit">
@@ -19780,6 +19787,7 @@
    <e status="edit">
       <lg pos="V">
          <l>prentet</l>
+         <l>printet</l>
       </lg>
    </e>
    <e status="edit">
@@ -19954,6 +19962,7 @@
    <e status="edit">
       <lg pos="V">
          <l>rationeret</l>
+         <l>rasjoneret</l>
       </lg>
    </e>
    <e status="edit">
@@ -20110,6 +20119,7 @@
    <e status="edit">
       <lg pos="V">
          <l>ráhkásmuvvat</l>
+         <l>ráhkásnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -20126,6 +20136,7 @@
    <e status="edit">
       <lg pos="V">
          <l>ráhkistit</l>
+         <l>ráhkestit</l>
       </lg>
       <dg id="a">
          <d/>
@@ -20314,6 +20325,7 @@
    <e status="edit">
       <lg pos="V">
          <l>rávásmuvvat</l>
+         <l>rávásnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -22094,6 +22106,7 @@
    <e status="edit">
       <lg pos="V">
          <l>sisafievrridit</l>
+         <l>sisafievrredit</l>
       </lg>
    </e>
    <e status="edit">
@@ -23183,6 +23196,7 @@
    <e status="edit">
       <lg pos="V">
          <l>stáđásmuvvat</l>
+         <l>stáđásnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -23255,6 +23269,7 @@
    <e status="edit">
       <lg pos="V">
          <l>stivret</l>
+         <l>stivrret</l>
       </lg>
       <dg id="a">
          <d/>
@@ -23886,6 +23901,7 @@
    <e status="edit">
       <lg pos="V">
          <l>šearasmuvvat</l>
+         <l>šearasnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -24764,6 +24780,7 @@
    <e status="edit">
       <lg pos="V">
          <l>váimmosmuvvat</l>
+         <l>váimmosnuvvat</l>
       </lg>
    </e>
    <e status="edit">
@@ -25077,6 +25094,7 @@
    <e status="edit">
       <lg pos="V">
          <l>vealččehit</l>
+         <l>vealččihit</l>
       </lg>
       <dg id="a">
          <d/>
@@ -26013,21 +26031,18 @@
    <e status="edit">
       <lg pos="V">
          <l>vuosehit</l>
+         <l>vuosihit</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="V">
          <l>vuostáiváldit</l>
+         <l>vuostáváldit</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="V">
          <l>vuostálastit</l>
-      </lg>
-   </e>
-   <e status="edit">
-      <lg pos="V">
-         <l>vuostáváldit</l>
       </lg>
    </e>
    <e status="edit">

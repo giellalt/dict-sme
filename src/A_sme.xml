@@ -652,6 +652,7 @@
    <e status="edit">
       <lg pos="A">
          <l>duiskalaš</l>
+         <l>tuiskalaš</l>
       </lg>
       <dg id="a">
          <d>mii gullá Duiskii dahje Duiskka kultuvrii</d>
@@ -764,6 +765,7 @@
    <e status="edit">
       <lg pos="A">
          <l>fiskeslágan</l>
+         <l>fiskeslágán</l>
       </lg>
       <dg id="a">
          <d>mas lea ivdni mii sulastahttá fiskada</d>
@@ -2117,6 +2119,7 @@
    <e status="edit">
       <lg pos="A">
          <l>sáhpánlágan</l>
+         <l>sáhpánlágán</l>
       </lg>
       <dg id="a">
          <d>mii muittuha sáhpána</d>
@@ -2327,6 +2330,9 @@
    <e status="edit">
       <lg pos="A">
          <l>viđanuppelotjahkásaš</l>
+         <l>vihttanuppelohjahkásaš</l>
+         <l>vihttanuppelotjahkásaš</l>
+         <l>viđanuppelohjahkásaš</l>
       </lg>
       <dg id="a">
          <d>gii lea 15 jagi boaris</d>
@@ -2942,6 +2948,7 @@
    <e status="edit">
       <lg pos="A">
          <l>álbmotrievttálaš</l>
+         <l>álbmotrievttalaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -3258,6 +3265,7 @@
    <e status="edit">
       <lg pos="A">
          <l>bajit</l>
+         <l>bajet</l>
       </lg>
    </e>
    <e status="edit">
@@ -3319,6 +3327,7 @@
    <e status="edit">
       <lg pos="A">
          <l>bargorievttálaš</l>
+         <l>bargorievttalaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -3560,11 +3569,13 @@
    <e status="edit">
       <lg pos="A">
          <l>berošmeahttun</l>
+         <l>berosmeahttun</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="A">
          <l>beroštahtti</l>
+         <l>berostahtti</l>
       </lg>
    </e>
    <e status="edit">
@@ -3792,6 +3803,7 @@
    <e status="edit">
       <lg pos="A">
          <l>boareslágan</l>
+         <l>boareslágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -4009,6 +4021,7 @@
    <e status="edit">
       <lg pos="A">
          <l>buotlágan</l>
+         <l>buotlágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -4882,6 +4895,7 @@
    <e status="edit">
       <lg pos="A">
          <l>dihtolágan</l>
+         <l>dihtolágán</l>
       </lg>
       <dg id="a">
          <d/>
@@ -4943,6 +4957,7 @@
    <e status="edit">
       <lg pos="A">
          <l>doaibmavádjit</l>
+         <l>doaibmavádjet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -5143,6 +5158,7 @@
    <e status="edit">
       <lg pos="A">
          <l>duiska</l>
+         <l>tuiska</l>
       </lg>
    </e>
    <e status="edit">
@@ -5404,6 +5420,7 @@
    <e status="edit">
       <lg pos="A">
          <l>eahperievttalaš</l>
+         <l>eahperievttálaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -5419,6 +5436,7 @@
    <e status="edit">
       <lg pos="A">
          <l>eahpesihkar</l>
+         <l>eahpesihkkar</l>
       </lg>
    </e>
    <e status="edit">
@@ -5510,6 +5528,8 @@
    <e status="edit">
       <lg pos="A">
          <l>eanadoalloekonomalaš</l>
+         <l>eanandoalloekonomalaš</l>
+         <l>eatnandoalloekonomalaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -5520,11 +5540,8 @@
    <e status="edit">
       <lg pos="A">
          <l>eanadoallopolitihkalaš</l>
-      </lg>
-   </e>
-   <e status="edit">
-      <lg pos="A">
          <l>eanandoallopolitihkalaš</l>
+         <l>eatnandoallopolitihkalaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -5588,6 +5605,7 @@
    <e status="edit">
       <lg pos="A">
          <l>earálágan</l>
+         <l>earálágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -5746,11 +5764,17 @@
    <e status="edit">
       <lg pos="A">
          <l>erenoamáš</l>
+         <l>earenomáš</l>
+         <l>earenoamáš</l>
+         <l>erenomáš</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="A">
          <l>erenoamášpedagogalaš</l>
+         <l>earenomášpedagogalaš</l>
+         <l>earenoamášpedagogalaš</l>
+         <l>erenomášpedagogalaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -6174,6 +6198,11 @@
    <e status="edit">
       <lg pos="A">
          <l>gaskaleabbo</l>
+         <l>gaskalabbo</l>
+         <l>gaskalat</l>
+         <l>gaskalet</l>
+         <l>gaskalit</l>
+         <l>gaskalut</l>
       </lg>
    </e>
    <e status="edit">
@@ -6200,6 +6229,7 @@
    <e status="edit">
       <lg pos="A">
          <l>gaskariikkalaš</l>
+         <l>gaskariikkalas</l>
       </lg>
    </e>
    <e status="edit">
@@ -6411,6 +6441,7 @@
    <e status="edit">
       <lg pos="A">
          <l>geafi</l>
+         <l>geaffi</l>
       </lg>
    </e>
    <e status="edit">
@@ -6753,6 +6784,7 @@
    <e status="edit">
       <lg pos="A">
          <l>goabbatlágan</l>
+         <l>goabbatlágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -6779,6 +6811,7 @@
    <e status="edit">
       <lg pos="A">
          <l>goappatlágan</l>
+         <l>goappatlágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -7204,6 +7237,7 @@
    <e status="edit">
       <lg pos="A">
          <l>guovttelágan</l>
+         <l>guovttelágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -7533,10 +7567,6 @@
    <e status="edit">
       <lg pos="A">
          <l>humanitára</l>
-      </lg>
-   </e>
-   <e status="edit">
-      <lg pos="A">
          <l>humaniteara</l>
       </lg>
    </e>
@@ -7614,6 +7644,7 @@
    <e status="edit">
       <lg pos="A">
          <l>iešguđegelágan</l>
+         <l>iešguđegelágán</l>
       </lg>
       <dg id="a">
          <d/>
@@ -7625,6 +7656,7 @@
    <e status="edit">
       <lg pos="A">
          <l>iešguđetlágan</l>
+         <l>iešguđetlágán</l>
       </lg>
       <dg id="a">
          <d/>
@@ -7652,6 +7684,7 @@
    <e status="edit">
       <lg pos="A">
          <l>iešlágan</l>
+         <l>iešlágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -7672,6 +7705,7 @@
    <e status="edit">
       <lg pos="A">
          <l>iežálágan</l>
+         <l>iežálágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -7795,6 +7829,7 @@
    <e status="edit">
       <lg pos="A">
          <l>internašuvnnalaš</l>
+         <l>internaššuvnnalaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -7872,6 +7907,7 @@
    <e status="edit">
       <lg pos="A">
          <l>jagáš</l>
+         <l>jagaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -8172,6 +8208,7 @@
    <e status="edit">
       <lg pos="A">
          <l>juohkelágan</l>
+         <l>juohkelágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -8451,21 +8488,25 @@
    <e status="edit">
       <lg pos="A">
          <l>kulturávdnejeaddji</l>
+         <l>kulttorávdnejeaddji</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="A">
          <l>kulturhistorjjálaš</l>
+         <l>kulttorhistorjjálaš</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="A">
          <l>kulturpolitihkalaš</l>
+         <l>kulttorpolitihkalaš</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="A">
          <l>kulturvuđot</l>
+         <l>kulttorvuđot</l>
       </lg>
    </e>
    <e status="edit">
@@ -8995,6 +9036,7 @@
    <e status="edit">
       <lg pos="A">
          <l>maŋit</l>
+         <l>maŋet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -9146,6 +9188,7 @@
    <e status="edit">
       <lg pos="A">
          <l>máŋggalágan</l>
+         <l>máŋggalágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -10097,6 +10140,7 @@
    <e status="edit">
       <lg pos="A">
          <l>nuppelágan</l>
+         <l>nuppelágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -10374,6 +10418,7 @@
    <e status="edit">
       <lg pos="A">
          <l>olbmolágan</l>
+         <l>olbmolágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -10677,6 +10722,7 @@
    <e status="edit">
       <lg pos="A">
          <l>ovddit</l>
+         <l>ovddet</l>
       </lg>
       <dg id="a">
          <d/>
@@ -10744,6 +10790,7 @@
    <e status="edit">
       <lg pos="A">
          <l>ovttalágan</l>
+         <l>ovttalágán</l>
       </lg>
       <dg id="a">
          <d/>
@@ -10755,6 +10802,7 @@
    <e status="edit">
       <lg pos="A">
          <l>ovttalágaš</l>
+         <l>ovttalágáš</l>
       </lg>
    </e>
    <e status="edit">
@@ -10912,6 +10960,7 @@
    <e status="edit">
       <lg pos="A">
          <l>priváhta</l>
+         <l>priváhtta</l>
       </lg>
    </e>
    <e status="edit">
@@ -10922,6 +10971,7 @@
    <e status="edit">
       <lg pos="A">
          <l>priváhtarievttálaš</l>
+         <l>priváhtarievttalaš</l>
       </lg>
    </e>
    <e status="edit">
@@ -11131,6 +11181,7 @@
    <e status="edit">
       <lg pos="A">
          <l>rájáheapme</l>
+         <l>rájeheapme</l>
       </lg>
    </e>
    <e status="edit">
@@ -11340,10 +11391,6 @@
    <e status="edit">
       <lg pos="A">
          <l>rievttalaš</l>
-      </lg>
-   </e>
-   <e status="edit">
-      <lg pos="A">
          <l>rievttálaš</l>
       </lg>
    </e>
@@ -11732,6 +11779,7 @@
    <e status="edit">
       <lg pos="A">
          <l>sámiguoski</l>
+         <l>sámi-guoski</l>
       </lg>
    </e>
    <e status="edit">
@@ -11854,6 +11902,7 @@
    <e status="edit">
       <lg pos="A">
          <l>seammalágan</l>
+         <l>seammalágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -11917,11 +11966,13 @@
    <e status="edit">
       <lg pos="A">
          <l>servodatberošteaddji</l>
+         <l>servvodatberošteaddji</l>
       </lg>
    </e>
    <e status="edit">
       <lg pos="A">
          <l>servodatguoddi</l>
+         <l>servvodatguoddi</l>
       </lg>
    </e>
    <e status="edit">
@@ -11968,6 +12019,7 @@
    <e status="edit">
       <lg pos="A">
          <l>sierralágan</l>
+         <l>sierralágán</l>
       </lg>
    </e>
    <e status="edit">
@@ -11988,6 +12040,7 @@
    <e status="edit">
       <lg pos="A">
          <l>sihkar</l>
+         <l>sihkkar</l>
       </lg>
    </e>
    <e status="edit">
@@ -12148,10 +12201,6 @@
    <e status="edit">
       <lg pos="A">
          <l>smáđáhkes</l>
-      </lg>
-   </e>
-   <e status="edit">
-      <lg pos="A">
          <l>smáđáhkis</l>
       </lg>
    </e>
@@ -12961,6 +13010,7 @@
    <e status="edit">
       <lg pos="A">
          <l>unnislágan</l>
+         <l>unnislágán</l>
       </lg>
    </e>
    <e status="edit">
