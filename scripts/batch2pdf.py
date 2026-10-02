@@ -120,7 +120,8 @@ def entry_html(e):
 CSS = """
 @page {
     size: A4;
-    margin: 2cm 2cm 2.2cm 2cm;
+    /* wide right margin for handwritten notes */
+    margin: 2cm 7cm 2.2cm 1.8cm;
     @top-left { content: string(batch); font-size: 8pt; color: #666; }
     @top-right { content: string(lemma, first) " – " string(lemma, last);
                  font-size: 8pt; color: #666; }
