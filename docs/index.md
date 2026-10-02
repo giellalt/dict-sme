@@ -18,4 +18,7 @@ Please see [this page](https://giellalt.github.io/dicts/index.html) for more gen
 - [Plan for ordforråd å definere](ord-aa-definere.html)
 - [Arbeidsplan 2024](arbeidsplan.html)
 
+## Arrangement
+
+- [Oppstartsseminar september 2026](seminarprogram_2026.html)
 
