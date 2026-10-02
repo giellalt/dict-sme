@@ -4,10 +4,39 @@ TEKNISK for leksikograf
 
 ## Redigering i XMLmind
 
-Navigering i "treet":
+### Pass på!
+
+**Aldri opne tildefiler!**
+
+Dei ser slik ut, med `~` til slutt: `N_sme.xml~`
+Dette er backupfiler som kan redde dagen din, men du skal **aldri**
+redigere i dei.
+
+**Ikkje ha xmlmind open når du oppdaterer katalogen**
+
+(når du skriv git pull). Problemet er at du
+risikerer å lagre din gamle versjon
+
+> Documnmet .. seems to have been modified using an external
+  application. "Do you still want to save this document to its current
+  location?
+  
+Viss du svarer **OK** på dette vil du overskrive det kollegaen din har
+gjort.
+
+Måter å ordne dette på:
+
+1. Lukk dokumentet i xmlmind **før** du oppdaterer (før git pull)
+2. Viss du glømte det: Gje fila eit nytt namn (sukk), hent den nye, og
+   kopier over frå det nye namnet. Hugs å slette den nye.
+3. Viss du glømte det også får du ein **konflikt**. Det tar vi opp
+   seinare.
+
+
+### Navigering i "treet":
 
 | Funksjon | Mac | Windows | Lenes huskeregler |
-|---|---|---|---|
+|----------|-----|---------|-------------------|
 | Opp i hierarkiet | cmd+↑ | ctrl+↑ | - |
 | Ned i hierarkiet | cmd+↓ | ctrl+↓ | - |
 | Legg til etter | cmd+j | ctrl+J | Jälkeen / Jetter :-) |
