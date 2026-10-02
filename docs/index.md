@@ -1,6 +1,6 @@
 # Documentation for the monolingual North Sámi dictionary
 
-Please see [this page](https://giellalt.github.io/dicts/index.html) for more general information on how to work with dictionaries, and the various publishing alternatives.
+Gč. maid [Sámi leksikográfalaš guovddáža siiddu](https://giellalt.github.io/dicts/samileks/index.html) ja  [sátnegirjesiiddu](https://giellalt.github.io/dicts/index.html).
 
 
 ## Veahkki
