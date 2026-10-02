@@ -2291,7 +2291,9 @@
       </dg>
       <ig>
          <i>Ii beroš duos ii dás.</i>
-         <id>ii beroštit mastege</id>
+         <idg>
+            <id>ii beroštit mastege</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -2311,7 +2313,9 @@
       </lg>
       <ig>
          <i>duppalit gođđit</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -2873,7 +2877,9 @@
       </dg>
       <ig>
          <i>ii ge das galle</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -3011,7 +3017,9 @@
       </lg>
       <ig>
          <i>Gápmagahttá lea váttis goastat.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -5149,7 +5157,9 @@
       </lg>
       <ig>
          <i>njávkat miehtegulgii</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">

@@ -62,7 +62,7 @@
 @property-value add-antg() button("+ antonyms", "insert", "after antg");
 @property-value add-xg()   button("+ examples", "insert", "after xg");
 @property-value add-ig()   button("+ idiom", "insert", "after ig");
-@property-value add-id()   button("+ definition", "insert", "after id");
+@property-value add-idg()  button("+ definition", "insert", "after idg");
 @property-value add-ix()   button("+ example", "insert", "after ix");
 @property-value add-cg()   button("+ comments", "insert", "after cg");
 
@@ -524,7 +524,8 @@ x:last-child:after {
     content: add-same("+ example");
 }
 
-/* --- idiom group: i, id*, ix* (one idiom per ig) --------------------- */
+/* --- idiom group: i, idg* (one idiom per ig) ------------------------
+   idg: one definition of the idiom (id) with its examples (ix*) */
 
 ig {
     display: block;
@@ -544,15 +545,25 @@ i {
     font-weight: bold;
 }
 
+idg {
+    display: block;
+    margin: 0.3ex 0 0.3ex 3ex;
+}
+
+idg:before {
+    display: marker;
+    content: simple-counter(n, decimal);
+    font-size: 0.85em;
+    color: #004080;
+}
+
 id {
     display: block;
-    margin-left: 2ex;
 }
 
 ix {
     display: block;
     font-style: italic;
-    margin-left: 2ex;
 }
 
 ix:before {
@@ -560,33 +571,37 @@ ix:before {
     content: "ex ";
 }
 
-/* the first id and ix are added after the i... */
+/* the first idg is added after the i... */
 i:after {
-    property-group: button-row(2ex);
-    content: add-id() " " add-ix();
+    property-group: button-row(3ex);
+    content: add-idg();
 }
 
-ig:contains-element(ix) > i:after {
-    content: add-id();
-}
-
-ig:contains-element(id) > i:after {
+ig:contains-element(idg) > i:after {
     display: inline;
     content: "";
 }
 
-/* ...except that ix must come after id when there is one */
-id:last-of-type:after {
-    property-group: button-row(2ex);
-    content: add-same("+ definition") " " add-ix();
-}
-
-ig:contains-element(ix) > id:last-of-type:after {
+/* ...and further ones after the last idg */
+ig > idg:last-of-type:after {
+    property-group: button-row(3ex);
     content: add-same("+ definition");
 }
 
+/* the first ix of a definition is added after its id, more after the
+   last ix */
+id:after {
+    property-group: button-row(0);
+    content: add-ix();
+}
+
+idg:contains-element(ix) > id:after {
+    display: inline;
+    content: "";
+}
+
 ix:last-of-type:after {
-    property-group: button-row(2ex);
+    property-group: button-row(0);
     content: add-same("+ example");
 }
 

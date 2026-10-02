@@ -2937,7 +2937,9 @@
       </dg>
       <ig>
          <i>eatnamis eatnama láhkai</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -4088,7 +4090,9 @@
       </dg>
       <ig>
          <i>eatnamis eatnama láhkai</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">

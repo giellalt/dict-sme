@@ -480,7 +480,9 @@
       </ig>
       <ig>
          <i>čáhppat dego giehpa</i>
-         <id>áibbas čáhppat</id>
+         <idg>
+            <id>áibbas čáhppat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -1994,7 +1996,9 @@
       </dg>
       <ig>
          <i>ropmi dego stállu</i>
-         <id>hui ropmi</id>
+         <idg>
+            <id>hui ropmi</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -2029,7 +2033,9 @@
       </dg>
       <ig>
          <i>rukses árpu/láigi</i>
-         <id>elemeanta, idea mii čatná oktii girjji, logaldallama dahje sullasačča</id>
+         <idg>
+            <id>elemeanta, idea mii čatná oktii girjji, logaldallama dahje sullasačča</id>
+         </idg>
       </ig>
       <ig>
          <i>rukses beaivi</i>
@@ -3030,7 +3036,9 @@
       </lg>
       <ig>
          <i>árgi dego njoammil</i>
-         <id>hui árgi</id>
+         <idg>
+            <id>hui árgi</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -3212,7 +3220,9 @@
       </lg>
       <ig>
          <i>Oahpes bahá lea buoret go amas buorre.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -3333,7 +3343,9 @@
       </lg>
       <ig>
          <i>bastil dego ávju</i>
-         <id>hui bastil</id>
+         <idg>
+            <id>hui bastil</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -3788,7 +3800,9 @@
       </lg>
       <ig>
          <i>boaris dego eana</i>
-         <id>hui boaris</id>
+         <idg>
+            <id>hui boaris</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -4214,15 +4228,21 @@
       </lg>
       <ig>
          <i>čáppat dego láttakeahtes luomi</i>
-         <id>hui čáppat</id>
+         <idg>
+            <id>hui čáppat</id>
+         </idg>
       </ig>
       <ig>
          <i>čáppat dego aiddo láddan luomi</i>
-         <id>hui čáppat</id>
+         <idg>
+            <id>hui čáppat</id>
+         </idg>
       </ig>
       <ig>
          <i>čáppat dego muorječalbmi</i>
-         <id>hui čáppat</id>
+         <idg>
+            <id>hui čáppat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -4276,7 +4296,9 @@
       </lg>
       <ig>
          <i>čielggas dego ájačáhci</i>
-         <id>hui čielggas</id>
+         <idg>
+            <id>hui čielggas</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -6355,7 +6377,9 @@
       </lg>
       <ig>
          <i>gávvil dego rieban</i>
-         <id>hui gávvil</id>
+         <idg>
+            <id>hui gávvil</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -6991,7 +7015,9 @@
       </dg>
       <ig>
          <i>guhkki dego nealgejahki</i>
-         <id>hui guhkki</id>
+         <idg>
+            <id>hui guhkki</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -7877,7 +7903,9 @@
       </lg>
       <ig>
          <i>jaskat dego hávderavddas</i>
-         <id>hui jaskat</id>
+         <idg>
+            <id>hui jaskat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -8080,7 +8108,9 @@
       </lg>
       <ig>
          <i>jorbbas dego spábba</i>
-         <id>hui jorbbas</id>
+         <idg>
+            <id>hui jorbbas</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -9988,7 +10018,9 @@
       </lg>
       <ig>
          <i>nuorra dego suoidni</i>
-         <id>hui nuorra</id>
+         <idg>
+            <id>hui nuorra</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -12455,7 +12487,9 @@
       </lg>
       <ig>
          <i>stuoris dego stállu</i>
-         <id>hui stuorra olmmoš</id>
+         <idg>
+            <id>hui stuorra olmmoš</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -13355,7 +13389,9 @@
       </lg>
       <ig>
          <i>vielgat dego muohta</i>
-         <id>áibbas vielgat</id>
+         <idg>
+            <id>áibbas vielgat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">

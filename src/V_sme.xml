@@ -156,11 +156,15 @@
       </dg>
       <ig>
          <i>borrat dego spiidni</i>
-         <id>borrat romit</id>
+         <idg>
+            <id>borrat romit</id>
+         </idg>
       </ig>
       <ig>
          <i>borrat dego heasta</i>
-         <id>borrat hui ollu</id>
+         <idg>
+            <id>borrat hui ollu</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -343,7 +347,9 @@
       </dg>
       <ig>
          <i>Iežas dat ferte gámadit.</i>
-         <id>Olmmoš ferte birget ieš.</id>
+         <idg>
+            <id>Olmmoš ferte birget ieš.</id>
+         </idg>
       </ig>
       <cg>
          <c>l_ref: gáma_n</c>
@@ -2380,7 +2386,9 @@
       </dg>
       <ig>
          <i>bárdit oaivvi</i>
-         <id>adft</id>
+         <idg>
+            <id>adft</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -4517,7 +4525,9 @@
       </dg>
       <ig>
          <i>cealkit dearvvuođaid</i>
-         <id>adsf</id>
+         <idg>
+            <id>adsf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -5292,7 +5302,9 @@
       </lg>
       <ig>
          <i>čárvet čalmmiid gitta</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -9400,7 +9412,9 @@
       </lg>
       <ig>
          <i>čalmmit galjot</i>
-         <id>čalmmit storrot</id>
+         <idg>
+            <id>čalmmit storrot</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -9634,7 +9648,9 @@
       </lg>
       <ig>
          <i>gazzat oahpu</i>
-         <id>váldit oahpu</id>
+         <idg>
+            <id>váldit oahpu</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -9804,7 +9820,9 @@
       </lg>
       <ig>
          <i>gállit luotta</i>
-         <id>leat ovdavázzin</id>
+         <idg>
+            <id>leat ovdavázzin</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -12392,7 +12410,9 @@
       </dg>
       <ig>
          <i>oahpahit su njuolga gužžat</i>
-         <id>adsf</id>
+         <idg>
+            <id>adsf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -12862,7 +12882,9 @@
       </dg>
       <ig>
          <i>Heaitte eret!</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -16875,7 +16897,9 @@
       </lg>
       <ig>
          <i>dahkat jogaid jávrin</i>
-         <id>mearehuddat</id>
+         <idg>
+            <id>mearehuddat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -17374,7 +17398,9 @@
       </dg>
       <ig>
          <i>ii muitte njunis njálbmái</i>
-         <id>heajos muitu</id>
+         <idg>
+            <id>heajos muitu</id>
+         </idg>
       </ig>
       <ig>
          <i>Ii gussage muitte ahte lea gálbi leamaš.</i>
@@ -19111,7 +19137,9 @@
       </dg>
       <ig>
          <i>Maid mánnán oahppá, boarisin máhttá.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -19334,7 +19362,9 @@
       </lg>
       <ig>
          <i>Guhte ohcá, son gávdná.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -22840,7 +22870,9 @@
       </lg>
       <ig>
          <i>Ii galgga sojahit eambbo go gierdá.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
       <cg>
          <c>l_ref: sodjat_v</c>
@@ -23416,11 +23448,15 @@
       </lg>
       <ig>
          <i>Gii uhcán suhká, sus leat rašit gieđat.</i>
-         <id>adsf</id>
+         <idg>
+            <id>adsf</id>
+         </idg>
       </ig>
       <ig>
          <i>suhkat ovtta fatnasis</i>
-         <id>adsf</id>
+         <idg>
+            <id>adsf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -25466,7 +25502,9 @@
       </dg>
       <ig>
          <i>De viššá!</i>
-         <id>Dasa mun liikon!</id>
+         <idg>
+            <id>Dasa mun liikon!</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">

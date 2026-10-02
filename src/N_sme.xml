@@ -554,11 +554,15 @@
       </dg>
       <ig>
          <i>ija beaivvi</i>
-         <id>birra jándora</id>
+         <idg>
+            <id>birra jándora</id>
+         </idg>
       </ig>
       <ig>
          <i>dego idja ja beaivi</i>
-         <id>nuppegežiid</id>
+         <idg>
+            <id>nuppegežiid</id>
+         </idg>
       </ig>
       <cg>
          <c>l_ref: beaivet_adv</c>
@@ -692,7 +696,9 @@
       </dg>
       <ig>
          <i>jalget beavddi</i>
-         <id>vuoitit visot</id>
+         <idg>
+            <id>vuoitit visot</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -2617,7 +2623,9 @@
       </dg>
       <ig>
          <i>Čálli giehta ollá guhkás.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -3672,7 +3680,9 @@
       </dg>
       <ig>
          <i>Jahki ii leat jagi viellja.</i>
-         <id>Jagit eai leat seammáláganat.</id>
+         <idg>
+            <id>Jagit eai leat seammáláganat.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -3838,7 +3848,9 @@
       </dg>
       <ig>
          <i>oaivečohkas juolgevuđđui</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -5352,7 +5364,9 @@
       </dg>
       <ig>
          <i>oaivečohkas juolgevuđđui</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -6251,7 +6265,9 @@
       </dg>
       <ig>
          <i>Son lea skiremoni borran.</i>
-         <id>son lea dájuhuvvon</id>
+         <idg>
+            <id>son lea dájuhuvvon</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -9461,7 +9477,9 @@
       </lg>
       <ig>
          <i>Munnje galmmihii assái.</i>
-         <id>mus soiggii sivvu</id>
+         <idg>
+            <id>mus soiggii sivvu</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -9470,7 +9488,9 @@
       </lg>
       <ig>
          <i>lean assigoavddis</i>
-         <id>mus soaigá sivvu</id>
+         <idg>
+            <id>mus soaigá sivvu</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -10407,7 +10427,9 @@
       </dg>
       <ig>
          <i>áimmu ovddas</i>
-         <id>olgun</id>
+         <idg>
+            <id>olgun</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -10697,7 +10719,9 @@
       </dg>
       <ig>
          <i>Gal áigi oahpaha.</i>
-         <id>olmmoš oahppá áiggi mielde</id>
+         <idg>
+            <id>olmmoš oahppá áiggi mielde</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -10986,7 +11010,9 @@
       </lg>
       <ig>
          <i>Ii guhtege riegát ákšu gieđas.</i>
-         <id>buohkat dárbbašit oahppat</id>
+         <idg>
+            <id>buohkat dárbbašit oahppat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -13283,7 +13309,9 @@
       </lg>
       <ig>
          <i>atnit árvvus</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -19306,7 +19334,9 @@
       </lg>
       <ig>
          <i>Nisu ii váldde bealljáige go mun suinna humadan.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
       <cg>
          <c>l_ref: bealljegoahti_n</c>
@@ -20907,7 +20937,9 @@
       </lg>
       <ig>
          <i>Njálgga biebmu fargga nohká.</i>
-         <id>Dat mii lea buorre, ii bistte nu guhká.</id>
+         <idg>
+            <id>Dat mii lea buorre, ii bistte nu guhká.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -26528,11 +26560,15 @@
       </lg>
       <ig>
          <i>De ravggai bunci.</i>
-         <id>Mokta nogai.</id>
+         <idg>
+            <id>Mokta nogai.</id>
+         </idg>
       </ig>
       <ig>
          <i>Jearri bahtii bunci.</i>
-         <id>Dál jearahallat menddo ollu.</id>
+         <idg>
+            <id>Dál jearahallat menddo ollu.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -27713,7 +27749,9 @@
       </lg>
       <ig>
          <i>Buvru vuoššai, muhto málli šattai.</i>
-         <id>Ii šaddan nugo lei vuordán.</id>
+         <idg>
+            <id>Ii šaddan nugo lei vuordán.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -29122,11 +29160,15 @@
       </lg>
       <ig>
          <i>čalmmis atnit</i>
-         <id>geahččat, čuovvut mielde</id>
+         <idg>
+            <id>geahččat, čuovvut mielde</id>
+         </idg>
       </ig>
       <ig>
          <i>juoga čuohcá su čalbmái</i>
-         <id>son fuomáša juoidá</id>
+         <idg>
+            <id>son fuomáša juoidá</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -29632,7 +29674,9 @@
       </lg>
       <ig>
          <i>Orru čázis lea moivebodni.</i>
-         <id>adfs</id>
+         <idg>
+            <id>adfs</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -31792,7 +31836,9 @@
       </lg>
       <ig>
          <i>čoavji botnjá</i>
-         <id>čoavji bávččasta</id>
+         <idg>
+            <id>čoavji bávččasta</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -31958,7 +32004,9 @@
       </lg>
       <ig>
          <i>lávlut olles čoddagiin</i>
-         <id>lávlut garrasit</id>
+         <idg>
+            <id>lávlut garrasit</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -33298,7 +33346,9 @@
       </lg>
       <ig>
          <i>dáhpin váldit</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -37053,7 +37103,9 @@
       </lg>
       <ig>
          <i>hállat birra dievá</i>
-         <id>mohkohallat, ii daja njuolgga</id>
+         <idg>
+            <id>mohkohallat, ii daja njuolgga</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -42205,7 +42257,9 @@
       </lg>
       <ig>
          <i>leat eahpádusaid siste</i>
-         <id>eahpidit</id>
+         <idg>
+            <id>eahpidit</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -43333,7 +43387,9 @@
       </lg>
       <ig>
          <i>Eallju vuoitá goavvelihku.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -43777,7 +43833,9 @@
       </dg>
       <ig>
          <i>eatnamis eatnama láhkai</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -50715,7 +50773,9 @@
       </dg>
       <ig>
          <i>gamus dovdat</i>
-         <id>einnostit</id>
+         <idg>
+            <id>einnostit</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -51187,7 +51247,9 @@
       </lg>
       <ig>
          <i>gaccaid bániid</i>
-         <id>buot fámuiguin</id>
+         <idg>
+            <id>buot fámuiguin</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -51501,7 +51563,9 @@
       </dg>
       <ig>
          <i>čáhppes gáffe</i>
-         <id>gáffe mielkki dahje lávcca haga</id>
+         <idg>
+            <id>gáffe mielkki dahje lávcca haga</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -59978,7 +60042,9 @@
       </lg>
       <ig>
          <i>dego gotkkabeasis</i>
-         <id>olu olmmoš</id>
+         <idg>
+            <id>olu olmmoš</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -60661,11 +60727,15 @@
       </lg>
       <ig>
          <i>guksi ja guollemuorra</i>
-         <id>feara mii</id>
+         <idg>
+            <id>feara mii</id>
+         </idg>
       </ig>
       <ig>
          <i>Dat guhte guvssiin álgá, son basttiin loahpaha.</i>
-         <id>adfs</id>
+         <idg>
+            <id>adfs</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -61034,7 +61104,9 @@
       </lg>
       <ig>
          <i>ii daga gullin ge</i>
-         <id>dahkaluddat ahte ii gula</id>
+         <idg>
+            <id>dahkaluddat ahte ii gula</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -61510,7 +61582,9 @@
       </lg>
       <ig>
          <i>Hávskes guoibmi oanida mátkki.</i>
-         <id>Lea suohttasat mátkkoštit nuppiin ovttas go okto.</id>
+         <idg>
+            <id>Lea suohttasat mátkkoštit nuppiin ovttas go okto.</id>
+         </idg>
       </ig>
       <cg>
          <c>l_ref: náittosguoibmi_n</c>
@@ -62001,7 +62075,9 @@
       </dg>
       <ig>
          <i>Beatnaga ii galgga gulgii geahččat.</i>
-         <id>Ii galgga olbmo dušše olgguldas hámi vuođul dubmet.</id>
+         <idg>
+            <id>Ii galgga olbmo dušše olgguldas hámi vuođul dubmet.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -65156,7 +65232,9 @@
       </lg>
       <ig>
          <i>Himut čuvvot hávderavdii.</i>
-         <id>olmmoš lea himolaš olles eallima</id>
+         <idg>
+            <id>olmmoš lea himolaš olles eallima</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -67822,7 +67900,9 @@
       </dg>
       <ig>
          <i>leat guovtti ilmmi gaskkas</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -69714,7 +69794,9 @@
       </lg>
       <ig>
          <i>dahkat jogaid jávrin</i>
-         <id>mearehuddat</id>
+         <idg>
+            <id>mearehuddat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -70811,11 +70893,15 @@
       </lg>
       <ig>
          <i>dahkat jogaid jávrin</i>
-         <id>mearehuddat</id>
+         <idg>
+            <id>mearehuddat</id>
+         </idg>
       </ig>
       <ig>
          <i>Go olu jogat golget ovtta sadjái, de šaddá stuora johkan.</i>
-         <id>adsf</id>
+         <idg>
+            <id>adsf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -72179,7 +72265,9 @@
       </lg>
       <ig>
          <i>eanet juonat go suonat</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -72407,7 +72495,9 @@
       </lg>
       <ig>
          <i>jurdda ii jora</i>
-         <id>ii máhte jurddašit</id>
+         <idg>
+            <id>ii máhte jurddašit</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -72999,7 +73089,9 @@
       </dg>
       <ig>
          <i>čáhppes káffe</i>
-         <id>káffe mielkki dahje lávcca haga</id>
+         <idg>
+            <id>káffe mielkki dahje lávcca haga</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -80481,7 +80573,9 @@
       </lg>
       <ig>
          <i>Juohke loddi gielainis lávlu.</i>
-         <id>Buohkat barget iežaset vuogi mielde.</id>
+         <idg>
+            <id>Buohkat barget iežaset vuogi mielde.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -81470,7 +81564,9 @@
       </lg>
       <ig>
          <i>gállit luotta</i>
-         <id>leat ovdavázzin</id>
+         <idg>
+            <id>leat ovdavázzin</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -86862,7 +86958,9 @@
       </lg>
       <ig>
          <i>Juohke áššái lea mearreáigi.</i>
-         <id>adsf</id>
+         <idg>
+            <id>adsf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -89620,7 +89718,9 @@
       </dg>
       <ig>
          <i>heastta muitu</i>
-         <id>hui buorre muitu</id>
+         <idg>
+            <id>hui buorre muitu</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -89972,7 +90072,9 @@
       </lg>
       <ig>
          <i>In leat oaidnán du čieža muorragahččamii.</i>
-         <id>In leat oaidnán du hui guhkes áigái.</id>
+         <idg>
+            <id>In leat oaidnán du hui guhkes áigái.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -90572,11 +90674,15 @@
       </lg>
       <ig>
          <i>Namma ii billis olbmo, muhto olmmoš sáhttá billistit nama.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
       <ig>
          <i>Buorre namma gullo guhkás, muhto bahá namma gullo guhkkelebbui.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -92410,7 +92516,9 @@
       </lg>
       <ig>
          <i>juoga njálmmi guvlui</i>
-         <id>juoga borran láhkai</id>
+         <idg>
+            <id>juoga borran láhkai</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -92444,7 +92552,9 @@
       </lg>
       <ig>
          <i>njálaid guossái mannat</i>
-         <id>láhppot meahcis</id>
+         <idg>
+            <id>láhppot meahcis</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -96167,11 +96277,15 @@
       </lg>
       <ig>
          <i>gazzat oahpu</i>
-         <id>váldit oahpu</id>
+         <idg>
+            <id>váldit oahpu</id>
+         </idg>
       </ig>
       <ig>
          <i>oahppu ii deatte</i>
-         <id>oahppu ii leat goassege liiggás</id>
+         <idg>
+            <id>oahppu ii leat goassege liiggás</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -96207,7 +96321,9 @@
       </lg>
       <ig>
          <i>ii daga oaidnin ge</i>
-         <id>dahkaluddat ahte ii oainne</id>
+         <idg>
+            <id>dahkaluddat ahte ii oainne</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -99652,7 +99768,9 @@
       </lg>
       <ig>
          <i>leat olbmuid siste</i>
-         <id>leat doppe gos eará olbmot leat</id>
+         <idg>
+            <id>leat doppe gos eará olbmot leat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -107030,7 +107148,9 @@
       </lg>
       <ig>
          <i>ii ráigi deatte</i>
-         <id>ráigi biktasis ii daga maidege</id>
+         <idg>
+            <id>ráigi biktasis ii daga maidege</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -115433,7 +115553,9 @@
       </lg>
       <ig>
          <i>ii dadjan ii sátnelahkige</i>
-         <id>ii dadjan maidege</id>
+         <idg>
+            <id>ii dadjan maidege</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -115797,7 +115919,9 @@
       </lg>
       <ig>
          <i>Ii beana dieđe vuodjamis maidege ovdal go seaibi njuoská.</i>
-         <id>asdf</id>
+         <idg>
+            <id>asdf</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -115896,7 +116020,9 @@
       </lg>
       <ig>
          <i>oažžut sealgái</i>
-         <id>čorpmahallat</id>
+         <idg>
+            <id>čorpmahallat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -115965,7 +116091,9 @@
       </lg>
       <ig>
          <i>seaŋgga buorrin</i>
-         <id>orru seaŋggas buozalmasvuođa dihte</id>
+         <idg>
+            <id>orru seaŋggas buozalmasvuođa dihte</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -118572,7 +118700,9 @@
       </lg>
       <ig>
          <i>Mus soaigá sivvu.</i>
-         <id>balu dihte mus galmmiha</id>
+         <idg>
+            <id>balu dihte mus galmmiha</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -120462,7 +120592,9 @@
       </lg>
       <ig>
          <i>Olmmoš oahppá guovtti soabbái.</i>
-         <id>Olmmoš oahppá nu guhká go eallá.</id>
+         <idg>
+            <id>Olmmoš oahppá nu guhká go eallá.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -120747,7 +120879,9 @@
       </lg>
       <ig>
          <i>Sus lea soavvelnjuovčča.</i>
-         <id>son ii máhte doalahit ášši iežas siste</id>
+         <idg>
+            <id>son ii máhte doalahit ášši iežas siste</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -121776,7 +121910,9 @@
       </dg>
       <ig>
          <i>ovdal go spiidni buske</i>
-         <id>hui árrat</id>
+         <idg>
+            <id>hui árrat</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -122440,7 +122576,9 @@
       </lg>
       <ig>
          <i>čiŋadan dego stállu</i>
-         <id>čiŋadan menddo ollu, soljjut rattis</id>
+         <idg>
+            <id>čiŋadan menddo ollu, soljjut rattis</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -124834,7 +124972,9 @@
       </lg>
       <ig>
          <i>Jerusalema suvddár</i>
-         <id>golgolaš</id>
+         <idg>
+            <id>golgolaš</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -127999,7 +128139,9 @@
       </lg>
       <ig>
          <i>Ullu lea juohke láhkai ávkkálaš.</i>
-         <id>Diet olmmoš máhttá vaikko maid.</id>
+         <idg>
+            <id>Diet olmmoš máhttá vaikko maid.</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -128956,11 +129098,15 @@
       </lg>
       <ig>
          <i>sus lea varra lihkkan</i>
-         <id>son lea suorganan garrasit, dahje suhttan nubbái</id>
+         <idg>
+            <id>son lea suorganan garrasit, dahje suhttan nubbái</id>
+         </idg>
       </ig>
       <ig>
          <i>juoga ceaggá varrii</i>
-         <id>juoga báhcá muitui</id>
+         <idg>
+            <id>juoga báhcá muitui</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">
@@ -129430,15 +129576,21 @@
       </lg>
       <ig>
          <i>su váibmu neavru</i>
-         <id>sus lea vuoksinmiella</id>
+         <idg>
+            <id>sus lea vuoksinmiella</id>
+         </idg>
       </ig>
       <ig>
          <i>su váibmu moiddoda</i>
-         <id>sus lea vuoksinmiella</id>
+         <idg>
+            <id>sus lea vuoksinmiella</id>
+         </idg>
       </ig>
       <ig>
          <i>váibmu ii leat sajis</i>
-         <id>lea duhtameahttun</id>
+         <idg>
+            <id>lea duhtameahttun</id>
+         </idg>
       </ig>
    </e>
    <e status="edit">

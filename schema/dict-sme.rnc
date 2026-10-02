@@ -92,8 +92,10 @@ xg = element xg {
 # i = idiom, id = idiom definition, ix = idiom example
 ig = element ig {
     element i { text },
-    element id { text }*,
-    element ix { text }*
+    element idg {
+        element id { text },
+        element ix { text }*
+    }*
 }
 
 
