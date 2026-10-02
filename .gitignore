@@ -4,6 +4,9 @@
 # can automatically generate from config.status script
 # (which is called by configure script))
 
+# ignore xmlmind (and other) temp files
+*~
+
 Makefile.in
 Makefile
 
