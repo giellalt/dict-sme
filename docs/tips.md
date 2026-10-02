@@ -46,6 +46,8 @@
 - Pass på at definisjonene har rett format (substitusjonsprinsippet,
   altså at man definerer substantiv som substantiv og ikke adjektiv
   o.l.)
+- Sjekk at alle variantformene er med (f.eks: fertet, vertet)
+- Ved flere likeskrevne ord (homografer) med samme bøyingskategori: Sjekk at homograf (1, 2, 3 etc) er markert
 - Pass på at ordet som blir definert er med i eksempelsetningen!
 - Sjekk at det ikke er faktafeil i eksemplene
 - Sjekk eksemplene for gammeldags, merkelig og annen markert ordbruk
