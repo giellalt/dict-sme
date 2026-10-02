@@ -6,6 +6,8 @@ Please see [this page](https://giellalt.github.io/dicts/index.html) for more gen
 # Veahkki
 
 - [Redigerengiehtagirji](redigeringshandbok.html)
+- [Skriving av møtereferat](skriving-av-moetereferat.html)
+- [Skriving av git-loggar](skriving-av-git-loggar.html))
 - [Tips til skriving av ordboksartikler](tips.html)
 - [Teknisk for programmerere](teknisk-programmerer.html)
 - [Teknisk for leksikografisk](teknisk-leksikograf.html)
