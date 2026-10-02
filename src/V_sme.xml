@@ -5552,11 +5552,13 @@
    </e>
    <e status="edit">
       <lg pos="V">
-         <l>čiktit</l>
+         <l hid="1">čiktit</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="V">
+         <l hid="2">čiktit</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="V">

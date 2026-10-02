@@ -56,6 +56,12 @@ def missing(what):
     return f'<span class="missing">[{what} missing]</span>'
 
 
+def lemma(l):
+    """a lemma, with its homonym number as a superscript"""
+    hid = f'<sup>{escape(l.get("hid"))}</sup>' if l.get("hid") else ""
+    return f'<span class="lemma">{escape(norm(l.text))}{hid}</span>'
+
+
 def entry_html(e):
     lg = e.find("lg")
     ls = lg.findall("l")
@@ -64,13 +70,13 @@ def entry_html(e):
     types = [l.get("type") or "" for l in ls]
     if len(set(types)) == 1:
         # all variants have the same type: write it once, after the pos
-        lemmas = ", ".join(f'<span class="lemma">{escape(norm(l.text))}</span>' for l in ls)
+        lemmas = ", ".join(lemma(l) for l in ls)
         tail = f"{escape(pos)}{' ' + escape(types[0]) if types[0] else ''}"
         head = f'{lemmas} <span class="pos">{tail}</span>'
     else:
         # the types differ: pos and type after each variant
         head = ", ".join(
-            f'<span class="lemma">{escape(norm(l.text))}</span>'
+            f'{lemma(l)}'
             f' <span class="pos">{escape(pos)}{" " + escape(t) if t else ""}</span>'
             for l, t in zip(ls, types)
         )

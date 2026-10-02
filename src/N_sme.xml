@@ -1025,7 +1025,7 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>busse</l>
+         <l hid="1">busse</l>
       </lg>
       <dg id="a">
          <d>stuorit mohtorfievru (mii ii jođe ruovdemáđii mielde) mas lea sadji máŋga mátkkošteddjiide</d>
@@ -1038,9 +1038,6 @@
             <x>Son johtá busse mielde juohke iđida.</x>
          </xg>
       </dg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -17315,7 +17312,7 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>báhkka</l>
+         <l hid="1">báhkka</l>
       </lg>
       <dg id="a">
          <d/>
@@ -17325,9 +17322,6 @@
             <x>Son ávžžuha olbmuid leat várrogasat dolain dál báhkkan.</x>
          </xg>
       </dg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -25386,11 +25380,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>bohttu</l>
+         <l hid="1">bohttu</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">bohttu</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -27591,6 +27587,11 @@
    <e status="edit">
       <lg pos="N">
          <l>busságuolga</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">busse</l>
       </lg>
    </e>
    <e status="edit">
@@ -30056,11 +30057,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>čáihni</l>
+         <l hid="1">čáihni</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">čáihni</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -33034,7 +33037,7 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>čurot</l>
+         <l hid="1">čurot</l>
       </lg>
       <dg id="a">
          <d/>
@@ -33042,9 +33045,11 @@
             <x>Čurot hurrá.</x>
          </xg>
       </dg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">čurot</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -37835,11 +37840,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>diila</l>
+         <l hid="1">diila</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">diila</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -41841,7 +41848,7 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>duollu</l>
+         <l hid="1">duollu</l>
       </lg>
       <dg id="a">
          <d/>
@@ -41850,15 +41857,17 @@
             <x>Geainnus leat ollu rokkit duolu dihte.</x>
          </xg>
       </dg>
-      <dg id="b">
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">duollu</l>
+      </lg>
+      <dg id="a">
          <d/>
          <xg>
             <x>Eanandoalloministtar sáhttá vuolidit duollu.</x>
          </xg>
       </dg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -47207,9 +47216,6 @@
          <l>etáhtta</l>
          <l>etáhta</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -48755,11 +48761,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>fearga</l>
+         <l hid="1">fearga</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">fearga</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -52539,9 +52547,6 @@
          <l>gáhtta</l>
          <l>gáhta</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -56957,11 +56962,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>giella</l>
+         <l hid="1">giella</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">giella</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -58170,11 +58177,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>gikta</l>
+         <l hid="1">gikta</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">gikta</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -65887,11 +65896,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>háŋgu</l>
+         <l hid="1">háŋgu</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">háŋgu</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -66293,7 +66304,12 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>hávvi</l>
+         <l hid="1">hávvi</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">hávvi</l>
       </lg>
       <dg id="a">
          <d/>
@@ -66301,9 +66317,6 @@
             <x>Njealji vuodjimis lea son vuoitán golmma háve.</x>
          </xg>
       </dg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -67465,11 +67478,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>hoavva</l>
+         <l hid="1">hoavva</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">hoavva</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -78772,11 +78787,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>láhka</l>
+         <l hid="1">láhka</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">láhka</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -79769,11 +79786,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>lávki</l>
+         <l hid="1">lávki</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">lávki</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -83042,7 +83061,17 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>luohkká</l>
+         <l hid="1">luohkká</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">luohkká</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="3">luohkká</l>
       </lg>
       <dg id="a">
          <d/>
@@ -83050,9 +83079,6 @@
             <x>Luohkká gullá heasttaleŋggiide.</x>
          </xg>
       </dg>
-      <cg>
-         <c>merged from 3 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -90044,11 +90070,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>moarri</l>
+         <l hid="1">moarri</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">moarri</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -104418,6 +104446,7 @@
    <e status="edit">
       <lg pos="N">
          <l>páhkka</l>
+         <l hid="2">báhkka</l>
       </lg>
    </e>
    <e status="edit">
@@ -112248,11 +112277,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>rihkku</l>
+         <l hid="1">rihkku</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">rihkku</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -113545,11 +113576,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>rovvi</l>
+         <l hid="1">rovvi</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">rovvi</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -117241,11 +117274,13 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>sávdnji</l>
+         <l hid="1">sávdnji</l>
       </lg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">sávdnji</l>
+      </lg>
    </e>
    <e status="edit">
       <lg pos="N">
@@ -133345,7 +133380,12 @@
    </e>
    <e status="edit">
       <lg pos="N">
-         <l>várri</l>
+         <l hid="1">várri</l>
+      </lg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
+         <l hid="2">várri</l>
       </lg>
       <dg id="a">
          <d/>
@@ -133353,9 +133393,6 @@
             <x>várri oastit</x>
          </xg>
       </dg>
-      <cg>
-         <c>merged from 2 entries with the same lemma+pos+type in dict-sme-nob</c>
-      </cg>
    </e>
    <e status="edit">
       <lg pos="N">
