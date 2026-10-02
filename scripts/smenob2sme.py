@@ -14,7 +14,8 @@ What is kept:
     antonyms becomes a dg; a meaning without a definition gets an empty
     <d/>, to be written later
   - definitions (dg/d, with dg/re put in front in parentheses), examples
-    (x), synonyms (sg/s), antonyms (antg/ant), idioms (i and id)
+    (x), synonyms (sg/s), antonyms (antg/ant), idioms (i, and each id in
+    its own idg)
   - l_ref and the c attribute of mg, as comments
 Entries without any of this are imported with only the lemma.
 
@@ -167,7 +168,10 @@ def write_entry(entry, out):
     for i, ids in entry.igs:
         out.append(f"{I * 2}<ig>")
         out.append(f"{I * 3}<i>{escape(i)}</i>")
-        out += [f"{I * 3}<id>{escape(d)}</id>" for d in ids]
+        for d in ids:
+            out.append(f"{I * 3}<idg>")
+            out.append(f"{I * 4}<id>{escape(d)}</id>")
+            out.append(f"{I * 3}</idg>")
         out.append(f"{I * 2}</ig>")
     comments = list(entry.comments)
     if entry.merged > 1:
