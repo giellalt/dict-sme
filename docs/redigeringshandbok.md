@@ -11,8 +11,8 @@ Skriv ned her etter kvart.
 
 ## REDAKSJONSSPRÅK
 
-Hvor puristisk skal ordboken være?
-F.eks: Kan amas fungere som subjunksjon (amas eai bora), eller skal vi holde på at det er nektende supinum (amasat borrat)?
+### Purisme
+Hvor puristisk skal ordboken være? F.eks: Kan amas fungere som subjunksjon (amas eai bora), eller skal vi holde på at det er nektende supinum (amasat borrat)?
 
 **Konklusjon:**
 Ordboken har vestlige former i definisjoner og eksempelsetninger.
@@ -20,8 +20,6 @@ t.d. aktio essiv *-me*
 Lemma kan være alle dialektformer.
 Vi har litt konservativt språk i eksemplene
 
-***
-***
 
 ## KILDER
 
@@ -29,8 +27,6 @@ Det kan være lurt å legge til info om hvor man har funnet en oversettelse, def
 
 Skal dette være en regel???
 
-***
-***
 ## LEMMA
 
 ### Lemmautvalg
@@ -145,8 +141,6 @@ Hvis den ene er tvilsom, kan man vurdere å innføre 'bruk heller'-element, ala 
 
 Disse tingene bør diskuteres når det dukker opp slike ord.
 
-***
-***
 
 ## Språklig variasjon i lemma og betydning
 
@@ -160,8 +154,6 @@ Vi må bli enige om attributtene.???
 
 Hvordan evt. merke synonym: *áhkku - muore* (dialekt, ganske ulikt)
 
-***
-***
 
 
 ## Synonymer og antonymer
@@ -191,8 +183,6 @@ Flere typer antonymer. Hva skal være med? Her fra Fjeld og Vikør 6. kap:
 	- konvers motsetning, to forskjellige perspektiver på samme sak, f.eks. kjøpe selge, gi få, mor barn, ektemann hustru
 	- kompletterende motsetning, handling som naturlig følges av en annen, f.eks. spørsmål svar, angrep forsvar, snakke lytte
 
-***
-***
 
 ## Avledninger
 
@@ -204,7 +194,7 @@ Vi gir informasjon om at lemma er en avledning slik i lemmagroup lg i elementet 
 
 ### Homonymi med forskjellige avledninger
 
-Hvis det er homonymi mellom to forskjellige avledninger, skal det føres som to forskjellige lemmaer eller som to betydninger (mg)?
+Hvis det er homonymi mellom to forskjellige avledninger, skal det føres som to forskjellige lemmaer eller som to betydninger (flere dg-er)?
 
 Eks.
 
@@ -342,7 +332,7 @@ máddin kan bety både *sørfra* og *sørpå*. Hvordan få frem at det er *sørf
 **Konklusjon**: skrive "biegga mii boahtá máttil". máttil betyr "fra sør", men ifølge Sammallahti kan det også bety "i sør", så ikke helt entydig der...
 
 
-## FLERE BETYDNINGER (mg)
+## FLERE BETYDNINGER (flere dg-er)
 
 ### I hvilken rekkefølge skal ulike betydninger være?
 
@@ -357,6 +347,7 @@ Hvordan markere det? Formulering...
 Skal det være i re?
 
 Forslag:
+
 - sirdojuvvon mearkkašupmi/mearkkašumis
 - abstrávtalaččat
 - figuratiivvalaččat
@@ -371,11 +362,11 @@ F.eks. njealječiegat:
 Først konkret betydning, så den abstrakte.
 
 **Konklusjon**: Vanskelig å vurdere hvordan man skal begrense når det skal markeres og når ikke. Når det gjelder formulering, ikke bestemt enda.
-Risten legger til kommentar ("overført") i XMLmind på de ordene der det er aktuelt å markere overført betydning. Da kan man enkelt finne de ordene i ettertid hvis man har lyst til å legge inn markering på dem.
+Leksikografene legger til kommentar ("overført") i XMLmind på de ordene der det er aktuelt å markere overført betydning. Da kan man enkelt finne de ordene i ettertid hvis man har lyst til å legge inn markering på dem.
 
 ### reŋgot
 
-reŋgot: bargat reaŋgan // (trans.) bargat reaŋgan, omd: reŋgot badjeolbmuid
+*reŋgot:* bargat reaŋgan // (trans.) bargat reaŋgan, omd: reŋgot badjeolbmuid
 
 skal det være to mg'er?
 
@@ -389,6 +380,7 @@ Så grunnregelen blir at man har den intransitive betydninga som mg1, med mindre
 ## EKSEMPELSETNINGER
 
 ### Formelt
+
 **Konklusjon:**
 - Fullstendige setninger starter med stor bokstav, avsluttes med tegnsetting (punktum, spørretegn)
 - Ufullstendige setninger med liten bokstav, uten tegnsetting
@@ -398,6 +390,7 @@ F.eks.: *De álggii nieida vuoiddadit. => Nieida álggii vuoiddadit.*
 
 
 ### Språkleg
+
 **Konklusjon:**
 - Gjerne autentiske, men de bør kuttes ned, fjerne 'støy' i setninga
 - Første eksempelsetning bør være typisk bruk av ordet
@@ -411,12 +404,12 @@ Videre bør alle ord som er brukt i eksempelsetninger (og definisjoner) være me
 
 
 ## Tallord
-- Diibmu lea čieža. = Klokka er sju.
+
+- *Diibmu lea čieža.* = Klokka er sju.
 - osb.
 - Eksempel med alder, klokke og liknende
 
 ## OVERSETTINGER AV EKSEMPLER
-
 
 ### Hvor idiomatiske skal oversettelsene være?
 
@@ -427,6 +420,7 @@ Videre bør alle ord som er brukt i eksempelsetninger (og definisjoner) være me
 - Hun ser i kikkerten om fuglene vises. - nær samiske setning
 
 Duorastaga dievai kulturviessu maŋimuš stullui.
+
 - På torsdag var det ikke et ledig sete i kulturhuset.
 - På torsdag fyltes kulturhuset til siste sete.
 
@@ -445,13 +439,17 @@ Ordtak og idiomatisk uttryk bør stå på begge språk med den idiomatiske versj
 grav (subst.) = (subst.) hávdi
 
 (i bibeloversetting, egentlig grop) (subst.) *roggi*
+
 **Konklusjon:**
-Her er det problemer med md-formatteringa:
-      <ig>
+Her er det problemer med formatteringa:
+
+´´´
+    <ig>
       <i>Dat gii goaivu rokki, gahččá ieš dasa.</i>
       <id>definišuvdna...</id>
       <td>Den som graver en grav, faller selv i den.</td>
-      </ig>
+    </ig>
+´´´
 
 ### Ord og uttrykk som bare finnes i et språk
 
@@ -476,6 +474,7 @@ EKS....
 
 ***
 ***
+
 ## SLEKTSKAPSTERMER
 
 ###  vilbealle, oambealle: vuosttaš, nubbi, goalmmát
@@ -493,7 +492,7 @@ Naba oappá eamit? mo dalle? (= hva med søsters kone? bruker man samme ord da?)
 **Konklusjon:**
 må spørre noen som vet
 
-máhka, spile....
+*máhka, spile....*
 
 ### Kjønnsspesifikke eller -uspesifikke termer
 
@@ -501,6 +500,7 @@ máhka, spile....
 - eamida dahje isida - beallelačča/náittosguoimmi/eallinguoimmi?
 
 **Konklusjon:**
+
 váhnen og eallinguoibmi
 
 ### tilkommende/sássa
@@ -546,6 +546,7 @@ boadnji: náitalan dievdu / almmáilaš náittosguoibmi
 
 ***
 ***
+
 ## DIVERSE NOTATER, bør redigeres eller fjernes
 
 ### Referere til et annet ord i definisjon, og dermed ikke gjenta definisjonen
@@ -732,3 +733,4 @@ Noen eksempler fra korpus:
 
 
 **Konklusjon**: Legg først og fremst inn betydninga som er dokumentert i andre ordbøker. Hvis den andre bruken er omfattende så kan man vurdere å legge det inn med re: (i nyere betydning).
+
