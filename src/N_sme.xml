@@ -60,7 +60,7 @@
          <d>olmmoš Andorras eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>arkiiva</l>
       </lg>
@@ -78,7 +78,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>astoáiggevuodjin</l>
       </lg>
@@ -102,7 +102,7 @@
          <d>olmmoš Austrálias eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>autista</l>
       </lg>
@@ -110,7 +110,7 @@
          <d>olmmoš geas lea autisma</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>áddjá</l>
       </lg>
@@ -140,7 +140,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>áddjut</l>
       </lg>
@@ -151,7 +151,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>áhččeolmmoš</l>
       </lg>
@@ -176,7 +176,7 @@
          <d>varris ealli mas lea okta dahje eanet čivggat</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>áhkku</l>
       </lg>
@@ -199,7 +199,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>áhkkut</l>
       </lg>
@@ -210,7 +210,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>áigemearrebeaivi</l>
       </lg>
@@ -253,7 +253,7 @@
          <d>jahkásaš ávvobeaivi muitun guovddáš dáhpáhussii muhtin našuvnna dahje álbmoga historjjás</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>álgoálbmotbeaivi</l>
       </lg>
@@ -262,7 +262,7 @@
          kultuvrra</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>álgogeassi</l>
       </lg>
@@ -273,7 +273,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>álgolohku</l>
       </lg>
@@ -281,7 +281,7 @@
          <d>lunddolaš lohku mii lea stuorit go 1 ja man sáhttá juohkit dušše ovttain dahje iežainan</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>állan</l>
       </lg>
@@ -289,7 +289,7 @@
          <d>boares guhkkodatovttadat</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l type="NomAg">ámmátvuoddji</l>
       </lg>
@@ -346,7 +346,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>badjebavssa</l>
       </lg>
@@ -354,7 +354,7 @@
          <d>njálmmi bajimus bavssa</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bajásčuožžileapmi</l>
       </lg>
@@ -365,7 +365,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bargobeaivi</l>
       </lg>
@@ -379,7 +379,7 @@
          <d>beaivi mii ii leat friddjabeaivi</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bargojahki</l>
       </lg>
@@ -396,7 +396,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>baromehter</l>
          <l>baromettar</l>
@@ -411,7 +411,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bálkábeaivi</l>
       </lg>
@@ -419,7 +419,7 @@
          <d>(fásta) beaivi goas bálká máksojuvvo</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bárisjahki</l>
       </lg>
@@ -430,7 +430,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bárralohku</l>
       </lg>
@@ -438,7 +438,7 @@
          <d>lohku man sáhttá juohkit guvttiin</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bátnegusta</l>
       </lg>
@@ -446,7 +446,7 @@
          <d>gusta mainna buhtista bániid</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>beaivebadjáneapmi</l>
       </lg>
@@ -488,7 +488,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>beaiveborran</l>
       </lg>
@@ -518,7 +518,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>beaivi</l>
       </lg>
@@ -569,7 +569,7 @@
          <c>l_ref: beaivet_adv</c>
       </cg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>beaivváš</l>
       </lg>
@@ -587,7 +587,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>beaivvášgierdu</l>
       </lg>
@@ -609,7 +609,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bealgi</l>
       </lg>
@@ -624,7 +624,7 @@
          <d>siskkimus ja stuorimus juolgesuorbma</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>beallidanáigi</l>
       </lg>
@@ -636,7 +636,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>bearjadat</l>
       </lg>
@@ -648,7 +648,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>beassášluopmu</l>
       </lg>
@@ -656,7 +656,7 @@
          <d>luopmu beassážiid oktavuođas</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>beavddáš</l>
       </lg>
@@ -667,7 +667,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>beavdeniibi</l>
       </lg>
@@ -675,7 +675,7 @@
          <d>niibi mii geavahuvvo ovttas gáffaliin boradettiin</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>beavdetennis</l>
       </lg>
@@ -683,7 +683,7 @@
          <d>spáppastallan mas časká uhca, geahppa spáppa speččoniin vuollegis fierpmi badjel mii lea beavddi alde</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>beavdi</l>
       </lg>
@@ -702,7 +702,7 @@
          </idg>
       </ig>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>belá</l>
       </lg>
@@ -718,7 +718,7 @@
          <d>olmmoš Belgias eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>biila</l>
       </lg>
@@ -732,7 +732,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>biilageaidnu</l>
       </lg>
@@ -747,7 +747,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>biilaluodda</l>
       </lg>
@@ -762,7 +762,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l type="NomAg">biilavuoddji</l>
       </lg>
@@ -773,7 +773,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>biljárdalatnja</l>
       </lg>
@@ -781,7 +781,7 @@
          <d>latnja biljárdaspeallama várás</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>biljárdaspábba</l>
       </lg>
@@ -811,7 +811,7 @@
          <d>áigodat mii bistá 24 diimmu rehkenaston gaskaijas gaskaidjii</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>bivttasgávpi</l>
       </lg>
@@ -835,7 +835,7 @@
          <d>náitalan dievdu</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>boallu</l>
       </lg>
@@ -874,7 +874,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>boazorikkis</l>
       </lg>
@@ -882,7 +882,7 @@
          <d>olmmoš geas leat ollu bohccot</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>bohccomielki</l>
       </lg>
@@ -890,7 +890,7 @@
          <d>mielki mii boahtá bohccos</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>bohccomiessi</l>
       </lg>
@@ -901,7 +901,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>boradanboddu</l>
       </lg>
@@ -909,7 +909,7 @@
          <d>boddu boradeami várás</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>borgemánnu</l>
       </lg>
@@ -920,7 +920,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>borgguhanlatnja</l>
       </lg>
@@ -928,7 +928,7 @@
          <d>latnja gos lea lohpi borgguhit</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>borranbaste</l>
       </lg>
@@ -953,7 +953,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>borranboddu</l>
       </lg>
@@ -991,7 +991,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>breavaniibi</l>
       </lg>
@@ -999,7 +999,7 @@
          <d>niibi mainna rahpá breavaid</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>breavaviehkat</l>
       </lg>
@@ -1015,7 +1015,7 @@
          <d>olmmoš Bulgárias eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>bussáčivga</l>
       </lg>
@@ -1023,7 +1023,7 @@
          <d>bussá čivga</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l hid="1">busse</l>
       </lg>
@@ -1039,7 +1039,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>bussebiillaš</l>
       </lg>
@@ -1094,7 +1094,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l type="NomAg">bussevuoddji</l>
       </lg>
@@ -1105,7 +1105,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>bušeahttajahki</l>
       </lg>
@@ -1113,7 +1113,7 @@
          <d>jahki masa bušeahtta gusto (ja mii sáhttá spiehkastit kaleandarjagis)</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>centigrámma</l>
       </lg>
@@ -1121,7 +1121,7 @@
          <d>mássáovttadat mii vástida 1/100 grámmas, oanádus cg</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>centilihtter</l>
       </lg>
@@ -1141,7 +1141,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>cizáščivga</l>
       </lg>
@@ -1152,7 +1152,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>cuoŋománnu</l>
       </lg>
@@ -1171,7 +1171,7 @@
          <d>goabbá nu guoktásis geat leaba riegádan seamma riegádeamis</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>currešnieiddat</l>
       </lg>
@@ -1179,7 +1179,7 @@
          <d>nieiddat geat leaba curret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čakčabeaivi</l>
       </lg>
@@ -1201,7 +1201,7 @@
          </syng>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čakčaeahket</l>
       </lg>
@@ -1209,7 +1209,7 @@
          <d>eahket čakčat</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čakčaidja</l>
       </lg>
@@ -1228,7 +1228,7 @@
          </syng>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čakčaluopmu</l>
       </lg>
@@ -1236,7 +1236,7 @@
          <d>luopmu čakčat</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čakčamánnu</l>
       </lg>
@@ -1247,7 +1247,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čalbmedoavttir</l>
       </lg>
@@ -1266,7 +1266,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čállinbeavdi</l>
       </lg>
@@ -1274,7 +1274,7 @@
          <d>beavdi man guoras lea oaivvilduvvon čohkkát čáledettiin</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čeahci</l>
       </lg>
@@ -1285,7 +1285,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čeahcit</l>
       </lg>
@@ -1328,7 +1328,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čibbi</l>
       </lg>
@@ -1367,7 +1367,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l type="Coll">čiežas</l>
       </lg>
@@ -1379,7 +1379,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čoahkkelohku</l>
       </lg>
@@ -1401,7 +1401,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čoaskudanlatnja</l>
       </lg>
@@ -1409,7 +1409,7 @@
          <d>latnja mas lea vuollegis temperatuvra, erenoamážit oaivvilduvvon biepmuid seailluheapmái</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čohkkánstohpogálvu</l>
       </lg>
@@ -1442,7 +1442,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čuoiganbeaivi</l>
       </lg>
@@ -1450,7 +1450,7 @@
          <d>beaivi mii geavahuvvo čuoigamii, dávjá skuvlaoktavuođas</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čuoiganbuvssat</l>
       </lg>
@@ -1458,7 +1458,7 @@
          <d>buvssat maid geavaha čuoigamii</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>čuvdi</l>
       </lg>
@@ -1469,7 +1469,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>davvebiegga</l>
       </lg>
@@ -1480,7 +1480,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l type="NomAg">dáksevuoddji</l>
       </lg>
@@ -1494,7 +1494,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l type="NomAg">dálkedieđiheaddji</l>
       </lg>
@@ -1502,7 +1502,7 @@
          <d>olmmoš gii gaskkusta dálkedieđáhusa</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>dálveeahket</l>
       </lg>
@@ -1513,7 +1513,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>dálvejorggáldat</l>
       </lg>
@@ -1521,7 +1521,7 @@
          <d>beaivejorggáldat juovlamánu 21. dahje 22. beaivvi, go beaivváš lea vuolimus muttus gaskabeaivve</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>dálveluopmu</l>
       </lg>
@@ -1548,7 +1548,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>deadjagohppu</l>
       </lg>
@@ -1559,7 +1559,7 @@
          <d>gohppu mas lea deadja</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>dekára</l>
       </lg>
@@ -1570,7 +1570,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>desigrámma</l>
       </lg>
@@ -1578,7 +1578,7 @@
          <d>mássáovttadat mii vástida 1/10 grámmas, oanádus dg</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>desilihtter</l>
       </lg>
@@ -1589,7 +1589,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>desimehter</l>
       </lg>
@@ -1597,7 +1597,7 @@
          <d>guhkkodatovttadat mii vástida 1/10 mehteris, oanádus dm</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>dienasjahki</l>
       </lg>
@@ -1608,7 +1608,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>dihtorduolbbus</l>
       </lg>
@@ -2066,7 +2066,7 @@
          <d>nissonolmmoš geas lea okta dahje eanet mánát</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>espánnjalaš</l>
       </lg>
@@ -2077,7 +2077,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>estteeatnalaš</l>
       </lg>
@@ -2085,7 +2085,7 @@
          <d>olmmoš Estteeatnamis eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>esttelaš</l>
       </lg>
@@ -2093,7 +2093,7 @@
          <d>olmmoš Estteeatnamis eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>eurohpalaš</l>
       </lg>
@@ -2112,7 +2112,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>fearsuolohas</l>
       </lg>
@@ -2183,7 +2183,7 @@
          <d>fiskes ivdni</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>frankriikalaš</l>
       </lg>
@@ -2191,7 +2191,7 @@
          <d>olmmoš Frankriikkas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>fránskalaš</l>
       </lg>
@@ -3125,7 +3125,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>greikalaš</l>
       </lg>
@@ -3528,7 +3528,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>indialaš</l>
       </lg>
@@ -3559,7 +3559,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>irlándalaš</l>
       </lg>
@@ -3575,7 +3575,7 @@
          <d>almmáiolmmoš geas lea okta dahje eanet mánát</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>islándalaš</l>
       </lg>
@@ -3583,7 +3583,7 @@
          <d>olmmoš Islánddas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>itálialaš</l>
       </lg>
@@ -3706,7 +3706,7 @@
          </idg>
       </ig>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>japanlaš</l>
       </lg>
@@ -3714,7 +3714,7 @@
          <d>olmmoš Jáhpanis eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>japánalaš</l>
       </lg>
@@ -4013,7 +4013,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>kanádalaš</l>
       </lg>
@@ -4054,7 +4054,7 @@
          <d>optihkalaš reaidu mii linssaid bokte addá stuoriduvvon oaidningova objeavttain mat leat guhkkin eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>kiinnálaš</l>
       </lg>
@@ -4098,7 +4098,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>kroatialaš</l>
       </lg>
@@ -4106,7 +4106,7 @@
          <d>olmmoš Kroáhtias eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>kroáhtalaš</l>
       </lg>
@@ -4153,7 +4153,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>latvialaš</l>
       </lg>
@@ -4308,7 +4308,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>liechtensteinlaš</l>
       </lg>
@@ -4316,7 +4316,7 @@
          <d>olmmoš Liechtensteinas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>lietuvalaš</l>
       </lg>
@@ -4426,7 +4426,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>lulliriikalaš</l>
       </lg>
@@ -4497,7 +4497,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>luxemburglaš</l>
       </lg>
@@ -4505,7 +4505,7 @@
          <d>olmmoš Luxemburgas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>maltalaš</l>
       </lg>
@@ -5033,7 +5033,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>moldovalaš</l>
       </lg>
@@ -5041,7 +5041,7 @@
          <d>olmmoš Moldovas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>monacolaš</l>
       </lg>
@@ -5074,7 +5074,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>mongolialaš</l>
       </lg>
@@ -5082,7 +5082,7 @@
          <d>olmmoš Mongolias eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>montenegrolaš</l>
       </lg>
@@ -5184,7 +5184,7 @@
          <d>čeahpes oahppi gii oažžu hui buriid árvosániid</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>nederlándalaš</l>
       </lg>
@@ -5347,7 +5347,7 @@
          <d>biegga mii boahtá nuorttil</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>nuortariikalaš</l>
       </lg>
@@ -5561,7 +5561,7 @@
          <d>(šáhkkaspealus) oktasašnamahus ladnái, viehkkái, hehpošii, dronnegii ja gonagassii</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>oktoáhčči</l>
       </lg>
@@ -5572,7 +5572,7 @@
          </syng>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>oktoeadni</l>
       </lg>
@@ -5591,7 +5591,7 @@
          <d>latnja ovtta olbmo várás</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2601">
       <lg pos="N">
          <l>oktonasáhčči</l>
       </lg>
@@ -5602,7 +5602,7 @@
          </syng>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>oktonaseadni</l>
       </lg>
@@ -5613,7 +5613,7 @@
          </syng>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>oktonasváhnen</l>
       </lg>
@@ -5624,7 +5624,7 @@
          </syng>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>oktováhnen</l>
       </lg>
@@ -5744,7 +5744,7 @@
          </syng>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>pakistánalaš</l>
       </lg>
@@ -5807,7 +5807,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>polskalaš</l>
       </lg>
@@ -5823,7 +5823,7 @@
          <d>hui beakkán ja bivnnuhis popartista</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>portugallaš</l>
       </lg>
@@ -5831,7 +5831,7 @@
          <d>olmmoš Portugálas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2602">
       <lg pos="N">
          <l>portugálalaš</l>
       </lg>
@@ -5944,7 +5944,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>romanialaš</l>
       </lg>
@@ -5952,7 +5952,7 @@
          <d>olmmoš Románias eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>románialaš</l>
       </lg>
@@ -5990,7 +5990,7 @@
          <d>borsta mainna buhtista (ruohtas)ruotnasiid</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>ruonáeatnanlaš</l>
       </lg>
@@ -5998,7 +5998,7 @@
          <d>olmmoš Ruonáeatnamis eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>ruošša</l>
       </lg>
@@ -6006,7 +6006,7 @@
          <d>olmmoš Ruoššas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>ruoššalaš</l>
       </lg>
@@ -6014,7 +6014,7 @@
          <d>olmmoš Ruoššas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>ruoŧŧelaš</l>
       </lg>
@@ -6022,7 +6022,7 @@
          <d>olmmoš Ruoŧas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>ruoŧŧilaš</l>
       </lg>
@@ -6176,7 +6176,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>serbár</l>
       </lg>
@@ -6184,7 +6184,7 @@
          <d>olmmoš Serbias eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>serbialaš</l>
       </lg>
@@ -6373,7 +6373,7 @@
          <d>oahppi gii vázzá skuvlla</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>slovakialaš</l>
       </lg>
@@ -6381,7 +6381,7 @@
          <d>olmmoš Slováhkias eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>slovenialaš</l>
       </lg>
@@ -6666,7 +6666,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>suopmelaš</l>
       </lg>
@@ -6674,7 +6674,7 @@
          <d>olmmoš Suomas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>suopmilaš</l>
       </lg>
@@ -6694,7 +6694,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>sveicalaš</l>
       </lg>
@@ -6837,7 +6837,7 @@
          <d>árbbolaš truvdnui</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>tuiskalaš</l>
       </lg>
@@ -6845,7 +6845,7 @@
          <d>olmmoš Duiskkas eret</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>ukrainalaš</l>
       </lg>
@@ -6909,7 +6909,7 @@
          <d>(gođđojuvvon) suohkku ráhkaduvvon ullus</d>
       </dg>
    </e>
-   <e status="edit">
+   <e status="edit" batch="2603">
       <lg pos="N">
          <l>ungarlaš</l>
       </lg>

@@ -1,0 +1,54 @@
+akta+Num
+beal čieža+Phrase
+beal gávcci+Phrase
+beal golbma+Phrase
+beal guhtta+Phrase
+beal guokte+Phrase
+beal guoktenuppelohkái+Phrase
+beal logi+Phrase
+beal njeallje+Phrase
+beal okta+Phrase
+beal oktanuppelohkái+Phrase
+beal ovcci+Phrase
+beal vihtta+Phrase
+čieža+Num
+čiežačuođi+Num
+čiežaduhát+Num
+čiežalogi+Num
+čiežanuppelohkái+Num
+čuođi+Num
+čuohti+Num
+duhát+Num
+gávcci+Num
+gávccičuođi+Num
+gávcciduhát+Num
+gávccilogi+Num
+gávccinuppelohkái+Num
+gieža+Num
+golbma+Num
+golbmačuođi+Num
+golbmaduhát+Num
+golbmalogi+Num
+golbmalogičieža+Num
+golbmalogigávcci+Num
+golbmalogigolbma+Num
+njurjet+V
+nuoladit+V
+nuolahit+V
+oaggut+V
+rámidit+V
+reŋgot+V
+rumbbostallat+V
+russiinávlet+V
+sarret+V
+sámástit+V
+snuvsset+V
+spáppastallat+V
+submet+V
+subtraheret+V
+suomastit+V
+šalmmastit+V
+šáhkka máhtta+Phrase
+šáhkket+V
+vuodjit+V
+vuojihit+V

@@ -172,7 +172,7 @@ e:after {
 /* Status, batch and assignee, at the top right of the entry. Values are
    shown as text with a menu button instead of combo boxes: a combo box in
    every entry makes big files very slow to open in XXE.
-   The batch menu lists the batches in batches.xml, and the assignee menu
+   The batch menu lists the open batches in batches.xml, and the assignee menu
    the people there. For that, the content is put together as text by
    concatenate(): XPath turns batches.xml into menu items, and XXE then
    reads the text as CSS.
@@ -184,7 +184,7 @@ e:before {
     content: concatenate(
         "'status ' text(attr(status), color, #000000, font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('edit', 'putAttribute', 'status edit', 'publish', 'putAttribute', 'status publish'), font-size, 12pt, color, #2060a0, background-color, #e4eef8, border-radius, 3px, padding-left, 6px, padding-right, 6px)",
         "'     batch ' text(attr(batch), color, #000000, font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('no batch', 'removeAttribute', 'batch'",
-        xpath("replace(join(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch/@id, ' '), '([0-9]+)', \", '$1', 'putAttribute', 'batch $1'\")"),
+        xpath("replace(join(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[not(@state = 'closed')]/@id, ' '), '([0-9]+)', \", '$1', 'putAttribute', 'batch $1'\")"),
         "), font-size, 12pt, color, #2060a0, background-color, #e4eef8, border-radius, 3px, padding-left, 6px, padding-right, 6px) '     assignee ' text('",
         xpath("if(@assignee, string(@assignee), document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[@id = current()/@batch], concat(document(resolve-uri('../batches.xml', $styleSheetURL))/batches/batch[@id = current()/@batch]/@assignee, ' (batch)'), '-')"),
         "', color, #000000, font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('the person who has the batch', 'removeAttribute', 'assignee'",
