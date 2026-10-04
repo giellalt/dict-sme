@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="schema/batches.rnc" type="application/relax-ng-compact-syntax"?>
 <batches>
-    <batch id="2601" assignee="Risten"></batch>
-    <batch id="2602" assignee="Risten"></batch>
+    <batch id="2601" assignee="Helena"></batch>
+    <batch id="2602" assignee="Lena S"></batch>
     <batch id="2603" assignee="Risten"></batch>
 </batches>
