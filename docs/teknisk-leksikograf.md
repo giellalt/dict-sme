@@ -26,11 +26,10 @@ gjort.
 
 Måter å ordne dette på:
 
-1. Lukk dokumentet i xmlmind **før** du oppdaterer (før git pull)
-2. Viss du glømte det: Gje fila eit nytt namn (sukk), hent den nye, og
-   kopier over frå det nye namnet. Hugs å slette den nye.
-3. Viss du glømte det også får du ein **konflikt**. Det tar vi opp
-   seinare.
+1. Lukk dictfila i xmlmind **før** du oppdaterer (før git pull)
+2. Viss du glømte det og **ikke har valgt yes** for å lagre dictfila: 
+Kopier det som du har gjort til ei notatdokument og velg **no** for å lagre dictfila. Deretter legger du til det du har kopiert i dictfila.
+3. Viss du glømte det og **valgte yes for å lagre fila**: da får du ein **konflikt**. Be om hjelp.  Ingenting er tapt, og vi tar opp hvordan du gjør dette teknisk seinare. 
 
 
 ### Navigering i "treet":
