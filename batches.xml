@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="schema/batches.rnc" type="application/relax-ng-compact-syntax"?>
 <batches>
-    <batch id="2601" assignee="Risten"></batch>
-    <batch id="2602" assignee="Risten"></batch>
-    <batch id="2603" assignee="Risten"></batch>
+    <batch id="2601" editor="Risten" state="proofread-1" proofreader="Helena"></batch>
+    <batch id="2602" editor="Risten" state="proofread-1" proofreader="Lena Susanne"></batch>
+    <batch id="2603" editor="Risten" state="proofread-1"></batch>
+    <batch id="2604" editor="Risten" state="proofread-1"></batch>
+    <batch id="2605" editor="Risten" state="proofread-1"></batch>
+    <batch id="2606" editor="Risten" state="proofread-1"></batch>
+    <batch id="2607" editor="Risten" state="proofread-1"></batch>
+    <batch id="2608" editor="Risten" state="proofread-1"></batch>
+    <batch id="2609" editor="Risten" state="proofread-1"></batch>
+    <batch id="2610" editor="Risten" state="proofread-1"></batch>
+    <batch id="2611" editor="Risten" state="proofread-1"></batch>
+    <batch id="2612" editor="Risten" state="proofread-1"></batch>
+    <batch id="2613" editor="Risten" state="proofread-1"></batch>
+    <batch id="2614" editor="Risten" state="proofread-1"></batch>
+    <batch id="2615" editor="Risten" state="proofread-1"></batch>
+    <batch id="2616" editor="Risten" state="proofread-1"></batch>
+    <batch id="2617" editor="Risten" state="proofread-1"></batch>
+    <batch id="2618" editor="Risten" state="proofread-1"></batch>
+    <batch id="2619" editor="Risten" state="proofread-1"></batch>
+    <batch id="2620" editor="Risten" state="proofread-1"></batch>
+    <batch id="2621" editor="Helena" state="edit"></batch>
+    <batch id="2622" editor="Lena Susanne" state="edit"></batch>
+    <batch id="2623" editor="Risten" state="edit"></batch>
 </batches>

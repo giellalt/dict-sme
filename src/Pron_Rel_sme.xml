@@ -28,7 +28,7 @@
             or could be wrongly sorted.
         </sourcenote>
    </lics>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geaid</l>
       </lg>
@@ -42,7 +42,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geaidda</l>
       </lg>
@@ -54,7 +54,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geaiguin</l>
       </lg>
@@ -66,7 +66,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geain</l>
       </lg>
@@ -78,7 +78,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geainna</l>
       </lg>
@@ -90,7 +90,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">gean</l>
       </lg>
@@ -104,12 +104,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geanin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geas</l>
       </lg>
@@ -121,7 +121,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geasa</l>
       </lg>
@@ -133,7 +133,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">geat</l>
       </lg>
@@ -145,7 +145,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">gii</l>
       </lg>
@@ -157,57 +157,57 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goabbá</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goabbái</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goabbán</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goappá</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goappáid</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goappáide</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goappáiguin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goappáin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goappás</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">goappát</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđe</l>
       </lg>
@@ -219,12 +219,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđemuččat</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđemuš</l>
       </lg>
@@ -237,7 +237,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđes</l>
       </lg>
@@ -248,7 +248,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđet</l>
       </lg>
@@ -266,7 +266,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđiid</l>
       </lg>
@@ -283,7 +283,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđiide</l>
       </lg>
@@ -300,7 +300,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđiiguin</l>
       </lg>
@@ -317,7 +317,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guđiin</l>
       </lg>
@@ -340,7 +340,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guhte</l>
       </lg>
@@ -359,7 +359,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guhtemuš</l>
       </lg>
@@ -372,7 +372,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guhten</l>
       </lg>
@@ -389,7 +389,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">guhtii</l>
       </lg>
@@ -400,7 +400,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">maid</l>
       </lg>
@@ -418,7 +418,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">maidda</l>
       </lg>
@@ -429,7 +429,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">maiguin</l>
       </lg>
@@ -440,7 +440,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">main</l>
       </lg>
@@ -451,7 +451,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">mainna</l>
       </lg>
@@ -463,52 +463,52 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkár</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkára</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkárii</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkáriid</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkáriidda</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkáriiguin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkáriin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkárin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Interr">makkáris</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">man</l>
       </lg>
@@ -521,12 +521,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">manin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">mas</l>
       </lg>
@@ -538,7 +538,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">masa</l>
       </lg>
@@ -550,7 +550,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">mat</l>
       </lg>
@@ -562,7 +562,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Rel">mii</l>
       </lg>

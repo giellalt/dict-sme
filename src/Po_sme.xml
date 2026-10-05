@@ -28,7 +28,7 @@
             or could be wrongly sorted.
         </sourcenote>
    </lics>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>ala</l>
       </lg>
@@ -39,7 +39,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>alde</l>
       </lg>
@@ -50,7 +50,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>alu</l>
       </lg>
@@ -61,7 +61,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>áigi</l>
       </lg>
@@ -73,7 +73,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>álggogeahčen</l>
       </lg>
@@ -84,7 +84,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>badjel</l>
       </lg>
@@ -95,7 +95,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>badjelis</l>
       </lg>
@@ -106,7 +106,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>badjin</l>
       </lg>
@@ -117,7 +117,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bajábealde</l>
       </lg>
@@ -130,12 +130,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bajábeallai</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bajábeallái</l>
       </lg>
@@ -146,7 +146,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>báldda</l>
       </lg>
@@ -157,7 +157,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bálddas</l>
       </lg>
@@ -168,7 +168,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>báldii</l>
       </lg>
@@ -179,7 +179,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bále</l>
       </lg>
@@ -196,17 +196,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>báras</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bárrii</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bealde</l>
       </lg>
@@ -217,7 +217,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>beale</l>
       </lg>
@@ -228,12 +228,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bealis</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>beallai</l>
       </lg>
@@ -245,7 +245,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>beallái</l>
       </lg>
@@ -257,7 +257,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bearrái</l>
       </lg>
@@ -268,7 +268,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>belos</l>
       </lg>
@@ -279,7 +279,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>birra</l>
       </lg>
@@ -296,7 +296,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bokte</l>
       </lg>
@@ -310,7 +310,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>bottain</l>
       </lg>
@@ -321,7 +321,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>buohta</l>
       </lg>
@@ -332,7 +332,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>čađa</l>
       </lg>
@@ -343,7 +343,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>čieŋu</l>
       </lg>
@@ -354,17 +354,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>davábealde</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>davábeallái</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>dáfus</l>
       </lg>
@@ -378,7 +378,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>dássá</l>
       </lg>
@@ -389,7 +389,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>dievva</l>
       </lg>
@@ -400,7 +400,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>dihte</l>
       </lg>
@@ -417,7 +417,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>dihtii</l>
       </lg>
@@ -434,7 +434,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>duogábealde</l>
       </lg>
@@ -445,7 +445,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>duoge</l>
       </lg>
@@ -457,7 +457,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>duogi</l>
       </lg>
@@ -468,17 +468,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>duohkai</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>duohkái</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>duohken</l>
       </lg>
@@ -495,7 +495,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>duohkin</l>
       </lg>
@@ -512,7 +512,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>ektui</l>
       </lg>
@@ -525,7 +525,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>fárrui</l>
       </lg>
@@ -536,7 +536,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>fárus</l>
       </lg>
@@ -547,7 +547,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>galju</l>
       </lg>
@@ -558,12 +558,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gaskii</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gaskka</l>
       </lg>
@@ -574,7 +574,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gaskkas</l>
       </lg>
@@ -585,7 +585,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gasu</l>
       </lg>
@@ -596,7 +596,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>geahčai</l>
       </lg>
@@ -613,7 +613,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>geahčen</l>
       </lg>
@@ -637,7 +637,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>geaže</l>
       </lg>
@@ -648,7 +648,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>geažes</l>
       </lg>
@@ -659,7 +659,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>geažil</l>
       </lg>
@@ -671,7 +671,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gieđas</l>
       </lg>
@@ -682,7 +682,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gievrru</l>
       </lg>
@@ -693,7 +693,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>goris</l>
       </lg>
@@ -704,7 +704,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gorrái</l>
       </lg>
@@ -715,7 +715,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>govddu</l>
       </lg>
@@ -726,7 +726,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>guhku</l>
       </lg>
@@ -737,7 +737,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gullut</l>
       </lg>
@@ -748,7 +748,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gulu</l>
       </lg>
@@ -759,7 +759,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>guora</l>
       </lg>
@@ -770,7 +770,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>guoras</l>
       </lg>
@@ -781,7 +781,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>guotkku</l>
       </lg>
@@ -792,17 +792,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>guovdelas</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>guovdu</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>gurrii</l>
       </lg>
@@ -813,7 +813,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>guvlui</l>
       </lg>
@@ -824,7 +824,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>haga</l>
       </lg>
@@ -835,7 +835,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>hárrái</l>
       </lg>
@@ -847,7 +847,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>jelgii</l>
       </lg>
@@ -858,7 +858,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>lahka</l>
       </lg>
@@ -870,7 +870,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>láhkai</l>
       </lg>
@@ -883,7 +883,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>loahpageahčen</l>
       </lg>
@@ -894,7 +894,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>losu</l>
       </lg>
@@ -905,7 +905,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>luhtte</l>
       </lg>
@@ -916,12 +916,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>lulábealde</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>lusa</l>
       </lg>
@@ -932,7 +932,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>maŋil</l>
       </lg>
@@ -943,7 +943,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>maŋis</l>
       </lg>
@@ -961,7 +961,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>maŋŋá</l>
       </lg>
@@ -972,7 +972,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>maŋŋái</l>
       </lg>
@@ -983,7 +983,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>maŋŋel</l>
       </lg>
@@ -994,7 +994,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>maŋŋil</l>
       </lg>
@@ -1005,17 +1005,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>meaddel</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>meaddil</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>meattá</l>
       </lg>
@@ -1026,7 +1026,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>mielas</l>
       </lg>
@@ -1037,7 +1037,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>mielde</l>
       </lg>
@@ -1072,7 +1072,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>nala</l>
       </lg>
@@ -1083,7 +1083,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>nalde</l>
       </lg>
@@ -1094,7 +1094,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>nammii</l>
       </lg>
@@ -1105,7 +1105,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>njeaiga</l>
       </lg>
@@ -1116,7 +1116,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>njeaigga</l>
       </lg>
@@ -1127,12 +1127,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>nuorttabealde</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>oaidnut</l>
       </lg>
@@ -1143,7 +1143,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>oaivái</l>
       </lg>
@@ -1154,12 +1154,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>olggobeallái</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>olggul</l>
       </lg>
@@ -1170,7 +1170,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>olis</l>
       </lg>
@@ -1183,7 +1183,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>ollodahkii</l>
       </lg>
@@ -1194,7 +1194,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>oskálii</l>
       </lg>
@@ -1205,12 +1205,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>ovddabealde</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>ovddabeallai</l>
       </lg>
@@ -1221,7 +1221,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>ovddal</l>
       </lg>
@@ -1232,7 +1232,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>ovddas</l>
       </lg>
@@ -1249,12 +1249,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>ovdii</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>rastá</l>
       </lg>
@@ -1265,7 +1265,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>rádjai</l>
       </lg>
@@ -1277,7 +1277,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>rádjái</l>
       </lg>
@@ -1289,7 +1289,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>rájes</l>
       </lg>
@@ -1306,7 +1306,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>rájiin</l>
       </lg>
@@ -1317,7 +1317,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>sajis</l>
       </lg>
@@ -1328,7 +1328,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>seagis</l>
       </lg>
@@ -1339,7 +1339,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>sisa</l>
       </lg>
@@ -1352,12 +1352,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>siskkobealde</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>siste</l>
       </lg>
@@ -1374,7 +1374,7 @@
          </idg>
       </ig>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>stuoru</l>
       </lg>
@@ -1385,7 +1385,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>várás</l>
       </lg>
@@ -1396,7 +1396,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>veardde</l>
       </lg>
@@ -1409,7 +1409,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>viđa</l>
       </lg>
@@ -1420,7 +1420,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>viđe</l>
       </lg>
@@ -1431,7 +1431,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>viiddu</l>
       </lg>
@@ -1442,7 +1442,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>vuođul</l>
       </lg>
@@ -1453,12 +1453,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>vuolábealde</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>vuolde</l>
       </lg>
@@ -1469,7 +1469,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>vuollai</l>
       </lg>
@@ -1493,7 +1493,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>vuollái</l>
       </lg>
@@ -1504,7 +1504,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Po">
          <l>vuostá</l>
       </lg>

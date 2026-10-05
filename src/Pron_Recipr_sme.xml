@@ -28,7 +28,7 @@
             or could be wrongly sorted.
         </sourcenote>
    </lics>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guimmiineame</l>
       </lg>
@@ -39,7 +39,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guimmiineaskka</l>
       </lg>
@@ -50,7 +50,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guimmiineatte</l>
       </lg>
@@ -61,7 +61,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoibmáme</l>
       </lg>
@@ -72,7 +72,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoibmáseame</l>
       </lg>
@@ -83,7 +83,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoibmáseaskka</l>
       </lg>
@@ -94,7 +94,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoibmáseatte</l>
       </lg>
@@ -105,7 +105,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoimmáde</l>
       </lg>
@@ -116,7 +116,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoimmiska</l>
       </lg>
@@ -127,7 +127,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoimmisteame</l>
       </lg>
@@ -138,7 +138,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoimmisteaskka</l>
       </lg>
@@ -149,7 +149,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">goabbat guoimmisteatte</l>
       </lg>
@@ -160,7 +160,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiidasadet</l>
       </lg>
@@ -171,7 +171,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiidasamet</l>
       </lg>
@@ -182,7 +182,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiidasaset</l>
       </lg>
@@ -193,7 +193,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiideamet</l>
       </lg>
@@ -204,7 +204,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiideametguin</l>
       </lg>
@@ -215,7 +215,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiideaset</l>
       </lg>
@@ -226,7 +226,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiideasetguin</l>
       </lg>
@@ -237,7 +237,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiideattet</l>
       </lg>
@@ -248,7 +248,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiideattetguin</l>
       </lg>
@@ -259,7 +259,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiineamet</l>
       </lg>
@@ -276,7 +276,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiineaset</l>
       </lg>
@@ -293,7 +293,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guimmiineattet</l>
       </lg>
@@ -310,7 +310,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoibmámet</l>
       </lg>
@@ -321,7 +321,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoibmáseamet</l>
       </lg>
@@ -332,7 +332,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoibmáseaset</l>
       </lg>
@@ -343,7 +343,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoibmáseattet</l>
       </lg>
@@ -354,7 +354,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoimmádet</l>
       </lg>
@@ -365,7 +365,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoimmiset</l>
       </lg>
@@ -376,7 +376,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoimmisteamet</l>
       </lg>
@@ -387,7 +387,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoimmisteaset</l>
       </lg>
@@ -398,7 +398,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">guhtet guoimmisteattet</l>
       </lg>
@@ -409,7 +409,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nubbi nubbái</l>
       </lg>
@@ -420,7 +420,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nubbi nubbin</l>
       </lg>
@@ -437,7 +437,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nubbi nuppi</l>
       </lg>
@@ -448,7 +448,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nubbi nuppiin</l>
       </lg>
@@ -459,7 +459,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nubbi nuppis</l>
       </lg>
@@ -470,7 +470,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nuppit nuppiid</l>
       </lg>
@@ -481,7 +481,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nuppit nuppiide</l>
       </lg>
@@ -492,7 +492,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nuppit nuppiiguin</l>
       </lg>
@@ -503,7 +503,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Recipr">nuppit nuppiin</l>
       </lg>

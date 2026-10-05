@@ -28,7 +28,7 @@
             or could be wrongly sorted.
         </sourcenote>
    </lics>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>akta</l>
       </lg>
@@ -39,7 +39,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>beal</l>
       </lg>
@@ -50,7 +50,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal čieža</l>
       </lg>
@@ -58,7 +58,7 @@
          <d>diibmomearri 06.30 dahje 18.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal gávcci</l>
       </lg>
@@ -66,7 +66,7 @@
          <d>diibmomearri 07.30 dahje 19.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>bealgoalmmát</l>
       </lg>
@@ -77,7 +77,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal golbma</l>
       </lg>
@@ -85,7 +85,7 @@
          <d>diibmomearri 02.30 dahje 14.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal guhtta</l>
       </lg>
@@ -93,7 +93,7 @@
          <d>diibmomearri 05.30 dahje 17.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal guokte</l>
       </lg>
@@ -101,7 +101,7 @@
          <d>diibmomearri 01.30 dahje 13.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal guoktenuppelohkái</l>
       </lg>
@@ -109,7 +109,7 @@
          <d>diibmomearri 11.30 dahje 23.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal logi</l>
       </lg>
@@ -117,7 +117,7 @@
          <d>diibmomearri 09.30 dahje 21.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>bealnjealját</l>
       </lg>
@@ -128,7 +128,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal njeallje</l>
       </lg>
@@ -136,7 +136,7 @@
          <d>diibmomearri 03.30 dahje 15.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal okta</l>
       </lg>
@@ -144,7 +144,7 @@
          <d>diibmomearri 00.30 dahje 12.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal oktanuppelohkái</l>
       </lg>
@@ -152,7 +152,7 @@
          <d>diibmomearri 10.30 dahje 22.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal ovcci</l>
       </lg>
@@ -160,7 +160,7 @@
          <d>diibmomearri 08.30 dahje 20.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Phrase">
          <l>beal vihtta</l>
       </lg>
@@ -168,7 +168,7 @@
          <d>diibmomearri 04.30 dahje 16.30</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>beannot</l>
       </lg>
@@ -179,7 +179,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>biljovdna</l>
       </lg>
@@ -187,7 +187,7 @@
          <d>vuođđolohku 1 000 000 000 000, miljovdna miljovnna</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>čieža</l>
       </lg>
@@ -202,7 +202,7 @@
          <c>l_ref: čiežas_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>čiežačuođi</l>
       </lg>
@@ -210,7 +210,7 @@
          <d>vuođđolohku 700</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>čiežaduhát</l>
       </lg>
@@ -218,7 +218,7 @@
          <d>vuođđolohku 7000</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>čiežalogi</l>
       </lg>
@@ -226,7 +226,7 @@
          <d>vuođđolohku 70</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>čiežanuppelohkái</l>
       </lg>
@@ -237,7 +237,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>čuođi</l>
       </lg>
@@ -249,7 +249,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>čuohtenáre</l>
       </lg>
@@ -260,7 +260,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>čuohti</l>
       </lg>
@@ -275,7 +275,7 @@
          <c>eahpesihkar mo čuohti geavahuvvo, omd. akkusatiivvas?</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>duhát</l>
       </lg>
@@ -287,7 +287,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>gávcci</l>
       </lg>
@@ -302,7 +302,7 @@
          <c>l_ref: gávccis_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>gávccičuođi</l>
       </lg>
@@ -310,7 +310,7 @@
          <d>vuođđolohku 800</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>gávcciduhát</l>
       </lg>
@@ -318,7 +318,7 @@
          <d>vuođđolohku 8000</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>gávccilogi</l>
       </lg>
@@ -326,7 +326,7 @@
          <d>vuođđolohku 80</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>gávccinuppelohkái</l>
       </lg>
@@ -338,7 +338,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>gieža</l>
       </lg>
@@ -353,7 +353,7 @@
          <c>l_ref: giežas_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>golbma</l>
       </lg>
@@ -368,7 +368,7 @@
          <c>l_ref: golmmas_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>golbmačuođi</l>
       </lg>
@@ -376,7 +376,7 @@
          <d>vuođđolohku 300</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>golbmaduhát</l>
       </lg>
@@ -384,7 +384,7 @@
          <d>vuođđolohku 3000</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>golbmalogi</l>
       </lg>
@@ -395,7 +395,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>golbmalogičieža</l>
       </lg>
@@ -403,7 +403,7 @@
          <d>vuođđolohku 37</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>golbmalogigávcci</l>
       </lg>
@@ -411,7 +411,7 @@
          <d>vuođđolohku 38</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2620">
       <lg pos="Num">
          <l>golbmalogigolbma</l>
       </lg>
@@ -419,7 +419,7 @@
          <d>vuođđolohku 33</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>golbmalogiguhtta</l>
       </lg>
@@ -427,7 +427,7 @@
          <d>vuođđolohku 36</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>golbmalogiguokte</l>
       </lg>
@@ -435,7 +435,7 @@
          <d>vuođđolohku 32</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>golbmaloginjeallje</l>
       </lg>
@@ -443,7 +443,7 @@
          <d>vuođđolohku 34</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>golbmalogiokta</l>
       </lg>
@@ -451,7 +451,7 @@
          <d>vuođđolohku 31</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>golbmalogiovcci</l>
       </lg>
@@ -459,7 +459,7 @@
          <d>vuođđolohku 39</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>golbmalogivihtta</l>
       </lg>
@@ -467,7 +467,7 @@
          <d>vuođđolohku 35</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>golbmanuppelohkái</l>
       </lg>
@@ -478,7 +478,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guhtta</l>
       </lg>
@@ -493,7 +493,7 @@
          <c>l_ref: guđas_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guhttačuođi</l>
       </lg>
@@ -501,7 +501,7 @@
          <d>vuođđolohku 600</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guhttaduhát</l>
       </lg>
@@ -509,7 +509,7 @@
          <d>vuođđolohku 6000</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guhttalogi</l>
       </lg>
@@ -517,7 +517,7 @@
          <d>vuođđolohku 60</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guhttanuppelohkái</l>
       </lg>
@@ -528,7 +528,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guokte</l>
       </lg>
@@ -543,7 +543,7 @@
          <c>l_ref: guovttis_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guoktečuođi</l>
       </lg>
@@ -551,7 +551,7 @@
          <d>vuođđolohku 200</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guokteduhát</l>
       </lg>
@@ -559,7 +559,7 @@
          <d>vuođđolohku 2000</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guoktelogi</l>
       </lg>
@@ -570,7 +570,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guoktelogičieža</l>
       </lg>
@@ -578,7 +578,7 @@
          <d>vuođđolohku 27</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guoktelogigávcci</l>
       </lg>
@@ -586,7 +586,7 @@
          <d>vuođđolohku 28</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guoktelogigolbma</l>
       </lg>
@@ -594,7 +594,7 @@
          <d>vuođđolohku 23</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guoktelogiguhtta</l>
       </lg>
@@ -602,7 +602,7 @@
          <d>vuođđolohku 26</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guoktelogiguokte</l>
       </lg>
@@ -610,7 +610,7 @@
          <d>vuođđolohku 22</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guokteloginjeallje</l>
       </lg>
@@ -618,7 +618,7 @@
          <d>vuođđolohku 24</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>guoktelogiokta</l>
       </lg>
@@ -629,7 +629,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>guoktelogiovcci</l>
       </lg>
@@ -637,7 +637,7 @@
          <d>vuođđolohku 29</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>guoktelogivihtta</l>
       </lg>
@@ -645,7 +645,7 @@
          <d>vuođđolohku 25</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>guoktenuppelohkái</l>
       </lg>
@@ -657,7 +657,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>logemat</l>
       </lg>
@@ -669,7 +669,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2618">
       <lg pos="Num">
          <l>logenáre</l>
       </lg>
@@ -680,7 +680,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>logi</l>
       </lg>
@@ -695,7 +695,7 @@
          <c>l_ref: logis_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>miljárda</l>
       </lg>
@@ -706,7 +706,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>miljovdna</l>
       </lg>
@@ -718,7 +718,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>njeallje</l>
       </lg>
@@ -733,7 +733,7 @@
          <c>l_ref: njealjis_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>njeallječuođi</l>
       </lg>
@@ -741,7 +741,7 @@
          <d>vuođđolohku 400</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>njealljeduhát</l>
       </lg>
@@ -749,7 +749,7 @@
          <d>vuođđolohku 4000</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>njealljelogi</l>
       </lg>
@@ -757,7 +757,7 @@
          <d>vuođđolohku 40</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>njealljenuppelohkái</l>
       </lg>
@@ -768,7 +768,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>nolla</l>
       </lg>
@@ -779,7 +779,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>nulla</l>
       </lg>
@@ -790,7 +790,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>okta</l>
       </lg>
@@ -801,7 +801,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>oktanuppelohkái</l>
       </lg>
@@ -813,7 +813,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>ovcci</l>
       </lg>
@@ -828,7 +828,7 @@
          <c>l_ref: ovccis_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>ovccičuođi</l>
       </lg>
@@ -836,7 +836,7 @@
          <d>vuođđolohku 900</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>ovcciduhát</l>
       </lg>
@@ -844,7 +844,7 @@
          <d>vuođđolohku 9000</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>ovccilogi</l>
       </lg>
@@ -855,7 +855,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>ovccinuppelohkái</l>
       </lg>
@@ -866,7 +866,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>vihtta</l>
       </lg>
@@ -881,7 +881,7 @@
          <c>l_ref: viđas_n</c>
       </cg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>vihttačuođi</l>
       </lg>
@@ -889,7 +889,7 @@
          <d>vuođđolohku 500</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>vihttaduhát</l>
       </lg>
@@ -897,7 +897,7 @@
          <d>vuođđolohku 5000</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>vihttalogi</l>
       </lg>
@@ -905,7 +905,7 @@
          <d>vuođđolohku 50</d>
       </dg>
    </e>
-   <e status="edit">
+   <e batch="2619">
       <lg pos="Num">
          <l>vihttanuppelohkái</l>
       </lg>
@@ -916,42 +916,42 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>čuođiduhát</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>máŋgačuođi</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>máŋgačuođiduhát</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>máŋgaduhát</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>máŋgalogi</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>máŋganuppelohkái</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>máŋganuppelohkáiduhát</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>milj.</l>
       </lg>
@@ -962,27 +962,27 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>moaddečuođi</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>moaddeduhát</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>moaddelogi</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>moaddenuppelohkái</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>mrd.</l>
       </lg>
@@ -993,7 +993,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>nuppelohkái</l>
       </lg>
@@ -1004,7 +1004,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Num">
          <l>oktanuppelotčuohti</l>
       </lg>

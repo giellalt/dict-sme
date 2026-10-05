@@ -28,7 +28,7 @@
             or could be wrongly sorted.
         </sourcenote>
    </lics>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">didjiide</l>
       </lg>
@@ -39,7 +39,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dii</l>
       </lg>
@@ -51,7 +51,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">din</l>
       </lg>
@@ -62,17 +62,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dinguin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dinin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dis</l>
       </lg>
@@ -83,7 +83,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">doai</l>
       </lg>
@@ -95,7 +95,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">don</l>
       </lg>
@@ -106,7 +106,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">du</l>
       </lg>
@@ -118,7 +118,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dudno</l>
       </lg>
@@ -129,12 +129,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dudnon</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dudnos</l>
       </lg>
@@ -145,7 +145,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dudnuide</l>
       </lg>
@@ -156,17 +156,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dudnuin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">duinna</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dunin</l>
       </lg>
@@ -177,7 +177,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dus</l>
       </lg>
@@ -188,7 +188,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">dutnje</l>
       </lg>
@@ -199,7 +199,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">midjiide</l>
       </lg>
@@ -210,7 +210,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">mii</l>
       </lg>
@@ -222,7 +222,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">min</l>
       </lg>
@@ -234,17 +234,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">minguin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">minin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">mis</l>
       </lg>
@@ -255,7 +255,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">moai</l>
       </lg>
@@ -267,7 +267,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">mon</l>
       </lg>
@@ -279,7 +279,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">mu</l>
       </lg>
@@ -291,12 +291,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">muinna</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">mun</l>
       </lg>
@@ -308,7 +308,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">munin</l>
       </lg>
@@ -319,7 +319,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">munnje</l>
       </lg>
@@ -330,7 +330,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">munno</l>
       </lg>
@@ -342,12 +342,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">munnon</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">munnos</l>
       </lg>
@@ -358,7 +358,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">munnuide</l>
       </lg>
@@ -369,12 +369,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">munnuin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">mus</l>
       </lg>
@@ -385,7 +385,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sidjiide</l>
       </lg>
@@ -396,7 +396,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sii</l>
       </lg>
@@ -408,7 +408,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sin</l>
       </lg>
@@ -419,17 +419,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">singuin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sinin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sis</l>
       </lg>
@@ -440,7 +440,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">soai</l>
       </lg>
@@ -452,7 +452,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">son</l>
       </lg>
@@ -464,7 +464,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">su</l>
       </lg>
@@ -475,7 +475,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sudno</l>
       </lg>
@@ -486,12 +486,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sudnon</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sudnos</l>
       </lg>
@@ -502,7 +502,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sudnuide</l>
       </lg>
@@ -513,22 +513,22 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sudnuin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">suinna</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sunin</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sus</l>
       </lg>
@@ -539,7 +539,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Pers">sutnje</l>
       </lg>

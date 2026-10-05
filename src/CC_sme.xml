@@ -28,7 +28,7 @@
             or could be wrongly sorted.
         </sourcenote>
    </lics>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>ahte</l>
       </lg>
@@ -40,17 +40,17 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>dahe</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>dahege</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>dahje</l>
       </lg>
@@ -64,22 +64,22 @@
          <c>l_ref: vai_cc</c>
       </cg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>dahjege</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>dehe</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>dehege</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>earret</l>
       </lg>
@@ -90,7 +90,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>ja</l>
       </lg>
@@ -101,7 +101,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>muhto</l>
       </lg>
@@ -112,7 +112,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>sihke</l>
       </lg>
@@ -123,7 +123,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CC">
          <l>vai</l>
       </lg>

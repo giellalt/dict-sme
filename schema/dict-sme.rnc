@@ -8,7 +8,7 @@ pos.values = "A" | "N" | "V" | "Adv" | "Po" | "Pr" | "Pron" | "Phrase"
 type.values = "Rel" | "Pers" | "Indef" | "Refl" | "Dem" | "G3" | "G7" | "NomAg"
     | "Ord" | "Prop" | "Recipr" | "Coll" | "Interr" | "ACR" | "ABBR"
 # year (two digits) followed by a number: 2601, 2602, ...
-batch.id = xsd:string { pattern = "[0-9]{2}[0-9]{2,}" }
+batch.id = xsd:string { pattern = "[0-9]{4}" }
 
 # root and header
 r = element r {
@@ -32,13 +32,10 @@ sourcenote = element sourcenote { mixed { a* } }
 a = element a { text }
 
 # entry
-# batch: the batch the entry is in, see batches.xml
-# assignee: who works on the entry, when that is not the person who has the
-#   batch (batches.xml), or when the entry is in no batch
+# batch: the batch the entry is in, see batches.xml. Who works on the entry,
+#   how far the work has come and whether it is published is kept there.
 e = element e {
-    attribute status { "edit" | "publish" },
     attribute batch { batch.id }?,
-    attribute assignee { text }?,
     lg,
     dg*,
     ig*,

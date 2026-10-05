@@ -28,7 +28,7 @@
             or could be wrongly sorted.
         </sourcenote>
    </lics>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">aktage</l>
       </lg>
@@ -39,7 +39,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">buohkat</l>
       </lg>
@@ -50,7 +50,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">buot</l>
       </lg>
@@ -63,7 +63,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">dábbá</l>
       </lg>
@@ -75,7 +75,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">duobbá</l>
       </lg>
@@ -87,7 +87,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="A">
          <l>eambbo</l>
       </lg>
@@ -98,7 +98,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">eambbosat</l>
       </lg>
@@ -109,12 +109,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">eanas</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="A">
          <l>eanet</l>
       </lg>
@@ -125,7 +125,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">eará</l>
       </lg>
@@ -136,22 +136,22 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">eatnat</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">gaittiinnat</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">gallát</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">galle</l>
       </lg>
@@ -168,7 +168,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">gallis</l>
       </lg>
@@ -180,7 +180,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">geainna nu</l>
       </lg>
@@ -192,7 +192,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">geanin nu</l>
       </lg>
@@ -204,7 +204,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">gean nu</l>
       </lg>
@@ -215,7 +215,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">geasa nu</l>
       </lg>
@@ -226,7 +226,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">geas nu</l>
       </lg>
@@ -237,7 +237,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">giige</l>
       </lg>
@@ -248,7 +248,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">gii nu</l>
       </lg>
@@ -262,7 +262,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">goabbat</l>
       </lg>
@@ -281,7 +281,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">goabbáge</l>
       </lg>
@@ -294,7 +294,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">goabbánai</l>
       </lg>
@@ -305,7 +305,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">goappaš</l>
       </lg>
@@ -316,7 +316,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">goappašagat</l>
       </lg>
@@ -328,7 +328,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">goappašat</l>
       </lg>
@@ -340,7 +340,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">guhtege</l>
       </lg>
@@ -353,7 +353,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">guhtenai</l>
       </lg>
@@ -364,7 +364,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">guhtet</l>
       </lg>
@@ -381,7 +381,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">guktot</l>
       </lg>
@@ -392,7 +392,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">iešguhtege</l>
       </lg>
@@ -403,7 +403,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">iešguhtet</l>
       </lg>
@@ -414,7 +414,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">iežá</l>
       </lg>
@@ -425,7 +425,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">juobbá</l>
       </lg>
@@ -436,7 +436,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">juobbágoabbá</l>
       </lg>
@@ -447,7 +447,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">juoga</l>
       </lg>
@@ -458,7 +458,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">juogamii</l>
       </lg>
@@ -470,12 +470,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">juohke</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">juohkehaš</l>
       </lg>
@@ -486,7 +486,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">maid nu</l>
       </lg>
@@ -497,7 +497,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">mainna nu</l>
       </lg>
@@ -508,7 +508,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">manin nu</l>
       </lg>
@@ -519,7 +519,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">man nu</l>
       </lg>
@@ -530,7 +530,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">masa nu</l>
       </lg>
@@ -542,7 +542,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">mas nu</l>
       </lg>
@@ -553,7 +553,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">máŋga</l>
       </lg>
@@ -565,7 +565,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">mihkke</l>
       </lg>
@@ -576,7 +576,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">mihkkege</l>
       </lg>
@@ -588,12 +588,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">miinai</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">mii nu</l>
       </lg>
@@ -605,7 +605,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">moadde</l>
       </lg>
@@ -617,7 +617,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">moanat</l>
       </lg>
@@ -636,7 +636,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">muhtin</l>
       </lg>
@@ -648,7 +648,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">muhtun</l>
       </lg>
@@ -660,7 +660,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">nubbi</l>
       </lg>
@@ -678,7 +678,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">oktage</l>
       </lg>
@@ -690,7 +690,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l>oktahat</l>
       </lg>
@@ -701,7 +701,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">oktiige</l>
       </lg>
@@ -712,7 +712,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">ollugat</l>
       </lg>
@@ -723,7 +723,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">olus</l>
       </lg>
@@ -734,7 +734,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">ovttage</l>
       </lg>
@@ -745,7 +745,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">ovttainge</l>
       </lg>
@@ -757,7 +757,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">ovttasge</l>
       </lg>
@@ -775,12 +775,12 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">seammá</l>
       </lg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">soames</l>
       </lg>
@@ -792,7 +792,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">soamis</l>
       </lg>
@@ -804,7 +804,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">unnán</l>
       </lg>
@@ -815,7 +815,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">vaikko maid</l>
       </lg>
@@ -827,7 +827,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">vaikko mainna</l>
       </lg>
@@ -838,7 +838,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">vaikko man</l>
       </lg>
@@ -850,7 +850,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">vaikko manin</l>
       </lg>
@@ -863,7 +863,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">vaikko mas</l>
       </lg>
@@ -874,7 +874,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">vaikko masa</l>
       </lg>
@@ -886,7 +886,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">vaikko mii</l>
       </lg>
@@ -899,7 +899,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">veahá</l>
       </lg>
@@ -910,7 +910,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="Pron">
          <l type="Indef">veaháš</l>
       </lg>

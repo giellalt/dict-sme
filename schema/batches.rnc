@@ -1,9 +1,9 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 # Batches of entries, for giving work to people.
-# An entry is put in a batch with <e batch="...">, see dict-sme.rnc. One
-# person works on a batch; <e assignee="..."> gives a single entry to
-# someone else.
+# An entry is put in a batch with <e batch="...">, see dict-sme.rnc. Who
+# works on the entries and how far the work has come is kept here, once
+# for the whole batch.
 
 start = batches
 
@@ -11,16 +11,23 @@ batches = element batches {
     batch*
 }
 
+# The people who work on the dictionary. Add a name here before using it
+# in a batch; scripts/batch.py reads the names from this list too.
+person = "Helena" | "Lena Susanne" | "Risten"
+
 # id: what <e batch="..."> refers to; the year (two digits) followed by a
 #     number: 2601, 2602, ...
-# assignee: who works on the entries of the batch, unless an entry has an
-#   assignee of its own
-# state: closed when the work on the batch is finished; a batch without
-#   state is open. Only open batches are offered in XXE.
+# editor: who writes the entries
+# proofreader: who proofreads them; needed from proofread-1 on
+# state: how far the work on the batch has come, in this order:
+#     edit, proofread-1, correcting-1, proofread-2, correcting-2, publish.
+#     The entries of a batch in state publish are shown on the website;
+#     entries in other batches or in no batch are not.
 # The text is an optional note about the batch.
 batch = element batch {
-    attribute id { xsd:string { pattern = "[0-9]{2}[0-9]{2,}" } },
-    attribute assignee { text },
-    attribute state { "open" | "closed" }?,
+    attribute id { xsd:string { pattern = "[0-9]{4}" } },
+    attribute editor { person },
+    attribute proofreader { person }?,
+    attribute state { "edit" | "proofread-1" | "correcting-1" | "proofread-2" | "correcting-2" | "publish" },
     text
 }

@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """Export the entries of a batch to a PDF for proofreading.
 
-Usage: batch2pdf.py [--html] [-o OUTPUT] BATCH [BATCH ...]
+Usage: batch2pdf.py [--html] [--en] [-o OUTPUT] BATCH [BATCH ...]
 
 BATCH is a batch id like 2601. Collects the entries with <e batch="2601">
 from src/*.xml, sorts them alphabetically and writes pdf/batch-2601.pdf (or
 OUTPUT when one batch is given).
-Who has the batch and when it is due is taken from batches.xml.
+Its state, editor and proofreader are taken from batches.xml.
 
 --html writes the HTML the PDF is made from instead, which is useful for
 working on the layout, or for printing from a browser.
+
+The text of the PDF (headings, labels, notes) is in North Saami; --en
+writes it in English instead.
 
 Needs WeasyPrint for PDF output: pip install weasyprint
 """
@@ -28,6 +31,48 @@ SRC = ROOT / "src"
 BATCHES = ROOT / "batches.xml"
 EXPORTS = ROOT / "pdf"  # not in git, see .gitignore
 
+# the text in the PDF; --en picks the English one
+TEXTS = {
+    "en": {
+        "title": "dict-sme · batch {batch}",
+        "editor": "Editor: {name}",
+        "proofreader": "Proofreader: {name}",
+        "state": "State: {state}",
+        "states": {},
+        "entries": lambda n: f"{n} {'entry' if n == 1 else 'entries'}",
+        "printed": "printed {date}",
+        "missing": "{what} missing",
+        "definition": "definition",
+        "example": "example",
+        "idiom": "idiom",
+        "syn.": "syn.",
+        "ant.": "ant.",
+    },
+    "sme": {
+        "title": "dict-sme · sátnečoakkáldat {batch}",
+        "editor": "Redaktevra: {name}",
+        "proofreader": "Korrekturlohkki: {name}",
+        "state": "Stáhtus: {state}",
+        "states": {
+            "edit": "redigeren",
+            "proofread-1": "1. korrekturlohkan",
+            "correcting-1": "1. divvun",
+            "proofread-2": "2. korrekturlohkan",
+            "correcting-2": "2. divvun",
+            "publish": "almmuheapmi",
+        },
+        "entries": lambda n: f"{n} {'sátni' if n == 1 else 'sáni'}",
+        "printed": "čálihuvvon {date}",
+        "missing": "{what} váilu",
+        "definition": "definišuvdna",
+        "example": "ovdamearka",
+        "idiom": "idioma",
+        "syn.": "syn.",
+        "ant.": "ant.",
+    },
+}
+T = TEXTS["sme"]
+
 
 def norm(t):
     return re.sub(r"\s+", " ", t or "").strip()
@@ -38,14 +83,7 @@ def inline(el):
     out = [escape(el.text or "")]
     for child in el:
         if child.tag == "d_ref":
-            target = " ".join(
-                filter(None, (child.get("lemma"), child.get("pos"), child.get("type")))
-            )
-            out.append(
-                f'<span class="ref">{escape(child.text or "")}</span>'
-                f'<span class="target"> (→ {escape(target)}'
-                f" {escape(child.get('dg_id') or '')})</span>"
-            )
+            out.append(f'<span class="ref">{escape(child.text or "")}</span>')
         else:
             out.append(escape("".join(child.itertext())))
         out.append(escape(child.tail or ""))
@@ -53,7 +91,8 @@ def inline(el):
 
 
 def missing(what):
-    return f'<span class="missing">[{what} missing]</span>'
+    text = T["missing"].format(what=T[what])
+    return f'<span class="missing">[{text}]</span>'
 
 
 def lemma(l):
@@ -95,7 +134,7 @@ def entry_html(e):
                     escape(norm(w.text)) or missing(label) for w in g.findall(item)
                 )
                 out.append(
-                    f'<p class="rel"><span class="label">{label}</span> {words}</p>'
+                    f'<p class="rel"><span class="label">{T[label]}</span> {words}</p>'
                 )
         for x in dg.iter("x"):
             out.append(
@@ -123,8 +162,11 @@ CSS = """
     /* wide right margin for handwritten notes */
     margin: 2cm 7cm 2.2cm 1.8cm;
     @top-left { content: string(batch); font-size: 8pt; color: #666; }
-    @top-right { content: string(lemma, first) " – " string(lemma, last);
-                 font-size: 8pt; color: #666; }
+    /* in the corner, over the notes margin, so it reaches as far right as
+       the left header reaches left */
+    @top-right-corner { content: string(lemma, first) " – " string(lemma, last);
+                        font-size: 8pt; color: #666; text-align: right;
+                        padding-right: 1.8cm; }
     @bottom-center { content: counter(page) " / " counter(pages);
                      font-size: 8pt; color: #666; }
 }
@@ -147,8 +189,7 @@ h1 { font-size: 16pt; margin: 0 0 0.3em 0; }
 .idiom { margin-left: 1.2em; padding-top: 0.2em; }
 .idiom .i { font-weight: bold; }
 .idiom-ex { margin-left: 3.6em; }
-.ref { text-decoration: underline; }
-.target { font-size: 8.5pt; color: #555; }
+.ref { color: #1a4fd6; text-decoration: underline; }
 .missing { color: #b00000; font-style: normal; font-family: sans-serif;
            font-size: 8.5pt; }
 """
@@ -170,17 +211,19 @@ def collect(batch):
 
 
 def page(batch, info, entries):
-    title = f"dict-sme · batch {batch}"
+    title = T["title"].format(batch=batch)
     lines = []
     if info is not None:
-        lines.append(f"Assigned to: {escape(info.get('assignee'))}")
-        if info.get("due"):
-            lines.append(f"Due: {escape(info.get('due'))}")
+        state = info.get("state") or ""
+        lines.append(T["state"].format(state=escape(T["states"].get(state, state))))
+        lines.append(T["editor"].format(name=escape(info.get("editor") or "")))
+        if info.get("proofreader"):
+            lines.append(T["proofreader"].format(name=escape(info.get("proofreader"))))
         if norm(info.text):
             lines.append(escape(norm(info.text)))
     lines.append(
-        f"{len(entries)} {'entry' if len(entries) == 1 else 'entries'}"
-        f" · printed {datetime.date.today()}"
+        f"{T['entries'](len(entries))}"
+        f" · {T['printed'].format(date=datetime.date.today())}"
     )
     body = "\n".join(entry_html(e) for e in entries)
     return f"""<!DOCTYPE html>
@@ -195,8 +238,11 @@ def page(batch, info, entries):
 
 def main():
     args = sys.argv[1:]
+    global T
     as_html = "--html" in args
-    args = [a for a in args if a != "--html"]
+    if "--en" in args:
+        T = TEXTS["en"]
+    args = [a for a in args if a not in ("--html", "--en")]
     output = None
     if "-o" in args:
         i = args.index("-o")

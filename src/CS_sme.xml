@@ -28,7 +28,7 @@
             or could be wrongly sorted.
         </sourcenote>
    </lics>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>ahte</l>
       </lg>
@@ -40,7 +40,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>danne go</l>
       </lg>
@@ -51,7 +51,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>dannego</l>
       </lg>
@@ -62,7 +62,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>de</l>
       </lg>
@@ -79,7 +79,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>dego</l>
       </lg>
@@ -91,7 +91,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>dugo</l>
       </lg>
@@ -103,7 +103,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>gitta</l>
       </lg>
@@ -114,7 +114,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>go</l>
       </lg>
@@ -139,7 +139,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>jos</l>
       </lg>
@@ -150,7 +150,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>jus</l>
       </lg>
@@ -161,7 +161,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>maŋŋágo</l>
       </lg>
@@ -172,7 +172,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>maŋŋelgo</l>
       </lg>
@@ -183,7 +183,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>nugo</l>
       </lg>
@@ -197,7 +197,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>ovdalgo</l>
       </lg>
@@ -208,7 +208,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>vai</l>
       </lg>
@@ -219,7 +219,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>vaikke</l>
       </lg>
@@ -231,7 +231,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>vaikko</l>
       </lg>
@@ -243,7 +243,7 @@
          </xg>
       </dg>
    </e>
-   <e status="edit">
+   <e>
       <lg pos="CS">
          <l>váikko</l>
       </lg>

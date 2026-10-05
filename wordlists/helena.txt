@@ -40,9 +40,10 @@ alternatiiva
 alvvaheapme
 alvvalaš
 alvvus
-amas
+amas+A
 amerihká
-amerihkálaš
+amerihkálaš+A
+amerihkálaš+N
 analoga
 analyhtalaš
 androgyna

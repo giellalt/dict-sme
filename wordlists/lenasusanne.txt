@@ -31,7 +31,7 @@ vuorká
 
 absurda
 afghánalaš
-afrihkálaš
+afrihkálaš+A
 agálaš
 ahkásaš
 ahkit
@@ -43,7 +43,7 @@ aktasaš
 aktiiva
 aktiivvalaš
 aktonas
-albma
+albma+A
 allaáiggálaš
 allajienat
 allajoccat
