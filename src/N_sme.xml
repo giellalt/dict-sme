@@ -1622,6 +1622,14 @@
    </e>
    <e status="edit">
       <lg pos="N">
+         <l>neahttabreahtta</l>
+      </lg>
+      <dg>
+         <d><d_ref lemma="dihtorduolbbus" pos="N">dihtorduolbbus</d_ref></d>
+      </dg>
+   </e>
+   <e status="edit">
+      <lg pos="N">
          <l>diibmobealli</l>
       </lg>
       <dg id="a">
