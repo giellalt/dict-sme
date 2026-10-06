@@ -1608,7 +1608,7 @@
          </xg>
       </dg>
    </e>
-   <e batch="2603">
+   <e batch="2623">
       <lg pos="N">
          <l>dihtorduolbbus</l>
       </lg>
@@ -1620,7 +1620,7 @@
          </xg>
       </dg>
    </e>
-   <e>
+   <e batch="2623">
       <lg pos="N">
          <l>neahttabreahtta</l>
       </lg>
@@ -5158,7 +5158,7 @@
          </xg>
       </dg>
    </e>
-   <e batch="2610">
+   <e batch="2621">
       <lg pos="N">
          <l>muzet</l>
       </lg>
@@ -5976,7 +5976,7 @@
          <d>rukses ivdni</d>
       </dg>
    </e>
-   <e batch="2611">
+   <e batch="2621">
       <lg pos="N">
          <l>ruksesmiessi</l>
       </lg>
