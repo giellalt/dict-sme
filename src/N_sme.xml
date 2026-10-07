@@ -32233,6 +32233,36 @@
       <lg pos="N">
          <l>čora</l>
       </lg>
+      <dg>
+         <d>bohccot mat leat čoahkis, eanet go moadde</d>
+         <d>vrd. <d_ref lemma="eallu" pos="N">eallu</d_ref></d>
+         <xg>
+            <x>Nu manai čora vuopmái.</x>
+            <x>Bođii skohter mii vujii njuolga čorraga sisa.</x>
+            <x>Mun logan galle bohcco leat čorragis.</x>
+            <x>Eallu lei bieđganan smávit čorragiidda.</x>
+         </xg>
+      </dg>
+      <dg>
+         <d>guobereallit mat leat čoahkis, eanet go moadde </d>
+         <d>vrd. <d_ref lemma="eallu" pos="N">eallu</d_ref> </d>
+         <xg>
+            <x>Lea spiinniiid luonddus juo vánddardit čoran.</x>
+            <x>Eanas šibihiin leat dihto sajit čorragis.</x>
+         </xg>
+      </dg>
+      <dg>
+         <d>olmmošjoavku</d>
+         <xg>
+            <x>Maŋŋá čuoččui olles čora journalisttat su birra. </x>
+            <x>Jesusis Kristusis, buori báimmanis, gii čađat atná čalmmistis oppa čorragis iige láhpe ovttage
+            sávzza.</x>
+            <x>Ale bala, uhca čorragaš!</x>
+         </xg>
+      </dg>
+      <cg>
+         <c/>
+      </cg>
    </e>
    <e>
       <lg pos="N">
@@ -43825,9 +43855,28 @@
          <l>eallu</l>
       </lg>
       <dg id="a">
-         <d/>
+         <d>ollu bohccot</d>
+         <d>vrd. <d_ref lemma="čora" pos="N">čora</d_ref></d>
          <xg>
-            <x>Eallu lea stuorit go čora.</x>
+            <x>Dien čorraga gal oažžu juo eallun dadjat.</x>
+            <x>Sii galget dal čohkket ja johttát ealuin.</x>
+            <x>Šaddá váttis ealuiguin rasttidit jogaid go jieŋat lea rašit.</x>
+         </xg>
+      </dg>
+      <dg>
+         <d>bohccot mat gullet geasa nu</d>
+         <xg>
+            <x>Geaid eallu diet lea?</x>
+            <x>Ándde ealus leat ollu gappat.</x>
+            <x>Siidda ellui leat boahtán vierrobohccot.</x>
+            <x>Sii leat rátkán riikka ealu siiddaide.</x>
+         </xg>
+      </dg>
+      <dg>
+         <d>ollu guobereallit</d>
+         <d>vrd <d_ref lemma="čora" pos="N">čora</d_ref></d>
+         <xg>
+            <x>Guovža speajai logi sávvzza su ealus.</x>
          </xg>
       </dg>
    </e>
