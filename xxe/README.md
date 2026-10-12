@@ -56,10 +56,12 @@ XXE looks for add-ons in the `addon` folder of its preferences folder:
 | Mac | `~/Library/Application Support/XMLmind/XMLEditor11/` |
 | Linux | `~/.xxe11/` |
 
-The `11` is the XXE version. After installing, and after this
-configuration has changed, close XXE, delete the `cache` folder in the
-preferences folder, and start XXE again; otherwise XXE does not see the
-change.
+The `11` is the XXE version.
+
+**IMPORTANT:** Turn off XXE's quick start cache: Options → Preferences → Advanced →
+Cached data, untick "Quick Start cache". With it on, XXE does not see
+this configuration, or changes to it, until the cache is cleared. With it
+off, restarting XXE is enough.
 
 ### Windows
 
@@ -71,7 +73,9 @@ change.
    `git pull` also updates the configuration. In a Command Prompt
    (change the path to where the repository is):
 
-       setx XXE_ADDON_PATH "C:\Users\NAME\dict-sme\xxe;+"
+    ```sh
+    setx XXE_ADDON_PATH "C:\Users\NAME\PATH-TO-FOLDER\dict-sme\xxe;+"
+    ```
 
    The `;+` at the end is needed, or XXE no longer loads its own add-ons.
 3. For PDFs: download the WeasyPrint executable for Windows from
@@ -80,7 +84,7 @@ change.
    a folder `tools` in the repository (`C:\Users\NAME\dict-sme\tools\`).
    The folder is not in git. Without it, "PDF of a batch" opens the batch
    in the browser instead, to be printed to PDF from there.
-4. Close XXE, delete `%APPDATA%\XMLmind\XMLEditor11\cache`, start XXE.
+4. Restart XXE.
 
 ### Mac
 
@@ -89,22 +93,28 @@ change.
 2. Link this folder into XXE's add-on folder, so that `git pull` also
    updates the configuration (change the path to where the repository is):
 
-       mkdir -p ~/Library/Application\ Support/XMLmind/XMLEditor11/addon
-       ln -s ~/dict-sme/xxe ~/Library/Application\ Support/XMLmind/XMLEditor11/addon/dict-sme
+    ```sh
+    mkdir -p ~/Library/Application\ Support/XMLmind/XMLEditor11/addon
+    ln -s ~/PATH-TO-FOLDER/dict-sme/xxe ~/Library/Application\ Support/XMLmind/XMLEditor11/addon/dict-sme
+    ```
 
 3. For PDFs: `brew install weasyprint` (Homebrew, <https://brew.sh>).
    Without it, "PDF of a batch" opens the batch in the browser instead,
    to be printed to PDF from there.
-4. Quit XXE, delete `~/Library/Application Support/XMLmind/XMLEditor11/cache`,
-   start XXE.
+4. Restart XXE.
 
 ### Linux
 
-    ln -s "$PWD/xxe" ~/.xxe11/addon/dict-sme
-    rm -r ~/.xxe11/cache
+1. Link this folder into XXE's add-on folder:
 
-and start XXE. For PDFs: `pip install weasyprint`, or the distribution's
-package (e.g. `apt install weasyprint`).
+    ```sh
+    ln -s "$PWD/xxe" ~/.xxe11/addon/dict-sme
+    ```
+
+2. Restart XXE. 
+
+For PDFs: `pip install weasyprint`, or the distribution's package (e.g.
+`apt install weasyprint`).
 
 ### Check
 

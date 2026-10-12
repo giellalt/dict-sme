@@ -34,7 +34,7 @@
 @property-value value-color()         #000000; /* attribute values (batch, pos...) */
 @property-value label-color()         #808080; /* faded labels (batch, syn, ex...) */
 @property-value lemma-color()         #004080; /* lemma and dg numbers */
-@property-value link-color()          #0000c0; /* d_ref and a */
+@property-value link-color()          #1a5fb4; /* d_ref and a */
 @property-value warning-color()       #c00000;
 @property-value header-background()   #e8f0f8; /* top of an entry: batch, pos, lemma */
 @property-value header-border()       #a0b8d0;

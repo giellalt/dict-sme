@@ -298,11 +298,11 @@
         <item command="dictSme.followLink" label="_Follow link">
             <accelerator code="L" modifiers="mod alt" />
         </item>
-        <item command="dictSme.goToEntry" label="_Go to entry...">
+        <item command="dictSme.goToEntry" label="_Go to entry">
             <accelerator code="G" modifiers="mod alt" />
         </item>
         <separator />
-        <item command="dictSme.batchPdf" label="_PDF of a batch..." />
+        <item command="dictSme.batchPdf" label="_PDF of a batch" />
         <separator />
         <item command="dictSme.refreshLists" label="Re_fresh lists" />
     </menu>
