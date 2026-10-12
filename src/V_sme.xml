@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
    <lics xml:lang="en" xml:space="preserve">
       <lic>
@@ -35,7 +34,7 @@
       <dg id="a">
          <d>bidjat loguid oktii submin; submet</d>
          <antg>
-            <ant>subtraheret</ant>
+            <ant><d_ref lemma="subtraheret" pos="V">subtraheret</d_ref></ant>
          </antg>
       </dg>
    </e>
@@ -509,7 +508,7 @@
       <dg id="a">
          <d>leahkit alkohola váikkuhusa vuolde</d>
          <syng>
-            <syn>gárihuvvat</syn>
+            <syn><d_ref lemma="gárihuvvat" pos="V">gárihuvvat</d_ref></syn>
          </syng>
          <xg>
             <x>Politiijat válde vára olbmos gii lei badjelmeare juhkaluvvan.</x>
@@ -799,7 +798,7 @@
       <dg id="a">
          <d>geassit nuppi logu nuppis</d>
          <antg>
-            <ant>adderet</ant>
+            <ant><d_ref lemma="adderet" pos="V">adderet</d_ref></ant>
          </antg>
       </dg>
    </e>
@@ -4657,7 +4656,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>viššat</syn>
+            <syn><d_ref lemma="viššat" pos="V">viššat</d_ref></syn>
          </syng>
          <xg>
             <x>Beana ja rieban cillet.</x>
@@ -8112,7 +8111,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>seastit</syn>
+            <syn><d_ref lemma="seastit" pos="V">seastit</d_ref></syn>
          </syng>
       </dg>
    </e>
@@ -9894,7 +9893,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>juhkaluvvat</syn>
+            <syn><d_ref lemma="juhkaluvvat" pos="V">juhkaluvvat</d_ref></syn>
          </syng>
          <xg>
             <x>Sii leat juhkan viinni ja leat gárihuvvan.</x>
@@ -10828,7 +10827,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>viššat</syn>
+            <syn><d_ref lemma="viššat" pos="V">viššat</d_ref></syn>
          </syng>
          <xg>
             <x>In gillen guhká surfet go lei nu jalla lossat beassat čiekŋalassii.</x>
@@ -21823,7 +21822,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>duohččat</syn>
+            <syn><d_ref lemma="duohččat" pos="V">duohččat</d_ref></syn>
          </syng>
       </dg>
    </e>
@@ -25508,7 +25507,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>gillet</syn>
+            <syn><d_ref lemma="gillet" pos="V">gillet</d_ref></syn>
          </syng>
          <xg>
             <x>Njoammil ii viššan hukset alcces beasi.</x>
@@ -25517,7 +25516,7 @@
       <dg id="b">
          <d/>
          <syng>
-            <syn>ciellat</syn>
+            <syn><d_ref lemma="ciellat" pos="V">ciellat</d_ref></syn>
          </syng>
       </dg>
       <ig>

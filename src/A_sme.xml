@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/dict-sme.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" title="Stylised" href="../schema/dict-sme_XXE.css"?>
 <r id="dict-sme" xml:lang="sme">
    <lics xml:lang="en" xml:space="preserve">
       <lic>
@@ -35,7 +34,9 @@
       <dg id="a">
          <d>gii ii leat ollen lága válddálašvuođaahkái (18 jagi 1979 rájes)</d>
          <syng>
-            <syn>vuolleahkahaš</syn>
+            <syn>
+               <d_ref lemma="vuolleahkahaš" pos="A">vuolleahkahaš</d_ref>
+            </syn>
          </syng>
       </dg>
    </e>
@@ -87,8 +88,12 @@
       <dg id="b">
          <d>gii jáhkká menddo álkit earáide dahje váilu hárjáneami</d>
          <syng>
-            <syn>jáhkkil</syn>
-            <syn>naiiva</syn>
+            <syn>
+               <d_ref lemma="jáhkkil" pos="A">jáhkkil</d_ref>
+            </syn>
+            <syn>
+               <d_ref lemma="naiiva" pos="A">naiiva</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>Ledjen alitčalmmat.</x>
@@ -103,7 +108,9 @@
       <dg id="a">
          <d>mas ii leat alkohola</d>
          <syng>
-            <syn>alkoholkeahtes</syn>
+            <syn>
+               <d_ref lemma="alkoholkeahtes" pos="A">alkoholkeahtes</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>alkoholahis vuolla</x>
@@ -112,7 +119,9 @@
       <dg id="b">
          <d>mii ii guossot alkohola</d>
          <syng>
-            <syn>alkoholkeahtes</syn>
+            <syn>
+               <d_ref lemma="alkoholkeahtes" pos="A">alkoholkeahtes</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>alkoholahis doalut</x>
@@ -127,7 +136,9 @@
       <dg id="a">
          <d>mas ii leat alkohola</d>
          <syng>
-            <syn>alkoholaheapme</syn>
+            <syn>
+               <d_ref lemma="alkoholaheapme" pos="A">alkoholaheapme</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>alkoholkeahtes vuolla</x>
@@ -136,7 +147,9 @@
       <dg id="b">
          <d>mii ii guossot alkohola</d>
          <syng>
-            <syn>alkoholaheapme</syn>
+            <syn>
+               <d_ref lemma="alkoholaheapme" pos="A">alkoholaheapme</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>alkoholkeahtes doalut</x>
@@ -195,7 +208,9 @@
       <dg id="a">
          <d>gii čuovvu dárkilit mielde</d>
          <syng>
-            <syn>áicil</syn>
+            <syn>
+               <d_ref lemma="áicil" pos="A">áicil</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>áicešis oahppi</x>
@@ -209,7 +224,9 @@
       <dg id="a">
          <d>gii čuovvu dárkilit mielde</d>
          <syng>
-            <syn>áiceš</syn>
+            <syn>
+               <d_ref lemma="áiceš" pos="A">áiceš</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>áicilis oahppi</x>
@@ -225,7 +242,9 @@
       <dg id="a">
          <d>mii doaibmá johtasa haga</d>
          <syng>
-            <syn>jođaskeahtes</syn>
+            <syn>
+               <d_ref lemma="jođaskeahtes" pos="A">jođaskeahtes</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>Girjerádjosis sáhttá geavahit árppohis fierpmádaga.</x>
@@ -239,7 +258,9 @@
       <dg id="a">
          <d>gođđojuvvon dahje čadnojuvvon smávva čalmmiiguin</d>
          <syng>
-            <syn>smávvačalmmat</syn>
+            <syn>
+               <d_ref lemma="smávvačalmmat" pos="A">smávvačalmmat</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>baskkesčalmmat fierbmi</x>
@@ -387,7 +408,9 @@
       <dg id="a">
          <d>mii lea parallealla loaddaárppuin</d>
          <antg>
-            <ant>láskkonjuolgat</ant>
+            <ant>
+               <d_ref lemma="láskkonjuolgat" pos="A">láskkonjuolgat</d_ref>
+            </ant>
          </antg>
       </dg>
    </e>
@@ -598,8 +621,12 @@
       <dg id="a">
          <d>hállá ollu dahje liiko hállat</d>
          <syng>
-            <syn>hállái</syn>
-            <syn>hubmái</syn>
+            <syn>
+               <d_ref lemma="hállái" pos="A">hállái</d_ref>
+            </syn>
+            <syn>
+               <d_ref lemma="hubmái" pos="A">hubmái</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>Son lea ealas ja daddjái.</x>
@@ -1182,8 +1209,12 @@
       <dg id="a">
          <d>gii hállá ollu dahje liiko hállat</d>
          <syng>
-            <syn>daddjái</syn>
-            <syn>hubmái</syn>
+            <syn>
+               <d_ref lemma="daddjái" pos="A">daddjái</d_ref>
+            </syn>
+            <syn>
+               <d_ref lemma="hubmái" pos="A">hubmái</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>Son lea ealas ja daddjái.</x>
@@ -1198,8 +1229,12 @@
       <dg id="a">
          <d>gii hállá ollu dahje liiko hállat</d>
          <syng>
-            <syn>daddjái</syn>
-            <syn>hállái</syn>
+            <syn>
+               <d_ref lemma="daddjái" pos="A">daddjái</d_ref>
+            </syn>
+            <syn>
+               <d_ref lemma="hállái" pos="A">hállái</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>Son lea ealas ja hubmái.</x>
@@ -1280,7 +1315,9 @@
       <dg id="b">
          <d>ealas dahje máŋggabealat</d>
          <syng>
-            <syn>girjái</syn>
+            <syn>
+               <d_ref lemma="girjái" pos="A">girjái</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>ivdnás olmmoš</x>
@@ -1355,8 +1392,12 @@
       <dg id="a">
          <d>gii menddo álkit jáhkká earáide</d>
          <syng>
-            <syn>naiiva</syn>
-            <syn>alitčalmmat</syn>
+            <syn>
+               <d_ref lemma="naiiva" pos="A">naiiva</d_ref>
+            </syn>
+            <syn>
+               <d_ref lemma="alitčalmmat" pos="A">alitčalmmat</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>Don leat menddo jáhkkil.</x>
@@ -1370,7 +1411,9 @@
       <dg id="a">
          <d>mii doaibmá johtasa haga</d>
          <syng>
-            <syn>árppoheapme</syn>
+            <syn>
+               <d_ref lemma="árppoheapme" pos="A">árppoheapme</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>Girjerádjosis sáhttá geavahit jođaskeahtes fierpmádaga.</x>
@@ -1449,7 +1492,9 @@
       <dg id="a">
          <d>mii lea parallealla mearragierragiin</d>
          <antg>
-            <ant>ceakkonjuolgat</ant>
+            <ant>
+               <d_ref lemma="ceakkonjuolgat" pos="A">ceakkonjuolgat</d_ref>
+            </ant>
          </antg>
       </dg>
    </e>
@@ -1506,7 +1551,9 @@
       <dg id="a">
          <d>mii gullá Lulleriikii dahje Lulleriikka kultuvrii</d>
          <syng>
-            <syn>nuortariikalaš</syn>
+            <syn>
+               <d_ref lemma="nuortariikalaš" pos="A">nuortariikalaš</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>lulliriikalaš dáidda</x>
@@ -1667,7 +1714,9 @@
       <dg id="a">
          <d>gii váilu hárjáneami dahje menddo álkit jáhkká earáide</d>
          <syng>
-            <syn>alitčalmmat</syn>
+            <syn>
+               <d_ref lemma="alitčalmmat" pos="A">alitčalmmat</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>Don leat menddo naiiva.</x>
@@ -1794,7 +1843,9 @@
       <dg id="a">
          <d>mii gullá Nuortariikii dahje Nuortariikka kultuvrii</d>
          <syng>
-            <syn>lulliriikalaš</syn>
+            <syn>
+               <d_ref lemma="lulliriikalaš" pos="A">lulliriikalaš</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>nuortariikalaš dáidda</x>
@@ -1888,7 +1939,9 @@
       <dg id="b">
          <d>gii áicá dušše ovtta oasi dahje aspeavtta mas nu</d>
          <syng>
-            <syn>ovttabealat</syn>
+            <syn>
+               <d_ref lemma="ovttabealat" pos="A">ovttabealat</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>ovttačalmmat nationalisma</x>
@@ -2195,7 +2248,9 @@
       <dg id="a">
          <d>gođđojuvvon dahje čadnojuvvon smávva čalmmiiguin</d>
          <syng>
-            <syn>baskkesčalmmat</syn>
+            <syn>
+               <d_ref lemma="baskkesčalmmat" pos="A">baskkesčalmmat</d_ref>
+            </syn>
          </syng>
          <xg>
             <x>smávvačalmmat fierbmi</x>
@@ -2412,7 +2467,9 @@
       <dg id="a">
          <d>gii ii leat ollen lága válddálašvuođaahkái (18 jagi 1979 rájes)</d>
          <syng>
-            <syn>agivuloš</syn>
+            <syn>
+               <d_ref lemma="agivuloš" pos="A">agivuloš</d_ref>
+            </syn>
          </syng>
       </dg>
    </e>
@@ -2423,7 +2480,9 @@
       <dg id="a">
          <d>gii ii leat ollen lága válddálašvuođaahkái (18 jagi 1979 rájes)</d>
          <syng>
-            <syn>agivuloš</syn>
+            <syn>
+               <d_ref lemma="agivuloš" pos="A">agivuloš</d_ref>
+            </syn>
          </syng>
       </dg>
    </e>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  XMLmind XML Editor (XXE) configuration for the dict-sme dictionary.
+  See xxe/README.md for what it does and how to install it.
+
+  The schema comes from the <?xml-model?> line at the top of each file in
+  src/; this file adds the style sheet (dict-sme.css), templates for new
+  elements and a "Dictionary" menu.
+
+  Paths are found from the document (%P: its folder, %d: its URL), which
+  is in src/, so it does not matter where this file is installed.
+  The lists the menu uses (refs.txt, goto.txt, targets.xml) are made by
+  scripts/make_refs.py, which the menu runs when they are out of date.
+-->
+<configuration name="dict-sme" xmlns="http://www.xmlmind.com/xmleditor/schema/configuration"
+    xmlns:xslt="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:cfg="http://www.xmlmind.com/xmleditor/schema/configuration">
+    <!-- the files in src/: root element <r id="dict-sme"> -->
+    <detect>
+        <and>
+            <rootElementLocalName>r</rootElementLocalName>
+            <rootElementAttribute localName="id" value="dict-sme" />
+        </and>
+    </detect>
+    <!-- relative to this file, so it is found however the folder is
+        installed -->
+    <css name="Editing view" location="dict-sme.css" />
+
+    <!-- =================================================================
+       Templates: what a new element contains
+       ================================================================= -->
+    <!-- A new entry: one lemma and one definition group. -->
+    <elementTemplate name="newEntry" selectable="override">
+        <e xmlns="">
+            <lg pos="N">
+                <l />
+            </lg>
+            <dg id="a">
+                <d />
+            </dg>
+        </e>
+    </elementTemplate>
+
+    <!-- Add a definition group after the selected element (the
+       "+ definition group" buttons in the CSS), and give it the letter
+       after the highest id in its entry (a, b -> c; a, c -> d), so that
+       links to definition groups always have an id to point to, and an id
+       is not used again as long as a higher one is there.
+       (An element template cannot do this: in XXE 11 its $parentElement
+       does not show the other definition groups.) -->
+    <command name="dictSme.addDg">
+        <macro label="Add definition group" undoable="true">
+            <sequence>
+                <command name="insert" parameter="after dg" />
+                <command name="selectNode" parameter="ancestorOrSelf[implicitElement] dg" />
+                <get context="$selected"
+                    expression="substring(substring-after('abcdefghijklmnopqrstuvwxyz', substring(translate('abcdefghijklmnopqrstuvwxyz', translate('abcdefghijklmnopqrstuvwxyz', join(../dg/@id, ''), ''), ''), string-length(translate('abcdefghijklmnopqrstuvwxyz', translate('abcdefghijklmnopqrstuvwxyz', join(../dg/@id, ''), ''), '')), 1)), 1, 1)" />
+                <command name="putAttribute" parameter="id %_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- =================================================================
+       Running the scripts in scripts/
+       ================================================================= -->
+    <!-- Run a script in scripts/ with the Python of the platform. The
+       parameter is the script and its arguments (%* is all of it: XXE
+       leaves unused %1, %2... in the text, so they cannot be used for
+       arguments that may be missing). Returns what it printed, errors
+       included; a script that fails does not stop the command that runs
+       it.
+       On Windows, -X utf8 makes Python write Sámi letters without
+       failing. On a Mac, programs started from the Dock do not get the
+       PATH of the terminal, so the places where the python.org installer
+       and Homebrew put python3 are added. -->
+    <command name="dictSme.python">
+        <macro>
+            <choice>
+                <command name="run"
+                    parameter="[Windows] cd /d &quot;%P/../scripts&quot; &amp;&amp; py -3 -X utf8 %* 2&gt;&amp;1 &amp; exit 0" />
+                <command name="run"
+                    parameter="[Mac] cd &quot;%P/../scripts&quot; &amp;&amp; PATH=&quot;/usr/local/bin:/opt/homebrew/bin:$PATH&quot; python3 %* 2&gt;&amp;1; exit 0" />
+                <command name="run"
+                    parameter="[GenericUnix] cd &quot;%P/../scripts&quot; &amp;&amp; python3 %* 2&gt;&amp;1; exit 0" />
+            </choice>
+        </macro>
+    </command>
+
+    <!-- Save the document, so that what was added to it is in the lists,
+       and make the lists again if a file in src/ has changed since. -->
+    <command name="dictSme.updateLists">
+        <macro>
+            <sequence>
+                <choice>
+                    <command name="XXE.save" />
+                    <!-- nothing to save -->
+                    <get expression="''" />
+                </choice>
+                <command name="dictSme.python" parameter="make_refs.py --if-stale" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- =================================================================
+       Links: inserting, following
+       ================================================================= -->
+    <!-- Let the user pick an entry or a definition group from refs.txt;
+       returns the <d_ref> pointing to it, as XML. It starts with <?xml,
+       so that paste inserts it as XML. If the user cancels, pick fails,
+       and so does the command using this one: nothing is inserted. -->
+    <command name="dictSme.pickRef">
+        <macro>
+            <sequence>
+                <command name="dictSme.updateLists" />
+                <get expression="resolve-uri('../xxe/refs.txt', '%d')" />
+                <command name="pick" parameter="'Link to' true @ '%_' UTF-8" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- Insert a <d_ref> at the caret, which must be in a <d>. The text of
+       the d_ref is the lemma; change it to the form used in the sentence
+       afterwards. -->
+    <command name="dictSme.insertReference">
+        <macro label="Insert reference" undoable="true">
+            <sequence>
+                <command name="dictSme.pickRef" />
+                <command name="paste" parameter="into %_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- Add a synonym or antonym after the selected one: the "+ synonym" and
+       "+ antonym" buttons in the CSS, which select the syn or ant they are
+       attached to. %0 is syn or ant. The picked <d_ref> is put in a
+       <syn> or <ant>, after taking off its <?xml ...?>. -->
+    <command name="dictSme.addRelated">
+        <macro label="Add synonym or antonym" undoable="true">
+            <sequence>
+                <command name="dictSme.pickRef" />
+                <set expression="%_" plainString="true" variable="picked" />
+                <get
+                    expression="concat('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;%0&gt;', substring-after($picked, '?&gt;'), '&lt;/%0&gt;')" />
+                <command name="paste" parameter="after %_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- The same, for the first one: a new <syng> or <antg> with one <syn> or
+       <ant>, after the selected element (the "+ synonyms" and
+       "+ antonyms" buttons). %0 is syng or antg, %1 syn or ant. -->
+    <command name="dictSme.addRelatedGroup">
+        <macro label="Add synonyms or antonyms" undoable="true">
+            <sequence>
+                <command name="dictSme.pickRef" />
+                <set expression="%_" plainString="true" variable="picked" />
+                <get
+                    expression="concat('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;%0&gt;&lt;%1&gt;', substring-after($picked, '?&gt;'), '&lt;/%1&gt;&lt;/%0&gt;')" />
+                <command name="paste" parameter="after %_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- Select an entry or definition group. The parameter is "FILE E G" as
+       in goto.txt: the file in src/, the number of the <e> among the
+       elements in <r>, and of the <dg> among the elements in <e> (0 for a
+       whole entry; XXE leaves a missing %2 as it is, so it cannot be left
+       out). In this document, the element is
+       selected directly; in another one, that file is opened (or brought
+       to the front) at the element, given as an XPointer element(). -->
+    <command name="dictSme.goTo">
+        <macro>
+            <choice>
+                <sequence>
+                    <test
+                        expression="substring('%d', string-length('%d') - string-length('/%0') + 1) = '/%0'" />
+                    <choice>
+                        <sequence>
+                            <test expression="'%2' = '0'" />
+                            <set expression="/*/*[%1]" variable="selected" />
+                        </sequence>
+                        <set expression="/*/*[%1]/*[%2]" variable="selected" />
+                    </choice>
+                </sequence>
+                <sequence>
+                    <get
+                        expression="concat(resolve-uri('%0', '%d'), '#element(/1/%1', substring(concat('/', '%2'), 1, 99 * number('%2' != '0')), ')')" />
+                    <!-- no quotes: XXE.edit does not take them, and a URL has no spaces -->
+                    <command name="XXE.edit" parameter="%_" />
+                </sequence>
+            </choice>
+        </macro>
+    </command>
+
+    <!-- Go to the entry or definition group the link at the caret points
+       to. Works in definitions, synonyms and antonyms. The link is given
+       to find_target.py as its number in the (saved) document, which
+       prints where its target is, or a line starting with "!". -->
+    <command name="dictSme.followLink">
+        <macro label="Follow link">
+            <choice>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::d_ref" />
+                    <set expression="(($selected | $dot)/ancestor-or-self::d_ref)[1]"
+                        variable="link" />
+                    <command name="dictSme.updateLists" />
+                    <get expression="concat('%d ', count($link/preceding::d_ref) + 1)" />
+                    <command name="dictSme.python" parameter="find_target.py %_" />
+                    <set expression="%_" plainString="true" variable="found" />
+                    <choice>
+                        <sequence>
+                            <test expression="not(starts-with(normalize-space($found), '!'))" />
+                            <get expression="normalize-space($found)" />
+                            <command name="dictSme.goTo" parameter="%_" />
+                        </sequence>
+                        <sequence>
+                            <get expression="substring-after($found, '!')" />
+                            <command name="alert" parameter="[WARNING]%_" />
+                        </sequence>
+                    </choice>
+                </sequence>
+                <command name="alert" parameter="Put the caret in a link first." />
+            </choice>
+        </macro>
+    </command>
+
+    <!-- Pick an entry from goto.txt, in any file, and go to it. -->
+    <command name="dictSme.goToEntry">
+        <macro label="Go to entry">
+            <sequence>
+                <command name="dictSme.updateLists" />
+                <get expression="resolve-uri('../xxe/goto.txt', '%d')" />
+                <command name="pick" parameter="'Go to' true @ '%_' UTF-8" />
+                <command name="dictSme.goTo" parameter="%_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- =================================================================
+       PDF
+       ================================================================= -->
+    <!-- Ask for a batch number, make the PDF of that batch and open it.
+        The batch of the entry at the caret, if any, is suggested. Without
+        WeasyPrint, batch2pdf.py opens the HTML in the browser instead.
+        What was typed is kept as plain text (plainString), so that it
+        cannot break the XPath. batch2pdf.py prints "BATCH: N entries ->
+        FILE" when it made the file; anything else is shown as a warning,
+        e.g. for a batch that is not in batches.xml. -->
+    <command name="dictSme.batchPdf">
+        <macro label="PDF of a batch">
+            <sequence>
+                <get expression="string((($selected | $dot)/ancestor-or-self::e)[1]/@batch)" />
+                <command name="prompt" parameter="'PDF of a batch' 'Batch number, e.g. 2601:' '%_'" />
+                <set expression="%_" plainString="true" variable="batch" />
+                <choice>
+                    <sequence>
+                        <test
+                            expression="string-length(normalize-space($batch)) = 4 and translate(normalize-space($batch), '0123456789', '') = ''" />
+                        <command name="dictSme.updateLists" />
+                        <get expression="normalize-space($batch)" />
+                        <command name="dictSme.python" parameter="batch2pdf.py --open %_" />
+                        <set expression="%_" plainString="true" variable="out" />
+                        <choice>
+                            <sequence>
+                                <test expression="contains($out, ' -&gt; ')" />
+                                <get expression="normalize-space($out)" />
+                                <command name="status" parameter="%_" />
+                            </sequence>
+                            <sequence>
+                                <get expression="$out" />
+                                <command name="alert" parameter="[WARNING]%_" />
+                            </sequence>
+                        </choice>
+                    </sequence>
+                    <command name="alert" parameter="A batch number is four digits, e.g. 2601." />
+                </choice>
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- make the lists again, whether or not src/ has changed -->
+    <command name="dictSme.refreshLists">
+        <macro label="Refresh lists">
+            <sequence>
+                <command name="dictSme.python" parameter="make_refs.py" />
+                <command name="status" parameter="%_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- ================================================================= -->
+    <menu label="_Dictionary">
+        <item command="dictSme.insertReference" label="Insert _reference...">
+            <accelerator code="R" modifiers="mod alt" />
+        </item>
+        <item command="dictSme.followLink" label="_Follow link">
+            <accelerator code="L" modifiers="mod alt" />
+        </item>
+        <item command="dictSme.goToEntry" label="_Go to entry...">
+            <accelerator code="G" modifiers="mod alt" />
+        </item>
+        <separator />
+        <item command="dictSme.batchPdf" label="_PDF of a batch..." />
+        <separator />
+        <item command="dictSme.refreshLists" label="Re_fresh lists" />
+    </menu>
+</configuration>

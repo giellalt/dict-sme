@@ -7,6 +7,7 @@ pos.values = "A" | "N" | "V" | "Adv" | "Po" | "Pr" | "Pron" | "Phrase"
     | "Rel" | "Det" | "Interj" | "Pcle" | "Num" | "CC" | "CS" 
 type.values = "Rel" | "Pers" | "Indef" | "Refl" | "Dem" | "G3" | "G7" | "NomAg"
     | "Ord" | "Prop" | "Recipr" | "Coll" | "Interr" | "ACR" | "ABBR"
+
 # year (two digits) followed by a number: 2601, 2602, ...
 batch.id = xsd:string { pattern = "[0-9]{4}" }
 
@@ -32,8 +33,7 @@ sourcenote = element sourcenote { mixed { a* } }
 a = element a { text }
 
 # entry
-# batch: the batch the entry is in, see batches.xml. Who works on the entry,
-#   how far the work has come and whether it is published is kept there.
+# batch: the batch the entry is in, see batches.xml
 e = element e {
     attribute batch { batch.id }?,
     lg,
@@ -43,6 +43,7 @@ e = element e {
 }
 
 # lemma group
+# pos is the same for all variants of a lemma
 lg =
   element lg {
     attribute pos { pos.values },
@@ -50,13 +51,13 @@ lg =
   }
 
 # lemma
-# type is per variant, since variants of a word can differ in it, e.g.
-# gássa (N) and gássa (N G3) are dialect variants of the same word
-# hid: homograph number, for different words that are spelled the same and
-#   have the same pos and type, e.g. giella 1 (language) and giella 2
-#   (snare). The analysers do not tell them apart. It is per lemma, since
-#   it is the spelling that is shared: báhkka 1 (heat) and páhkka/báhkka 2
-#   (package), where páhkka has no number.
+# type can be different for variants of the same lemma
+# Eg. gássa (N) and gássa (N G3) 
+
+# hid: homograph number, for words with the same conjugation
+# but different etymology. Eg. busse 1 (bus) and busse 2 (plastic bag).
+# Per l because sometimes only one variant is a homograph.
+# Eg. báhkka 1 (heat) and páhkka/báhkka 2 (package).
 l = element l {
     attribute type { type.values }?,
     attribute hid { xsd:positiveInteger }?,
@@ -75,7 +76,8 @@ dg = element dg {
 # definition
 d = element d { mixed { d_ref* } }
 
-# refrence to other relevent definition
+# link to another entry, or to one of its definition groups (dg_id); in a
+# definition, and as the content of syn and ant.
 d_ref = element d_ref {
     attribute lemma { text },
     attribute pos { pos.values },
@@ -85,11 +87,10 @@ d_ref = element d_ref {
     text
 }
 
-# synonyms
-syng = element syng { element syn { text }+ }
-
-# antonyms
-antg = element antg { element ant { text }+ }
+# synonyms and antonyms: each one is a link to the entry, or to one
+# definition group (dg_id), that is the synonym or antonym
+syng = element syng { element syn { d_ref }+ }
+antg = element antg { element ant { d_ref }+ }
 
 # example group
 xg = element xg {
@@ -98,7 +99,7 @@ xg = element xg {
 
 
 # idiom group
-# i = idiom, id = idiom definition, ix = idiom example
+# i = idiom, idg = idiom definition group, id = idiom definition, ix = idiom example
 ig = element ig {
     element i { text },
     element idg {

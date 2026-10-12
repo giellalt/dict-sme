@@ -67,3 +67,18 @@ m4/lt~obsolete.m4
 
 # PDF exports from scripts/batch2pdf.py
 /pdf/
+
+# programs used by the scripts, e.g. weasyprint.exe on Windows
+/tools/
+
+# made by scripts/make_refs.py, for the XXE configuration in xxe/
+/xxe/refs.txt
+/xxe/goto.txt
+/xxe/targets.xml
+
+# python virtual envs
+.venv/
+.python-verison
+.env/
+venv/
+env/
