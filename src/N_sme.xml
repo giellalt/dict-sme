@@ -1028,7 +1028,7 @@
          <l hid="1">busse</l>
       </lg>
       <dg id="a">
-         <d>stuorit mohtorfievru (mii ii jođe ruovdemáđii mielde) mas lea sadji máŋga mátkkošteddjiide</d>
+         <d>stuorit mohtorfievru (mii ii jođe ruovdemáđija mielde) mas lea sadji máŋga mátkkošteddjiide</d>
          <xg>
             <x>johtit bussiin</x>
             <x>váldit busse</x>
@@ -3323,7 +3323,7 @@
          </xg>
       </dg>
       <dg id="b">
-         <d>(šáhkas) gáhppálat (offiseara) hábmejuvvon heastaoaivin</d>
+         <d>(šáhkas) gáhppálat (offiseara) hábmejuvvon heasttaoaivin</d>
          <xg>
             <x>Heavuš manná c3-ruvttui.</x>
          </xg>
@@ -3378,7 +3378,7 @@
          </xg>
       </dg>
       <dg id="b">
-         <d>(šáhkas) gáhppálat (offiseara) hábmejuvvon heastaoaivin</d>
+         <d>(šáhkas) gáhppálat (offiseara) hábmejuvvon heasttaoaivin</d>
          <xg>
             <x>Heavuš manná c3-ruvttui.</x>
          </xg>
@@ -114603,11 +114603,6 @@
    <e>
       <lg pos="N">
          <l>ruovdemáđidja</l>
-      </lg>
-   </e>
-   <e>
-      <lg pos="N">
-         <l>ruovdemáđii</l>
       </lg>
    </e>
    <e>
