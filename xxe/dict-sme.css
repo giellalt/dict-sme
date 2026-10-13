@@ -191,7 +191,7 @@ e {
 
 e:after {
   property-group: button-row(0);
-  content: add-same("+ entry");
+  content: button("+ entry", "dictSme.addEntry", "");
 }
 
 /* Batch, at the top right of the entry, with what batches.xml says about

@@ -24,24 +24,46 @@
             <rootElementAttribute localName="id" value="dict-sme" />
         </and>
     </detect>
-    <!-- relative to this file, so it is found however the folder is
-        installed -->
+
+    <!-- import style sheet -->
     <css name="Editing view" location="dict-sme.css" />
 
     <!-- =================================================================
        Templates: what a new element contains
        ================================================================= -->
-    <!-- A new entry: one lemma and one definition group. -->
+    <!-- A new entry: one lemma and one definition group, with placeholder
+       text to be typed over. The pos is set by dictSme.addEntry. -->
     <elementTemplate name="newEntry" selectable="override">
         <e xmlns="">
-            <lg pos="N">
-                <l />
+            <lg>
+                <l>lemma</l>
             </lg>
             <dg id="a">
-                <d />
+                <d>definition</d>
             </dg>
         </e>
     </elementTemplate>
+
+    <!-- Add an entry after the selected one (the "+ entry" button in the
+       CSS), with the pos the file is for: the part of the file name before
+       the first "_" (N_sme.xml: N, Pron_Dem_sme.xml: Pron). %R is the file
+       name without .xml. -->
+    <command name="dictSme.addEntry">
+        <macro label="Add entry" undoable="true">
+            <sequence>
+                <command name="selectNode" parameter="ancestorOrSelf[implicitElement] e" />
+                <set variable="old" context="$selected" expression="." />
+                <command name="insert" parameter="after e" />
+                <set variable="selected" expression="$old/following-sibling::e[1]/lg" />
+                <get expression="substring-before('%R', '_')" />
+                <command name="putAttribute" parameter="pos %_" />
+                <!-- select the placeholder text of the lemma, so that typing
+                   replaces it -->
+                <set variable="selected" expression="$old/following-sibling::e[1]/lg/l/text()" />
+                <command name="selectTo" parameter="textNodeEnd" />
+            </sequence>
+        </macro>
+    </command>
 
     <!-- Add a definition group after the selected element (the
        "+ definition group" buttons in the CSS), and give it the letter
