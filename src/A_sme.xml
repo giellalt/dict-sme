@@ -4043,6 +4043,27 @@
    </e>
    <e>
       <lg pos="A">
+         <l>buorre</l>
+      </lg>
+      <dg id="a">
+         <d/>
+         <xg>
+            <x>Diet girji lea buorre.</x>
+            <x>Buorre beaivi!</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d/>
+         <xg>
+            <x>Mun ledjen buorre sutnje.</x>
+         </xg>
+      </dg>
+      <cg>
+         <c>l_ref: bures_adv</c>
+      </cg>
+   </e>
+   <e>
+      <lg pos="A">
          <l>buorredáhtolaš</l>
       </lg>
    </e>
