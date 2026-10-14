@@ -97,24 +97,28 @@
                 <sequence>
                     <!-- in an idiom: a new definition of the idiom -->
                     <test expression="($selected | $dot)/ancestor-or-self::idg" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::idg))[1]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::idg))[1]"
+                        variable="selected" />
                     <command name="insert" parameter="after idg" />
                 </sequence>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::ig" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::ig))[1]/*[last()]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::ig))[1]/*[last()]"
+                        variable="selected" />
                     <command name="insert" parameter="after idg" />
                 </sequence>
                 <sequence>
                     <!-- in a dg: a new dg after it, with the next id -->
                     <test expression="($selected | $dot)/ancestor-or-self::dg" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::dg))[1]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::dg))[1]"
+                        variable="selected" />
                     <command name="dictSme.addDg" />
                 </sequence>
                 <sequence>
                     <!-- elsewhere in an entry: after its last dg, or its lg -->
                     <test expression="($selected | $dot)/ancestor-or-self::e" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[self::lg or self::dg][last()]"
+                    <set
+                        expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[self::lg or self::dg][last()]"
                         variable="selected" />
                     <command name="dictSme.addDg" />
                 </sequence>
@@ -132,12 +136,14 @@
             <choice>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::dg/%0g" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::dg)[1]/%0g/%0)[last()]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::dg)[1]/%0g/%0)[last()]"
+                        variable="selected" />
                     <command name="dictSme.addRelated" parameter="%0" />
                 </sequence>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::dg" />
-                    <set expression="(($selected | $dot)/ancestor-or-self::dg)[1]/*[self::d or (self::syng and '%0' = 'ant')][last()]"
+                    <set
+                        expression="(($selected | $dot)/ancestor-or-self::dg)[1]/*[self::d or (self::syng and '%0' = 'ant')][last()]"
                         variable="selected" />
                     <command name="dictSme.addRelatedGroup" parameter="%0g %0" />
                 </sequence>
@@ -155,8 +161,11 @@
         <macro label="New one after" undoable="true">
             <choice>
                 <sequence>
-                    <test expression="($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::syn or self::ant or self::x or self::i or self::id or self::ix or self::c]" />
-                    <set expression="(($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::syn or self::ant or self::x or self::i or self::id or self::ix or self::c])[last()]" variable="here" />
+                    <test
+                        expression="($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::syn or self::ant or self::x or self::i or self::id or self::ix or self::c]" />
+                    <set
+                        expression="(($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::syn or self::ant or self::x or self::i or self::id or self::ix or self::c])[last()]"
+                        variable="here" />
                     <set expression="$here" variable="selected" />
                     <choice>
                         <sequence>
@@ -187,32 +196,39 @@
             <choice>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::x" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::x))[1]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::x))[1]"
+                        variable="selected" />
                     <command name="insert" parameter="after x" />
                 </sequence>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::dg/xg" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::dg))[1]/xg[last()]/x[last()]" variable="selected" />
+                    <set
+                        expression="((($selected | $dot)/ancestor-or-self::dg))[1]/xg[last()]/x[last()]"
+                        variable="selected" />
                     <command name="insert" parameter="after x" />
                 </sequence>
                 <sequence>
                     <!-- a dg without examples: a new example group -->
                     <test expression="($selected | $dot)/ancestor-or-self::dg" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::dg))[1]/*[last()]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::dg))[1]/*[last()]"
+                        variable="selected" />
                     <command name="insert" parameter="after xg" />
                 </sequence>
                 <sequence>
                     <!-- examples of an idiom -->
                     <test expression="($selected | $dot)/ancestor-or-self::ix" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::ix))[1]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::ix))[1]"
+                        variable="selected" />
                     <command name="insert" parameter="after ix" />
                 </sequence>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::idg" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::idg))[1]/*[last()]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::idg))[1]/*[last()]"
+                        variable="selected" />
                     <command name="insert" parameter="after ix" />
                 </sequence>
-                <command name="alert" parameter="Put the caret in a definition group or a definition of an idiom first." />
+                <command name="alert"
+                    parameter="Put the caret in a definition group or a definition of an idiom first." />
             </choice>
         </macro>
     </command>
@@ -222,13 +238,16 @@
             <choice>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::ig" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::ig))[1]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::ig))[1]"
+                        variable="selected" />
                     <command name="insert" parameter="after ig" />
                 </sequence>
                 <sequence>
                     <!-- before the comments, if any -->
                     <test expression="($selected | $dot)/ancestor-or-self::e" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[not(self::cg)][last()]" variable="selected" />
+                    <set
+                        expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[not(self::cg)][last()]"
+                        variable="selected" />
                     <command name="insert" parameter="after ig" />
                 </sequence>
                 <command name="alert" parameter="Put the caret in an entry first." />
@@ -241,18 +260,21 @@
             <choice>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::c" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::c))[1]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::c))[1]"
+                        variable="selected" />
                     <command name="insert" parameter="after c" />
                 </sequence>
                 <sequence>
                     <test expression="($selected | $dot)/ancestor-or-self::e/cg" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/cg/c[last()]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/cg/c[last()]"
+                        variable="selected" />
                     <command name="insert" parameter="after c" />
                 </sequence>
                 <sequence>
                     <!-- no comments yet: a new comment group, last in the entry -->
                     <test expression="($selected | $dot)/ancestor-or-self::e" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[last()]" variable="selected" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[last()]"
+                        variable="selected" />
                     <command name="insert" parameter="after cg" />
                 </sequence>
                 <command name="alert" parameter="Put the caret in an entry first." />
@@ -470,7 +492,8 @@
         <macro label="Go to entry in batch">
             <sequence>
                 <get expression="string((($selected | $dot)/ancestor-or-self::e)[1]/@batch)" />
-                <command name="prompt" parameter="'Go to entry in batch' 'Batch number, e.g. 2601:' '%_'" />
+                <command name="prompt"
+                    parameter="'Go to entry in batch' 'Batch number, e.g. 2601:' '%_'" />
                 <set expression="%_" plainString="true" variable="batch" />
                 <choice>
                     <sequence>
@@ -554,21 +577,6 @@
             </sequence>
         </macro>
     </command>
-
-    <!-- Buttons in XXE's toolbar (the ribbon), in a group of their own.
-       The icons are XXE's own; xxe-config: is its addon/config folder. -->
-    <toolBar>
-        <div label="Dictionary">
-            <button icon="xxe-config:common/icons/xref.png" label="Follow link"
-                toolTip="Go to what the link at the caret points to">
-                <command name="dictSme.followLink" />
-            </button>
-            <button icon="xxe-config:common/icons/preview.png" label="Go to entry"
-                toolTip="Pick an entry in any file and go to it">
-                <command name="dictSme.goToEntry" />
-            </button>
-        </div>
-    </toolBar>
 
     <!-- ================================================================= -->
     <menu label="_Dictionary">
