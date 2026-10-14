@@ -71,10 +71,11 @@ m4/lt~obsolete.m4
 # programs used by the scripts, e.g. weasyprint.exe on Windows
 /tools/
 
-# made by scripts/make_refs.py, for the XXE configuration in xxe/
+# made by scripts for the XXE addon in xxe/
 /xxe/refs.txt
 /xxe/goto.txt
 /xxe/targets.xml
+/xxe/batch.txt
 
 # python virtual envs
 .venv/

@@ -1,50 +1,40 @@
 # XXE configuration for dict-sme
 
 `dict-sme.xxe` changes XMLmind XML Editor (XXE) for the files in `src/`.
-It also brings the style sheet, `dict-sme.css`: without this folder
-installed, XXE shows the files unstyled. Shortcuts are written for Windows
-and Linux; on a Mac, Ctrl is Cmd, Alt is Option.
+It brings a style sheet that gives a simple UI when editing the xml 
+files, as well as an array of custom features and keyboard shortcuts.
 
-**New elements**
+## Features
 
-- A new entry ("+ entry") comes with one lemma and one definition group.
-- A new definition group ("+ definition group") gets the next free id by
-  itself: the letter after the highest one in the entry (a, b → c). Links
-  to definition groups need the id, so it should never be missing or
-  chosen by hand.
+- **Dictionary menu** and toolbar group with the commands below.
+- **Links:** insert a link to an entry or definition group, and follow
+  it (also by right-clicking the link).
+- **Synonyms and antonyms** are added as links, picked from a list.
+- **Go to** any entry, or to an entry in a batch.
+- **New entry** gets the pos of the file; **new definition group** gets
+  the next free id.
+- **Ctrl+Enter** adds a new element of the kind the caret is in, right
+  after it.
+- **Batch info** (state, editor) shown on each entry.
+- **PDF of a batch** for proofreading.
 
-**Links** (Dictionary menu and buttons)
+## Keyboard shortcuts
 
-- **Insert reference…** (Ctrl+Alt+R): pick an entry, or one definition
-  group of an entry with several, and a `<d_ref>` to it is inserted at the
-  caret. The caret must be in a `<d>`. The text of the `d_ref` is the
-  lemma; change it to the form used in the sentence.
-- **+ synonym**, **+ antonym**, **+ synonyms**, **+ antonyms** (the buttons
-  in the entry): open the same list, and add a `<syn>` or `<ant>` with a
-  `<d_ref>` to the chosen entry or definition group. Synonyms and
-  antonyms are always links; there is no way to type one as plain text.
-- **Follow link** (Ctrl+Alt+L): with the caret in a link, go to the
-  entry or definition group it points to, in this file or another one.
-- **Go to entry…** (Ctrl+Alt+G): pick any entry (or variant lemma), in
-  any file, and go to it.
+| Command | Windows / Linux | Mac |
+|---|---|---|
+| Insert reference | Ctrl+Alt+R | ⌘⌥R |
+| Follow link | Ctrl+Alt+L | ⌘⌥L |
+| Go to entry | Ctrl+Alt+G | ⌘⌥G |
+| Go to entry in batch | Ctrl+Alt+B | ⌘⌥B |
+| New one of the same kind after (definition, synonym, example, …) | Ctrl+Enter | ⌘Enter |
+| New entry | Ctrl+Alt+N | ⌘⌥N |
+| New definition group | Ctrl+Alt+D | ⌘⌥D |
+| New synonym | Ctrl+Alt+S | ⌘⌥S |
+| New antonym | Ctrl+Alt+A | ⌘⌥A |
+| New example | Ctrl+Alt+E | ⌘⌥E |
+| New idiom | Ctrl+Alt+I | ⌘⌥I |
+| New comment | Ctrl+Alt+C | ⌘⌥C |
 
-**PDF and lists** (Dictionary menu)
-
-- **PDF of a batch…**: asks for a batch number (the batch of the entry at
-  the caret, if any, is filled in), makes the PDF and opens it. Without
-  WeasyPrint, it opens the HTML in the browser instead, to be printed
-  from there.
-- **Refresh lists**: makes the lists below again in any case.
-
-The checks are run in a terminal: `scripts/check_links.py` (links) and
-`scripts/batch.py check` (batches).
-
-**How it keeps up to date.** Every command first saves the document and
-then runs `scripts/make_refs.py --if-stale`, which makes the lists again
-only if a file in `src/` has changed since (after a save, a pull, a
-branch switch). The lists are `xxe/refs.txt`, `xxe/goto.txt` and
-`xxe/targets.xml`; they are not in git. Python 3 is needed on every
-computer where XXE is used.
 
 ## Setup
 
@@ -65,42 +55,36 @@ off, restarting XXE is enough.
 
 ### Windows
 
-1. Install Python 3 from <https://www.python.org/downloads/>. Keep
-   "Use admin privileges when installing py.exe" and "Add python.exe to
-   PATH" ticked. Check in a new Command Prompt that `py -3 --version`
-   works.
-2. Let XXE load this folder straight from the repository, so that
-   `git pull` also updates the configuration. In a Command Prompt
-   (change the path to where the repository is):
+1. Install the [Python install manager](https://apps.microsoft.com/detail/9nq7512cxl7t) 
+
+2. In a Command Prompt (change `"PATH-TO-FOLDER` to the actual path):
 
     ```sh
     setx XXE_ADDON_PATH "C:\Users\NAME\PATH-TO-FOLDER\dict-sme\xxe;+"
     ```
 
-   The `;+` at the end is needed, or XXE no longer loads its own add-ons.
 3. For PDFs: download the WeasyPrint executable for Windows from
-   <https://github.com/Kozea/WeasyPrint/releases> (under "Assets" of the
-   latest release), unpack it if it is a zip, and put `weasyprint.exe` in
-   a folder `tools` in the repository (`C:\Users\NAME\dict-sme\tools\`).
-   The folder is not in git. Without it, "PDF of a batch" opens the batch
-   in the browser instead, to be printed to PDF from there.
+   <https://github.com/Kozea/WeasyPrint/releases> (`weasyprint-windows-onefile.zip`
+   under "Assets" of the latest release), unpack it, and put `weasyprint.exe` in
+   a folder `tools` in the repository (`dict-sme\tools\`).
+
 4. Restart XXE.
 
 ### Mac
 
-1. Install Python 3 from <https://www.python.org/downloads/> (or with
-   Homebrew). Check in Terminal that `python3 --version` works.
-2. Link this folder into XXE's add-on folder, so that `git pull` also
-   updates the configuration (change the path to where the repository is):
+1. Make sure [Python3](https://www.python.org/downloads/) and [homebrew](https://brew.sh/)
+   both are installed. 
+
+2. Link this folder into XXE's add-on folder as such. Change `"PATH-TO-FOLDER"`
+   to the actual path.
 
     ```sh
     mkdir -p ~/Library/Application\ Support/XMLmind/XMLEditor11/addon
     ln -s ~/PATH-TO-FOLDER/dict-sme/xxe ~/Library/Application\ Support/XMLmind/XMLEditor11/addon/dict-sme
     ```
 
-3. For PDFs: `brew install weasyprint` (Homebrew, <https://brew.sh>).
-   Without it, "PDF of a batch" opens the batch in the browser instead,
-   to be printed to PDF from there.
+3. For PDFs: `brew install weasyprint`.
+
 4. Restart XXE.
 
 ### Linux
@@ -111,10 +95,10 @@ off, restarting XXE is enough.
     ln -s "$PWD/xxe" ~/.xxe11/addon/dict-sme
     ```
 
-2. Restart XXE. 
+2. For PDFs: `sudo apt install weasyprint`
 
-For PDFs: `pip install weasyprint`, or the distribution's package (e.g.
-`apt install weasyprint`).
+3. Restart XXE. 
+
 
 ### Check
 

@@ -85,6 +85,182 @@
     </command>
 
     <!-- =================================================================
+       New definition group, example, idiom, comment, and a new one of
+       the same kind (shortcuts in the menu)
+       ================================================================= -->
+    <!-- Each adds an element where the caret is: after the one the caret
+       is in, else at the end of the group the caret is in, making the
+       group when it is missing. The first step that fits is used. -->
+    <command name="dictSme.newDefinition">
+        <macro label="New definition group" undoable="true">
+            <choice>
+                <sequence>
+                    <!-- in an idiom: a new definition of the idiom -->
+                    <test expression="($selected | $dot)/ancestor-or-self::idg" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::idg))[1]" variable="selected" />
+                    <command name="insert" parameter="after idg" />
+                </sequence>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::ig" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::ig))[1]/*[last()]" variable="selected" />
+                    <command name="insert" parameter="after idg" />
+                </sequence>
+                <sequence>
+                    <!-- in a dg: a new dg after it, with the next id -->
+                    <test expression="($selected | $dot)/ancestor-or-self::dg" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::dg))[1]" variable="selected" />
+                    <command name="dictSme.addDg" />
+                </sequence>
+                <sequence>
+                    <!-- elsewhere in an entry: after its last dg, or its lg -->
+                    <test expression="($selected | $dot)/ancestor-or-self::e" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[self::lg or self::dg][last()]"
+                        variable="selected" />
+                    <command name="dictSme.addDg" />
+                </sequence>
+                <command name="alert" parameter="Put the caret in an entry first." />
+            </choice>
+        </macro>
+    </command>
+
+    <!-- A synonym or antonym (%0: syn or ant) in the dg the caret is in,
+       picked from the list: at the end of its syng or antg, or in a new
+       one when there is none (after the definitions, and an antg after
+       the syng). -->
+    <command name="dictSme.newRelated">
+        <macro label="New synonym or antonym" undoable="true">
+            <choice>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::dg/%0g" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::dg)[1]/%0g/%0)[last()]" variable="selected" />
+                    <command name="dictSme.addRelated" parameter="%0" />
+                </sequence>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::dg" />
+                    <set expression="(($selected | $dot)/ancestor-or-self::dg)[1]/*[self::d or (self::syng and '%0' = 'ant')][last()]"
+                        variable="selected" />
+                    <command name="dictSme.addRelatedGroup" parameter="%0g %0" />
+                </sequence>
+                <command name="alert" parameter="Put the caret in a definition group first." />
+            </choice>
+        </macro>
+    </command>
+
+    <!-- Ctrl+Enter: a new element of the same kind after the one the caret
+       is in (the innermost of these): a lemma, definition, example,
+       comment; an idiom (from its i), a definition of an idiom (from its
+       id); a synonym or antonym, picked from the list as with the
+       buttons. -->
+    <command name="dictSme.newSame">
+        <macro label="New one after" undoable="true">
+            <choice>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::syn or self::ant or self::x or self::i or self::id or self::ix or self::c]" />
+                    <set expression="(($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::syn or self::ant or self::x or self::i or self::id or self::ix or self::c])[last()]" variable="here" />
+                    <set expression="$here" variable="selected" />
+                    <choice>
+                        <sequence>
+                            <test expression="$here[self::syn or self::ant]" />
+                            <get expression="local-name($here)" />
+                            <command name="dictSme.addRelated" parameter="%_" />
+                        </sequence>
+                        <sequence>
+                            <test expression="$here[self::i or self::id]" />
+                            <set expression="$here/.." variable="selected" />
+                            <get expression="local-name($here/..)" />
+                            <command name="insert" parameter="after %_" />
+                        </sequence>
+                        <sequence>
+                            <get expression="local-name($here)" />
+                            <command name="insert" parameter="after %_" />
+                        </sequence>
+                    </choice>
+                </sequence>
+                <command name="alert"
+                    parameter="Put the caret in a lemma, definition, synonym, antonym, example, idiom or comment first." />
+            </choice>
+        </macro>
+    </command>
+
+    <command name="dictSme.newExample">
+        <macro label="New example" undoable="true">
+            <choice>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::x" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::x))[1]" variable="selected" />
+                    <command name="insert" parameter="after x" />
+                </sequence>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::dg/xg" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::dg))[1]/xg[last()]/x[last()]" variable="selected" />
+                    <command name="insert" parameter="after x" />
+                </sequence>
+                <sequence>
+                    <!-- a dg without examples: a new example group -->
+                    <test expression="($selected | $dot)/ancestor-or-self::dg" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::dg))[1]/*[last()]" variable="selected" />
+                    <command name="insert" parameter="after xg" />
+                </sequence>
+                <sequence>
+                    <!-- examples of an idiom -->
+                    <test expression="($selected | $dot)/ancestor-or-self::ix" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::ix))[1]" variable="selected" />
+                    <command name="insert" parameter="after ix" />
+                </sequence>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::idg" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::idg))[1]/*[last()]" variable="selected" />
+                    <command name="insert" parameter="after ix" />
+                </sequence>
+                <command name="alert" parameter="Put the caret in a definition group or a definition of an idiom first." />
+            </choice>
+        </macro>
+    </command>
+
+    <command name="dictSme.newIdiom">
+        <macro label="New idiom" undoable="true">
+            <choice>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::ig" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::ig))[1]" variable="selected" />
+                    <command name="insert" parameter="after ig" />
+                </sequence>
+                <sequence>
+                    <!-- before the comments, if any -->
+                    <test expression="($selected | $dot)/ancestor-or-self::e" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[not(self::cg)][last()]" variable="selected" />
+                    <command name="insert" parameter="after ig" />
+                </sequence>
+                <command name="alert" parameter="Put the caret in an entry first." />
+            </choice>
+        </macro>
+    </command>
+
+    <command name="dictSme.newComment">
+        <macro label="New comment" undoable="true">
+            <choice>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::c" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::c))[1]" variable="selected" />
+                    <command name="insert" parameter="after c" />
+                </sequence>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::e/cg" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/cg/c[last()]" variable="selected" />
+                    <command name="insert" parameter="after c" />
+                </sequence>
+                <sequence>
+                    <!-- no comments yet: a new comment group, last in the entry -->
+                    <test expression="($selected | $dot)/ancestor-or-self::e" />
+                    <set expression="((($selected | $dot)/ancestor-or-self::e))[1]/*[last()]" variable="selected" />
+                    <command name="insert" parameter="after cg" />
+                </sequence>
+                <command name="alert" parameter="Put the caret in an entry first." />
+            </choice>
+        </macro>
+    </command>
+
+    <!-- =================================================================
        Running the scripts in scripts/
        ================================================================= -->
     <!-- Run a script in scripts/ with the Python of the platform. The
@@ -248,6 +424,31 @@
         </macro>
     </command>
 
+    <!-- Right-click on a link: "Follow link" is added to the menu. XXE
+       runs the commands in this namespace when the menu opens ($c is this
+       configuration); one that cannot run (not on a link) adds nothing.
+       $clickedElement is where the user right-clicked, which need not be
+       where the caret is.
+       The items must be in a command of their own: a macro cannot hold a
+       menu. -->
+    <command name="{$c contextualMenuItems}linkMenuItems">
+        <macro>
+            <sequence>
+                <test expression="$clickedElement/ancestor-or-self::d_ref" />
+                <!-- select the clicked link, which Follow link then uses -->
+                <set expression="$clickedElement/ancestor-or-self::d_ref[1]"
+                    variable="selected" />
+                <command name="dictSme.linkMenu" />
+            </sequence>
+        </macro>
+    </command>
+
+    <command name="dictSme.linkMenu">
+        <menu>
+            <item command="dictSme.followLink" label="Follow link" />
+        </menu>
+    </command>
+
     <!-- Pick an entry from goto.txt, in any file, and go to it. -->
     <command name="dictSme.goToEntry">
         <macro label="Go to entry">
@@ -256,6 +457,48 @@
                 <get expression="resolve-uri('../xxe/goto.txt', '%d')" />
                 <command name="pick" parameter="'Go to' true @ '%_' UTF-8" />
                 <command name="dictSme.goTo" parameter="%_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- Ask for a batch number (the batch of the entry at the caret is
+       suggested), and pick one of the entries of that batch to go to.
+       batch_goto.py writes the list, batch.txt, and prints a line starting
+       with "!" when the batch has no entries. Saving first lets the list
+       see entries just added to the batch. -->
+    <command name="dictSme.goToBatchEntry">
+        <macro label="Go to entry in batch">
+            <sequence>
+                <get expression="string((($selected | $dot)/ancestor-or-self::e)[1]/@batch)" />
+                <command name="prompt" parameter="'Go to entry in batch' 'Batch number, e.g. 2601:' '%_'" />
+                <set expression="%_" plainString="true" variable="batch" />
+                <choice>
+                    <sequence>
+                        <test
+                            expression="string-length(normalize-space($batch)) = 4 and translate(normalize-space($batch), '0123456789', '') = ''" />
+                        <choice>
+                            <command name="XXE.save" />
+                            <get expression="''" />
+                        </choice>
+                        <get expression="normalize-space($batch)" />
+                        <command name="dictSme.python" parameter="batch_goto.py %_" />
+                        <set expression="%_" plainString="true" variable="out" />
+                        <choice>
+                            <sequence>
+                                <test expression="not(starts-with(normalize-space($out), '!'))" />
+                                <get expression="resolve-uri('../xxe/batch.txt', '%d')" />
+                                <command name="pick" parameter="'Go to' true @ '%_' UTF-8" />
+                                <command name="dictSme.goTo" parameter="%_" />
+                            </sequence>
+                            <sequence>
+                                <test expression="starts-with(normalize-space($out), '!')" />
+                                <get expression="substring-after($out, '!')" />
+                                <command name="alert" parameter="[WARNING]%_" />
+                            </sequence>
+                        </choice>
+                    </sequence>
+                    <command name="alert" parameter="A batch number is four digits, e.g. 2601." />
+                </choice>
             </sequence>
         </macro>
     </command>
@@ -312,6 +555,21 @@
         </macro>
     </command>
 
+    <!-- Buttons in XXE's toolbar (the ribbon), in a group of their own.
+       The icons are XXE's own; xxe-config: is its addon/config folder. -->
+    <toolBar>
+        <div label="Dictionary">
+            <button icon="xxe-config:common/icons/xref.png" label="Follow link"
+                toolTip="Go to what the link at the caret points to">
+                <command name="dictSme.followLink" />
+            </button>
+            <button icon="xxe-config:common/icons/preview.png" label="Go to entry"
+                toolTip="Pick an entry in any file and go to it">
+                <command name="dictSme.goToEntry" />
+            </button>
+        </div>
+    </toolBar>
+
     <!-- ================================================================= -->
     <menu label="_Dictionary">
         <item command="dictSme.insertReference" label="Insert _reference...">
@@ -323,6 +581,36 @@
         <item command="dictSme.goToEntry" label="_Go to entry">
             <accelerator code="G" modifiers="mod alt" />
         </item>
+        <item command="dictSme.goToBatchEntry" label="Go to entry in _batch">
+            <accelerator code="B" modifiers="mod alt" />
+        </item>
+        <separator />
+        <menu label="_New">
+            <item command="dictSme.newSame" label="One _after">
+                <accelerator code="ENTER" modifiers="mod" />
+            </item>
+            <item command="dictSme.addEntry" label="E_ntry">
+                <accelerator code="N" modifiers="mod alt" />
+            </item>
+            <item command="dictSme.newDefinition" label="_Definition group">
+                <accelerator code="D" modifiers="mod alt" />
+            </item>
+            <item command="dictSme.newRelated" parameter="syn" label="_Synonym">
+                <accelerator code="S" modifiers="mod alt" />
+            </item>
+            <item command="dictSme.newRelated" parameter="ant" label="An_tonym">
+                <accelerator code="A" modifiers="mod alt" />
+            </item>
+            <item command="dictSme.newExample" label="_Example">
+                <accelerator code="E" modifiers="mod alt" />
+            </item>
+            <item command="dictSme.newIdiom" label="_Idiom">
+                <accelerator code="I" modifiers="mod alt" />
+            </item>
+            <item command="dictSme.newComment" label="_Comment">
+                <accelerator code="C" modifiers="mod alt" />
+            </item>
+        </menu>
         <separator />
         <item command="dictSme.batchPdf" label="_PDF of a batch" />
         <separator />
