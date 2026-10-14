@@ -22,18 +22,18 @@ files, as well as an array of custom features and keyboard shortcuts.
 
 | Command | Windows / Linux | Mac |
 |---|---|---|
-| Insert reference | Ctrl+Alt+R | ⌘⌥R |
-| Follow link | Ctrl+Alt+L | ⌘⌥L |
-| Go to entry | Ctrl+Alt+G | ⌘⌥G |
-| Go to entry in batch | Ctrl+Alt+B | ⌘⌥B |
-| New one of the same kind after (definition, synonym, example, …) | Ctrl+Enter | ⌘Enter |
-| New entry | Ctrl+Alt+N | ⌘⌥N |
-| New definition group | Ctrl+Alt+D | ⌘⌥D |
-| New synonym | Ctrl+Alt+S | ⌘⌥S |
-| New antonym | Ctrl+Alt+A | ⌘⌥A |
-| New example | Ctrl+Alt+E | ⌘⌥E |
-| New idiom | Ctrl+Alt+I | ⌘⌥I |
-| New comment | Ctrl+Alt+C | ⌘⌥C |
+| Insert reference | Ctrl+Alt+R | Cmd+Option+R |
+| Follow link | Ctrl+Alt+L | Cmd+Option+L |
+| Go to entry | Ctrl+Alt+G | Cmd+Option+G |
+| Go to entry in batch | Ctrl+Alt+B | Cmd+Option+B |
+| New one of the same kind after (definition, synonym, example, …) | Ctrl+Enter | Cmd+Enter |
+| New entry | Ctrl+Alt+N | Cmd+Option+N |
+| New definition group | Ctrl+Alt+D | Cmd+Option+D |
+| New synonym | Ctrl+Alt+S | Cmd+Option+S |
+| New antonym | Ctrl+Alt+A | Cmd+Option+A |
+| New example | Ctrl+Alt+E | Cmd+Option+E |
+| New idiom | Ctrl+Alt+I | Cmd+Option+I |
+| New comment | Ctrl+Alt+C | Cmd+Option+C |
 
 
 ## Setup
