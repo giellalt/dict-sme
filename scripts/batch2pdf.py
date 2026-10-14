@@ -248,16 +248,15 @@ def page(batch, info, entries):
         f" · {T['printed'].format(date=datetime.date.today())}"
     )
     body = "\n".join(entry_html(e) for e in entries)
-    return dedent(
-        f"""<!DOCTYPE html>
+    return dedent(f"""
+    <!DOCTYPE html>
         <html lang="se"><head><meta charset="utf-8"><title>{escape(title)}</title>
         <style>{CSS}</style></head><body>
         <header><h1>{escape(title)}</h1></header>
         <p class="info">{"<br>".join(lines)}</p>
         {body}
         </body></html>
-        """
-    )
+    """)
 
 
 def open_file(path):
