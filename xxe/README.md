@@ -103,5 +103,5 @@ off, restarting XXE is enough.
 ### Check
 
 Open a file in `src/`. There should be a Dictionary menu. If there is
-not, look in XXE's log (e.g. the terminal XXE was started from) for a line
+not, look in XXE's log (arrow in the bottom right) for a line
 about `dict-sme.xxe`.

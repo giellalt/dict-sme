@@ -396,6 +396,14 @@
                 <sequence>
                     <test
                         expression="substring('%d', string-length('%d') - string-length('/%0') + 1) = '/%0'" />
+                    <!-- XXE scrolls only as far as needed to show what is
+                       selected, which puts an entry further down at the
+                       bottom of the window. Selecting the last entry first
+                       makes it scroll up to the target instead, which
+                       puts the target at the top. (Not /*/*[last()]: in
+                       N_sme.xml that overflows XXE's XPath.) -->
+                    <get expression="count(/*/*)" />
+                    <set expression="/*/*[%_]" variable="selected" />
                     <choice>
                         <sequence>
                             <test expression="'%2' = '0'" />
