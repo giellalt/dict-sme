@@ -68,8 +68,8 @@ l = element l {
 dg = element dg {
     attribute id { text }?,
     d+,
-    syng*,
-    antg*,
+    syng?,
+    antg?,
     xg*
 }
 
