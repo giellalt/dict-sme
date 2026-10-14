@@ -74,13 +74,14 @@ def targets(e):
     definition = lambda dg: short(
         norm(" ".join("".join(d.itertext()) for d in dg.findall("d")))
     )
-    whole = name(first, pos) + (f" — {definition(dgs[0])}" if len(dgs) == 1 else "")
+    only = definition(dgs[0]) if len(dgs) == 1 else ""
+    whole = name(first, pos) + (f" — {only}" if only else "")
     yield whole, d_ref(first, pos), None
     if len(dgs) > 1:
         for n, dg in enumerate(dgs, 1):
             if dg in linkable(dgs):
                 yield (
-                    f"{name(first, pos)} {n}: {definition(dg)}",
+                    f"{name(first, pos)} {n}" + (f": {definition(dg)}" if definition(dg) else ""),
                     d_ref(first, pos, dg.get("id")),
                     dg,
                 )
