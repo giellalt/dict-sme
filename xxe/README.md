@@ -15,6 +15,8 @@ files, as well as an array of custom features and keyboard shortcuts.
   the next free id.
 - **Ctrl+Enter** adds a new element of the kind the caret is in, right
   after it.
+- **Move up/down** the definition, definition group, synonym, example,
+  … at the caret, among others of its kind.
 - **Batch info** (state, editor) shown on each entry.
 - **PDF of a batch** for proofreading.
 
@@ -34,6 +36,8 @@ files, as well as an array of custom features and keyboard shortcuts.
 | New example | Ctrl+Alt+E | Cmd+Option+E |
 | New idiom | Ctrl+Alt+I | Cmd+Option+I |
 | New comment | Ctrl+Alt+C | Cmd+Option+C |
+| Move up | Ctrl+Alt+Up | Cmd+Option+Up |
+| Move down | Ctrl+Alt+Down | Cmd+Option+Down |
 
 
 ## Setup

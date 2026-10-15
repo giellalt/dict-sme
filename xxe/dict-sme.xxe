@@ -191,6 +191,45 @@
         </macro>
     </command>
 
+    <!-- Move up or down (%0): the selected element, or else the innermost
+         element at the caret that has a sibling of the same kind (a d among
+         ds, else its dg among dgs, ...). Entries only when selected, since
+         the files are in alphabetical order. Only swaps with a sibling of
+         the same kind, so a dg never moves above the lg. -->
+    <command name="dictSme.move">
+        <macro label="Move" undoable="true">
+            <sequence>
+                <choice>
+                    <sequence>
+                        <test expression="$selected[self::*]" />
+                        <set expression="$selected[self::*][1]" variable="m" />
+                    </sequence>
+                    <sequence>
+                        <test
+                            expression="$dot/ancestor-or-self::*[(self::l and ../l[2]) or (self::d and ../d[2]) or (self::dg and ../dg[2]) or (self::syn and ../syn[2]) or (self::ant and ../ant[2]) or (self::xg and ../xg[2]) or (self::x and ../x[2]) or (self::ig and ../ig[2]) or (self::idg and ../idg[2]) or (self::ix and ../ix[2]) or (self::c and ../c[2])]" />
+                        <set
+                            expression="($dot/ancestor-or-self::*[(self::l and ../l[2]) or (self::d and ../d[2]) or (self::dg and ../dg[2]) or (self::syn and ../syn[2]) or (self::ant and ../ant[2]) or (self::xg and ../xg[2]) or (self::x and ../x[2]) or (self::ig and ../ig[2]) or (self::idg and ../idg[2]) or (self::ix and ../ix[2]) or (self::c and ../c[2])])[last()]"
+                            variable="m" />
+                    </sequence>
+                </choice>
+                <choice>
+                    <sequence>
+                        <test
+                            expression="'%0' = 'up' and $m/preceding-sibling::*[1][local-name() = local-name($m)]" />
+                        <set expression="$m" variable="selected" />
+                        <command name="moveElement" parameter="up" />
+                    </sequence>
+                    <sequence>
+                        <test
+                            expression="'%0' = 'down' and $m/following-sibling::*[1][local-name() = local-name($m)]" />
+                        <set expression="$m" variable="selected" />
+                        <command name="moveElement" parameter="down" />
+                    </sequence>
+                </choice>
+            </sequence>
+        </macro>
+    </command>
+
     <command name="dictSme.newExample">
         <macro label="New example" undoable="true">
             <choice>
@@ -637,6 +676,12 @@
                 <accelerator code="C" modifiers="mod alt" />
             </item>
         </menu>
+        <item command="dictSme.move" parameter="up" label="Move _up">
+            <accelerator code="UP" modifiers="mod alt" />
+        </item>
+        <item command="dictSme.move" parameter="down" label="Move do_wn">
+            <accelerator code="DOWN" modifiers="mod alt" />
+        </item>
         <separator />
         <item command="dictSme.batchPdf" label="_PDF of a batch" />
         <separator />
