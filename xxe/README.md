@@ -30,14 +30,14 @@ files, as well as an array of custom features and keyboard shortcuts.
 | Go to entry in batch | Ctrl+Alt+B | Cmd+Option+B |
 | New one of the same kind after (definition, synonym, example, …) | Ctrl+Enter | Cmd+Enter |
 | New entry | Ctrl+Alt+N | Cmd+Option+N |
-| New definition group | Ctrl+Alt+D | Cmd+Option+D |
+| New definition group | Ctrl+Alt+Enter | Cmd+Option+Enter |
 | New synonym | Ctrl+Alt+S | Cmd+Option+S |
 | New antonym | Ctrl+Alt+A | Cmd+Option+A |
 | New example | Ctrl+Alt+E | Cmd+Option+E |
 | New idiom | Ctrl+Alt+I | Cmd+Option+I |
 | New comment | Ctrl+Alt+C | Cmd+Option+C |
-| Move up | Ctrl+Alt+Up | Cmd+Option+Up |
-| Move down | Ctrl+Alt+Down | Cmd+Option+Down |
+| Move up | Alt+Up | Option+Up |
+| Move down | Alt+Down | Option+Down |
 
 
 ## Setup

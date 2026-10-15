@@ -669,7 +669,7 @@
                 <accelerator code="N" modifiers="mod alt" />
             </item>
             <item command="dictSme.newDefinition" label="_Definition group">
-                <accelerator code="D" modifiers="mod alt" />
+                <accelerator code="ENTER" modifiers="mod alt" />
             </item>
             <item command="dictSme.newRelated" parameter="syn" label="_Synonym">
                 <accelerator code="S" modifiers="mod alt" />
@@ -688,10 +688,10 @@
             </item>
         </menu>
         <item command="dictSme.move" parameter="up" label="Move _up">
-            <accelerator code="UP" modifiers="mod alt" />
+            <accelerator code="UP" modifiers="alt" />
         </item>
         <item command="dictSme.move" parameter="down" label="Move do_wn">
-            <accelerator code="DOWN" modifiers="mod alt" />
+            <accelerator code="DOWN" modifiers="alt" />
         </item>
         <separator />
         <item command="dictSme.batchPdf" label="_PDF of a batch" />
