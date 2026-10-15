@@ -635,6 +635,17 @@
         </macro>
     </command>
 
+    <!-- Buttons in XXE's toolbar (the ribbon), in a group of their own.
+         The icons are XXE's own; xxe-config: is its addon/config folder. -->
+    <toolBar>
+        <div label="Dictionary">
+            <button icon="xxe-config:common/mime_types/pdf.png" label="PDF of a batch"
+                toolTip="Make a PDF of a batch for proofreading">
+                <command name="dictSme.batchPdf" />
+            </button>
+        </div>
+    </toolBar>
+
     <!-- ================================================================= -->
     <menu label="_Dictionary">
         <item command="dictSme.insertReference" label="Insert _reference...">
