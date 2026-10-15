@@ -411,6 +411,16 @@
                         </sequence>
                         <set expression="/*/*[%1]/*[%2]" variable="selected" />
                     </choice>
+                    <!-- and the caret at the start of its first text: the
+                       lemma of an entry, the definition of a dg -->
+                    <choice>
+                        <sequence>
+                            <test expression="$selected//text()[normalize-space()]" />
+                            <set expression="($selected//text()[normalize-space()])[1]" variable="dot" />
+                            <command name="cancelSelection" />
+                        </sequence>
+                        <get expression="''" />
+                    </choice>
                 </sequence>
                 <sequence>
                     <get
