@@ -52,32 +52,135 @@ Kopier det som du har gjort til ei notatdokument og velg **no** for å lagre dic
 | Søk | cmd+G | ctrl+G | Gå opp for å finne ordet |
 
 
+### Hurtigtaster med vårt XML Mind tilleggsprogram
+Vårt tilleggsprogram legger til en rekke nye hurtigtaster for redigering og navigering.
+Se hvordan man setter det opp lenger ned.
+
+
+| Command | Windows | Mac |
+|---|---|---|
+| Insert reference | Ctrl+Alt+R | Cmd+Option+R |
+| Follow link | Ctrl+Alt+L | Cmd+Option+L |
+| Go to entry | Ctrl+Alt+G | Cmd+Option+G |
+| Go to entry in batch | Ctrl+Alt+B | Cmd+Option+B |
+| New one of the same kind after (definition, synonym, example, …) | Ctrl+Enter | Cmd+Enter |
+| New entry | Ctrl+Alt+N | Cmd+Option+N |
+| New definition group | Ctrl+Alt+Enter | Cmd+Option+Enter |
+| New synonym | Ctrl+Alt+S | Cmd+Option+S |
+| New antonym | Ctrl+Alt+A | Cmd+Option+A |
+| New example | Ctrl+Alt+E | Cmd+Option+E |
+| New idiom | Ctrl+Alt+I | Cmd+Option+I |
+| New comment | Ctrl+Alt+C | Cmd+Option+C |
+| Move up | Alt+↑ | Option+↑ |
+| Move down | Alt+↓ | Option+↓ |
+
+
+
 ## xml-strukturen og terminologien vi bruker
 
-&lt;e&gt; : **entry** (hovedelementet med all informasjon til hvert lemma.
+&lt;e&gt; : **entry** - Hovedelementet med all informasjon til hvert lemma.
  
-&lt;lg&gt; : **lemma group** Vi legger til attributt for å skille mellom homonyme lemmaer, med NomAg, f.eks. vuovdi (skog) og vuovdi NomAg (selger), eller G3, f.eks. vuorri (omgang) og vuorri G3 (fisk). For homonymer har samme morfologi, bruker vi hid=1, hid=2, f.eks. busse (buss) og busse (pose)).
+&lt;lg&gt; : **lemma group**, med informasjon om **pos** (Part of Speech).
+- &lt;l&gt; : lemma (en lg kan ha flere lemma om det er flere skrivemåter (varianter)).
+  Lemmaer har også attributter for å skille mellom homonyme lemmaer. **Type** 
+  (NomAg, G3, etc.) skiller lemmaer hvor grunnformen er lik, men har forskjellig 
+  bøyning. F.eks. vuovdi (skog) og vuovdi NomAg (selger), eller vuorri (omgang) 
+  og vuorri G3 (fisk). For homonymer har samme morfologi men forskjellig etymologi, 
+  bruker vi hid=1, hid=2, f.eks. busse¹ (buss) og busse² (pose)).
 
-- &lt;l&gt; : lemma, med informasjon om **pos** (Part of Speech). 
+&lt;dg&gt;: **definition group**, inneholder:
+- &lt;d&gt; : definisjon
 
+&lt;sg&gt;: **synonym group** (ikke obligatorisk), inneholder en eller flere:
+- &lt;syn&gt; : synonym
 
-&lt;dg&gt;: **definition group** (ikke obligatorisk), som inneholder:
-- &lt;d&gt; : definition
+&lt;antg&gt;: **antonym group** (ikke obligatorisk), inneholder en eller flere:
+- &lt;ant&gt; : antonym
 
+&lt;d_ref&gt;: **definition refrence** - En link til en entry eller en
+  spesifik definisjon i en entry. Kan plasseres i en definisjonstekst,
+  må plasseres i synonymer og antonymer.
 
-&lt;sg&gt;: **synonym group** (ikke obligatorisk), som inneholder en eller flere:
-- &lt;s&gt; : synonym
+&lt;xg&gt; : **example group**, inneholder en eller flere:
+- &lt;x&gt; : eksempel setning
 
-&lt;antg&gt;: **antonym group** (ikke obligatorisk), som inneholder en eller flere:
-- &lt;ant&gt; : synonym
-
-
-&lt;xg&gt; : **example group** (hver xg inneholder bare ett eksempel)
-- &lt;x&gt; : eksempel på kildespråk
-
-Etter siste &lt;dg&gt;, kan det legges til
-
-&lt;ig&gt; : **idiom group**, som inneholder
+&lt;ig&gt; : **idiom group**, inneholder:
 - &lt;i&gt; : idiom eller fast uttrykk
-- &lt;id&gt; : forklaring til idiomet
-- &lt;xg&gt; : **example group** (ikke obligatorisk)
+- &lt;idg&gt; : **idiom definition group**, som inneholder
+    - &lt;id&gt; : forklaring til idiomet
+    - &lt;ix&gt; : eksempel til idiomet (ikke obligatorisk)
+
+&lt;cg&gt; : **comment group**, inneholder en eller flere:
+- &lt;c&gt; : Kommentarer for leksikografene, vil ikke vises når ordboken publiseres.
+
+
+## Sette opp vårt XML Mind tilleggsprogram
+I mappen `xxe/` finnes vårt tilleggsprogram til XML Mind som legger til en haug
+med nye funksjonaliteter og hurtigtaster.
+
+**Viktig!**  
+Før vi kan sette opp tilleggsprogrammet må vi skru av en setting i XML Mind.
+Gå til `Options` → `Preferences` → `Advanced` → `Cached data` og skru av 
+"Quick Start cache". Gjøres ikke dette vil ikke nye endringer i tilleggsprogrammet
+vises. Når instillingen er skrudd av trenger man bare restarte XML Mind for å see
+endringer.
+
+### Mac
+
+1. Påse at både [Python3](https://www.python.org/downloads/) og [homebrew](https://brew.sh/)
+   er installert. Dette kan sjekkes i terminalen ved å skrive følgene kommandoer:
+   
+   ```sh
+   which python
+   which brew
+   ```
+
+2. Lag en lenke fra `xxe/` mappa til XML Mind sin `addon` mappe. Fyll inn riktig sti til
+   `xxe/` mappa i den andre kommandoen. 
+
+    ```sh
+    mkdir -p ~/Library/Application\ Support/XMLmind/XMLEditor11/addon
+    ln -s ~/FYLL-INN/dict-sme/xxe ~/Library/Application\ Support/XMLmind/XMLEditor11/addon/dict-sme
+    ```
+
+3. For å kunne lage PDFer, installer programmet WeasyPrint: 
+    ```sh
+    brew install weasyprint
+    ```
+
+4. Restart XML Mind.
+
+
+### Windows
+
+1. Installer [Python install manager](https://apps.microsoft.com/detail/9nq7512cxl7t) 
+
+2. Åpne ett terminalvindu (Command Prompt) og skriv in følgende (Fyll inn navn
+   og riktig sti til `xxe/` mappa):
+
+    ```ps1
+    setx XXE_ADDON_PATH "C:\Users\NAVN\FYLL-INN\dict-sme\xxe;+"
+    ```
+
+3. For å kunne lage PDFer: last ned WeasyPrint for Windows fra
+   <https://github.com/Kozea/WeasyPrint/releases> (`weasyprint-windows-onefile.zip`
+   som ligger under "Assets" under latest release), ekstraher zip filen og putt `weasyprint.exe` i
+   en ny mappe med navn `tools` inne i `dict-sme`.
+
+4. Restart XML Mind.
+
+
+### Linux
+1. Lag en lenke fra `xxe/` mappa til XML Mind sin `addon` mappe. Fyll inn riktig sti til
+   `xxe/` mappa. 
+
+    ```sh
+    ln -s "~/FYLL-INN/dict-sme/xxe" ~/.xxe11/addon/dict-sme
+    ```
+
+2. For å kunne lage PDFer, installer programmet WeasyPrint
+    ```sh
+    sudo apt install weasyprint
+    ```
+
+3. Restart XML Mind.

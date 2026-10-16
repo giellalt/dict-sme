@@ -1,33 +1,7 @@
 #!/usr/bin/env python3
 """Work with batches of entries.
 
-Usage:
-  batch.py list
-  batch.py new BATCH EDITOR [NOTE]
-  batch.py add BATCH WORDLIST [--move] [--force]
-  batch.py remove BATCH WORDLIST
-  batch.py state BATCH STATE [--force]
-  batch.py set BATCH editor|proofreader NAME
-  batch.py check
-
-list     shows each batch with its state, editor, proofreader, how many
-         entries it has and how many of them have a definition.
-new      adds a batch to batches.xml in state edit, e.g.
-         "batch.py new 2624 Helena".
-add      puts the words in WORDLIST into the batch. Words that are already in
-         another batch are left there and reported, unless --move is given.
-         Adding to a batch in state publish puts the words on the website
-         unchecked, so it is refused unless --force is given.
-remove   takes the words in WORDLIST out of the batch.
-state    sets the state of the batch: edit, proofread-1, correcting-1,
-         proofread-2, correcting-2 or publish. From proofread-1 on, the
-         batch needs a proofreader.
-         Setting publish is refused while entries in the batch have no
-         definition, and these are listed; --force sets it anyway.
-set      sets the editor or proofreader of the batch.
-check    reports problems that the schemas cannot find: entries in a batch
-         that is not in batches.xml, batches without entries, batches that
-         need a proofreader, and so on.
+Run "batch.py -h" for the commands, "batch.py COMMAND -h" for one of them.
 
 Names of people must be in the list in schema/batches.rnc.
 
@@ -52,9 +26,11 @@ homograph number), so it is not asked again, e.g. by remove.
 Only the <e> start tags in src/*.xml and the <batch> tags in batches.xml
 are changed; the rest of the files stays as it is. Check the result with git diff.
 """
+
+import argparse
+import collections
 import re
 import sys
-import collections
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -63,7 +39,14 @@ SRC = ROOT / "src"
 BATCHES = ROOT / "batches.xml"
 BATCHES_SCHEMA = ROOT / "schema" / "batches.rnc"
 # the states of a batch, in order; as in schema/batches.rnc
-STATES = ["edit", "proofread-1", "correcting-1", "proofread-2", "correcting-2", "publish"]
+STATES = [
+    "edit",
+    "proofread-1",
+    "correcting-1",
+    "proofread-2",
+    "correcting-2",
+    "publish",
+]
 ENTRY = re.compile(r"<e[ >].*?</e>", re.S)
 BATCH_ID = re.compile(r"[0-9]{4}$")
 
@@ -115,9 +98,11 @@ class Dictionary:
             if pos and lg.get("pos") != pos:
                 continue
             for l in lg.findall("l"):
-                if (norm(l.text) == word
-                        and (typ is None or (l.get("type") or "") == typ)
-                        and (hid is None or l.get("hid") == hid)):
+                if (
+                    norm(l.text) == word
+                    and (typ is None or (l.get("type") or "") == typ)
+                    and (hid is None or l.get("hid") == hid)
+                ):
                     found.append(k)
                     break
         return found
@@ -151,18 +136,19 @@ def read_batches():
 
 def people():
     """the names in the person list in schema/batches.rnc"""
-    m = re.search(r"^person\s*=(.*?)(?=^\S|\Z)", BATCHES_SCHEMA.read_text(encoding="utf-8"), re.M | re.S)
+    m = re.search(
+        r"^person\s*=(.*?)(?=^\S|\Z)",
+        BATCHES_SCHEMA.read_text(encoding="utf-8"),
+        re.M | re.S,
+    )
     return re.findall(r'"([^"]*)"', m.group(1)) if m else []
-
-
-def need_person(name):
-    if name not in people():
-        sys.exit(f"{name} is not in the list of people in schema/batches.rnc; add the name there first")
 
 
 def need_batch(batch, batches):
     if batch not in batches:
-        sys.exit(f"batch {batch} is not in batches.xml; add it with: batch.py new {batch} EDITOR")
+        sys.exit(
+            f"batch {batch} is not in batches.xml; add it with: batch.py new {batch} EDITOR"
+        )
 
 
 def set_batch_attribute(batch, name, value):
@@ -171,7 +157,7 @@ def set_batch_attribute(batch, name, value):
     m = re.search(rf'<batch\b[^>]*\bid="{batch}"[^>]*>', s)
     tag = re.sub(rf'\s{name}="[^"]*"', "", m.group())
     tag = tag[:-1].rstrip() + f' {name}="{value}">'
-    BATCHES.write_text(s[: m.start()] + tag + s[m.end():], encoding="utf-8")
+    BATCHES.write_text(s[: m.start()] + tag + s[m.end() :], encoding="utf-8")
 
 
 def read_wordlist(path):
@@ -203,7 +189,9 @@ def exact_line(e, word):
     lemma it matched, and its homograph number"""
     lg = e.find("lg")
     l = next((l for l in lg.findall("l") if norm(l.text) == word), lg.find("l"))
-    line = f"{norm(l.text)}+{lg.get('pos')}" + (f"+{l.get('type')}" if l.get("type") else "")
+    line = f"{norm(l.text)}+{lg.get('pos')}" + (
+        f"+{l.get('type')}" if l.get("type") else ""
+    )
     return line + (f"\t{l.get('hid')}" if l.get("hid") else "")
 
 
@@ -213,12 +201,16 @@ def choose(d, n, label, found):
     for i, k in enumerate(found, 1):
         f, _, _, e = d.entries[k]
         x = norm(e.findtext(".//x"))
-        about = first_definition(e) or (f"(no definition; example: {x})" if x else "(no definition)")
+        about = first_definition(e) or (
+            f"(no definition; example: {x})" if x else "(no definition)"
+        )
         extra = f" [in batch {e.get('batch')}]" if e.get("batch") else ""
         print(f"  {i}) {describe(e)} ({f.name}){extra}: {about}")
     while True:
         try:
-            answer = input(f"which one? 1-{len(found)}, several as 1,2, a = all, Enter = leave out: ")
+            answer = input(
+                f"which one? 1-{len(found)}, several as 1,2, a = all, Enter = leave out: "
+            )
         except EOFError:
             print()
             return []
@@ -253,7 +245,9 @@ def match_words(d, path):
             problems.append(f"line {n}: {label}: not found")
         elif len(found) > 1:
             which = "; ".join(describe(d.entries[k][3]) for k in found)
-            problems.append(f"line {n}: {label}: more than one entry ({which}), add tags and/or homograph number")
+            problems.append(
+                f"line {n}: {label}: more than one entry ({which}), add tags and/or homograph number"
+            )
         else:
             ks.append(found[0])
     if answers:
@@ -281,36 +275,44 @@ def cmd_list():
         if b:
             count[b]["entries"] += 1
             count[b]["definition"] += has_definition(e)
-    print(f"{'batch':6} {'state':13} {'editor':14} {'proofreader':14} {'entries':>7} {'with def':>8}")
+    print(
+        f"{'batch':6} {'state':13} {'editor':14} {'proofreader':14} {'entries':>7} {'with def':>8}"
+    )
     for b in sorted(set(batches) | set(count)):
         info = batches.get(b)
         if info is None:
             state, editor, proofreader = "?", "(not in batches.xml)", ""
         else:
-            state, editor, proofreader = info.get("state"), info.get("editor"), info.get("proofreader") or "-"
+            state, editor, proofreader = (
+                info.get("state"),
+                info.get("editor"),
+                info.get("proofreader") or "-",
+            )
         c = count[b]
-        print(f"{b:6} {state:13} {editor:14} {proofreader:14} {c['entries']:7} {c['definition']:8}")
+        print(
+            f"{b:6} {state:13} {editor:14} {proofreader:14} {c['entries']:7} {c['definition']:8}"
+        )
 
 
 def cmd_new(batch, editor, note=""):
     if not BATCH_ID.match(batch):
-        sys.exit(f"{batch}: a batch id is the year (two digits) and a number, e.g. 2604")
+        sys.exit(
+            f"{batch}: a batch id is the year (two digits) and a number, e.g. 2604"
+        )
     if batch in read_batches():
         sys.exit(f"batch {batch} is already in batches.xml")
-    need_person(editor)
     s = BATCHES.read_text(encoding="utf-8")
     esc = lambda t: t.replace("&", "&amp;").replace("<", "&lt;")
-    line = f'    <batch id="{batch}" editor="{editor}" state="edit">{esc(note)}</batch>\n'
+    line = (
+        f'    <batch id="{batch}" editor="{editor}" state="edit">{esc(note)}</batch>\n'
+    )
     i = s.rindex("</batches>")
     BATCHES.write_text(s[:i] + line + s[i:], encoding="utf-8")
     print(f"batch {batch} ({editor}) added to batches.xml")
 
 
 def cmd_set(batch, role, name):
-    if role not in ("editor", "proofreader"):
-        sys.exit("set BATCH editor|proofreader NAME")
     need_batch(batch, read_batches())
-    need_person(name)
     set_batch_attribute(batch, role, name)
     print(f"batch {batch}: {role} is now {name}")
 
@@ -319,7 +321,9 @@ def cmd_add(batch, path, move=False, force=False):
     batches = read_batches()
     need_batch(batch, batches)
     if batches[batch].get("state") == "publish" and not force:
-        sys.exit(f"batch {batch} is published: what is added goes on the website unchecked; use --force to add anyway")
+        sys.exit(
+            f"batch {batch} is published: what is added goes on the website unchecked; use --force to add anyway"
+        )
     d = Dictionary()
     ks, problems = match_words(d, path)
     added = 0
@@ -329,7 +333,9 @@ def cmd_add(batch, path, move=False, force=False):
         if other == batch:
             continue
         if other and not move:
-            problems.append(f"{describe(e)}: already in batch {other} (use --move to move it)")
+            problems.append(
+                f"{describe(e)}: already in batch {other} (use --move to move it)"
+            )
             continue
         d.set(k, "batch", batch)
         added += 1
@@ -355,15 +361,21 @@ def cmd_remove(batch, path):
 
 
 def cmd_state(batch, state, force=False):
-    if state not in STATES:
-        sys.exit("the state is one of: " + ", ".join(STATES))
     batches = read_batches()
     need_batch(batch, batches)
-    if STATES.index(state) >= STATES.index("proofread-1") and not batches[batch].get("proofreader"):
-        sys.exit(f"batch {batch} has no proofreader; set one with: batch.py set {batch} proofreader NAME")
+    if STATES.index(state) >= STATES.index("proofread-1") and not batches[batch].get(
+        "proofreader"
+    ):
+        sys.exit(
+            f"batch {batch} has no proofreader; set one with: batch.py set {batch} proofreader NAME"
+        )
     if state == "publish":
         d = Dictionary()
-        missing = [describe(e) for _, _, _, e in d.entries if e.get("batch") == batch and not has_definition(e)]
+        missing = [
+            describe(e)
+            for _, _, _, e in d.entries
+            if e.get("batch") == batch and not has_definition(e)
+        ]
         if missing and not force:
             print(f"{len(missing)} entries in batch {batch} have no definition:")
             for m in missing:
@@ -384,14 +396,20 @@ def cmd_check():
     for info in root.iter("batch"):
         b, state = info.get("id"), info.get("state")
         if not BATCH_ID.match(b or ""):
-            problems.append(f"batch {b}: the id is not the year and a number, e.g. 2604")
+            problems.append(
+                f"batch {b}: the id is not the year and a number, e.g. 2604"
+            )
         if state not in STATES:
             problems.append(f"batch {b}: unknown state {state!r}")
-        elif STATES.index(state) >= STATES.index("proofread-1") and not info.get("proofreader"):
+        elif STATES.index(state) >= STATES.index("proofread-1") and not info.get(
+            "proofreader"
+        ):
             problems.append(f"batch {b}: in state {state}, but has no proofreader")
         for role in ("editor", "proofreader"):
             if info.get(role) and info.get(role) not in names:
-                problems.append(f"batch {b}: {role} {info.get(role)} is not in the list of people in schema/batches.rnc")
+                problems.append(
+                    f"batch {b}: {role} {info.get(role)} is not in the list of people in schema/batches.rnc"
+                )
     d = Dictionary()
     count = collections.Counter()
     unknown = collections.defaultdict(list)
@@ -402,7 +420,11 @@ def cmd_check():
             if b not in ids:
                 unknown[b].append(f"{describe(e)} (src/{f.name})")
     for b, es in sorted(unknown.items()):
-        problems.append(f"batch {b} is not in batches.xml, but {len(es)} entries are in it: " + "; ".join(es[:5]) + (" ..." if len(es) > 5 else ""))
+        problems.append(
+            f"batch {b} is not in batches.xml, but {len(es)} entries are in it: "
+            + "; ".join(es[:5])
+            + (" ..." if len(es) > 5 else "")
+        )
     for b in sorted(ids):
         if not count[b]:
             problems.append(f"batch {b} has no entries")
@@ -414,29 +436,98 @@ def cmd_check():
 
 
 def main():
-    args = sys.argv[1:]
-    flags = {a for a in args if a.startswith("--")}
-    args = [a for a in args if not a.startswith("--")]
-    if not args or args[0] in ("-h", "help"):
-        sys.exit(__doc__)
-    cmd, rest = args[0], args[1:]
+    doc = __doc__.split("\n\n", 2)
+    parser = argparse.ArgumentParser(
+        description=doc[0],
+        epilog=doc[2],
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    sub = parser.add_subparsers(dest="cmd", required=True, metavar="COMMAND")
+
+    def command(name, help, func):
+        p = sub.add_parser(name, help=help, description=help)
+        p.set_defaults(func=func)
+        return p
+
+    command(
+        "list",
+        "show each batch with its state, editor, proofreader, how many "
+        "entries it has and how many of them have a definition",
+        lambda a: cmd_list(),
+    )
+
+    p = command(
+        "new",
+        'add a batch to batches.xml in state edit, e.g. "batch.py new 2624 Helena"',
+        lambda a: cmd_new(a.batch, a.editor, a.note),
+    )
+    p.add_argument("batch", metavar="BATCH")
+    p.add_argument("editor", choices=people())
+    p.add_argument("note", metavar="NOTE", nargs="?", default="")
+
+    p = command(
+        "add",
+        "put the words in WORDLIST into the batch",
+        lambda a: cmd_add(a.batch, a.wordlist, move=a.move, force=a.force),
+    )
+    p.add_argument("batch", metavar="BATCH")
+    p.add_argument("wordlist", metavar="WORDLIST")
+    p.add_argument(
+        "--move",
+        action="store_true",
+        help="move words that are already in another batch; "
+        "without it they are left there and reported",
+    )
+    p.add_argument(
+        "--force",
+        action="store_true",
+        help="add to a batch in state publish, which puts the "
+        "words on the website unchecked",
+    )
+
+    p = command(
+        "remove",
+        "take the words in WORDLIST out of the batch",
+        lambda a: cmd_remove(a.batch, a.wordlist),
+    )
+    p.add_argument("batch", metavar="BATCH")
+    p.add_argument("wordlist", metavar="WORDLIST")
+
+    p = command(
+        "state",
+        "set the state of the batch; from proofread-1 on, "
+        "the batch needs a proofreader",
+        lambda a: cmd_state(a.batch, a.state, force=a.force),
+    )
+    p.add_argument("batch", metavar="BATCH")
+    p.add_argument("state", choices=STATES)
+    p.add_argument(
+        "--force",
+        action="store_true",
+        help="set publish even when entries in the batch have no "
+        "definition (they are listed otherwise, and nothing is changed)",
+    )
+
+    p = command(
+        "set",
+        "set the editor or proofreader of the batch",
+        lambda a: cmd_set(a.batch, a.role, a.name),
+    )
+    p.add_argument("batch", metavar="BATCH")
+    p.add_argument("role", choices=["editor", "proofreader"])
+    p.add_argument("name", choices=people())
+
+    command(
+        "check",
+        "report problems that the schemas cannot find: entries in "
+        "a batch that is not in batches.xml, batches without entries, "
+        "batches that need a proofreader, and so on",
+        lambda a: cmd_check(),
+    )
+
+    args = parser.parse_args()
     try:
-        if cmd == "list" and not rest:
-            cmd_list()
-        elif cmd == "new" and len(rest) in (2, 3):
-            cmd_new(*rest)
-        elif cmd == "add" and len(rest) == 2:
-            cmd_add(*rest, move="--move" in flags, force="--force" in flags)
-        elif cmd == "remove" and len(rest) == 2:
-            cmd_remove(*rest)
-        elif cmd == "state" and len(rest) == 2:
-            cmd_state(*rest, force="--force" in flags)
-        elif cmd == "set" and len(rest) == 3:
-            cmd_set(*rest)
-        elif cmd == "check" and not rest:
-            cmd_check()
-        else:
-            sys.exit(__doc__)
+        args.func(args)
     except FileNotFoundError as err:
         sys.exit(str(err))
 
