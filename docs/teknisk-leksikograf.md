@@ -91,7 +91,7 @@ Se hvordan man setter det opp lenger ned.
 &lt;dg&gt;: **definition group**, inneholder:
 - &lt;d&gt; : definisjon
 
-&lt;sg&gt;: **synonym group** (ikke obligatorisk), inneholder en eller flere:
+&lt;syng&gt;: **synonym group** (ikke obligatorisk), inneholder en eller flere:
 - &lt;syn&gt; : synonym
 
 &lt;antg&gt;: **antonym group** (ikke obligatorisk), inneholder en eller flere:
@@ -119,7 +119,7 @@ I mappen `xxe/` finnes vårt tilleggsprogram til XML Mind som legger til en haug
 med nye funksjonaliteter og hurtigtaster.
 
 **Viktig!**  
-Før vi kan sette opp tilleggsprogrammet må vi skru av en setting i XML Mind.
+Før vi kan sette opp tilleggsprogrammet må vi skru av en instilling i XML Mind.
 Gå til `Options` → `Preferences` → `Advanced` → `Cached data` og skru av 
 "Quick Start cache". Gjøres ikke dette vil ikke nye endringer i tilleggsprogrammet
 vises. Når instillingen er skrudd av trenger man bare restarte XML Mind for å see
