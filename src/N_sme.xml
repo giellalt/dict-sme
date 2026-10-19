@@ -59153,6 +59153,22 @@
       <lg pos="N">
          <l>girjebusse</l>
       </lg>
+      <dg id="a">
+         <d>busse mii vuodjá báikkis báikái girjjiiguin maid sáhttá luoikkahit</d>
+         <xg>
+            <x>Mis leat čieža sámi girjebusse.</x>
+            <x>Son vuodjá girjebussiin.</x>
+            <x>Norggabeale Sámis barget sullii guoktelogi bargi girjebussiin.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d>busse mas leat girjjit</d>
+         <xg>
+            <x>Son guoddá girjebusse.</x>
+            <x>Girjebusse ráigánii, ja girjjit gahčče eatnamii.</x>
+            <x>Dus leat oba lossa girjjit dien girjebusses!</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -59164,11 +59180,11 @@
          <l>girjebussefálaldat</l>
       </lg>
       <dg id="a">
-         <d>fáladat gos girjebusse vuoddjá báikkis báikái girjjiiguin maid sáhttá luoikkahit </d>
+         <d>fáladat gos girjebusse vuodjá báikkis báikái girjjiiguin maid sáhttá luoikkahit</d>
          <xg>
-            <x>Mii leat ožžon girjebussefálaldaga ruovttoluotta min gillái. </x>
+            <x>Mii leat ožžon girjebussefálaldaga ruovttoluotta min gillái.</x>
             <x>Girjebussefálaldat lea buorre boaittobeale báikkiide.</x>
-            <x>Olbmuin lea ávki ja illu girjebussefálaldagas. </x>
+            <x>Olbmuin lea ávki ja illu girjebussefálaldagas.</x>
          </xg>
       </dg>
    </e>
