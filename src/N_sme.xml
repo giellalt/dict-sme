@@ -59290,10 +59290,18 @@
    </e>
    <e batch="2622">
       <lg pos="N">
-         <l>girjelistu</l>
+         <l hid="1">girjelistu</l>
          <l>girjelista</l>
          <l>girjelistá</l>
       </lg>
+      <dg id="a">
+         <d>listu mas leat girjjiid namat</d>
+         <xg>
+            <x>Girjelistu čájeha girjiid ja girječálliid namaid.</x>
+            <x>Girjelistui leat biddjon sámegielat girjjit.</x>
+            <x>Lágádusa girjelisttus leat 100 iešguđet girjji namat.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
