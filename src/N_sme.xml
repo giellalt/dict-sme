@@ -59151,7 +59151,7 @@
    </e>
    <e batch="2622">
       <lg pos="N">
-         <l>girjebusse</l>
+         <l hid="1">girjebusse</l>
       </lg>
       <dg id="a">
          <d>busse mii vuodjá báikkis báikái girjjiiguin maid sáhttá luoikkahit</d>
@@ -59161,6 +59161,11 @@
             <x>Norggabeale Sámis barget sullii guoktelogi bargi girjebussiin.</x>
          </xg>
       </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l hid="2">girjebusse</l>
+      </lg>
       <dg id="b">
          <d>busse mas leat girjjit</d>
          <xg>
@@ -59290,7 +59295,7 @@
    </e>
    <e batch="2622">
       <lg pos="N">
-         <l hid="1">girjelistu</l>
+         <l>girjelistu</l>
          <l>girjelista</l>
          <l>girjelistá</l>
       </lg>
