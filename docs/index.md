@@ -9,6 +9,7 @@ Gč. maid [Sámi leksikográfalaš guovddáža siiddu](https://giellalt.github.i
 - [Skriving av møtereferat](skriving-av-moetereferat.html)
 - [Skriving av git-loggar](skriving-av-git-loggar.html)
 - [Tips til skriving av ordboksartikler](tips.html)
+- [Strukturen](struktur.html)
 - [Teknisk for programmerere](teknisk-programmerer.html)
 - [Teknisk for leksikografisk](teknisk-leksikograf.html)
 
