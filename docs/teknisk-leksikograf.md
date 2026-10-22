@@ -88,7 +88,7 @@ Homonyme lemmaer som ikke har samme opprinnelse, skal ha egne entryer.  F.eks.
 - &lt;l&gt; : lemma, og **type** hvis nødvendig.
 - &lt;l&gt; : evt. flere lemmaer med ortografiske varianter av lemmaet, f.eks. vil  <i>girku kirku</i> være to lemmaer i samme lemma group
 
-I &lt;l&gt;  legger vi til attributt for å skille mellom homonyme lemmaer som har hver sin entry: 
+I &lt;l&gt;  legger vi til attributt, **type** eller **hid**, for å skille mellom homonyme lemmaer som har hver sin entry: 
 - vuovdi  og vuovdi type=NomAg
 - vuorru og vuorru type=G3
 - Homonymer som har samme morfologi, skilles med hid=1, hid=2
