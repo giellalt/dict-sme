@@ -3,7 +3,7 @@
 
 Run "batch.py -h" for the commands, "batch.py COMMAND -h" for one of them.
 
-Names of people must be in the list in schema/batches.rnc.
+Names of people must be in the list of people at the top of batches.xml.
 
 WORDLIST is a text file with one word per line, written as in the
 analysers: the lemma, then the pos and type as tags. A homograph number,
@@ -29,6 +29,7 @@ are changed; the rest of the files stays as it is. Check the result with git dif
 
 import argparse
 import collections
+import datetime
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -36,8 +37,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src"
-BATCHES = ROOT / "batches.xml"
-BATCHES_SCHEMA = ROOT / "schema" / "batches.rnc"
+BATCHES = ROOT / "batches" / "batches.xml"
 # the states of a batch, in order; as in schema/batches.rnc
 STATES = [
     "edit",
@@ -135,13 +135,11 @@ def read_batches():
 
 
 def people():
-    """the names in the person list in schema/batches.rnc"""
-    m = re.search(
-        r"^person\s*=(.*?)(?=^\S|\Z)",
-        BATCHES_SCHEMA.read_text(encoding="utf-8"),
-        re.M | re.S,
-    )
-    return re.findall(r'"([^"]*)"', m.group(1)) if m else []
+    """the names in the list of people in batches.xml"""
+    if not BATCHES.exists():
+        return []
+    root = ET.parse(BATCHES).getroot()
+    return [norm(p.text) for p in root.iter("person") if norm(p.text)]
 
 
 def need_batch(batch, batches):
@@ -151,13 +149,83 @@ def need_batch(batch, batches):
         )
 
 
+def retag(tag, name, value):
+    """a start tag with the attribute NAME set to VALUE (None: removed).
+    The attributes are written in alphabetical order, as XXE saves them,
+    so that saving in XXE does not change the line again."""
+    m = re.match(r"<(\w+)(.*?)\s*(/?)>$", tag, re.S)
+    attrs = dict(re.findall(r'(\w+)="([^"]*)"', m.group(2)))
+    if value is None:
+        attrs.pop(name, None)
+    else:
+        attrs[name] = esc(value)
+    text = "".join(f' {k}="{v}"' for k, v in sorted(attrs.items()))
+    return f"<{m.group(1)}{text}{m.group(3)}>"
+
+
 def set_batch_attribute(batch, name, value):
     """set an attribute of the batch in batches.xml, changing only its tag"""
     s = BATCHES.read_text(encoding="utf-8")
     m = re.search(rf'<batch\b[^>]*\bid="{batch}"[^>]*>', s)
-    tag = re.sub(rf'\s{name}="[^"]*"', "", m.group())
-    tag = tag[:-1].rstrip() + f' {name}="{value}">'
+    tag = retag(m.group(), name, value)
     BATCHES.write_text(s[: m.start()] + tag + s[m.end() :], encoding="utf-8")
+
+
+def steps(info):
+    return info.findall("step")
+
+
+def state_of(info):
+    """the state the batch is in now: that of its last step"""
+    s = steps(info)
+    return s[-1].get("state") if s else None
+
+
+def who_has(info):
+    """who does the step the batch is in now ("" when nobody has it yet)"""
+    s = steps(info)
+    return (s[-1].get("by") or "") if s else ""
+
+
+def esc(t):
+    return t.replace("&", "&amp;").replace("<", "&lt;").replace('"', "&quot;")
+
+
+def batch_block(s, batch):
+    """start and end of <batch id="BATCH">...</batch> in the text of batches.xml"""
+    m = re.search(rf'<batch\b[^>]*\bid="{batch}"[^>]*>.*?</batch>', s, re.S)
+    return m.start(), m.end()
+
+
+def add_step(batch, state, by=""):
+    """add a step at the end of the batch's history, dated today"""
+    s = BATCHES.read_text(encoding="utf-8")
+    a, b = batch_block(s, batch)
+    block = s[a:b]
+    # indent the new step like the steps that are there
+    indent = re.search(r"\n([ \t]*)<step\b", block)
+    indent = indent.group(1) if indent else "        "
+    close = block.rindex("</batch>")
+    before = block[:close].rstrip()
+    by_attr = f' by="{esc(by)}"' if by else ""
+    date = datetime.date.today().isoformat()
+    # attributes in alphabetical order, as XXE saves them
+    step = f'<step{by_attr} date="{date}" state="{state}"'
+    step += "/>"
+    end_indent = re.search(r"([ \t]*)$", s[:a]).group(1)
+    block = before + "\n" + indent + step + "\n" + end_indent + block[close:]
+    BATCHES.write_text(s[:a] + block + s[b:], encoding="utf-8")
+
+
+def set_last_step_by(batch, by):
+    """set who does the step the batch is in now"""
+    s = BATCHES.read_text(encoding="utf-8")
+    a, b = batch_block(s, batch)
+    block = s[a:b]
+    m = list(re.finditer(r"<step\b[^>]*?(/?)>", block))[-1]
+    tag = retag(m.group(), "by", by)
+    block = block[: m.start()] + tag + block[m.end() :]
+    BATCHES.write_text(s[:a] + block + s[b:], encoding="utf-8")
 
 
 def read_wordlist(path):
@@ -276,25 +344,34 @@ def cmd_list():
             count[b]["entries"] += 1
             count[b]["definition"] += has_definition(e)
     print(
-        f"{'batch':6} {'state':13} {'editor':14} {'proofreader':14} {'entries':>7} {'with def':>8}"
+        f"{'batch':6} {'state':13} {'who':14} {'since':10} {'editor':14} {'entries':>7} {'with def':>8}"
     )
     for b in sorted(set(batches) | set(count)):
         info = batches.get(b)
         if info is None:
-            state, editor, proofreader = "?", "(not in batches.xml)", ""
+            state, who, since, editor = "?", "", "", "(not in batches.xml)"
         else:
-            state, editor, proofreader = (
-                info.get("state"),
-                info.get("editor"),
-                info.get("proofreader") or "-",
-            )
+            last = steps(info)[-1] if steps(info) else None
+            state = state_of(info) or "?"
+            who = who_has(info) or "-"
+            since = last.get("date") if last is not None else ""
+            editor = info.get("editor")
         c = count[b]
         print(
-            f"{b:6} {state:13} {editor:14} {proofreader:14} {c['entries']:7} {c['definition']:8}"
+            f"{b:6} {state:13} {who:14} {since:10} {editor:14} {c['entries']:7} {c['definition']:8}"
         )
 
 
-def cmd_new(batch, editor, note=""):
+def cmd_history(batch):
+    batches = read_batches()
+    need_batch(batch, batches)
+    info = batches[batch]
+    print(f"batch {batch}, editor {info.get('editor')}")
+    for st in steps(info):
+        print(f"  {st.get('date')}  {st.get('state'):13} {st.get('by') or '-'}")
+
+
+def cmd_new(batch, editor):
     if not BATCH_ID.match(batch):
         sys.exit(
             f"{batch}: a batch id is the year (two digits) and a number, e.g. 2604"
@@ -302,25 +379,36 @@ def cmd_new(batch, editor, note=""):
     if batch in read_batches():
         sys.exit(f"batch {batch} is already in batches.xml")
     s = BATCHES.read_text(encoding="utf-8")
-    esc = lambda t: t.replace("&", "&amp;").replace("<", "&lt;")
-    line = (
-        f'    <batch id="{batch}" editor="{editor}" state="edit">{esc(note)}</batch>\n'
-    )
+    date = datetime.date.today().isoformat()
+    # indented like the rest of the file (XXE saves it with the indent in
+    # xxe/batches.xxe): one step for a batch, two for its steps
+    unit = re.search(r"\n([ \t]*)<people\b", s)
+    unit = unit.group(1) if unit else "   "
+    lines = [f'{unit}<batch editor="{esc(editor)}" id="{batch}">']
+    lines.append(f'{unit * 2}<step by="{esc(editor)}" date="{date}" state="edit"/>')
+    lines.append(f"{unit}</batch>")
     i = s.rindex("</batches>")
-    BATCHES.write_text(s[:i] + line + s[i:], encoding="utf-8")
+    BATCHES.write_text(s[:i] + "\n".join(lines) + "\n" + s[i:], encoding="utf-8")
     print(f"batch {batch} ({editor}) added to batches.xml")
 
 
-def cmd_set(batch, role, name):
+def cmd_editor(batch, name):
     need_batch(batch, read_batches())
-    set_batch_attribute(batch, role, name)
-    print(f"batch {batch}: {role} is now {name}")
+    set_batch_attribute(batch, "editor", name)
+    print(f"batch {batch}: editor is now {name}")
+
+
+def cmd_assign(batch, name):
+    batches = read_batches()
+    need_batch(batch, batches)
+    set_last_step_by(batch, name)
+    print(f"batch {batch}: {name} has step {state_of(batches[batch])}")
 
 
 def cmd_add(batch, path, move=False, force=False):
     batches = read_batches()
     need_batch(batch, batches)
-    if batches[batch].get("state") == "publish" and not force:
+    if state_of(batches[batch]) == "publish" and not force:
         sys.exit(
             f"batch {batch} is published: what is added goes on the website unchecked; use --force to add anyway"
         )
@@ -360,15 +448,22 @@ def cmd_remove(batch, path):
     report(problems)
 
 
-def cmd_state(batch, state, force=False):
+def cmd_next(batch, by=None, force=False):
     batches = read_batches()
     need_batch(batch, batches)
-    if STATES.index(state) >= STATES.index("proofread-1") and not batches[batch].get(
-        "proofreader"
-    ):
-        sys.exit(
-            f"batch {batch} has no proofreader; set one with: batch.py set {batch} proofreader NAME"
-        )
+    now = state_of(batches[batch])
+    if now == STATES[-1]:
+        sys.exit(f"batch {batch} is published already")
+    cmd_step(batch, STATES[STATES.index(now) + 1], by, force)
+
+
+def cmd_step(batch, state, by=None, force=False):
+    batches = read_batches()
+    need_batch(batch, batches)
+    info = batches[batch]
+    # the editor makes the corrections, unless someone else is named
+    if by is None and (state == "edit" or state.startswith("correcting")):
+        by = info.get("editor")
     if state == "publish":
         d = Dictionary()
         missing = [
@@ -381,8 +476,23 @@ def cmd_state(batch, state, force=False):
             for m in missing:
                 print("  " + m)
             sys.exit("nothing changed; write the definitions, or use --force")
-    set_batch_attribute(batch, "state", state)
-    print(f"batch {batch} is now in state {state}")
+    add_step(batch, state, by or "")
+    who = f", {by} has it" if by else ", nobody has it yet"
+    print(f"batch {batch} is now in state {state}{who}")
+
+
+def cmd_missing(batch):
+    """for XXE: the number of entries in the batch without a definition on
+    the first line, then the entries"""
+    d = Dictionary()
+    missing = [
+        describe(e)
+        for _, _, _, e in d.entries
+        if e.get("batch") == batch and not has_definition(e)
+    ]
+    print(len(missing))
+    for m in missing:
+        print(m)
 
 
 def cmd_check():
@@ -394,21 +504,31 @@ def cmd_check():
         if n > 1:
             problems.append(f"batch {b} is {n} times in batches.xml")
     for info in root.iter("batch"):
-        b, state = info.get("id"), info.get("state")
+        b = info.get("id")
         if not BATCH_ID.match(b or ""):
             problems.append(
                 f"batch {b}: the id is not the year and a number, e.g. 2604"
             )
-        if state not in STATES:
-            problems.append(f"batch {b}: unknown state {state!r}")
-        elif STATES.index(state) >= STATES.index("proofread-1") and not info.get(
-            "proofreader"
-        ):
-            problems.append(f"batch {b}: in state {state}, but has no proofreader")
-        for role in ("editor", "proofreader"):
-            if info.get(role) and info.get(role) not in names:
+        if not steps(info):
+            problems.append(f"batch {b}: has no steps")
+        dates = [st.get("date") or "" for st in steps(info)]
+        if dates != sorted(dates):
+            problems.append(f"batch {b}: the steps are not in the order of their dates")
+        for st in steps(info):
+            if st.get("state") not in STATES:
+                problems.append(f"batch {b}: unknown state {st.get('state')!r}")
+        if steps(info) and not who_has(info) and state_of(info) != "publish":
+            problems.append(
+                f"batch {b}: nobody has step {state_of(info)}; "
+                f"set someone with: batch.py assign {b} NAME"
+            )
+        names_used = [("editor", info.get("editor"))] + [
+            (f"step {st.get('state')}", st.get("by")) for st in steps(info)
+        ]
+        for role, name in names_used:
+            if name and name not in names:
                 problems.append(
-                    f"batch {b}: {role} {info.get(role)} is not in the list of people in schema/batches.rnc"
+                    f"batch {b}: {role}: {name} is not in the list of people in batches.xml"
                 )
     d = Dictionary()
     count = collections.Counter()
@@ -451,19 +571,26 @@ def main():
 
     command(
         "list",
-        "show each batch with its state, editor, proofreader, how many "
-        "entries it has and how many of them have a definition",
+        "show each batch with its state, who has it and since when, "
+        "its editor, how many entries it has and how many of them have "
+        "a definition",
         lambda a: cmd_list(),
     )
 
     p = command(
+        "history",
+        "show the steps of the batch: when it moved on, and who did what",
+        lambda a: cmd_history(a.batch),
+    )
+    p.add_argument("batch", metavar="BATCH")
+
+    p = command(
         "new",
         'add a batch to batches.xml in state edit, e.g. "batch.py new 2624 Helena"',
-        lambda a: cmd_new(a.batch, a.editor, a.note),
+        lambda a: cmd_new(a.batch, a.editor),
     )
     p.add_argument("batch", metavar="BATCH")
     p.add_argument("editor", choices=people())
-    p.add_argument("note", metavar="NOTE", nargs="?", default="")
 
     p = command(
         "add",
@@ -493,35 +620,62 @@ def main():
     p.add_argument("batch", metavar="BATCH")
     p.add_argument("wordlist", metavar="WORDLIST")
 
+    force_help = (
+        "move to publish even when entries in the batch have no "
+        "definition (they are listed otherwise, and nothing is changed)"
+    )
     p = command(
-        "state",
-        "set the state of the batch; from proofread-1 on, "
-        "the batch needs a proofreader",
-        lambda a: cmd_state(a.batch, a.state, force=a.force),
+        "next",
+        "move the batch on to its next step, e.g. from proofread-1 to "
+        'correcting-1: "batch.py next 2601 Helena". NAME is who does the '
+        "step; for correcting it is the editor if left out",
+        lambda a: cmd_next(a.batch, a.name, force=a.force),
+    )
+    p.add_argument("batch", metavar="BATCH")
+    p.add_argument("name", metavar="NAME", nargs="?", choices=people() + [None])
+    p.add_argument("--force", action="store_true", help=force_help)
+
+    p = command(
+        "step",
+        "move the batch to any state, also back, e.g. to correcting-1 "
+        "again after proofread-2",
+        lambda a: cmd_step(a.batch, a.state, a.name, force=a.force),
     )
     p.add_argument("batch", metavar="BATCH")
     p.add_argument("state", choices=STATES)
-    p.add_argument(
-        "--force",
-        action="store_true",
-        help="set publish even when entries in the batch have no "
-        "definition (they are listed otherwise, and nothing is changed)",
-    )
+    p.add_argument("name", metavar="NAME", nargs="?", choices=people() + [None])
+    p.add_argument("--force", action="store_true", help=force_help)
 
     p = command(
-        "set",
-        "set the editor or proofreader of the batch",
-        lambda a: cmd_set(a.batch, a.role, a.name),
+        "assign",
+        "set who does the step the batch is in now, e.g. the proofreader "
+        "when it was not known when the batch moved on",
+        lambda a: cmd_assign(a.batch, a.name),
     )
     p.add_argument("batch", metavar="BATCH")
-    p.add_argument("role", choices=["editor", "proofreader"])
     p.add_argument("name", choices=people())
+
+    p = command(
+        "editor",
+        "change the editor of the batch",
+        lambda a: cmd_editor(a.batch, a.name),
+    )
+    p.add_argument("batch", metavar="BATCH")
+    p.add_argument("name", choices=people())
+
+    p = command(
+        "missing",
+        "list the entries in the batch that have no definition; the "
+        "first line is how many there are",
+        lambda a: cmd_missing(a.batch),
+    )
+    p.add_argument("batch", metavar="BATCH")
 
     command(
         "check",
         "report problems that the schemas cannot find: entries in "
         "a batch that is not in batches.xml, batches without entries, "
-        "batches that need a proofreader, and so on",
+        "batches whose current step nobody has, and so on",
         lambda a: cmd_check(),
     )
 

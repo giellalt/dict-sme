@@ -2,8 +2,9 @@
 """Export the entries of a batch to a PDF for proofreading.
 
 Collects the entries of each batch from src/*.xml, sorts them
-alphabetically and writes pdf/batch-BATCH.pdf. Its state, editor and
-proofreader are taken from batches.xml. The text of the PDF (headings,
+alphabetically and writes pdf/batch-BATCH.pdf. Its state (the last step
+in its history), its editor and who has the step it is in are taken from
+batches.xml. The text of the PDF (headings,
 labels, notes) is in North Sámi, unless --en is given.
 
 Needs WeasyPrint for PDF output, either as a Python module or as a
@@ -35,7 +36,7 @@ from sme_alphabet import sort_key
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src"
-BATCHES = ROOT / "batches.xml"
+BATCHES = ROOT / "batches" / "batches.xml"
 EXPORTS = ROOT / "pdf"  # not in git, see .gitignore
 # Where the weasyprint program may be when it is not on the PATH: the
 # Windows executable in tools/ (not in git), and Homebrew's folders on a
@@ -236,13 +237,14 @@ def page(batch, info, entries):
     title = T["title"].format(batch=batch)
     lines = []
     if info is not None:
-        state = info.get("state") or ""
+        steps = info.findall("step")
+        last = steps[-1] if steps else None
+        state = last.get("state") if last is not None else ""
         lines.append(T["state"].format(state=escape(T["states"].get(state, state))))
         lines.append(T["editor"].format(name=escape(info.get("editor") or "")))
-        if info.get("proofreader"):
-            lines.append(T["proofreader"].format(name=escape(info.get("proofreader"))))
-        if norm(info.text):
-            lines.append(escape(norm(info.text)))
+        # who proofreads this round
+        if state.startswith("proofread") and last.get("by"):
+            lines.append(T["proofreader"].format(name=escape(last.get("by"))))
     lines.append(
         f"{T['entries'](len(entries))}"
         f" · {T['printed'].format(date=datetime.date.today())}"

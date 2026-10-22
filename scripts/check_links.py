@@ -28,7 +28,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src"
-BATCHES = ROOT / "batches.xml"
+BATCHES = ROOT / "batches" / "batches.xml"
 KINDS = [
     "broken",
     "ambiguous",
@@ -103,7 +103,8 @@ def main():
         published = {
             b.get("id")
             for b in ET.parse(BATCHES).getroot().iter("batch")
-            if b.get("state") == "publish"
+            # the state of a batch is that of its last step
+            if b.findall("step") and b.findall("step")[-1].get("state") == "publish"
         }
 
     problems = collections.defaultdict(list)  # kind -> [message]
