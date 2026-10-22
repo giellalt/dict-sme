@@ -1,0 +1,71 @@
+/*
+ * Shared by the style sheets of the add-on: dict-sme.css (the files in
+ * src/) and batches.css (batches.xml). They import it with @import.
+ */
+
+/* ---------------------------------------------------------------------
+ * Colours: change them here.
+ * --------------------------------------------------------------------- */
+
+@property-value button-color()        #2060a0; /* text of buttons */
+@property-value button-background()   #e4eef8;
+@property-value value-color()         #000000; /* attribute values (batch, pos...) */
+@property-value label-color()         #808080; /* faded labels (batch, syn, ex...) */
+@property-value lemma-color()         #004080; /* lemma and dg numbers */
+@property-value link-color()          #1a5fb4; /* d_ref and a */
+@property-value warning-color()       #c00000;
+@property-value header-background()   #e8f0f8; /* top of an entry: batch, pos, lemma */
+@property-value header-border()       #a0b8d0;
+@property-value empty-background()    #ffe0e0; /* a definition still to be written */
+@property-value comment-background()  #fff8d0;
+@property-value comment-border()      #e0d080;
+@property-value license-color()       #404040;
+@property-value license-background()  #f0f0f0;
+@property-value license-border()      #c0c0c0;
+
+/* ---------------------------------------------------------------------
+ * Buttons
+ * --------------------------------------------------------------------- */
+
+/* action_ is what command-button() needs to know what to do: either
+   "command, ..., parameter, ..." or "menu, menu(...)" */
+/* Style keys must be longhand (border-top-left-radius, not border-radius).
+   line-height 1: otherwise the button gets the line-height of the page,
+   which makes it much taller than its text. More padding below than
+   above, since the font leaves room above the letters for accents, which
+   makes lowercase text look low. */
+@property-value styled-button(label_, action_)
+    command-button(text, label_,
+                   action_,
+                   font-size, 8pt,
+                   line-height, 1,
+                   color, button-color(),
+                   background-color, button-background(),
+                   border-top-left-radius, 4px,
+                   border-top-right-radius, 4px,
+                   border-bottom-left-radius, 4px,
+                   border-bottom-right-radius, 4px,
+                   padding-top, 0px,
+                   padding-bottom, 2px,
+                   padding-left, 4px,
+                   padding-right, 4px);
+
+@property-value button(label_, command_, parameter_)
+    styled-button(label_, argument-list(command, command_, parameter, parameter_));
+
+/* an attribute value shown as text, followed by a button to change it */
+@property-value value(value_) text(value_, color, value-color(), font-size, 9pt) " ";
+@property-value set-menu(menu_)
+    command-button(text, "\25BE", menu, menu_,
+                   font-size, 12pt,
+                   color, button-color(),
+                   background-color, button-background(),
+                   border-top-left-radius, 4px,
+                   border-top-right-radius, 4px,
+                   border-bottom-left-radius, 4px,
+                   border-bottom-right-radius, 4px,
+                   padding-left, 6px,
+                   padding-right, 6px);
+
+/* a new element of the same kind, after the one the button is attached to */
+@property-value add-same(label_) button(label_, "insertNode", "sameElementAfter");

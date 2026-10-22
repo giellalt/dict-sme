@@ -18,7 +18,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:cfg="http://www.xmlmind.com/xmleditor/schema/configuration">
-    <!-- This config is active when a file is opened that has 
+    <!-- This config is active when a file is opened that has
     the root element <r> with an attribute id="dict-sme" -->
     <detect>
         <and>
@@ -29,9 +29,6 @@
 
     <!-- import style sheet -->
     <css name="Editing view" location="dict-sme.css" />
-
-    <!-- keeps saves consistent between users -->
-    <saveOptions indent="3" addOpenLines="false" />
 
     <!-- include config shared between batches and dict-sme -->
     <include location="common.incl" />
@@ -92,12 +89,12 @@
                     expression="
                      substring(
                         substring-after(
-                            'abcdefghijklmnopqrstuvwxyz', 
+                            'abcdefghijklmnopqrstuvwxyz',
                             substring(
                                 translate(
-                                    'abcdefghijklmnopqrstuvwxyz', 
+                                    'abcdefghijklmnopqrstuvwxyz',
                                     translate(
-                                        'abcdefghijklmnopqrstuvwxyz', 
+                                        'abcdefghijklmnopqrstuvwxyz',
                                         join(../dg/@id, ''), ''
                                     ), ''
                                 ),
@@ -434,7 +431,7 @@
         </macro>
     </command>
 
-    <!-- Add a synonym or antonym. arg %0 is syn or ant. 
+    <!-- Add a synonym or antonym. arg %0 is syn or ant.
        Makes you pick a d_ref and puts it inside a syn or ant. -->
     <command name="dictSme.addRelated">
         <macro label="Add synonym or antonym" undoable="true">
@@ -452,7 +449,7 @@
         </macro>
     </command>
 
-    <!-- Add the first synonym or antonym (creates the syng or antg) 
+    <!-- Add the first synonym or antonym (creates the syng or antg)
        arg %0 is syng or antg, %1 syn or ant. -->
     <command name="dictSme.addRelatedGroup">
         <macro label="Add synonyms or antonyms" undoable="true">
@@ -462,7 +459,7 @@
                 <get
                     expression="concat(
                          '&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;%0&gt;&lt;%1&gt;',
-                         substring-after($picked, '?&gt;'), 
+                         substring-after($picked, '?&gt;'),
                          '&lt;/%1&gt;&lt;/%0&gt;'
                      )" />
                 <command name="paste" parameter="after %_" />
@@ -508,14 +505,14 @@
                 <!-- if we are jumping to another file -->
                 <sequence>
                     <!-- constructs a XPointer path to open a file at a specific element -->
-                    <!-- includes a hacky way to get a if statment in xpath 
+                    <!-- includes a hacky way to get a if statment in xpath
                        (substring from 1 to 99 or 1 to 0) -->
                     <!-- e.g. /path/to/src/N_sme.xml#element(/1/%1/%2) -->
                     <get
                         expression="concat(
-                            resolve-uri('%0', '%d'), 
-                            '#element(/1/%1', 
-                            substring(concat('/', '%2'), 1, 99 * number('%2' != '0')), 
+                            resolve-uri('%0', '%d'),
+                            '#element(/1/%1',
+                            substring(concat('/', '%2'), 1, 99 * number('%2' != '0')),
                             ')'
                          )" />
                     <command name="XXE.edit" parameter="%_" />
@@ -654,7 +651,7 @@
     <!-- Buttons in XXE's toolbar (the ribbon), in a group of their own.
          The icons are reused from XXE. -->
     <toolBar>
-        <div label="Dictionary">
+        <div label="Batches">
             <button icon="xxe-config:common/mime_types/pdf.png" label="PDF of a batch"
                 toolTip="Make a PDF of a batch for proofreading">
                 <!-- defined in common.incl -->

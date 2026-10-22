@@ -29,21 +29,28 @@
  * Colours: change them here.
  * --------------------------------------------------------------------- */
 
-@property-value button-color()        #2060a0; /* text of buttons */
-@property-value button-background()   #e4eef8;
-@property-value value-color()         #000000; /* attribute values (batch, pos...) */
-@property-value label-color()         #808080; /* faded labels (batch, syn, ex...) */
-@property-value lemma-color()         #004080; /* lemma and dg numbers */
-@property-value link-color()          #1a5fb4; /* d_ref and a */
-@property-value warning-color()       #c00000;
-@property-value header-background()   #e8f0f8; /* top of an entry: batch, pos, lemma */
-@property-value header-border()       #a0b8d0;
-@property-value empty-background()    #ffe0e0; /* a definition still to be written */
-@property-value comment-background()  #fff8d0;
-@property-value comment-border()      #e0d080;
-@property-value license-color()       #404040;
-@property-value license-background()  #f0f0f0;
-@property-value license-border()      #c0c0c0;
+@property-value button-color() #2060a0;
+/* text of buttons */
+@property-value button-background() #e4eef8;
+@property-value value-color() #000000;
+/* attribute values (batch, pos...) */
+@property-value label-color() #808080;
+/* faded labels (batch, syn, ex...) */
+@property-value lemma-color() #004080;
+/* lemma and dg numbers */
+@property-value link-color() #1a5fb4;
+/* d_ref and a */
+@property-value warning-color() #c00000;
+@property-value header-background() #e8f0f8;
+/* top of an entry: batch, pos, lemma */
+@property-value header-border() #a0b8d0;
+@property-value empty-background() #ffe0e0;
+/* a definition still to be written */
+@property-value comment-background() #fff8d0;
+@property-value comment-border() #e0d080;
+@property-value license-color() #404040;
+@property-value license-background() #f0f0f0;
+@property-value license-border() #c0c0c0;
 
 /* ---------------------------------------------------------------------
  * Buttons
@@ -56,54 +63,51 @@
    which makes it much taller than its text. More padding below than
    above, since the font leaves room above the letters for accents, which
    makes lowercase text look low. */
-@property-value styled-button(label_, action_)
-    command-button(text, label_,
-                   action_,
-                   font-size, 8pt,
-                   line-height, 1,
-                   color, button-color(),
-                   background-color, button-background(),
-                   border-top-left-radius, 4px,
-                   border-top-right-radius, 4px,
-                   border-bottom-left-radius, 4px,
-                   border-bottom-right-radius, 4px,
-                   padding-top, 0px,
-                   padding-bottom, 2px,
-                   padding-left, 4px,
-                   padding-right, 4px);
+@property-value styled-button(label_, action_) command-button(text, label_,
+  action_,
+  font-size, 8pt,
+  line-height, 1,
+  color, button-color(),
+  background-color, button-background(),
+  border-top-left-radius, 4px,
+  border-top-right-radius, 4px,
+  border-bottom-left-radius, 4px,
+  border-bottom-right-radius, 4px,
+  padding-top, 0px,
+  padding-bottom, 2px,
+  padding-left, 4px,
+  padding-right, 4px);
 
-@property-value button(label_, command_, parameter_)
-    styled-button(label_, argument-list(command, command_, parameter, parameter_));
+@property-value button(label_, command_, parameter_) styled-button(label_, argument-list(command, command_, parameter, parameter_));
 
 /* an attribute value shown as text, followed by a button to change it */
 @property-value value(value_) text(value_, color, value-color(), font-size, 9pt) " ";
-@property-value set-menu(menu_)
-    command-button(text, "\25BE", menu, menu_,
-                   font-size, 12pt,
-                   color, button-color(),
-                   background-color, button-background(),
-                   border-top-left-radius, 4px,
-                   border-top-right-radius, 4px,
-                   border-bottom-left-radius, 4px,
-                   border-bottom-right-radius, 4px,
-                   padding-left, 6px,
-                   padding-right, 6px);
+@property-value set-menu(menu_) command-button(text, "\25BE", menu, menu_,
+  font-size, 12pt,
+  color, button-color(),
+  background-color, button-background(),
+  border-top-left-radius, 4px,
+  border-top-right-radius, 4px,
+  border-bottom-left-radius, 4px,
+  border-bottom-right-radius, 4px,
+  padding-left, 6px,
+  padding-right, 6px);
 
 /* a new element of the same kind, after the one the button is attached to */
 @property-value add-same(label_) button(label_, "insertNode", "sameElementAfter");
 
 /* a new group, after the element the button is attached to */
 /* a new dg gets the next free id: dictSme.addDg in xxe/dict-sme.xxe */
-@property-value add-dg()   button("+ definition group", "dictSme.addDg", "");
+@property-value add-dg() button("+ definition group", "dictSme.addDg", "");
 /* synonyms and antonyms are links: these buttons let the user pick the
    entry, with commands from xxe/dict-sme.xxe */
 @property-value add-syng() button("+ synonyms", "dictSme.addRelatedGroup", "syng syn");
 @property-value add-antg() button("+ antonyms", "dictSme.addRelatedGroup", "antg ant");
-@property-value add-xg()   button("+ examples", "insert", "after xg");
-@property-value add-ig()   button("+ idiom", "insert", "after ig");
-@property-value add-idg()  button("+ definition", "insert", "after idg");
-@property-value add-ix()   button("+ example", "insert", "after ix");
-@property-value add-cg()   button("+ comments", "insert", "after cg");
+@property-value add-xg() button("+ examples", "insert", "after xg");
+@property-value add-ig() button("+ idiom", "insert", "after ig");
+@property-value add-idg() button("+ definition", "insert", "after idg");
+@property-value add-ix() button("+ example", "insert", "after ix");
+@property-value add-cg() button("+ comments", "insert", "after cg");
 
 /* A line of buttons below the element. XXE puts the generated content of
    an element that has block children outside its margin, border and
@@ -209,7 +213,7 @@ e:after {
 }
 
 /* Batch, at the top right of the entry, with what batches.xml says about
-   it: state and editor. Those are changed in batches.xml (or
+   it: state (that of the last step in its history) and editor. Those are changed in batches.xml (or
    with scripts/batch.py), not here. The batch is shown as text with a menu
    button instead of a combo box: a combo box in every entry makes big files
    very slow to open in XXE.
@@ -219,33 +223,29 @@ e:after {
    Named values such as value-color() are not understood in that text, so
    the colours are passed to concatenate() as arguments of their own.
    batches.xml is found from the document being edited (resolve-uri()
-   without a base): it is in src/, next to batches.xml's folder, wherever
-   this style sheet is installed. */
+   without a base): the document is in src/, and batches.xml in batches/
+   next to it, wherever this style sheet is installed. */
 e:before {
   display: block;
   property-group: tag();
-  content: concatenate(
-    "'batch ' text(attr(batch), color, ",
-    value-color(),
-    ", font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('no batch', 'removeAttribute', 'batch'",
-    xpath(
-      "replace(join(document(resolve-uri('../batches.xml'))/batches/batch[not(@state = 'publish')]/@id, ' '), '([0-9]+)', \", '$1', 'putAttribute', 'batch $1'\")"
-    ),
-    "), font-size, 12pt, color, ",
-    button-color(),
-    ", background-color, ",
-    button-background(),
-    ", border-top-left-radius, 4px, border-top-right-radius, 4px, border-bottom-left-radius, 4px, border-bottom-right-radius, 4px, padding-left, 6px, padding-right, 6px) ",
-    xpath(
-      "concat(\"'\", if(not(@batch), '', if(not(document(resolve-uri('../batches.xml'))/batches/batch[@id = current()/@batch]), '     not in batches.xml', '     state ')), \"' text('\", document(resolve-uri('../batches.xml'))/batches/batch[@id = current()/@batch]/@state, \"', color, \")"
-    ),
-    value-color(),
-    xpath(
-      "concat(\", font-size, 9pt) '\", if(document(resolve-uri('../batches.xml'))/batches/batch[@id = current()/@batch], '     editor ', ''), \"' text('\", document(resolve-uri('../batches.xml'))/batches/batch[@id = current()/@batch]/@editor, \"', color, \")"
-    ),
-    value-color(),
-    ", font-size, 9pt)"
-  );
+  content: concatenate("'batch ' text(attr(batch), color, ",
+      value-color(),
+      ", font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('no batch', 'removeAttribute', 'batch'",
+      xpath("replace(join(document(resolve-uri('../batches/batches.xml'))/batches/batch[not(step[last()]/@state = 'publish')]/@id, ' '), '([0-9]+)', \", '$1', 'putAttribute', 'batch $1'\")"
+      ),
+      "), font-size, 12pt, color, ",
+      button-color(),
+      ", background-color, ",
+      button-background(),
+      ", border-top-left-radius, 4px, border-top-right-radius, 4px, border-bottom-left-radius, 4px, border-bottom-right-radius, 4px, padding-left, 6px, padding-right, 6px) ",
+      xpath("concat(\"'\", if(not(@batch), '', if(not(document(resolve-uri('../batches/batches.xml'))/batches/batch[@id = current()/@batch]), '     not in batches.xml', '     state ')), \"' text('\", document(resolve-uri('../batches/batches.xml'))/batches/batch[@id = current()/@batch]/step[last()]/@state, \"', color, \")"
+      ),
+      value-color(),
+      xpath("concat(\", font-size, 9pt) '\", if(document(resolve-uri('../batches/batches.xml'))/batches/batch[@id = current()/@batch], '     editor ', ''), \"' text('\", document(resolve-uri('../batches/batches.xml'))/batches/batch[@id = current()/@batch]/@editor, \"', color, \")"
+      ),
+      value-color(),
+      ", font-size, 9pt)"
+    );
   text-align: right;
   background-color: header-background();
   border-top: 2px solid header-border();
@@ -267,15 +267,15 @@ lg:after {
   content: add-dg() " " add-ig() " " add-cg();
 }
 
-e:contains-element(cg) > lg:after {
+e:contains-element(cg)>lg:after {
   content: add-dg() " " add-ig();
 }
 
-e:contains-element(ig) > lg:after {
+e:contains-element(ig)>lg:after {
   content: add-dg();
 }
 
-e:contains-element(dg) > lg:after {
+e:contains-element(dg)>lg:after {
   display: inline;
   content: "";
 }
@@ -287,57 +287,50 @@ e:contains-element(dg) > lg:after {
    the type menu only offers the types that go with the pos, and a type
    that does not go with the pos is flagged. (Tying them together in the
    schema would make XXE refuse to change the pos.) */
-@property-value pos-menu()
-    set-menu(menu("A", "putAttribute", "pos A", "N", "putAttribute", "pos N",
-                  "V", "putAttribute", "pos V", "Adv", "putAttribute", "pos Adv",
-                  "Po", "putAttribute", "pos Po", "Pr", "putAttribute", "pos Pr",
-                  "Pron", "putAttribute", "pos Pron",
-                  "Phrase", "putAttribute", "pos Phrase",
-                  "Rel", "putAttribute", "pos Rel", "Det", "putAttribute", "pos Det",
-                  "Interj", "putAttribute", "pos Interj",
-                  "Pcle", "putAttribute", "pos Pcle", "Num", "putAttribute", "pos Num",
-                  "CC", "putAttribute", "pos CC", "CS", "putAttribute", "pos CS"));
+@property-value pos-menu() set-menu(menu("A", "putAttribute", "pos A", "N", "putAttribute", "pos N",
+    "V", "putAttribute", "pos V", "Adv", "putAttribute", "pos Adv",
+    "Po", "putAttribute", "pos Po", "Pr", "putAttribute", "pos Pr",
+    "Pron", "putAttribute", "pos Pron",
+    "Phrase", "putAttribute", "pos Phrase",
+    "Rel", "putAttribute", "pos Rel", "Det", "putAttribute", "pos Det",
+    "Interj", "putAttribute", "pos Interj",
+    "Pcle", "putAttribute", "pos Pcle", "Num", "putAttribute", "pos Num",
+    "CC", "putAttribute", "pos CC", "CS", "putAttribute", "pos CS"));
 
-@property-value n-types()
-    set-menu(menu("Prop", "putAttribute", "type Prop",
-                  "NomAg", "putAttribute", "type NomAg",
-                  "Coll", "putAttribute", "type Coll",
-                  "ACR", "putAttribute", "type ACR",
-                  "ABBR", "putAttribute", "type ABBR",
-                  "G3", "putAttribute", "type G3",
-                  "G7", "putAttribute", "type G7",
-                  "", "", "",
-                  "no type", "removeAttribute", "type"));
-@property-value a-types()
-    set-menu(menu("Ord", "putAttribute", "type Ord",
-                  "", "", "",
-                  "no type", "removeAttribute", "type"));
-@property-value pron-types()
-    set-menu(menu("Pers", "putAttribute", "type Pers",
-                  "Dem", "putAttribute", "type Dem",
-                  "Indef", "putAttribute", "type Indef",
-                  "Interr", "putAttribute", "type Interr",
-                  "Recipr", "putAttribute", "type Recipr",
-                  "Refl", "putAttribute", "type Refl",
-                  "Rel", "putAttribute", "type Rel",
-                  "", "", "",
-                  "no type", "removeAttribute", "type"));
+@property-value n-types() set-menu(menu("Prop", "putAttribute", "type Prop",
+    "NomAg", "putAttribute", "type NomAg",
+    "Coll", "putAttribute", "type Coll",
+    "ACR", "putAttribute", "type ACR",
+    "ABBR", "putAttribute", "type ABBR",
+    "G3", "putAttribute", "type G3",
+    "G7", "putAttribute", "type G7",
+    "", "", "",
+    "no type", "removeAttribute", "type"));
+@property-value a-types() set-menu(menu("Ord", "putAttribute", "type Ord",
+    "", "", "",
+    "no type", "removeAttribute", "type"));
+@property-value pron-types() set-menu(menu("Pers", "putAttribute", "type Pers",
+    "Dem", "putAttribute", "type Dem",
+    "Indef", "putAttribute", "type Indef",
+    "Interr", "putAttribute", "type Interr",
+    "Recipr", "putAttribute", "type Recipr",
+    "Refl", "putAttribute", "type Refl",
+    "Rel", "putAttribute", "type Rel",
+    "", "", "",
+    "no type", "removeAttribute", "type"));
 
 @property-value pos-field() "pos " value(attr(pos)) pos-menu();
 
 /* homograph number of a lemma: different words spelled the same, with the
    same pos and type */
-@property-value hid-field()
-    "     homograph " value(attr(hid))
-    set-menu(menu("1", "putAttribute", "hid 1", "2", "putAttribute", "hid 2",
-                  "3", "putAttribute", "hid 3", "4", "putAttribute", "hid 4",
-                  "", "", "",
-                  "not a homograph", "removeAttribute", "hid"));
+@property-value hid-field() "     homograph " value(attr(hid)) set-menu(menu("1", "putAttribute", "hid 1", "2", "putAttribute", "hid 2",
+    "3", "putAttribute", "hid 3", "4", "putAttribute", "hid 4",
+    "", "", "",
+    "not a homograph", "removeAttribute", "hid"));
 
 @property-value type-field(types_) "   type " value(attr(type)) types_;
 
-@property-value wrong-type()
-    text("   this type does not go with this pos", color, warning-color());
+@property-value wrong-type() text("   this type does not go with this pos", color, warning-color());
 
 lg:before {
   display: block;
@@ -366,55 +359,54 @@ l:after {
 }
 
 l[type]:after {
-  content: "   type " value(attr(type)) remove-attribute-button(attribute, type)
-    wrong-type() add-lemma();
+  content: "   type " value(attr(type)) remove-attribute-button(attribute, type) wrong-type() add-lemma();
 }
 
-lg[pos="N"] > l:after {
+lg[pos="N"]>l:after {
   content: type-field(n-types()) add-lemma();
 }
 
-lg[pos="A"] > l:after {
+lg[pos="A"]>l:after {
   content: type-field(a-types()) add-lemma();
 }
 
-lg[pos="Pron"] > l:after {
+lg[pos="Pron"]>l:after {
   content: type-field(pron-types()) add-lemma();
 }
 
-lg[pos="N"] > l[type]:after {
+lg[pos="N"]>l[type]:after {
   content: type-field(n-types()) wrong-type() add-lemma();
 }
 
-lg[pos="A"] > l[type]:after {
+lg[pos="A"]>l[type]:after {
   content: type-field(a-types()) wrong-type() add-lemma();
 }
 
-lg[pos="Pron"] > l[type]:after {
+lg[pos="Pron"]>l[type]:after {
   content: type-field(pron-types()) wrong-type() add-lemma();
 }
 
-lg[pos="N"] > l[type="Prop"]:after,
-lg[pos="N"] > l[type="NomAg"]:after,
-lg[pos="N"] > l[type="Coll"]:after,
-lg[pos="N"] > l[type="ACR"]:after,
-lg[pos="N"] > l[type="ABBR"]:after,
-lg[pos="N"] > l[type="G3"]:after,
-lg[pos="N"] > l[type="G7"]:after {
+lg[pos="N"]>l[type="Prop"]:after,
+lg[pos="N"]>l[type="NomAg"]:after,
+lg[pos="N"]>l[type="Coll"]:after,
+lg[pos="N"]>l[type="ACR"]:after,
+lg[pos="N"]>l[type="ABBR"]:after,
+lg[pos="N"]>l[type="G3"]:after,
+lg[pos="N"]>l[type="G7"]:after {
   content: type-field(n-types()) add-lemma();
 }
 
-lg[pos="A"] > l[type="Ord"]:after {
+lg[pos="A"]>l[type="Ord"]:after {
   content: type-field(a-types()) add-lemma();
 }
 
-lg[pos="Pron"] > l[type="Pers"]:after,
-lg[pos="Pron"] > l[type="Dem"]:after,
-lg[pos="Pron"] > l[type="Indef"]:after,
-lg[pos="Pron"] > l[type="Interr"]:after,
-lg[pos="Pron"] > l[type="Recipr"]:after,
-lg[pos="Pron"] > l[type="Refl"]:after,
-lg[pos="Pron"] > l[type="Rel"]:after {
+lg[pos="Pron"]>l[type="Pers"]:after,
+lg[pos="Pron"]>l[type="Dem"]:after,
+lg[pos="Pron"]>l[type="Indef"]:after,
+lg[pos="Pron"]>l[type="Interr"]:after,
+lg[pos="Pron"]>l[type="Recipr"]:after,
+lg[pos="Pron"]>l[type="Refl"]:after,
+lg[pos="Pron"]>l[type="Rel"]:after {
   content: type-field(pron-types()) add-lemma();
 }
 
@@ -438,15 +430,15 @@ dg:after {
 }
 
 /* ...and otherwise after the last dg... */
-e > dg:last-of-type:after {
+e>dg:last-of-type:after {
   content: add-dg() " " add-ig() " " add-cg();
 }
 
-e:contains-element(cg) > dg:last-of-type:after {
+e:contains-element(cg)>dg:last-of-type:after {
   content: add-dg() " " add-ig();
 }
 
-e:contains-element(ig) > dg:last-of-type:after {
+e:contains-element(ig)>dg:last-of-type:after {
   content: add-dg();
 }
 
@@ -455,7 +447,7 @@ d {
   display: inline;
 }
 
-d + d:before {
+d+d:before {
   content: "; ";
 }
 
@@ -465,10 +457,9 @@ d + d:before {
    entry so a free one can be chosen. */
 dg[id="???"]:before {
   display: block;
-  margin-left: 6.7ex; /* indent() at the smaller font size of tag() */
-  content: "id " text-field(attribute, id, columns, 3)
-    text("  choose an id not used in this entry (", color, warning-color())
-    xpath("join(../dg/@id[. != '???'], ', ')") text(")", color, warning-color());
+  margin-left: 6.7ex;
+  /* indent() at the smaller font size of tag() */
+  content: "id " text-field(attribute, id, columns, 3) text("  choose an id not used in this entry (", color, warning-color()) xpath("join(../dg/@id[. != '???'], ', ')") text(")", color, warning-color());
   property-group: tag();
 }
 
@@ -483,20 +474,19 @@ d:empty {
 
 /* missing syng, antg and xg are added after the last d, on a line of
    their own... */
-dg > d:last-of-type:after {
-  content: "   " add-same("+ definition") new-line() add-syng() " " add-antg()
-    " " add-xg();
+dg>d:last-of-type:after {
+  content: "   " add-same("+ definition") new-line() add-syng() " " add-antg() " " add-xg();
 }
 
-dg:contains-element(xg) > d:last-of-type:after {
+dg:contains-element(xg)>d:last-of-type:after {
   content: "   " add-same("+ definition") new-line() add-syng() " " add-antg();
 }
 
-dg:contains-element(antg) > d:last-of-type:after {
+dg:contains-element(antg)>d:last-of-type:after {
   content: "   " add-same("+ definition") new-line() add-syng();
 }
 
-dg:contains-element(syng) > d:last-of-type:after {
+dg:contains-element(syng)>d:last-of-type:after {
   content: "   " add-same("+ definition");
 }
 
@@ -535,8 +525,8 @@ ant {
   display: inline;
 }
 
-syn + syn:before,
-ant + ant:before {
+syn+syn:before,
+ant+ant:before {
   content: ", ";
 }
 
@@ -554,11 +544,11 @@ syng:after {
   content: new-line() add-antg() " " add-xg();
 }
 
-dg:contains-element(xg) > syng:after {
+dg:contains-element(xg)>syng:after {
   content: new-line() add-antg();
 }
 
-dg:contains-element(antg) > syng:after {
+dg:contains-element(antg)>syng:after {
   content: "";
 }
 
@@ -566,7 +556,7 @@ antg:after {
   content: new-line() add-xg();
 }
 
-dg:contains-element(xg) > antg:after {
+dg:contains-element(xg)>antg:after {
   content: "";
 }
 
@@ -600,7 +590,7 @@ ig {
   margin: 1ex 0 1ex indent();
 }
 
-e > ig:first-of-type:before {
+e>ig:first-of-type:before {
   display: block;
   content: "Idioms";
   font-weight: bold;
@@ -645,13 +635,13 @@ i:after {
   content: add-idg();
 }
 
-ig:contains-element(idg) > i:after {
+ig:contains-element(idg)>i:after {
   display: inline;
   content: "";
 }
 
 /* ...and further ones after the last idg */
-ig > idg:last-of-type:after {
+ig>idg:last-of-type:after {
   property-group: button-row(3ex);
   content: add-same("+ definition");
 }
@@ -663,7 +653,7 @@ id:after {
   content: add-ix();
 }
 
-idg:contains-element(ix) > id:after {
+idg:contains-element(ix)>id:after {
   display: inline;
   content: "";
 }
@@ -674,12 +664,12 @@ ix:last-of-type:after {
 }
 
 /* ...except that cg must come after ig when there is one */
-e > ig:last-of-type:after {
+e>ig:last-of-type:after {
   property-group: button-row(indent());
   content: add-same("+ idiom") " " add-cg();
 }
 
-e:contains-element(cg) > ig:last-of-type:after {
+e:contains-element(cg)>ig:last-of-type:after {
   content: add-same("+ idiom");
 }
 

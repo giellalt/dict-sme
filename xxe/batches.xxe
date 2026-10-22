@@ -22,15 +22,17 @@
 
     <css name="Batches" location="batches.css" />
 
-    <saveOptions indent="3" addOpenLines="false" />
-
     <!-- include config shared between batches and dict-sme -->
     <include location="common.incl" />
 
-    <!-- Asking who: pick shows the names in the list of people, put in
-       quotes by replace() (a name must not contain a single quote). The
-       list is built in each macro that asks: a macro does not see the
-       variables of the macro that calls it. -->
+    <!-- Asking who: with confirm, not pick. confirm shows the question in
+       the dialog, with the names as radio buttons; pick shows it only in
+       the window title, which is easy to miss and on a Mac often not shown
+       at all. The names from the list of people are the options' values
+       and labels ("|single|*-=Nobody yet|Helena=Helena|...|question"), so
+       a name must not contain | or =. The list is built in each macro
+       that asks: a macro does not see the variables of the macro that
+       calls it. -->
 
     <!-- Move the batch at the caret on to its next step: a new <step> at
        the end of its history, dated today.
@@ -59,14 +61,14 @@
                                 <sequence>
                                     <test expression="starts-with($next, 'proofread')" />
                                     <get
-                                        expression="concat(&quot;'Who proofreads batch &quot;, $b/@id, &quot;?' true 'Nobody yet' '-' &quot;, replace(replace(join(/batches/people/person, '|'), '([^|]+)', &quot;'$1' '$1'&quot;), '[|]', ' '))" />
-                                    <command name="pick" parameter="%_" />
+                                        expression="concat('|single|*-=Nobody yet|', replace(join(/batches/people/person, '|'), '([^|]+)', '$1=$1'), '|Who proofreads batch ', $b/@id, '?')" />
+                                    <command name="confirm" parameter="%_" />
                                     <set expression="%_" plainString="true" variable="by" />
                                 </sequence>
                                 <sequence>
                                     <test expression="$next = 'publish'" />
                                     <get expression="string($b/@id)" />
-                                    <command name="batches.python" parameter="batch.py missing %_" />
+                                    <command name="dictSme.python" parameter="batch.py missing %_" />
                                     <set expression="%_" plainString="true" variable="out" />
                                     <choice>
                                         <test
@@ -101,8 +103,8 @@
         <macro label="New batch" undoable="true">
             <sequence>
                 <get
-                    expression="concat(&quot;'Who edits the new batch?' true &quot;, replace(replace(join(/batches/people/person, '|'), '([^|]+)', &quot;'$1' '$1'&quot;), '[|]', ' '))" />
-                <command name="pick" parameter="%_" />
+                    expression="concat('|single|*', replace(join(/batches/people/person, '|'), '([^|]+)', '$1=$1'), '|Who edits the new batch?')" />
+                <command name="confirm" parameter="%_" />
                 <set expression="%_" plainString="true" variable="editor" />
                 <set expression="date:to-string(date:now())" variable="today" />
                 <set expression="substring($today, 3, 2)" variable="yy" />
@@ -126,7 +128,7 @@
 
 
     <toolBar>
-        <div label="Dictionary">
+        <div label="Batches">
             <button icon="xxe-config:common/mime_types/pdf.png" label="PDF of a batch"
                 toolTip="Make a PDF of a batch for proofreading">
                 <!-- defined in common.incl -->

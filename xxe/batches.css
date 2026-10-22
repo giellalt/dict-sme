@@ -1,0 +1,139 @@
+/*
+ * XMLmind XML Editor (XXE) style sheet for batches.xml, used by
+ * batches.xxe in this folder. Follows schema/batches.rnc.
+ *
+ * Each batch shows its number, its editor, the step it is in now and who
+ * has that step, with a button to move it on, and below
+ * that its history, one line per step. The commands behind the buttons
+ * are in batches.xxe.
+ *
+ * Combo boxes are fine here (unlike in dict-sme.css): batches.xml is
+ * small.
+ */
+
+@property-value button-color()       #2060a0;
+@property-value button-background()  #e4eef8;
+@property-value label-color()        #808080;
+@property-value header-background()  #e8f0f8;
+@property-value header-border()      #a0b8d0;
+
+/* the same buttons as in dict-sme.css */
+@property-value button(label_, command_, parameter_)
+    command-button(text, label_,
+                   command, command_,
+                   parameter, parameter_,
+                   font-size, 8pt,
+                   line-height, 1,
+                   color, button-color(),
+                   background-color, button-background(),
+                   border-top-left-radius, 4px,
+                   border-top-right-radius, 4px,
+                   border-bottom-left-radius, 4px,
+                   border-bottom-right-radius, 4px,
+                   padding-top, 0px,
+                   padding-bottom, 2px,
+                   padding-left, 4px,
+                   padding-right, 4px);
+
+/* a combo box with the names in the list of people */
+@property-value person-combo(attribute_)
+    combo-box(attribute, attribute_,
+              values, xpath("join(/batches/people/person, '\A')"),
+              font-size, 9pt);
+
+@property-group label() {
+  color: label-color();
+  font-size: 0.85em;
+}
+
+batches {
+  display: block;
+  font-family: sans-serif;
+  font-size: 11pt;
+  margin: 1ex;
+}
+
+/* "+ batch" at the end */
+batches:after {
+  display: block;
+  margin-top: 2ex;
+  content: button("+ batch", "batches.newBatch", "");
+}
+
+/* --- people ---------------------------------------------------------- */
+
+people {
+  display: block;
+  padding: 0.5ex 1ex;
+  margin-bottom: 2ex;
+  background-color: header-background();
+  border-top: 2px solid header-border();
+}
+
+people:before {
+  property-group: label();
+  content: "People ";
+}
+
+person {
+  display: inline;
+}
+
+person + person:before {
+  content: ", ";
+}
+
+person:last-child:after {
+  content: "   " button("+ person", "insertNode", "sameElementAfter");
+}
+
+/* --- batches --------------------------------------------------------- */
+
+batch {
+  display: block;
+  margin: 1.5ex 0 0 0;
+  padding: 0 1ex 0.5ex 1ex;
+}
+
+/* the head line: number, editor, the step it is in now and who has it */
+@property-value batch-head()
+    text(attr(id), font-weight, bold, font-size, 12pt)
+    "     editor " person-combo(editor)
+    "     now: "
+    /* label(), not xpath(): it is updated when a step changes */
+    label(xpath, "concat(step[last()]/@state, '   ', if(step[last()]/@by, step[last()]/@by, if(step[last()]/@state = 'publish', '', 'nobody yet')))")
+    "     " button("\2192 next step", "batches.nextStep", "");
+
+/* XXE puts the generated content of an element that has block children
+   outside its border, so the line above a batch is on this head line */
+batch:before {
+  display: block;
+  background-color: header-background();
+  border-top: 2px solid header-border();
+  padding: 0.3ex 1ex;
+  content: batch-head();
+}
+
+/* the history: date, state, who */
+step {
+  display: block;
+  margin-left: 2ex;
+  color: label-color();
+  font-size: 0.9em;
+}
+
+step:before {
+  content: xpath(
+    "concat(@date, '    ', @state, '    ', if(@by, @by, '-'), '    ')"
+  );
+}
+
+/* the step the batch is in now; who has it can be changed here */
+step:last-child {
+  color: #000000;
+}
+
+step:last-child:before {
+  content: xpath("concat(@date, '    ', @state, '    ')") person-combo(by)
+    "    ";
+}

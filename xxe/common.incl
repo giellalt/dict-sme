@@ -5,6 +5,10 @@
 <configuration xmlns="http://www.xmlmind.com/xmleditor/schema/configuration"
     xmlns:cfg="http://www.xmlmind.com/xmleditor/schema/configuration">
 
+
+    <!-- keeps saves consistent between users -->
+    <saveOptions indent="3" addOpenLines="false" maxLineLength="120" />
+
     <!--
       Run a script in scripts/ with the Python of the platform.
       The parameter "%*" is the script and its arguments.
