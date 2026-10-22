@@ -306,9 +306,7 @@
       <dg id="a">
          <d>vahkkobeaivi mii ii leat sotnabeaivi dahje eará bassebeaivi</d>
          <syng>
-            <syn>
-               <d_ref lemma="árgabeaivi" pos="N">árgabeaivi</d_ref>
-            </syn>
+            <d_ref lemma="árgabeaivi" pos="N">árgabeaivi</d_ref>
          </syng>
          <xg>
             <x>Min telefonbálvalus lea rabas árgan dii. 9 rájes dii. 15 rádjái.</x>
@@ -317,9 +315,7 @@
       <dg id="b">
          <d>juohkebeaivválaš eallin dain geatnegasvuođaiguin, bargguiguin jna. mat gullet dasa</d>
          <syng>
-            <syn>
-               <d_ref lemma="árgabeaivi" pos="N">árgabeaivi</d_ref>
-            </syn>
+            <d_ref lemma="árgabeaivi" pos="N">árgabeaivi</d_ref>
          </syng>
          <xg>
             <x>Juigosat leat árgga rutiinnaid ja sosiálalaš diliid oassin.</x>
@@ -333,9 +329,7 @@
       <dg id="a">
          <d>vahkkobeaivi mii ii leat sotnabeaivi dahje eará bassebeaivi</d>
          <syng>
-            <syn>
-               <d_ref lemma="árga" pos="N">árga</d_ref>
-            </syn>
+            <d_ref lemma="árga" pos="N">árga</d_ref>
          </syng>
          <xg>
             <x>Bálvalus lea rabas buot árgabeivviid dii. 8 rájes dii. 18 rádjái.</x>
@@ -344,9 +338,7 @@
       <dg id="b">
          <d>juohkebeaivválaš eallin dain geatnegasvuođaiguin, bargguiguin jna. mat gullet dasa</d>
          <syng>
-            <syn>
-               <d_ref lemma="árga" pos="N">árga</d_ref>
-            </syn>
+            <d_ref lemma="árga" pos="N">árga</d_ref>
          </syng>
          <xg>
             <x>Ođđa teknologiija lea árgabeaivvi máŋgga dáfus álkidan.</x>
@@ -468,15 +460,9 @@
       <dg id="a">
          <d>boradeapmi gaskal iđitbiepmu ja mállásiid, dábálaččat sullii diibmu 12</d>
          <syng>
-            <syn>
-               <d_ref lemma="lunša" pos="N">lunša</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="beaiveborramuš" pos="N">beaiveborramuš</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="beaiveborran" pos="N">beaiveborran</d_ref>
-            </syn>
+            <d_ref lemma="lunša" pos="N">lunša</d_ref>
+            <d_ref lemma="beaiveborramuš" pos="N">beaiveborramuš</d_ref>
+            <d_ref lemma="beaiveborran" pos="N">beaiveborran</d_ref>
          </syng>
          <xg>
             <x>Semináras guossohuvvo beaivebiebmu.</x>
@@ -491,15 +477,9 @@
       <dg id="a">
          <d>boradeapmi gaskal iđitbiepmu ja mállásiid, dábálaččat sullii diibmu 12</d>
          <syng>
-            <syn>
-               <d_ref lemma="lunša" pos="N">lunša</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="beaivebiebmu" pos="N">beaivebiebmu</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="beaiveborran" pos="N">beaiveborran</d_ref>
-            </syn>
+            <d_ref lemma="lunša" pos="N">lunša</d_ref>
+            <d_ref lemma="beaivebiebmu" pos="N">beaivebiebmu</d_ref>
+            <d_ref lemma="beaiveborran" pos="N">beaiveborran</d_ref>
          </syng>
          <xg>
             <x>Semináras guossohuvvo beaiveborramuš.</x>
@@ -514,15 +494,9 @@
       <dg id="a">
          <d>borran gaskal iđitbiepmu ja mállásiid, dábálaččat sullii diibmu 12</d>
          <syng>
-            <syn>
-               <d_ref lemma="lunša" pos="N">lunša</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="beaiveborramuš" pos="N">beaiveborramuš</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="beaivebiebmu" pos="N">beaivebiebmu</d_ref>
-            </syn>
+            <d_ref lemma="lunša" pos="N">lunša</d_ref>
+            <d_ref lemma="beaiveborramuš" pos="N">beaiveborramuš</d_ref>
+            <d_ref lemma="beaivebiebmu" pos="N">beaivebiebmu</d_ref>
          </syng>
          <xg>
             <x>Fertejin vuolgit beaiveborrama maŋŋá.</x>
@@ -536,9 +510,7 @@
       <dg id="a">
          <d>go beaivváš njiedjá albmeravdda vuolábeallái</d>
          <syng>
-            <syn>
-               <d_ref lemma="beaivvášluoitádeapmi" pos="N">beaivvášluoitádeapmi</d_ref>
-            </syn>
+            <d_ref lemma="beaivvášluoitádeapmi" pos="N">beaivvášluoitádeapmi</d_ref>
          </syng>
          <xg>
             <x>ivdnás beaiveluoitin</x>
@@ -571,9 +543,7 @@
          <d>min beaivvášgotti guovddáš násti, man birra eanaspábba ja eará planehtat sattáhallet, ja mii addá čuovgga ja
          lieggasa eatnamii</d>
          <syng>
-            <syn>
-               <d_ref lemma="beaivváš" pos="N">beaivváš</d_ref>
-            </syn>
+            <d_ref lemma="beaivváš" pos="N">beaivváš</d_ref>
          </syng>
          <xg>
             <x>Beaivi báitá.</x>
@@ -606,9 +576,7 @@
          <d>min beaivvášgotti guovddáš násti, man birra eanaspábba ja eará planehtat sattáhallet, ja mii addá čuovgga ja
          lieggasa eatnamii</d>
          <syng>
-            <syn>
-               <d_ref lemma="beaivváš" pos="N">beaivváš</d_ref>
-            </syn>
+            <d_ref lemma="beaivváš" pos="N">beaivváš</d_ref>
          </syng>
          <xg>
             <x>Beaivváš báitá.</x>
@@ -633,9 +601,7 @@
       <dg id="a">
          <d>go beaivváš njiedjá albmeravdda vuolábeallái</d>
          <syng>
-            <syn>
-               <d_ref lemma="beaiveluoitin" pos="N">beaiveluoitin</d_ref>
-            </syn>
+            <d_ref lemma="beaiveluoitin" pos="N">beaiveluoitin</d_ref>
          </syng>
          <xg>
             <x>ivdnás beaivvášluoitádeapmi</x>
@@ -772,9 +738,7 @@
       <dg id="a">
          <d>geaidnu mii lea oaivvilduvvon biilavuodjimii</d>
          <syng>
-            <syn>
-               <d_ref lemma="biilaluodda" pos="N">biilaluodda</d_ref>
-            </syn>
+            <d_ref lemma="biilaluodda" pos="N">biilaluodda</d_ref>
          </syng>
          <xg>
             <x>Biilageaidnu sáhttá leat njalkkas.</x>
@@ -789,9 +753,7 @@
       <dg id="a">
          <d>luodda mii lea oaivvilduvvon biilavuodjimii</d>
          <syng>
-            <syn>
-               <d_ref lemma="biilageaidnu" pos="N">biilageaidnu</d_ref>
-            </syn>
+            <d_ref lemma="biilageaidnu" pos="N">biilageaidnu</d_ref>
          </syng>
          <xg>
             <x>Biilaluodda sáhttá leat njalkkas.</x>
@@ -879,9 +841,7 @@
       <dg id="a">
          <d>figuvra dahje sullasaš mii geavahuvvo lávdespealus</d>
          <syng>
-            <syn>
-               <d_ref lemma="speallanboallu" pos="N">speallanboallu</d_ref>
-            </syn>
+            <d_ref lemma="speallanboallu" pos="N">speallanboallu</d_ref>
          </syng>
          <xg>
             <x>Boalut galget leat iešguđet hámis dahje ivnnis.</x>
@@ -906,9 +866,7 @@
       <dg id="a">
          <d>mearka dihto árvvuin mii darvehuvvo reivii dahje páhkkii máksun frávtta ovddas</d>
          <syng>
-            <syn>
-               <d_ref lemma="friddjamearka" pos="N">friddjamearka</d_ref>
-            </syn>
+            <d_ref lemma="friddjamearka" pos="N">friddjamearka</d_ref>
          </syng>
          <xg>
             <x>Mun álgen čoaggit boastamearkkaid.</x>
@@ -1025,9 +983,7 @@
       <dg id="a">
          <d>speallu mas geavahuvvojit speallanboalut dahje sullasaččat breahta alde</d>
          <syng>
-            <syn>
-               <d_ref lemma="lávdespeallu" pos="N">lávdespeallu</d_ref>
-            </syn>
+            <d_ref lemma="lávdespeallu" pos="N">lávdespeallu</d_ref>
          </syng>
          <xg>
             <x>Son lea váillahan sámi breahttaspealu mii heive olles bearrašii.</x>
@@ -1098,12 +1054,8 @@
       <dg id="a">
          <d>merkejuvvon sadji gos busse bisána ja luoitá mátkkošteddjiid eret dahje ala</d>
          <syng>
-            <syn>
-               <d_ref lemma="bussebissehat" pos="N">bussebissehat</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="bussebissánanbáiki" pos="N">bussebissánanbáiki</d_ref>
-            </syn>
+            <d_ref lemma="bussebissehat" pos="N">bussebissehat</d_ref>
+            <d_ref lemma="bussebissánanbáiki" pos="N">bussebissánanbáiki</d_ref>
          </syng>
          <xg>
             <x>Gos lea lagamus bussebisánansadji?</x>
@@ -1118,12 +1070,8 @@
       <dg id="a">
          <d>merkejuvvon sadji gos busse bisána ja luoitá mátkkošteddjiid eret dahje ala</d>
          <syng>
-            <syn>
-               <d_ref lemma="bussebissehat" pos="N">bussebissehat</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="bussebisánansadji" pos="N">bussebisánansadji</d_ref>
-            </syn>
+            <d_ref lemma="bussebissehat" pos="N">bussebissehat</d_ref>
+            <d_ref lemma="bussebisánansadji" pos="N">bussebisánansadji</d_ref>
          </syng>
          <xg>
             <x>Gos lea lagamus bussebissánanbáiki?</x>
@@ -1137,12 +1085,8 @@
       <dg id="a">
          <d>merkejuvvon sadji gos busse bisána ja luoitá mátkkošteddjiid eret dahje ala</d>
          <syng>
-            <syn>
-               <d_ref lemma="bussebisánansadji" pos="N">bussebisánansadji</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="bussebissánanbáiki" pos="N">bussebissánanbáiki</d_ref>
-            </syn>
+            <d_ref lemma="bussebisánansadji" pos="N">bussebisánansadji</d_ref>
+            <d_ref lemma="bussebissánanbáiki" pos="N">bussebissánanbáiki</d_ref>
          </syng>
          <xg>
             <x>Gos lea lagamus bussebissehat?</x>
@@ -1252,9 +1196,7 @@
       <dg id="a">
          <d>go idja ja beaivi leaba ovtta guhku čakčat, dábálaččat čakčamánu 22. dahje 23. beaivvi</d>
          <syng>
-            <syn>
-               <d_ref lemma="čakčajorggáldat" pos="N">čakčajorggáldat</d_ref>
-            </syn>
+            <d_ref lemma="čakčajorggáldat" pos="N">čakčajorggáldat</d_ref>
          </syng>
       </dg>
    </e>
@@ -1281,9 +1223,7 @@
       <dg id="a">
          <d>go idja ja beaivi leaba ovtta guhku čakčat, dábálaččat čakčamánu 22. dahje 23. beaivvi</d>
          <syng>
-            <syn>
-               <d_ref lemma="čakčadássebeaivi" pos="N">čakčadássebeaivi</d_ref>
-            </syn>
+            <d_ref lemma="čakčadássebeaivi" pos="N">čakčadássebeaivi</d_ref>
          </syng>
       </dg>
    </e>
@@ -1405,9 +1345,7 @@
       <dg id="a">
          <d>spábba mii geavahuvvo spábbačiekčamis</d>
          <syng>
-            <syn>
-               <d_ref lemma="juolgespábba" pos="N">juolgespábba</d_ref>
-            </syn>
+            <d_ref lemma="juolgespábba" pos="N">juolgespábba</d_ref>
          </syng>
          <xg>
             <x>Čiekčanspáppa goarrumii geavahuvvojit 12 viđačiegat ja 20 guđačiegat bihtá.</x>
@@ -1421,9 +1359,7 @@
       <dg id="a">
          <d>olmmoš gii čiekčá spáppa</d>
          <syng>
-            <syn>
-               <d_ref lemma="spábbačiekči" pos="N" type="NomAg">spábbačiekči</d_ref>
-            </syn>
+            <d_ref lemma="spábbačiekči" pos="N" type="NomAg">spábbačiekči</d_ref>
          </syng>
          <xg>
             <x>Son lea okta dain buoremus čikčiin joavkkus.</x>
@@ -1457,9 +1393,7 @@
       <dg id="a">
          <d>(kaleandar)jahki mii lea jándora guhkit go dábálaš jahki</d>
          <syng>
-            <syn>
-               <d_ref lemma="gárgádusjahki" pos="N">gárgádusjahki</d_ref>
-            </syn>
+            <d_ref lemma="gárgádusjahki" pos="N">gárgádusjahki</d_ref>
          </syng>
          <xg>
             <x>2020 lei čoakkáhusjahki.</x>
@@ -1489,9 +1423,7 @@
       <dg id="a">
          <d>áigodat mii bistá 100 jagi</d>
          <syng>
-            <syn>
-               <d_ref lemma="jahkečuohti" pos="N">jahkečuohti</d_ref>
-            </syn>
+            <d_ref lemma="jahkečuohti" pos="N">jahkečuohti</d_ref>
          </syng>
          <xg>
             <x>máŋga čuohtejagi</x>
@@ -1501,9 +1433,7 @@
       <dg id="b">
          <d>juohke 100 jagi áigodat rehkenastojuvvon áigerehkega álggu rájes</d>
          <syng>
-            <syn>
-               <d_ref lemma="jahkečuohti" pos="N">jahkečuohti</d_ref>
-            </syn>
+            <d_ref lemma="jahkečuohti" pos="N">jahkečuohti</d_ref>
          </syng>
          <xg>
             <x>ovccinuppelogát čuohtejahki</x>
@@ -1556,9 +1486,7 @@
       <dg id="a">
          <d>olmmoš gii vuodjá dáksse ámmáhin</d>
          <syng>
-            <syn>
-               <d_ref lemma="drošševuoddji" pos="N" type="NomAg">drošševuoddji</d_ref>
-            </syn>
+            <d_ref lemma="drošševuoddji" pos="N" type="NomAg">drošševuoddji</d_ref>
          </syng>
          <xg>
             <x>Dáksevuoddji guttii mu koaffara vissui ja veahkehii mu vel tráhpá bajás.</x>
@@ -1753,9 +1681,7 @@
       <dg id="a">
          <d>vahku nubbi beaivi</d>
          <syng>
-            <syn>
-               <d_ref lemma="maŋŋebárga" pos="N">maŋŋebárga</d_ref>
-            </syn>
+            <d_ref lemma="maŋŋebárga" pos="N">maŋŋebárga</d_ref>
          </syng>
          <xg>
             <x>Otne lea disdat.</x>
@@ -1771,9 +1697,7 @@
       <dg id="a">
          <d>vahku nubbi beaivi</d>
          <syng>
-            <syn>
-               <d_ref lemma="maŋŋebárga" pos="N">maŋŋebárga</d_ref>
-            </syn>
+            <d_ref lemma="maŋŋebárga" pos="N">maŋŋebárga</d_ref>
          </syng>
          <xg>
             <x>Otne lea disttat.</x>
@@ -1789,12 +1713,8 @@
       <dg id="a">
          <d>stuorit spesiálabiila mainna fievrrida doabbariid</d>
          <syng>
-            <syn>
-               <d_ref lemma="ruskabiila" pos="N">ruskabiila</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="rihpabiila" pos="N">rihpabiila</d_ref>
-            </syn>
+            <d_ref lemma="ruskabiila" pos="N">ruskabiila</d_ref>
+            <d_ref lemma="rihpabiila" pos="N">rihpabiila</d_ref>
          </syng>
          <xg>
             <x>Doapparbiila boahtá oktii vahkus.</x>
@@ -1856,9 +1776,7 @@
       <dg id="a">
          <d>olmmoš gii vuodjá drošše ámmáhin</d>
          <syng>
-            <syn>
-               <d_ref lemma="dáksevuoddji" pos="N" type="NomAg">dáksevuoddji</d_ref>
-            </syn>
+            <d_ref lemma="dáksevuoddji" pos="N" type="NomAg">dáksevuoddji</d_ref>
          </syng>
          <xg>
             <x>Drošševuoddji guttii mu koaffara vissui ja veahkehii mu vel tráhpá bajás.</x>
@@ -1913,9 +1831,7 @@
       <dg id="a">
          <d>latnja guovtti olbmui</d>
          <syng>
-            <syn>
-               <d_ref lemma="guovtteolbmolatnja" pos="N">guovtteolbmolatnja</d_ref>
-            </syn>
+            <d_ref lemma="guovtteolbmolatnja" pos="N">guovtteolbmolatnja</d_ref>
          </syng>
       </dg>
    </e>
@@ -1989,9 +1905,7 @@
       <dg id="a">
          <d>áigi gaskal gaskabeaivvi ja eahkeda, sullii gaskal diibmu 12 ja 18</d>
          <syng>
-            <syn>
-               <d_ref lemma="maŋŋelgaskabeaivi" pos="N">maŋŋelgaskabeaivi</d_ref>
-            </syn>
+            <d_ref lemma="maŋŋelgaskabeaivi" pos="N">maŋŋelgaskabeaivi</d_ref>
          </syng>
          <xg>
             <x>Konferánsa álgá maŋŋebárgga eahketbeaivve.</x>
@@ -2006,9 +1920,7 @@
       <dg id="a">
          <d>boradeapmi dábálaččat maŋŋit eahkedis</d>
          <syng>
-            <syn>
-               <d_ref lemma="eahketborramuš" pos="N">eahketborramuš</d_ref>
-            </syn>
+            <d_ref lemma="eahketborramuš" pos="N">eahketborramuš</d_ref>
          </syng>
          <xg>
             <x>borrat eahketbiepmu</x>
@@ -2022,9 +1934,7 @@
       <dg id="a">
          <d>boradeapmi dábálaččat maŋŋit eahkedis</d>
          <syng>
-            <syn>
-               <d_ref lemma="eahketbiebmu" pos="N">eahketbiebmu</d_ref>
-            </syn>
+            <d_ref lemma="eahketbiebmu" pos="N">eahketbiebmu</d_ref>
          </syng>
          <xg>
             <x>borrat eahketborramuša</x>
@@ -2082,9 +1992,7 @@
       <dg id="a">
          <d>latnja ovtta olbmui</d>
          <syng>
-            <syn>
-               <d_ref lemma="ovttaolbmolatnja" pos="N">ovttaolbmolatnja</d_ref>
-            </syn>
+            <d_ref lemma="ovttaolbmolatnja" pos="N">ovttaolbmolatnja</d_ref>
          </syng>
          <xg>
             <x>Son diŋgui eaŋkillanja.</x>
@@ -2226,12 +2134,8 @@
       <dg id="a">
          <d>spáppastallan guovtti joavkku gaskkas mas gieđaiguin časká spáppa fierpmi badjel</d>
          <syng>
-            <syn>
-               <d_ref lemma="volleyspábba" pos="N">volleyspábba</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="spábbadoaškun" pos="N">spábbadoaškun</d_ref>
-            </syn>
+            <d_ref lemma="volleyspábba" pos="N">volleyspábba</d_ref>
+            <d_ref lemma="spábbadoaškun" pos="N">spábbadoaškun</d_ref>
          </syng>
          <xg>
             <x>Astoáiggis láven speallat fierbmespáppa.</x>
@@ -2325,9 +2229,7 @@
       <dg id="a">
          <d>mearka dihto árvvuin mii darvehuvvo reivii dahje páhkkii máksun frávtta ovddas</d>
          <syng>
-            <syn>
-               <d_ref lemma="poastamearka" pos="N">poastamearka</d_ref>
-            </syn>
+            <d_ref lemma="poastamearka" pos="N">poastamearka</d_ref>
          </syng>
          <xg>
             <x>Mun álgen čoaggit friddjamearkkaid.</x>
@@ -2590,9 +2492,7 @@
       <dg id="a">
          <d>(kaleandar)jahki mii lea jándora guhkit go dábálaš jahki</d>
          <syng>
-            <syn>
-               <d_ref lemma="čoakkáhusjahki" pos="N">čoakkáhusjahki</d_ref>
-            </syn>
+            <d_ref lemma="čoakkáhusjahki" pos="N">čoakkáhusjahki</d_ref>
          </syng>
          <xg>
             <x>2020 lei gárgádusjahki.</x>
@@ -2701,9 +2601,7 @@
       <dg id="a">
          <d>go idja ja beaivi leaba ovtta guhku giđđat, dábálaččat njukčamánu 20. dahje 21. beaivvi</d>
          <syng>
-            <syn>
-               <d_ref lemma="giđđajorggáldat" pos="N">giđđajorggáldat</d_ref>
-            </syn>
+            <d_ref lemma="giđđajorggáldat" pos="N">giđđajorggáldat</d_ref>
          </syng>
       </dg>
    </e>
@@ -2725,9 +2623,7 @@
       <dg id="a">
          <d>go idja ja beaivi leaba ovtta guhku giđđat, dábálaččat njukčamánu 20. dahje 21. beaivvi</d>
          <syng>
-            <syn>
-               <d_ref lemma="giđđadássebeaivi" pos="N">giđđadássebeaivi</d_ref>
-            </syn>
+            <d_ref lemma="giđđadássebeaivi" pos="N">giđđadássebeaivi</d_ref>
          </syng>
       </dg>
    </e>
@@ -2785,9 +2681,7 @@
       <dg id="a">
          <d>teaksta mii lea čállon gieđain dahje mášeniin, ja mii lea vuođđun girjái, filbmii, sárdnái, jna.</d>
          <syng>
-            <syn>
-               <d_ref lemma="mánus" pos="N">mánus</d_ref>
-            </syn>
+            <d_ref lemma="mánus" pos="N">mánus</d_ref>
          </syng>
          <xg>
             <x>Son lea čállán giehtačállosa filbmii.</x>
@@ -2824,12 +2718,8 @@
       <dg id="a">
          <d>giehtalihkastatsystema mii geavahuvvo gulahallamii, erenoamážit bealjehemiiguin ja bealjehemiid gaskkas</d>
          <syng>
-            <syn>
-               <d_ref lemma="seavagiella" pos="N">seavagiella</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="mearkagiella" pos="N">mearkagiella</d_ref>
-            </syn>
+            <d_ref lemma="seavagiella" pos="N">seavagiella</d_ref>
+            <d_ref lemma="mearkagiella" pos="N">mearkagiella</d_ref>
          </syng>
          <xg>
             <x>Goappašagat mu váhnemiin leaba oahppan giehtagiela.</x>
@@ -2866,9 +2756,7 @@
       <dg id="a">
          <d>gieđa siskkobealli gaskal giehtalađđasa ja suorpmaid</d>
          <syng>
-            <syn>
-               <d_ref lemma="giehtaváibmu" pos="N">giehtaváibmu</d_ref>
-            </syn>
+            <d_ref lemma="giehtaváibmu" pos="N">giehtaváibmu</d_ref>
          </syng>
          <xg>
             <x>Son rabai čorpmaid ja čájehii giehtaloabuid.</x>
@@ -2923,12 +2811,8 @@
       <dg id="a">
          <d>fievrridahtti jođaskeahtes telefovdna</d>
          <syng>
-            <syn>
-               <d_ref lemma="mobiilatelefovdna" pos="N">mobiilatelefovdna</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="mobiila" pos="N">mobiila</d_ref>
-            </syn>
+            <d_ref lemma="mobiilatelefovdna" pos="N">mobiilatelefovdna</d_ref>
+            <d_ref lemma="mobiila" pos="N">mobiila</d_ref>
          </syng>
          <xg>
             <x>giehtatelefovdna čuodjá</x>
@@ -2942,9 +2826,7 @@
       <dg id="a">
          <d>gieđa siskkobealli gaskal giehtalađđasa ja suorpmaid</d>
          <syng>
-            <syn>
-               <d_ref lemma="giehtaloahpu" pos="N">giehtaloahpu</d_ref>
-            </syn>
+            <d_ref lemma="giehtaloahpu" pos="N">giehtaloahpu</d_ref>
          </syng>
          <xg>
             <x>Mus lea hávvi giehtaváimmus.</x>
@@ -3045,9 +2927,7 @@
       <dg id="a">
          <d>olmmoš gii stivre girdi</d>
          <syng>
-            <syn>
-               <d_ref lemma="pilohta" pos="N">pilohta</d_ref>
-            </syn>
+            <d_ref lemma="pilohta" pos="N">pilohta</d_ref>
          </syng>
          <xg>
             <x>Girdivuoddji fertii gaskkalduhttit seaivuma go lei menddo garra biegga.</x>
@@ -3355,9 +3235,7 @@
       <dg id="a">
          <d>latnja guovtti olbmui</d>
          <syng>
-            <syn>
-               <d_ref lemma="duppallatnja" pos="N">duppallatnja</d_ref>
-            </syn>
+            <d_ref lemma="duppallatnja" pos="N">duppallatnja</d_ref>
          </syng>
          <xg>
             <x>Son diŋgui guovtteolbmolanja.</x>
@@ -3470,9 +3348,7 @@
       <dg id="a">
          <d>riegádannummára maŋimuš vihtta siffara</d>
          <syng>
-            <syn>
-               <d_ref lemma="personnummár" pos="N">personnummár</d_ref>
-            </syn>
+            <d_ref lemma="personnummár" pos="N">personnummár</d_ref>
          </syng>
       </dg>
    </e>
@@ -3564,9 +3440,7 @@
       <dg id="a">
          <d>áigi gaskal iđida ja maŋŋelgaskabeaivvi, áigi gaskal sullii diibmu 9 ja 12</d>
          <syng>
-            <syn>
-               <d_ref lemma="ovdalgaskabeaivi" pos="N">ovdalgaskabeaivi</d_ref>
-            </syn>
+            <d_ref lemma="ovdalgaskabeaivi" pos="N">ovdalgaskabeaivi</d_ref>
          </syng>
          <xg>
             <x>Doalut álget diibmu logis iđđesbeaivvi.</x>
@@ -3627,9 +3501,7 @@
       <dg id="a">
          <d>(dábálaččat) beaivvi vuosttaš boradeapmi</d>
          <syng>
-            <syn>
-               <d_ref lemma="iđitborramuš" pos="N">iđitborramuš</d_ref>
-            </syn>
+            <d_ref lemma="iđitborramuš" pos="N">iđitborramuš</d_ref>
          </syng>
          <xg>
             <x>Son borrá buvrru iđitbiebmun.</x>
@@ -3644,9 +3516,7 @@
       <dg id="a">
          <d>(dábálaččat) beaivvi vuosttaš boradeapmi</d>
          <syng>
-            <syn>
-               <d_ref lemma="iđitbiebmu" pos="N">iđitbiebmu</d_ref>
-            </syn>
+            <d_ref lemma="iđitbiebmu" pos="N">iđitbiebmu</d_ref>
          </syng>
          <xg>
             <x>Son borrá buvrru iđitborramuššan.</x>
@@ -3749,9 +3619,7 @@
       <dg id="a">
          <d>áigodat mii bistá 100 jagi</d>
          <syng>
-            <syn>
-               <d_ref lemma="čuohtejahki" pos="N">čuohtejahki</d_ref>
-            </syn>
+            <d_ref lemma="čuohtejahki" pos="N">čuohtejahki</d_ref>
          </syng>
          <xg>
             <x>Guovlu lea leamaš dehálaš sámi boazodollui jahkečuđiid mielde.</x>
@@ -3760,9 +3628,7 @@
       <dg id="b">
          <d>juohke 100 jagi áigodat rehkenastojuvvon áigerehkega álggu rájes</d>
          <syng>
-            <syn>
-               <d_ref lemma="čuohtejahki" pos="N">čuohtejahki</d_ref>
-            </syn>
+            <d_ref lemma="čuohtejahki" pos="N">čuohtejahki</d_ref>
          </syng>
          <xg>
             <x>viđát jahkečuohti</x>
@@ -3790,9 +3656,7 @@
       <dg id="a">
          <d>áigodat mii bistá logi jagi</d>
          <syng>
-            <syn>
-               <d_ref lemma="logijahki" pos="N">logijahki</d_ref>
-            </syn>
+            <d_ref lemma="logijahki" pos="N">logijahki</d_ref>
          </syng>
          <xg>
             <x>Boazodoallu lea rievdan sakka maŋimuš jahkelogežiid.</x>
@@ -3993,9 +3857,7 @@
       <dg id="a">
          <d>spábba mii geavahuvvo spábbačiekčamis</d>
          <syng>
-            <syn>
-               <d_ref lemma="čiekčanspábba" pos="N">čiekčanspábba</d_ref>
-            </syn>
+            <d_ref lemma="čiekčanspábba" pos="N">čiekčanspábba</d_ref>
          </syng>
          <xg>
             <x>Juolgespáppa goarrumii geavahuvvojit 12 viđačiegat ja 20 guđačiegat bihtá.</x>
@@ -4349,9 +4211,7 @@
       <dg id="a">
          <d>speallu mas geavahuvvojit speallanboalut dahje sullasaččat breahta alde</d>
          <syng>
-            <syn>
-               <d_ref lemma="breahttaspeallu" pos="N">breahttaspeallu</d_ref>
-            </syn>
+            <d_ref lemma="breahttaspeallu" pos="N">breahttaspeallu</d_ref>
          </syng>
          <xg>
             <x>Son lea váillahan sámi lávdespealu mii heive olles bearrašii.</x>
@@ -4543,9 +4403,7 @@
       <dg id="a">
          <d>áigodat mii bistá logi jagi</d>
          <syng>
-            <syn>
-               <d_ref lemma="jahkelogeš" pos="N">jahkelogeš</d_ref>
-            </syn>
+            <d_ref lemma="jahkelogeš" pos="N">jahkelogeš</d_ref>
          </syng>
          <xg>
             <x>Boazodoallu lea rievdan sakka maŋimuš logijagiid.</x>
@@ -4582,9 +4440,7 @@
       <dg id="a">
          <d>olmmoš Lulliriikkas eret</d>
          <syng>
-            <syn>
-               <d_ref lemma="nuortariikalaš" pos="N">nuortariikalaš</d_ref>
-            </syn>
+            <d_ref lemma="nuortariikalaš" pos="N">nuortariikalaš</d_ref>
          </syng>
       </dg>
    </e>
@@ -4595,15 +4451,9 @@
       <dg id="a">
          <d>boradeapmi gaskal iđitbiepmu ja mállásiid, dábálaččat sullii diibmu 12</d>
          <syng>
-            <syn>
-               <d_ref lemma="beaiveborramuš" pos="N">beaiveborramuš</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="beaivebiebmu" pos="N">beaivebiebmu</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="beaiveborran" pos="N">beaiveborran</d_ref>
-            </syn>
+            <d_ref lemma="beaiveborramuš" pos="N">beaiveborramuš</d_ref>
+            <d_ref lemma="beaivebiebmu" pos="N">beaivebiebmu</d_ref>
+            <d_ref lemma="beaiveborran" pos="N">beaiveborran</d_ref>
          </syng>
          <xg>
             <x>Son oastá lunšša kantiinnas.</x>
@@ -4677,12 +4527,8 @@
       <dg id="a">
          <d>áigi gaskal gaskabeaivvi ja eahkeda, sullii gaskal diibmu 12 ja 18</d>
          <syng>
-            <syn>
-               <d_ref lemma="eahketbeaivi" pos="N">eahketbeaivi</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="maŋŋelgaskabeaivi" pos="N">maŋŋelgaskabeaivi</d_ref>
-            </syn>
+            <d_ref lemma="eahketbeaivi" pos="N">eahketbeaivi</d_ref>
+            <d_ref lemma="maŋŋelgaskabeaivi" pos="N">maŋŋelgaskabeaivi</d_ref>
          </syng>
          <xg>
             <x>Mii oaidnalit maŋŋágaskabeaivvi.</x>
@@ -4697,9 +4543,7 @@
       <dg id="a">
          <d>vahku nubbi beaivi</d>
          <syng>
-            <syn>
-               <d_ref lemma="disdat" pos="N">disdat</d_ref>
-            </syn>
+            <d_ref lemma="disdat" pos="N">disdat</d_ref>
          </syng>
          <xg>
             <x>Otne lea maŋŋebárga.</x>
@@ -4726,12 +4570,8 @@
       <dg id="a">
          <d>áigi gaskal gaskabeaivvi ja eahkeda, sullii gaskal diibmu 12 ja 18</d>
          <syng>
-            <syn>
-               <d_ref lemma="eahketbeaivi" pos="N">eahketbeaivi</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="maŋŋágaskabeaivi" pos="N">maŋŋágaskabeaivi</d_ref>
-            </syn>
+            <d_ref lemma="eahketbeaivi" pos="N">eahketbeaivi</d_ref>
+            <d_ref lemma="maŋŋágaskabeaivi" pos="N">maŋŋágaskabeaivi</d_ref>
          </syng>
          <xg>
             <x>Mii oaidnalit maŋŋelgaskabeaivvi.</x>
@@ -4746,12 +4586,8 @@
       <dg id="a">
          <d>áigi gaskal gaskabeaivvi ja eahkeda, sullii gaskal diibmu 12 ja 18</d>
          <syng>
-            <syn>
-               <d_ref lemma="eahketbeaivi" pos="N">eahketbeaivi</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="maŋŋágaskabeaivi" pos="N">maŋŋágaskabeaivi</d_ref>
-            </syn>
+            <d_ref lemma="eahketbeaivi" pos="N">eahketbeaivi</d_ref>
+            <d_ref lemma="maŋŋágaskabeaivi" pos="N">maŋŋágaskabeaivi</d_ref>
          </syng>
          <xg>
             <x>Mii oaidnalit maŋŋilgaskabeaivvi.</x>
@@ -4782,9 +4618,7 @@
       <dg id="a">
          <d>dilálašvuohta šáhkkaspealus gos gonagas ii beasa báhtui ja speallu lea nohkan</d>
          <syng>
-            <syn>
-               <d_ref lemma="šáhkka máhtta" pos="Phrase">šáhkka máhtta</d_ref>
-            </syn>
+            <d_ref lemma="šáhkka máhtta" pos="Phrase">šáhkka máhtta</d_ref>
          </syng>
          <xg>
             <x>Čáhppat lea máhtas.</x>
@@ -4856,9 +4690,7 @@
       <dg id="a">
          <d>vahku vuosttaš beaivi</d>
          <syng>
-            <syn>
-               <d_ref lemma="vuossárga" pos="N">vuossárga</d_ref>
-            </syn>
+            <d_ref lemma="vuossárga" pos="N">vuossárga</d_ref>
          </syng>
          <xg>
             <x>Otne lea mánnodat.</x>
@@ -4984,12 +4816,8 @@
       <dg id="a">
          <d>giehtalihkastatsystema mii geavahuvvo gulahallamii, erenoamážit bealjehemiiguin ja bealjehemiid gaskkas</d>
          <syng>
-            <syn>
-               <d_ref lemma="seavagiella" pos="N">seavagiella</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="giehtagiella" pos="N">giehtagiella</d_ref>
-            </syn>
+            <d_ref lemma="seavagiella" pos="N">seavagiella</d_ref>
+            <d_ref lemma="giehtagiella" pos="N">giehtagiella</d_ref>
          </syng>
          <xg>
             <x>Goappašagat mu váhnemiin leaba oahppan mearkagiela.</x>
@@ -5188,12 +5016,8 @@
       <dg id="a">
          <d>fievrridahtti jođaskeahtes telefovdna</d>
          <syng>
-            <syn>
-               <d_ref lemma="giehtatelefovdna" pos="N">giehtatelefovdna</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="mobiilatelefovdna" pos="N">mobiilatelefovdna</d_ref>
-            </syn>
+            <d_ref lemma="giehtatelefovdna" pos="N">giehtatelefovdna</d_ref>
+            <d_ref lemma="mobiilatelefovdna" pos="N">mobiilatelefovdna</d_ref>
          </syng>
          <xg>
             <x>Mobiila čuodjá.</x>
@@ -5208,12 +5032,8 @@
       <dg id="a">
          <d>fievrridahtti jođaskeahtes telefovdna</d>
          <syng>
-            <syn>
-               <d_ref lemma="mobiila" pos="N">mobiila</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="giehtatelefovdna" pos="N">giehtatelefovdna</d_ref>
-            </syn>
+            <d_ref lemma="mobiila" pos="N">mobiila</d_ref>
+            <d_ref lemma="giehtatelefovdna" pos="N">giehtatelefovdna</d_ref>
          </syng>
          <xg>
             <x>mobiilatelefovdna čuodjá</x>
@@ -5541,9 +5361,7 @@
       <dg id="a">
          <d>olmmoš Nuortariikkas eret</d>
          <syng>
-            <syn>
-               <d_ref lemma="lulliriikalaš" pos="N">lulliriikalaš</d_ref>
-            </syn>
+            <d_ref lemma="lulliriikalaš" pos="N">lulliriikalaš</d_ref>
          </syng>
       </dg>
    </e>
@@ -5757,9 +5575,7 @@
       <dg id="a">
          <d>áhčči gii okto fuolaha mánás dahje mánáidis</d>
          <syng>
-            <syn>
-               <d_ref lemma="oktonasáhčči" pos="N">oktonasáhčči</d_ref>
-            </syn>
+            <d_ref lemma="oktonasáhčči" pos="N">oktonasáhčči</d_ref>
          </syng>
       </dg>
    </e>
@@ -5770,9 +5586,7 @@
       <dg id="a">
          <d>eadni gii okto fuolaha mánás dahje mánáidis</d>
          <syng>
-            <syn>
-               <d_ref lemma="oktonaseadni" pos="N">oktonaseadni</d_ref>
-            </syn>
+            <d_ref lemma="oktonaseadni" pos="N">oktonaseadni</d_ref>
          </syng>
       </dg>
    </e>
@@ -5791,9 +5605,7 @@
       <dg id="a">
          <d>áhčči gii okto fuolaha mánás dahje mánáidis</d>
          <syng>
-            <syn>
-               <d_ref lemma="oktoáhčči" pos="N">oktoáhčči</d_ref>
-            </syn>
+            <d_ref lemma="oktoáhčči" pos="N">oktoáhčči</d_ref>
          </syng>
       </dg>
    </e>
@@ -5804,9 +5616,7 @@
       <dg id="a">
          <d>eadni gii okto fuolaha mánás dahje mánáidis</d>
          <syng>
-            <syn>
-               <d_ref lemma="oktoeadni" pos="N">oktoeadni</d_ref>
-            </syn>
+            <d_ref lemma="oktoeadni" pos="N">oktoeadni</d_ref>
          </syng>
       </dg>
    </e>
@@ -5817,9 +5627,7 @@
       <dg id="a">
          <d>váhnen gii okto fuolaha mánás dahje mánáidis</d>
          <syng>
-            <syn>
-               <d_ref lemma="oktováhnen" pos="N">oktováhnen</d_ref>
-            </syn>
+            <d_ref lemma="oktováhnen" pos="N">oktováhnen</d_ref>
          </syng>
       </dg>
    </e>
@@ -5830,9 +5638,7 @@
       <dg id="a">
          <d>váhnen gii okto fuolaha mánás dahje mánáidis</d>
          <syng>
-            <syn>
-               <d_ref lemma="oktonasváhnen" pos="N">oktonasváhnen</d_ref>
-            </syn>
+            <d_ref lemma="oktonasváhnen" pos="N">oktonasváhnen</d_ref>
          </syng>
       </dg>
    </e>
@@ -5851,12 +5657,8 @@
       <dg id="a">
          <d>olmmoš geainna lea lagaš gaskavuohta</d>
          <syng>
-            <syn>
-               <d_ref lemma="ustit" pos="N">ustit</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="skibir" pos="N">skibir</d_ref>
-            </syn>
+            <d_ref lemma="ustit" pos="N">ustit</d_ref>
+            <d_ref lemma="skibir" pos="N">skibir</d_ref>
          </syng>
          <xg>
             <x>Ipmirdan manne du olbmát atnet du árvvus.</x>
@@ -5923,9 +5725,7 @@
       <dg id="a">
          <d>áigi gaskal iđida ja maŋŋelgaskabeaivvi, áigi gaskal sullii diibmu 9 ja 12</d>
          <syng>
-            <syn>
-               <d_ref lemma="iđđesbeaivi" pos="N">iđđesbeaivi</d_ref>
-            </syn>
+            <d_ref lemma="iđđesbeaivi" pos="N">iđđesbeaivi</d_ref>
          </syng>
          <xg>
             <x>Doalut álget bearjadaga ovdalgaskabeaivvi.</x>
@@ -5947,9 +5747,7 @@
       <dg id="a">
          <d>latnja ovtta olbmui</d>
          <syng>
-            <syn>
-               <d_ref lemma="eaŋkillatnja" pos="N">eaŋkillatnja</d_ref>
-            </syn>
+            <d_ref lemma="eaŋkillatnja" pos="N">eaŋkillatnja</d_ref>
          </syng>
       </dg>
    </e>
@@ -5979,9 +5777,7 @@
       <dg id="a">
          <d>riegádannummára maŋimuš vihtta siffara</d>
          <syng>
-            <syn>
-               <d_ref lemma="heagganummar" pos="N">heagganummar</d_ref>
-            </syn>
+            <d_ref lemma="heagganummar" pos="N">heagganummar</d_ref>
          </syng>
       </dg>
    </e>
@@ -6011,9 +5807,7 @@
       <dg id="a">
          <d>mearka dihto árvvuin mii darvehuvvo reivii dahje páhkkii máksun frávtta ovddas</d>
          <syng>
-            <syn>
-               <d_ref lemma="friddjamearka" pos="N">friddjamearka</d_ref>
-            </syn>
+            <d_ref lemma="friddjamearka" pos="N">friddjamearka</d_ref>
          </syng>
          <xg>
             <x>Mun álgen čoaggit poastamearkkaid.</x>
@@ -6108,9 +5902,7 @@
       <dg id="a">
          <d>beaivi olmmoš lea riegádan</d>
          <syng>
-            <syn>
-               <d_ref lemma="šaddanbeaivi" pos="N">šaddanbeaivi</d_ref>
-            </syn>
+            <d_ref lemma="šaddanbeaivi" pos="N">šaddanbeaivi</d_ref>
          </syng>
          <xg>
             <x>ávvudit riegádanbeaivvi</x>
@@ -6151,12 +5943,8 @@
       <dg id="a">
          <d>stuorit spesiálabiila mainna fievrrida ribaid</d>
          <syng>
-            <syn>
-               <d_ref lemma="ruskabiila" pos="N">ruskabiila</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="doapparbiila" pos="N">doapparbiila</d_ref>
-            </syn>
+            <d_ref lemma="ruskabiila" pos="N">ruskabiila</d_ref>
+            <d_ref lemma="doapparbiila" pos="N">doapparbiila</d_ref>
          </syng>
          <xg>
             <x>Rihpabiila boahtá oktii vahkus.</x>
@@ -6256,12 +6044,8 @@
       <dg id="a">
          <d>stuorit spesiálabiila mainna fievrrida ruskkaid</d>
          <syng>
-            <syn>
-               <d_ref lemma="doapparbiila" pos="N">doapparbiila</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="rihpabiila" pos="N">rihpabiila</d_ref>
-            </syn>
+            <d_ref lemma="doapparbiila" pos="N">doapparbiila</d_ref>
+            <d_ref lemma="rihpabiila" pos="N">rihpabiila</d_ref>
          </syng>
          <xg>
             <x>Ruskabiila boahtá oktii vahkus.</x>
@@ -6366,12 +6150,8 @@
       <dg id="a">
          <d>giehtalihkastatsystema mii geavahuvvo gulahallamii, erenoamážit bealjehemiiguin ja bealjehemiid gaskkas</d>
          <syng>
-            <syn>
-               <d_ref lemma="giehtagiella" pos="N">giehtagiella</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="mearkagiella" pos="N">mearkagiella</d_ref>
-            </syn>
+            <d_ref lemma="giehtagiella" pos="N">giehtagiella</d_ref>
+            <d_ref lemma="mearkagiella" pos="N">mearkagiella</d_ref>
          </syng>
          <xg>
             <x>Goappašagat mu váhnemiin leaba oahppan seavagiela.</x>
@@ -6485,12 +6265,8 @@
       <dg id="a">
          <d>olmmoš geainna lea lagaš gaskavuohta</d>
          <syng>
-            <syn>
-               <d_ref lemma="ustit" pos="N">ustit</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="olmmái" pos="N">olmmái</d_ref>
-            </syn>
+            <d_ref lemma="ustit" pos="N">ustit</d_ref>
+            <d_ref lemma="olmmái" pos="N">olmmái</d_ref>
          </syng>
          <xg>
             <x>Ipmirdan manne du skihpárat atnet du árvvus.</x>
@@ -6505,12 +6281,8 @@
       <dg id="a">
          <d>olmmoš geainna lea lagaš gaskavuohta</d>
          <syng>
-            <syn>
-               <d_ref lemma="ustit" pos="N">ustit</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="olmmái" pos="N">olmmái</d_ref>
-            </syn>
+            <d_ref lemma="ustit" pos="N">ustit</d_ref>
+            <d_ref lemma="olmmái" pos="N">olmmái</d_ref>
          </syng>
          <xg>
             <x>Ipmirdan manne du skihpárat atnet du árvvus.</x>
@@ -6709,9 +6481,7 @@
       <dg id="b">
          <d>gilvu guovtti spábbačiekčanjoavkku gaskkas</d>
          <syng>
-            <syn>
-               <d_ref lemma="spábbačiekčangilvu" pos="N">spábbačiekčangilvu</d_ref>
-            </syn>
+            <d_ref lemma="spábbačiekčangilvu" pos="N">spábbačiekčangilvu</d_ref>
          </syng>
          <xg>
             <x>Sotnabeaivve leat spábbačiekčamat mánáide.</x>
@@ -6748,9 +6518,7 @@
       <dg id="a">
          <d>olmmoš gii čiekčá spáppa</d>
          <syng>
-            <syn>
-               <d_ref lemma="čiekči" pos="N" type="NomAg">čiekči</d_ref>
-            </syn>
+            <d_ref lemma="čiekči" pos="N" type="NomAg">čiekči</d_ref>
          </syng>
          <xg>
             <x>ovddeš spábbačiekči</x>
@@ -6764,12 +6532,8 @@
       <dg id="a">
          <d>spáppastallan guovtti joavkku gaskkas mas gieđaiguin časká spáppa fierpmi badjel</d>
          <syng>
-            <syn>
-               <d_ref lemma="volleyspábba" pos="N">volleyspábba</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="fierbmespábba" pos="N">fierbmespábba</d_ref>
-            </syn>
+            <d_ref lemma="volleyspábba" pos="N">volleyspábba</d_ref>
+            <d_ref lemma="fierbmespábba" pos="N">fierbmespábba</d_ref>
          </syng>
          <xg>
             <x>Astoáiggis láven speallat spábbadoaškuma.</x>
@@ -6795,9 +6559,7 @@
       <dg id="a">
          <d>(njealječiegat) breahtta dahje pláhta mii geavahuvvo lávdespeallamii</d>
          <syng>
-            <syn>
-               <d_ref lemma="speallanlávdi" pos="N">speallanlávdi</d_ref>
-            </syn>
+            <d_ref lemma="speallanlávdi" pos="N">speallanlávdi</d_ref>
          </syng>
       </dg>
    </e>
@@ -6808,9 +6570,7 @@
       <dg id="a">
          <d>(njealječiegat) breahtta dahje pláhta mii geavahuvvo lávdespeallamii</d>
          <syng>
-            <syn>
-               <d_ref lemma="speallanbreahtta" pos="N">speallanbreahtta</d_ref>
-            </syn>
+            <d_ref lemma="speallanbreahtta" pos="N">speallanbreahtta</d_ref>
          </syng>
       </dg>
    </e>
@@ -6964,9 +6724,7 @@
       <dg id="a">
          <d>beaivi olmmoš lea riegádan</d>
          <syng>
-            <syn>
-               <d_ref lemma="riegádanbeaivi" pos="N">riegádanbeaivi</d_ref>
-            </syn>
+            <d_ref lemma="riegádanbeaivi" pos="N">riegádanbeaivi</d_ref>
          </syng>
          <xg>
             <x>ávvudit šaddanbeaivvi</x>
@@ -6994,9 +6752,7 @@
       <dg id="a">
          <d>njealjehaslaš breahtta dahje pláhta mas leat 64 ruvtto, mii geavahuvvo šáhkkaspeallamii</d>
          <syng>
-            <syn>
-               <d_ref lemma="šáhkkalávdi" pos="N">šáhkkalávdi</d_ref>
-            </syn>
+            <d_ref lemma="šáhkkalávdi" pos="N">šáhkkalávdi</d_ref>
          </syng>
       </dg>
    </e>
@@ -7007,9 +6763,7 @@
       <dg id="a">
          <d>njealjehaslaš breahtta dahje pláhta mas leat 64 ruvtto, mii geavahuvvo šáhkkaspeallamii</d>
          <syng>
-            <syn>
-               <d_ref lemma="šáhkkabreahtta" pos="N">šáhkkabreahtta</d_ref>
-            </syn>
+            <d_ref lemma="šáhkkabreahtta" pos="N">šáhkkabreahtta</d_ref>
          </syng>
       </dg>
    </e>
@@ -7020,9 +6774,7 @@
       <dg id="a">
          <d>dilálašvuohta šáhkkaspealus gos gonagas ii beasa báhtui ja speallu lea nohkan</d>
          <syng>
-            <syn>
-               <d_ref lemma="máhtta" pos="N">máhtta</d_ref>
-            </syn>
+            <d_ref lemma="máhtta" pos="N">máhtta</d_ref>
          </syng>
       </dg>
    </e>
@@ -7201,12 +6953,8 @@
       <dg id="a">
          <d>olmmoš geainna lea lagaš gaskavuohta</d>
          <syng>
-            <syn>
-               <d_ref lemma="olmmái" pos="N">olmmái</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="skibir" pos="N">skibir</d_ref>
-            </syn>
+            <d_ref lemma="olmmái" pos="N">olmmái</d_ref>
+            <d_ref lemma="skibir" pos="N">skibir</d_ref>
          </syng>
          <xg>
             <x>Ipmirdan manne du ustibat atnet du árvvus.</x>
@@ -7525,12 +7273,8 @@
       <dg id="a">
          <d>spáppastallan guovtti joavkku gaskkas mas gieđaiguin časká spáppa fierpmi badjel</d>
          <syng>
-            <syn>
-               <d_ref lemma="fierbmespábba" pos="N">fierbmespábba</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="spábbadoaškun" pos="N">spábbadoaškun</d_ref>
-            </syn>
+            <d_ref lemma="fierbmespábba" pos="N">fierbmespábba</d_ref>
+            <d_ref lemma="spábbadoaškun" pos="N">spábbadoaškun</d_ref>
          </syng>
          <xg>
             <x>Astoáiggis láven speallat volleyspáppa.</x>
@@ -7613,9 +7357,7 @@
       <dg id="a">
          <d>vahku vuosttaš beaivi</d>
          <syng>
-            <syn>
-               <d_ref lemma="mánnodat" pos="N">mánnodat</d_ref>
-            </syn>
+            <d_ref lemma="mánnodat" pos="N">mánnodat</d_ref>
          </syng>
          <xg>
             <x>Otne lea vuossárga.</x>
@@ -26376,9 +26118,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="mirkoguovdi" pos="N">mirkoguovdi</d_ref>
-            </syn>
+            <d_ref lemma="mirkoguovdi" pos="N">mirkoguovdi</d_ref>
          </syng>
          <xg>
             <x>Bosttagearpmaš gáskkesta dávjjimusat gihtii dehe juolgái.</x>
@@ -26687,9 +26427,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="buđetnjuvddus" pos="N">buđetnjuvddus</d_ref>
-            </syn>
+            <d_ref lemma="buđetnjuvddus" pos="N">buđetnjuvddus</d_ref>
          </syng>
       </dg>
    </e>
@@ -26705,9 +26443,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="buđetmeastu" pos="N">buđetmeastu</d_ref>
-            </syn>
+            <d_ref lemma="buđetmeastu" pos="N">buđetmeastu</d_ref>
          </syng>
       </dg>
    </e>
@@ -46246,9 +45982,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="rávdnjeheasta" pos="N">rávdnjeheasta</d_ref>
-            </syn>
+            <d_ref lemma="rávdnjeheasta" pos="N">rávdnjeheasta</d_ref>
          </syng>
       </dg>
    </e>
@@ -55793,9 +55527,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="voluma" pos="N">voluma</d_ref>
-            </syn>
+            <d_ref lemma="voluma" pos="N">voluma</d_ref>
          </syng>
       </dg>
    </e>
@@ -64947,9 +64679,7 @@
       <dg id="a">
          <d/>
          <antg>
-            <ant>
-               <d_ref lemma="seahpebordi" pos="N">seahpebordi</d_ref>
-            </ant>
+            <d_ref lemma="seahpebordi" pos="N">seahpebordi</d_ref>
          </antg>
       </dg>
    </e>
@@ -66629,9 +66359,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="hávvarsuohkat" pos="N">hávvarsuohkat</d_ref>
-            </syn>
+            <d_ref lemma="hávvarsuohkat" pos="N">hávvarsuohkat</d_ref>
          </syng>
       </dg>
    </e>
@@ -66662,9 +66390,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="hávvarbuvru" pos="N">hávvarbuvru</d_ref>
-            </syn>
+            <d_ref lemma="hávvarbuvru" pos="N">hávvarbuvru</d_ref>
          </syng>
       </dg>
    </e>
@@ -70827,9 +70553,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="jábmiidriika" pos="N">jábmiidriika</d_ref>
-            </syn>
+            <d_ref lemma="jábmiidriika" pos="N">jábmiidriika</d_ref>
          </syng>
          <xg>
             <x>Dat gii manná jábmiidáibmui, ii šat máhca.</x>
@@ -70844,9 +70568,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="jábmiidáibmu" pos="N">jábmiidáibmu</d_ref>
-            </syn>
+            <d_ref lemma="jábmiidáibmu" pos="N">jábmiidáibmu</d_ref>
          </syng>
          <xg>
             <x>Dat gii manná jábmiidriikii, ii šat máhca.</x>
@@ -71395,9 +71117,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="jiekŋaskearru" pos="N">jiekŋaskearru</d_ref>
-            </syn>
+            <d_ref lemma="jiekŋaskearru" pos="N">jiekŋaskearru</d_ref>
          </syng>
       </dg>
    </e>
@@ -71414,9 +71134,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="jiekŋahockey" pos="N">jiekŋahockey</d_ref>
-            </syn>
+            <d_ref lemma="jiekŋahockey" pos="N">jiekŋahockey</d_ref>
          </syng>
       </dg>
    </e>
@@ -86926,9 +86644,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="márspiidni" pos="N">márspiidni</d_ref>
-            </syn>
+            <d_ref lemma="márspiidni" pos="N">márspiidni</d_ref>
          </syng>
       </dg>
    </e>
@@ -90243,9 +89959,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="bosttagearpmaš" pos="N">bosttagearpmaš</d_ref>
-            </syn>
+            <d_ref lemma="bosttagearpmaš" pos="N">bosttagearpmaš</d_ref>
          </syng>
          <xg>
             <x>Mirkoguovddi gáskkástat gáibida álot jođánis buohcceviessodivššu.</x>
@@ -90659,9 +90373,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="muohtaskohter" pos="N">muohtaskohter</d_ref>
-            </syn>
+            <d_ref lemma="muohtaskohter" pos="N">muohtaskohter</d_ref>
          </syng>
       </dg>
    </e>
@@ -91568,9 +91280,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="mohtorgielká" pos="N">mohtorgielká</d_ref>
-            </syn>
+            <d_ref lemma="mohtorgielká" pos="N">mohtorgielká</d_ref>
          </syng>
       </dg>
    </e>
@@ -95218,9 +94928,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="nuossimánnu" pos="N">nuossimánnu</d_ref>
-            </syn>
+            <d_ref lemma="nuossimánnu" pos="N">nuossimánnu</d_ref>
          </syng>
       </dg>
    </e>
@@ -95921,9 +95629,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="nohkkimánnu" pos="N">nohkkimánnu</d_ref>
-            </syn>
+            <d_ref lemma="nohkkimánnu" pos="N">nohkkimánnu</d_ref>
          </syng>
       </dg>
    </e>
@@ -109644,9 +109350,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="eatnoheasta" pos="N">eatnoheasta</d_ref>
-            </syn>
+            <d_ref lemma="eatnoheasta" pos="N">eatnoheasta</d_ref>
          </syng>
       </dg>
    </e>
@@ -117813,9 +117517,7 @@
       <dg id="a">
          <d/>
          <antg>
-            <ant>
-               <d_ref lemma="gurutbordi" pos="N">gurutbordi</d_ref>
-            </ant>
+            <d_ref lemma="gurutbordi" pos="N">gurutbordi</d_ref>
          </antg>
       </dg>
    </e>
@@ -125334,12 +125036,8 @@
       <dg>
          <d>(stuorra) latnja viesus mii lea oaivvilduvvon doaimmaide beaivebotta dahje eahketbotta</d>
          <syng>
-            <syn>
-               <d_ref lemma="beaivelatnja" pos="N">beaivelatnja</d_ref>
-            </syn>
-            <syn>
-               <d_ref lemma="orrunlatnja" pos="N">orrunlatnja</d_ref>
-            </syn>
+            <d_ref lemma="beaivelatnja" pos="N">beaivelatnja</d_ref>
+            <d_ref lemma="orrunlatnja" pos="N">orrunlatnja</d_ref>
          </syng>
          <xg>
             <x>Mánát gehččet tv stobus.</x>
@@ -125349,9 +125047,7 @@
       <dg>
          <d>viessu olbmuid várás</d>
          <syng>
-            <syn>
-               <d_ref lemma="dállu" pos="N">dállu</d_ref>
-            </syn>
+            <d_ref lemma="dállu" pos="N">dállu</d_ref>
          </syng>
          <xg>
             <x>Sii huksejit ođđa stobu.</x>
@@ -125361,9 +125057,7 @@
       <dg>
          <d>(unna) viessu gos olmmoš orru dušše muhtin áigodagaid</d>
          <syng>
-            <syn>
-               <d_ref lemma="barta" pos="N">barta</d_ref>
-            </syn>
+            <d_ref lemma="barta" pos="N">barta</d_ref>
          </syng>
          <xg>
             <x>Turisttat vázze stobus stohpui.</x>
@@ -136518,9 +136212,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn>
-               <d_ref lemma="geassu" pos="N">geassu</d_ref>
-            </syn>
+            <d_ref lemma="geassu" pos="N">geassu</d_ref>
          </syng>
       </dg>
    </e>

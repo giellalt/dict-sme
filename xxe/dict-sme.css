@@ -101,8 +101,8 @@
 @property-value add-dg() button("+ definition group", "dictSme.addDg", "");
 /* synonyms and antonyms are links: these buttons let the user pick the
    entry, with commands from xxe/dict-sme.xxe */
-@property-value add-syng() button("+ synonyms", "dictSme.addRelatedGroup", "syng syn");
-@property-value add-antg() button("+ antonyms", "dictSme.addRelatedGroup", "antg ant");
+@property-value add-syng() button("+ synonyms", "dictSme.addRelatedGroup", "syng");
+@property-value add-antg() button("+ antonyms", "dictSme.addRelatedGroup", "antg");
 @property-value add-xg() button("+ examples", "insert", "after xg");
 @property-value add-ig() button("+ idiom", "insert", "after ig");
 @property-value add-idg() button("+ definition", "insert", "after idg");
@@ -520,22 +520,26 @@ antg:before {
   content: "ant ";
 }
 
-syn,
-ant {
-  display: inline;
+/* the comma and the button are part of the d_ref: not underlined */
+syng>d_ref:before,
+antg>d_ref:before,
+syng>d_ref:after,
+antg>d_ref:after {
+  text-decoration: none;
+  color: value-color();
 }
 
-syn+syn:before,
-ant+ant:before {
+syng>d_ref+d_ref:before,
+antg>d_ref+d_ref:before {
   content: ", ";
 }
 
-syn:last-child:after {
-  content: "   " button("+ synonym", "dictSme.addRelated", "syn");
+syng>d_ref:last-child:after {
+  content: "   " button("+ synonym", "dictSme.addRelated", "");
 }
 
-ant:last-child:after {
-  content: "   " button("+ antonym", "dictSme.addRelated", "ant");
+antg>d_ref:last-child:after {
+  content: "   " button("+ antonym", "dictSme.addRelated", "");
 }
 
 /* ...except that antg must come after syng, and xg after both; again on

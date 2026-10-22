@@ -45,7 +45,7 @@
       <dg id="a">
          <d>parallealla loaddaárppuin</d>
          <antg>
-            <ant><d_ref lemma="láskut" pos="Adv">láskut</d_ref></ant>
+            <d_ref lemma="láskut" pos="Adv">láskut</d_ref>
          </antg>
          <xg>
             <x>Sáhtát deavdit ráiddu láskut, čorrut dahje čađan.</x>
@@ -70,8 +70,8 @@
       <dg id="a">
          <d>parallealla mearragierragiin</d>
          <antg>
-            <ant><d_ref lemma="čorrut" pos="Adv">čorrut</d_ref></ant>
-            <ant><d_ref lemma="ceaggut" pos="Adv">ceaggut</d_ref></ant>
+            <d_ref lemma="čorrut" pos="Adv">čorrut</d_ref>
+            <d_ref lemma="ceaggut" pos="Adv">ceaggut</d_ref>
          </antg>
          <xg>
             <x>Sáhtát deavdit ráiddu láskut, ceaggut dahje čađan.</x>

@@ -34,7 +34,7 @@
       <dg id="a">
          <d>bidjat loguid oktii submin; submet</d>
          <antg>
-            <ant><d_ref lemma="subtraheret" pos="V">subtraheret</d_ref></ant>
+            <d_ref lemma="subtraheret" pos="V">subtraheret</d_ref>
          </antg>
       </dg>
    </e>
@@ -508,7 +508,7 @@
       <dg id="a">
          <d>leahkit alkohola váikkuhusa vuolde</d>
          <syng>
-            <syn><d_ref lemma="gárihuvvat" pos="V">gárihuvvat</d_ref></syn>
+            <d_ref lemma="gárihuvvat" pos="V">gárihuvvat</d_ref>
          </syng>
          <xg>
             <x>Politiijat válde vára olbmos gii lei badjelmeare juhkaluvvan.</x>
@@ -798,7 +798,7 @@
       <dg id="a">
          <d>geassit nuppi logu nuppis</d>
          <antg>
-            <ant><d_ref lemma="adderet" pos="V">adderet</d_ref></ant>
+            <d_ref lemma="adderet" pos="V">adderet</d_ref>
          </antg>
       </dg>
    </e>
@@ -4656,7 +4656,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn><d_ref lemma="viššat" pos="V">viššat</d_ref></syn>
+            <d_ref lemma="viššat" pos="V">viššat</d_ref>
          </syng>
          <xg>
             <x>Beana ja rieban cillet.</x>
@@ -8111,7 +8111,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn><d_ref lemma="seastit" pos="V">seastit</d_ref></syn>
+            <d_ref lemma="seastit" pos="V">seastit</d_ref>
          </syng>
       </dg>
    </e>
@@ -9893,7 +9893,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn><d_ref lemma="juhkaluvvat" pos="V">juhkaluvvat</d_ref></syn>
+            <d_ref lemma="juhkaluvvat" pos="V">juhkaluvvat</d_ref>
          </syng>
          <xg>
             <x>Sii leat juhkan viinni ja leat gárihuvvan.</x>
@@ -10827,7 +10827,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn><d_ref lemma="viššat" pos="V">viššat</d_ref></syn>
+            <d_ref lemma="viššat" pos="V">viššat</d_ref>
          </syng>
          <xg>
             <x>In gillen guhká surfet go lei nu jalla lossat beassat čiekŋalassii.</x>
@@ -21822,7 +21822,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn><d_ref lemma="duohččat" pos="V">duohččat</d_ref></syn>
+            <d_ref lemma="duohččat" pos="V">duohččat</d_ref>
          </syng>
       </dg>
    </e>
@@ -25507,7 +25507,7 @@
       <dg id="a">
          <d/>
          <syng>
-            <syn><d_ref lemma="gillet" pos="V">gillet</d_ref></syn>
+            <d_ref lemma="gillet" pos="V">gillet</d_ref>
          </syng>
          <xg>
             <x>Njoammil ii viššan hukset alcces beasi.</x>
@@ -25516,7 +25516,7 @@
       <dg id="b">
          <d/>
          <syng>
-            <syn><d_ref lemma="ciellat" pos="V">ciellat</d_ref></syn>
+            <d_ref lemma="ciellat" pos="V">ciellat</d_ref>
          </syng>
       </dg>
       <ig>

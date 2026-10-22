@@ -77,7 +77,7 @@ dg = element dg {
 d = element d { mixed { d_ref* } }
 
 # link to another entry, or to one of its definition groups (dg_id); in a
-# definition, and as the content of syn and ant.
+# definition, and as the synonyms and antonyms in syng and antg.
 d_ref = element d_ref {
     attribute lemma { text },
     attribute pos { pos.values },
@@ -89,8 +89,8 @@ d_ref = element d_ref {
 
 # synonyms and antonyms: each one is a link to the entry, or to one
 # definition group (dg_id), that is the synonym or antonym
-syng = element syng { element syn { d_ref }+ }
-antg = element antg { element ant { d_ref }+ }
+syng = element syng { d_ref+ }
+antg = element antg { d_ref+ }
 
 # example group
 xg = element xg {

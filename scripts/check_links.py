@@ -112,7 +112,7 @@ def main():
     links = []  # (entry, where, d_ref, target entry)
     for en in entries:
         for where, parent in [("d", d) for d in en.e.iter("d")] + [
-            (tag, x) for tag in ("syn", "ant") for x in en.e.iter(tag)
+            (tag[:3], g) for tag in ("syng", "antg") for g in en.e.iter(tag)
         ]:
             for r in parent.iter("d_ref"):
                 here = f"src/{en.file.name}: {en}: {where} → {target(r)}"

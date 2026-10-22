@@ -154,25 +154,25 @@
     </command>
 
     <!-- Add a new synonym or antonym (arg %0 = syn or ant) in the selected dg.
-       syn and ant must be links so a list to pick from is opened. -->
+       Synonyms and antonyms are links (d_ref), so a list to pick from is opened. -->
     <command name="dictSme.newRelated">
         <macro label="New synonym or antonym" undoable="true">
             <!-- do the first that doesn't fail -->
             <choice>
                 <sequence>
-                    <!-- if dg has a syng/antg: add a new syn or ant -->
+                    <!-- if dg has a syng/antg: add a new d_ref to it -->
                     <test expression="($selected | $dot)/ancestor-or-self::dg/%0g" />
-                    <set expression="((($selected | $dot)/ancestor-or-self::dg)[1]/%0g/%0)[last()]"
+                    <set expression="((($selected | $dot)/ancestor-or-self::dg)[1]/%0g/d_ref)[last()]"
                         variable="selected" />
-                    <command name="dictSme.addRelated" parameter="%0" />
+                    <command name="dictSme.addRelated" />
                 </sequence>
                 <sequence>
-                    <!-- if dg has no syng/antg: create a group and add the first syn/ant -->
+                    <!-- if dg has no syng/antg: create a group and add the first d_ref -->
                     <test expression="($selected | $dot)/ancestor-or-self::dg" />
                     <set
                         expression="(($selected | $dot)/ancestor-or-self::dg)[1]/*[self::d or (self::syng and '%0' = 'ant')][last()]"
                         variable="selected" />
-                    <command name="dictSme.addRelatedGroup" parameter="%0g %0" />
+                    <command name="dictSme.addRelatedGroup" parameter="%0g" />
                 </sequence>
                 <command name="alert" parameter="Put the caret in a definition group first." />
             </choice>
@@ -185,17 +185,16 @@
             <choice>
                 <sequence>
                     <test
-                        expression="($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::syn or self::ant or self::x or self::i or self::id or self::ix or self::c]" />
+                        expression="($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::d_ref[parent::syng or parent::antg] or self::x or self::i or self::id or self::ix or self::c]" />
                     <set
-                        expression="(($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::syn or self::ant or self::x or self::i or self::id or self::ix or self::c])[last()]"
+                        expression="(($selected | $dot)/ancestor-or-self::*[self::l or self::d or self::d_ref[parent::syng or parent::antg] or self::x or self::i or self::id or self::ix or self::c])[last()]"
                         variable="here" />
                     <set expression="$here" variable="selected" />
                     <choice>
                         <sequence>
-                            <!-- add a new syn/ant (opens a list for linking) -->
-                            <test expression="$here[self::syn or self::ant]" />
-                            <get expression="local-name($here)" />
-                            <command name="dictSme.addRelated" parameter="%_" />
+                            <!-- add a new synonym/antonym (opens a list for linking) -->
+                            <test expression="$here[self::d_ref]" />
+                            <command name="dictSme.addRelated" />
                         </sequence>
                         <sequence>
                             <!-- add a new ig or new idg -->
@@ -236,8 +235,7 @@
                                  (self::l and ../l[2])
                                  or (self::d and ../d[2])
                                  or (self::dg and ../dg[2])
-                                 or (self::syn and ../syn[2])
-                                 or (self::ant and ../ant[2])
+                                 or (self::d_ref[parent::syng or parent::antg] and ../d_ref[2])
                                  or (self::xg and ../xg[2])
                                  or (self::x and ../x[2])
                                  or (self::ig and ../ig[2])
@@ -250,8 +248,7 @@
                                  (self::l and ../l[2])
                                  or (self::d and ../d[2])
                                  or (self::dg and ../dg[2])
-                                 or (self::syn and ../syn[2])
-                                 or (self::ant and ../ant[2])
+                                 or (self::d_ref[parent::syng or parent::antg] and ../d_ref[2])
                                  or (self::xg and ../xg[2])
                                  or (self::x and ../x[2])
                                  or (self::ig and ../ig[2])
@@ -431,10 +428,21 @@
         </macro>
     </command>
 
-    <!-- Add a synonym or antonym. arg %0 is syn or ant.
-       Makes you pick a d_ref and puts it inside a syn or ant. -->
+    <!-- Add a synonym or antonym after the selected one.
+       Makes you pick a d_ref and pastes it. -->
     <command name="dictSme.addRelated">
         <macro label="Add synonym or antonym" undoable="true">
+            <sequence>
+                <command name="dictSme.pickRef" />
+                <command name="paste" parameter="after %_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <!-- Add the first synonym or antonym (creates the syng or antg)
+       arg %0 is syng or antg. -->
+    <command name="dictSme.addRelatedGroup">
+        <macro label="Add synonyms or antonyms" undoable="true">
             <sequence>
                 <command name="dictSme.pickRef" />
                 <set expression="%_" plainString="true" variable="picked" />
@@ -443,24 +451,6 @@
                          '&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;%0&gt;',
                          substring-after($picked, '?&gt;'),
                          '&lt;/%0&gt;'
-                     )" />
-                <command name="paste" parameter="after %_" />
-            </sequence>
-        </macro>
-    </command>
-
-    <!-- Add the first synonym or antonym (creates the syng or antg)
-       arg %0 is syng or antg, %1 syn or ant. -->
-    <command name="dictSme.addRelatedGroup">
-        <macro label="Add synonyms or antonyms" undoable="true">
-            <sequence>
-                <command name="dictSme.pickRef" />
-                <set expression="%_" plainString="true" variable="picked" />
-                <get
-                    expression="concat(
-                         '&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;%0&gt;&lt;%1&gt;',
-                         substring-after($picked, '?&gt;'),
-                         '&lt;/%1&gt;&lt;/%0&gt;'
                      )" />
                 <command name="paste" parameter="after %_" />
             </sequence>

@@ -149,12 +149,14 @@ def entry_html(e):
         num = f'<span class="num">{n}</span> ' if len(dgs) > 1 else ""
         ds = [inline(d) or missing("definition") for d in dg.findall("d")]
         out.append(f'<p class="sense">{num}{"; ".join(ds)}</p>')
-        for tag, item, label in (("syng", "syn", "syn."), ("antg", "ant", "ant.")):
+        for tag, label in (("syng", "syn."), ("antg", "ant.")):
             for g in dg.findall(tag):
                 # each is a d_ref, shown as a link like those in definitions
                 words = ", ".join(
-                    inline(w) if norm("".join(w.itertext())) else missing(label)
-                    for w in g.findall(item)
+                    f'<span class="ref">{escape(norm(w.text))}</span>'
+                    if norm(w.text)
+                    else missing(label)
+                    for w in g.findall("d_ref")
                 )
                 out.append(
                     f'<p class="rel"><span class="label">{T[label]}</span> {words}</p>'
