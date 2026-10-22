@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Shared by the configurations in this folder dict-sme.xxe and batches.xxe
+-->
+<configuration xmlns="http://www.xmlmind.com/xmleditor/schema/configuration"
+    xmlns:cfg="http://www.xmlmind.com/xmleditor/schema/configuration">
+
+    <!--
+      Run a script in scripts/ with the Python of the platform.
+      The parameter "%*" is the script and its arguments.
+      Returns what it printed, errors included.
+    -->
+    <command name="dictSme.python">
+        <macro>
+            <choice>
+                <command name="run"
+                    parameter="[Windows] cd /d &quot;%P/../scripts&quot; &amp;&amp; py -3 -X utf8 %* 2&gt;&amp;1 &amp; exit 0" />
+                <command name="run"
+                    parameter="[Mac] cd &quot;%P/../scripts&quot; &amp;&amp; PATH=&quot;/usr/local/bin:/opt/homebrew/bin:$PATH&quot; python3 %* 2&gt;&amp;1; exit 0" />
+                <command name="run"
+                    parameter="[GenericUnix] cd &quot;%P/../scripts&quot; &amp;&amp; python3 %* 2&gt;&amp;1; exit 0" />
+            </choice>
+        </macro>
+    </command>
+
+
+    <!-- Ask for a batch number, make the PDF of that batch and open it.
+        The batch of the entry at the caret is suggested. -->
+    <command name="dictSme.batchPdf">
+        <macro label="PDF of a batch">
+            <sequence>
+                <!-- get the batch of the current e element -->
+                <get expression="string((($selected | $dot)/ancestor-or-self::e)[1]/@batch)" />
+                <command name="prompt" parameter="'PDF of a batch' 'Batch number, e.g. 2601:' '%_'" />
+                <set expression="%_" plainString="true" variable="batch" />
+                <choice>
+                    <sequence>
+                        <!-- check that the input is a 4 digit number -->
+                        <test
+                            expression="string-length(normalize-space($batch)) = 4 and translate(normalize-space($batch), '0123456789', '') = ''" />
+                        <command name="dictSme.updateLists" />
+                        <get expression="normalize-space($batch)" />
+                        <command name="dictSme.python" parameter="batch2pdf.py --open %_" />
+                        <set expression="%_" plainString="true" variable="out" />
+                        <choice>
+                            <!-- script returned with no error -->
+                            <sequence>
+                                <test expression="contains($out, ' -&gt; ')" />
+                                <get expression="normalize-space($out)" />
+                                <command name="status" parameter="%_" />
+                            </sequence>
+                            <!-- script returned with error -->
+                            <sequence>
+                                <get expression="$out" />
+                                <command name="alert" parameter="[WARNING]%_" />
+                            </sequence>
+                        </choice>
+                    </sequence>
+                    <command name="alert" parameter="A batch number is four digits, e.g. 2601." />
+                </choice>
+            </sequence>
+        </macro>
+    </command>
+
+</configuration>
