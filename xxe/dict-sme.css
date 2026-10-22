@@ -32,6 +32,9 @@
 @property-value button-color() #2060a0;
 /* text of buttons */
 @property-value button-background() #e4eef8;
+@property-value header-button-color() #2060a0;
+@property-value header-button-background() #e8f0f8;
+/* buttons on the blue top of an entry: no fill (same as the band), blue text like a link */
 @property-value value-color() #000000;
 /* attribute values (batch, pos...) */
 @property-value label-color() #808080;
@@ -63,12 +66,12 @@
    which makes it much taller than its text. More padding below than
    above, since the font leaves room above the letters for accents, which
    makes lowercase text look low. */
-@property-value styled-button(label_, action_) command-button(text, label_,
+@property-value styled-button(label_, action_, color_, background_) command-button(text, label_,
   action_,
   font-size, 8pt,
   line-height, 1,
-  color, button-color(),
-  background-color, button-background(),
+  color, color_,
+  background-color, background_,
   border-top-left-radius, 4px,
   border-top-right-radius, 4px,
   border-bottom-left-radius, 4px,
@@ -78,20 +81,13 @@
   padding-left, 4px,
   padding-right, 4px);
 
-@property-value button(label_, command_, parameter_) styled-button(label_, argument-list(command, command_, parameter, parameter_));
+@property-value button(label_, command_, parameter_) styled-button(label_, argument-list(command, command_, parameter, parameter_), button-color(), button-background());
+@property-value header-button(label_, command_, parameter_) styled-button(label_, argument-list(command, command_, parameter, parameter_), header-button-color(), header-button-background());
 
 /* an attribute value shown as text, followed by a button to change it */
 @property-value value(value_) text(value_, color, value-color(), font-size, 9pt) " ";
-@property-value set-menu(menu_) command-button(text, "\25BE", menu, menu_,
-  font-size, 12pt,
-  color, button-color(),
-  background-color, button-background(),
-  border-top-left-radius, 4px,
-  border-top-right-radius, 4px,
-  border-bottom-left-radius, 4px,
-  border-bottom-right-radius, 4px,
-  padding-left, 6px,
-  padding-right, 6px);
+/* only used on the top of an entry */
+@property-value set-menu(menu_) styled-button("\25BE", argument-list(menu, menu_), header-button-color(), header-button-background());
 
 /* a new element of the same kind, after the one the button is attached to */
 @property-value add-same(label_) button(label_, "insertNode", "sameElementAfter");
@@ -233,11 +229,11 @@ e:before {
       ", font-size, 9pt) ' ' command-button(text, '\\25BE', menu, menu('no batch', 'removeAttribute', 'batch'",
       xpath("replace(join(document(resolve-uri('../batches/batches.xml'))/batches/batch[not(step[last()]/@state = 'publish')]/@id, ' '), '([0-9]+)', \", '$1', 'putAttribute', 'batch $1'\")"
       ),
-      "), font-size, 12pt, color, ",
-      button-color(),
+      "), font-size, 8pt, line-height, 1, color, ",
+      header-button-color(),
       ", background-color, ",
-      button-background(),
-      ", border-top-left-radius, 4px, border-top-right-radius, 4px, border-bottom-left-radius, 4px, border-bottom-right-radius, 4px, padding-left, 6px, padding-right, 6px) ",
+      header-button-background(),
+      ", border-top-left-radius, 4px, border-top-right-radius, 4px, border-bottom-left-radius, 4px, border-bottom-right-radius, 4px, padding-top, 0px, padding-bottom, 2px, padding-left, 4px, padding-right, 4px) ",
       xpath("concat(\"'\", if(not(@batch), '', if(not(document(resolve-uri('../batches/batches.xml'))/batches/batch[@id = current()/@batch]), '     not in batches.xml', '     state ')), \"' text('\", document(resolve-uri('../batches/batches.xml'))/batches/batch[@id = current()/@batch]/step[last()]/@state, \"', color, \")"
       ),
       value-color(),
@@ -332,6 +328,66 @@ e:contains-element(dg)>lg:after {
 
 @property-value wrong-type() text("   this type does not go with this pos", color, warning-color());
 
+/* Type and homograph number are rarely used, so they are only shown when
+   they are set. Those not set yet are offered by one small button at the
+   end of the lemma line: types that go with the pos, then homograph
+   numbers. Since a menu cannot be put together from parts, there is one
+   for each pos and for what is not set yet. */
+@property-value more(menu_) "   " styled-button("\22EF", argument-list(menu, menu_), header-button-color(), header-button-background());
+
+@property-value more-hid() more(menu("homograph 1", "putAttribute", "hid 1",
+    "homograph 2", "putAttribute", "hid 2",
+    "homograph 3", "putAttribute", "hid 3",
+    "homograph 4", "putAttribute", "hid 4"));
+
+@property-value more-n-types() more(menu("type Prop", "putAttribute", "type Prop",
+    "type NomAg", "putAttribute", "type NomAg",
+    "type Coll", "putAttribute", "type Coll",
+    "type ACR", "putAttribute", "type ACR",
+    "type ABBR", "putAttribute", "type ABBR",
+    "type G3", "putAttribute", "type G3",
+    "type G7", "putAttribute", "type G7"));
+@property-value more-n() more(menu("type Prop", "putAttribute", "type Prop",
+    "type NomAg", "putAttribute", "type NomAg",
+    "type Coll", "putAttribute", "type Coll",
+    "type ACR", "putAttribute", "type ACR",
+    "type ABBR", "putAttribute", "type ABBR",
+    "type G3", "putAttribute", "type G3",
+    "type G7", "putAttribute", "type G7",
+    "", "", "",
+    "homograph 1", "putAttribute", "hid 1",
+    "homograph 2", "putAttribute", "hid 2",
+    "homograph 3", "putAttribute", "hid 3",
+    "homograph 4", "putAttribute", "hid 4"));
+
+@property-value more-a-types() more(menu("type Ord", "putAttribute", "type Ord"));
+@property-value more-a() more(menu("type Ord", "putAttribute", "type Ord",
+    "", "", "",
+    "homograph 1", "putAttribute", "hid 1",
+    "homograph 2", "putAttribute", "hid 2",
+    "homograph 3", "putAttribute", "hid 3",
+    "homograph 4", "putAttribute", "hid 4"));
+
+@property-value more-pron-types() more(menu("type Pers", "putAttribute", "type Pers",
+    "type Dem", "putAttribute", "type Dem",
+    "type Indef", "putAttribute", "type Indef",
+    "type Interr", "putAttribute", "type Interr",
+    "type Recipr", "putAttribute", "type Recipr",
+    "type Refl", "putAttribute", "type Refl",
+    "type Rel", "putAttribute", "type Rel"));
+@property-value more-pron() more(menu("type Pers", "putAttribute", "type Pers",
+    "type Dem", "putAttribute", "type Dem",
+    "type Indef", "putAttribute", "type Indef",
+    "type Interr", "putAttribute", "type Interr",
+    "type Recipr", "putAttribute", "type Recipr",
+    "type Refl", "putAttribute", "type Refl",
+    "type Rel", "putAttribute", "type Rel",
+    "", "", "",
+    "homograph 1", "putAttribute", "hid 1",
+    "homograph 2", "putAttribute", "hid 2",
+    "homograph 3", "putAttribute", "hid 3",
+    "homograph 4", "putAttribute", "hid 4"));
+
 lg:before {
   display: block;
   property-group: tag();
@@ -347,45 +403,85 @@ l {
   color: lemma-color();
 }
 
-/* the homograph number and "+ lemma" end every lemma line */
-@property-value add-lemma() hid-field() "   " add-same("+ lemma");
+/* "+ lemma" ends every lemma line */
+@property-value add-lemma() "   " header-button("+ lemma", "insertNode", "sameElementAfter");
+
+/* The rules below go from general to specific. Which one applies depends
+   on the pos, whether type and hid are set, and whether the type goes
+   with the pos; rules of the same specificity are ordered so that the
+   later one wins. */
 
 /* a pos that has no types */
 l:after {
-  content: add-lemma();
+  content: more-hid() add-lemma();
   font-size: 0.55em;
   font-weight: normal;
   color: label-color();
 }
 
-l[type]:after {
-  content: "   type " value(attr(type)) remove-attribute-button(attribute, type) wrong-type() add-lemma();
+l[hid]:after {
+  content: hid-field() add-lemma();
 }
 
+l[type]:after {
+  content: "   type " value(attr(type)) remove-attribute-button(attribute, type, color, header-button-color(), background-color, header-button-background()) wrong-type() more-hid() add-lemma();
+}
+
+l[type][hid]:after {
+  content: "   type " value(attr(type)) remove-attribute-button(attribute, type, color, header-button-color(), background-color, header-button-background()) wrong-type() hid-field() add-lemma();
+}
+
+/* no type yet */
 lg[pos="N"]>l:after {
-  content: type-field(n-types()) add-lemma();
+  content: more-n() add-lemma();
+}
+
+lg[pos="N"]>l[hid]:after {
+  content: hid-field() more-n-types() add-lemma();
 }
 
 lg[pos="A"]>l:after {
-  content: type-field(a-types()) add-lemma();
+  content: more-a() add-lemma();
+}
+
+lg[pos="A"]>l[hid]:after {
+  content: hid-field() more-a-types() add-lemma();
 }
 
 lg[pos="Pron"]>l:after {
-  content: type-field(pron-types()) add-lemma();
+  content: more-pron() add-lemma();
 }
 
+lg[pos="Pron"]>l[hid]:after {
+  content: hid-field() more-pron-types() add-lemma();
+}
+
+/* a type that does not go with the pos */
 lg[pos="N"]>l[type]:after {
-  content: type-field(n-types()) wrong-type() add-lemma();
+  content: type-field(n-types()) wrong-type() more-hid() add-lemma();
+}
+
+lg[pos="N"]>l[type][hid]:after {
+  content: type-field(n-types()) wrong-type() hid-field() add-lemma();
 }
 
 lg[pos="A"]>l[type]:after {
-  content: type-field(a-types()) wrong-type() add-lemma();
+  content: type-field(a-types()) wrong-type() more-hid() add-lemma();
+}
+
+lg[pos="A"]>l[type][hid]:after {
+  content: type-field(a-types()) wrong-type() hid-field() add-lemma();
 }
 
 lg[pos="Pron"]>l[type]:after {
-  content: type-field(pron-types()) wrong-type() add-lemma();
+  content: type-field(pron-types()) wrong-type() more-hid() add-lemma();
 }
 
+lg[pos="Pron"]>l[type][hid]:after {
+  content: type-field(pron-types()) wrong-type() hid-field() add-lemma();
+}
+
+/* a type that goes with the pos */
 lg[pos="N"]>l[type="Prop"]:after,
 lg[pos="N"]>l[type="NomAg"]:after,
 lg[pos="N"]>l[type="Coll"]:after,
@@ -393,11 +489,25 @@ lg[pos="N"]>l[type="ACR"]:after,
 lg[pos="N"]>l[type="ABBR"]:after,
 lg[pos="N"]>l[type="G3"]:after,
 lg[pos="N"]>l[type="G7"]:after {
-  content: type-field(n-types()) add-lemma();
+  content: type-field(n-types()) more-hid() add-lemma();
+}
+
+lg[pos="N"]>l[type="Prop"][hid]:after,
+lg[pos="N"]>l[type="NomAg"][hid]:after,
+lg[pos="N"]>l[type="Coll"][hid]:after,
+lg[pos="N"]>l[type="ACR"][hid]:after,
+lg[pos="N"]>l[type="ABBR"][hid]:after,
+lg[pos="N"]>l[type="G3"][hid]:after,
+lg[pos="N"]>l[type="G7"][hid]:after {
+  content: type-field(n-types()) hid-field() add-lemma();
 }
 
 lg[pos="A"]>l[type="Ord"]:after {
-  content: type-field(a-types()) add-lemma();
+  content: type-field(a-types()) more-hid() add-lemma();
+}
+
+lg[pos="A"]>l[type="Ord"][hid]:after {
+  content: type-field(a-types()) hid-field() add-lemma();
 }
 
 lg[pos="Pron"]>l[type="Pers"]:after,
@@ -407,7 +517,17 @@ lg[pos="Pron"]>l[type="Interr"]:after,
 lg[pos="Pron"]>l[type="Recipr"]:after,
 lg[pos="Pron"]>l[type="Refl"]:after,
 lg[pos="Pron"]>l[type="Rel"]:after {
-  content: type-field(pron-types()) add-lemma();
+  content: type-field(pron-types()) more-hid() add-lemma();
+}
+
+lg[pos="Pron"]>l[type="Pers"][hid]:after,
+lg[pos="Pron"]>l[type="Dem"][hid]:after,
+lg[pos="Pron"]>l[type="Indef"][hid]:after,
+lg[pos="Pron"]>l[type="Interr"][hid]:after,
+lg[pos="Pron"]>l[type="Recipr"][hid]:after,
+lg[pos="Pron"]>l[type="Refl"][hid]:after,
+lg[pos="Pron"]>l[type="Rel"][hid]:after {
+  content: type-field(pron-types()) hid-field() add-lemma();
 }
 
 /* --- definition group: d+, syng*, antg*, xg* ------------------------- */
