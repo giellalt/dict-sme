@@ -13,8 +13,8 @@ batch.id = xsd:string { pattern = "[0-9]{4}" }
 
 # root and header
 r = element r {
-    attribute id { "dict-sme" }?,
-    attribute xml:lang { "sme" }?,
+    attribute id { "dict-sme" },
+    attribute xml:lang { "sme" },
     lics?,
     e+
 }

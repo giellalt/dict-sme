@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  XMLmind XML Editor (XXE) configuration for batches.xml: the batches of
+  entries, who works on them and the history of each batch. It is in the
+  same folder as dict-sme.xxe and is installed with it. The Dictionary
+  menu of dict-sme.xxe has "Batches..." to open batches.xml.
+
+  Paths are found from the document (%P: its folder, the repository).
+  Today's date comes from Java (java.time.LocalDate), which XPath can call.
+-->
+<configuration name="dict-sme-batches"
+    xmlns="http://www.xmlmind.com/xmleditor/schema/configuration"
+    xmlns:cfg="http://www.xmlmind.com/xmleditor/schema/configuration"
+    xmlns:date="java:java.time.LocalDate">
+    <!-- batches.xml: root element <batches> -->
+    <detect>
+        <and>
+            <rootElementLocalName>batches</rootElementLocalName>
+            <rootElementAttribute localName="id" value="dict-sme" />
+        </and>
+    </detect>
+
+    <css name="Batches" location="batches.css" />
+
+    <saveOptions indent="3" addOpenLines="false" />
+
+    <!-- include config shared between batches and dict-sme -->
+    <include location="common.incl" />
+
+    <!-- Asking who: pick shows the names in the list of people, put in
+       quotes by replace() (a name must not contain a single quote). The
+       list is built in each macro that asks: a macro does not see the
+       variables of the macro that calls it. -->
+
+    <!-- Move the batch at the caret on to its next step: a new <step> at
+       the end of its history, dated today.
+         proofread-*   asks who proofreads ("Nobody yet" is allowed)
+         correcting-*  is done by the editor of the batch
+         publish       nobody; if entries in the batch have no definition
+                       (batch.py missing), asks first -->
+    <command name="batches.nextStep">
+        <macro label="Next step" undoable="true">
+            <choice>
+                <sequence>
+                    <test expression="($selected | $dot)/ancestor-or-self::batch" />
+                    <set expression="(($selected | $dot)/ancestor-or-self::batch)[1]" variable="b" />
+                    <set expression="string($b/step[last()]/@state)" variable="cur" />
+                    <set
+                        expression="substring-before(substring-after(' edit proofread-1 correcting-1 proofread-2 correcting-2 publish ', concat(' ', $cur, ' ')), ' ')"
+                        variable="next" />
+                    <choice>
+                        <sequence>
+                            <test expression="$next = ''" />
+                            <command name="alert" parameter="This batch is published already." />
+                        </sequence>
+                        <sequence>
+                            <!-- who does the step -->
+                            <choice>
+                                <sequence>
+                                    <test expression="starts-with($next, 'proofread')" />
+                                    <get
+                                        expression="concat(&quot;'Who proofreads batch &quot;, $b/@id, &quot;?' true 'Nobody yet' '-' &quot;, replace(replace(join(/batches/people/person, '|'), '([^|]+)', &quot;'$1' '$1'&quot;), '[|]', ' '))" />
+                                    <command name="pick" parameter="%_" />
+                                    <set expression="%_" plainString="true" variable="by" />
+                                </sequence>
+                                <sequence>
+                                    <test expression="$next = 'publish'" />
+                                    <get expression="string($b/@id)" />
+                                    <command name="batches.python" parameter="batch.py missing %_" />
+                                    <set expression="%_" plainString="true" variable="out" />
+                                    <choice>
+                                        <test
+                                            expression="normalize-space(substring-before(concat($out, '&#10;'), '&#10;')) = '0'" />
+                                        <sequence>
+                                            <get
+                                                expression="concat(normalize-space(substring-before(concat($out, '&#10;'), '&#10;')), ' entries in batch ', $b/@id, ' have no definition (batch.py missing ', $b/@id, ' lists them). Publish anyway?')" />
+                                            <command name="confirm" parameter="%_" />
+                                        </sequence>
+                                    </choice>
+                                    <set expression="'-'" variable="by" />
+                                </sequence>
+                                <!-- correcting: the editor -->
+                                <set expression="string($b/@editor)" variable="by" />
+                            </choice>
+                            <set expression="$b/step[last()]" variable="selected" />
+                            <get
+                                expression="concat('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;step state=&quot;', $next, '&quot;', if($by = '-' or $by = '', '', concat(' by=&quot;', $by, '&quot;')), ' date=&quot;', date:to-string(date:now()), '&quot;/&gt;')" />
+                            <command name="paste" parameter="after %_" />
+                        </sequence>
+                    </choice>
+                </sequence>
+                <command name="alert" parameter="Put the caret in a batch first." />
+            </choice>
+        </macro>
+    </command>
+
+    <!-- A new batch after the last one: the next number of this year
+       (2601, 2602, ... in 2026), the editor picked from the people, and an
+       edit step dated today. -->
+    <command name="batches.newBatch">
+        <macro label="New batch" undoable="true">
+            <sequence>
+                <get
+                    expression="concat(&quot;'Who edits the new batch?' true &quot;, replace(replace(join(/batches/people/person, '|'), '([^|]+)', &quot;'$1' '$1'&quot;), '[|]', ' '))" />
+                <command name="pick" parameter="%_" />
+                <set expression="%_" plainString="true" variable="editor" />
+                <set expression="date:to-string(date:now())" variable="today" />
+                <set expression="substring($today, 3, 2)" variable="yy" />
+                <set expression="/batches/batch[substring(@id, 1, 2) = $yy]" variable="thisyear" />
+                <set
+                    expression="if($thisyear, string(number($thisyear[not(number(@id) &lt; $thisyear/@id)][1]/@id) + 1), concat($yy, '01'))"
+                    variable="id" />
+                <set expression="(/batches/batch[last()] | /batches/people[not(../batch)])[last()]"
+                    variable="selected" />
+                <get
+                    expression="concat('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;batch id=&quot;', $id, '&quot; editor=&quot;', $editor, '&quot;&gt;&lt;step state=&quot;edit&quot; by=&quot;', $editor, '&quot; date=&quot;', $today, '&quot;/&gt;&lt;/batch&gt;')" />
+                <command name="paste" parameter="after %_" />
+            </sequence>
+        </macro>
+    </command>
+
+    <menu label="_Batches">
+        <item command="batches.newBatch" label="_New batch" />
+        <item command="batches.nextStep" label="Ne_xt step" />
+    </menu>
+
+
+    <toolBar>
+        <div label="Dictionary">
+            <button icon="xxe-config:common/mime_types/pdf.png" label="PDF of a batch"
+                toolTip="Make a PDF of a batch for proofreading">
+                <!-- defined in common.incl -->
+                <command name="dictSme.batchPdf" />
+            </button>
+        </div>
+    </toolBar>
+</configuration>

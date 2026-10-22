@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/batches.rnc" type="application/relax-ng-compact-syntax"?>
+<batches id="dict-sme">
+    <people>
+        <person>Helena</person>
+        <person>Lena Susanne</person>
+        <person>Risten</person>
+    </people>
+    <batch editor="Risten" id="2601">
+        <step by="Risten" date="2026-10-02" state="edit" />
+        <step by="Helena" date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2602">
+        <step by="Risten" date="2026-10-02" state="edit" />
+        <step by="Lena Susanne" date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2603">
+        <step by="Risten" date="2026-10-02" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2604">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2605">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2606">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2607">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2608">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2609">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2610">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2611">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2612">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2613">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2614">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2615">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2616">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2617">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2618">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2619">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Risten" id="2620">
+        <step by="Risten" date="2026-10-05" state="edit" />
+        <step date="2026-10-05" state="proofread-1" />
+    </batch>
+    <batch editor="Helena" id="2621">
+        <step by="Helena" date="2026-10-05" state="edit" />
+    </batch>
+    <batch editor="Lena Susanne" id="2622">
+        <step by="Lena Susanne" date="2026-10-05" state="edit" />
+    </batch>
+    <batch editor="Risten" id="2623">
+        <step by="Risten" date="2026-10-05" state="edit" />
+    </batch>
+</batches>
