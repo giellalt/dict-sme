@@ -79848,7 +79848,7 @@
          <l>lávdi</l>
       </lg>
       <dg id="b">
-         <d>sadji ovdanbuktimiid váras, nugo teáhterii, lávlumii jnv.</d>
+         <d>sadji ovdanbuktimiid váras nugo teáhterii, lávlumii jnv.</d>
          <xg>
             <x>Násttážat konsearttas besset mánát ja nžuorat iežá lávdái ja hárjehállat mo lea leahkit artistan.</x>
             <x>Luođis ođđa lávdi.</x>
@@ -79865,24 +79865,16 @@
             deaivvadit.</x>
          </xg>
       </dg>
-   </e>
-   <e>
-      <lg pos="N">
-         <l>lávdi</l>
-      </lg>
-      <dg id="a">
+      <dg id="d">
          <d>guhkes, duolba muorraávnnas snihkkema váras</d>
          <syng>
             <d_ref lemma="fiellu" pos="N">fiellu</d_ref>
          </syng>
-      </dg>
-   </e>
-   <e>
-      <lg pos="N">
-         <l>lemma</l>
-      </lg>
-      <dg id="a">
-         <d>definition</d>
+         <xg>
+            <x>Juohke lávddis galget leat guokte návlli mat leat lahkalagaid.</x>
+            <x>Bálgá lea álki johtit, njuoska sajiide leat biddjon lávddit ja ceakkos báikkiin leat tráhpat.</x>
+            <x>Gámppás lea okta láse ja lávddiin ráhkaduvvon hárjegáhttu.</x>
+         </xg>
       </dg>
    </e>
    <e>
@@ -100758,6 +100750,13 @@
       <lg pos="N">
          <l>olgolávdi</l>
       </lg>
+      <dg id="a">
+         <d>sadji ovdanbuktimiid váras nugo teáhterii, lávlumii jnv. mii lea olgun</d>
+         <d>vrd. <d_ref lemma="lávdi" pos="N">lávdi</d_ref></d>
+         <xg>
+            <x>Konsearttat dollojuvvojit min olgolávddis ja plánejuvvon márkanat leat seamma šiljus.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
