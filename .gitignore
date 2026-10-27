@@ -10,9 +10,6 @@
 Makefile.in
 Makefile
 
-# Temporary files
-*~
-
 # http://www.gnu.org/software/autoconf
 
 /compile
@@ -63,19 +60,17 @@ m4/lt~obsolete.m4
 # bin dir for generated fst's:
 /bin
 
-**/__pycache__
+# python temp files
+__pycache__/
 
-# PDF exports from scripts/batch2pdf.py
+# PDF exports from batch2pdf.py (in the XXE add-on, giella-dict-xxe)
 /pdf/
 
 # programs used by the scripts, e.g. weasyprint.exe on Windows
 /tools/
 
-# made by scripts for the XXE addon in xxe/
-/xxe/refs.txt
-/xxe/goto.txt
-/xxe/targets.xml
-/xxe/batch.txt
+# lists made by the scripts of the XXE add-on (giella-dict-xxe)
+/.xxe/
 
 # python virtual envs
 .venv/
@@ -83,3 +78,9 @@ m4/lt~obsolete.m4
 .env/
 venv/
 env/
+
+# old ignores
+/xxe/goto.txt
+/xxe/refs.txt
+/xxe/batch.txt
+/xxe/targets.xml
