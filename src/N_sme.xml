@@ -79847,6 +79847,40 @@
       <lg pos="N">
          <l>lávdi</l>
       </lg>
+      <dg id="b">
+         <d>sadji ovdanbuktimiid váras, nugo teáhterii, lávlumii jnv.</d>
+         <xg>
+            <x>Násttážat konsearttas besset mánát ja nžuorat iežá lávdái ja hárjehállat mo lea leahkit artistan.</x>
+            <x>Luođis ođđa lávdi.</x>
+            <x>Dárbbašuvvojit ruđat sámi nationála teáhterlávddi duohtan dahkamii.</x>
+         </xg>
+      </dg>
+      <dg id="c">
+         <d>abstrákta sadji gos ságastallamat dáhpáhuvvet dahje áššit ovdanbuktojuvvojit</d>
+         <d>vrd <d_ref lemma="arena" pos="N">arena</d_ref>, <d_ref lemma="forum" pos="N">forum</d_ref></d>
+         <xg>
+            <x>Sámi musihkkárat ja sámi musihkka ovdánahttojuvvojit máŋggalágan lávddiin.</x>
+            <x>Dan ulbmil lea doaibmat lávdin sihke álbmotmusihkkii ja álbmotdánsumii.</x>
+            <x>Lea dakkár forum gos buohkat geain lea beroštupmi áššis čoahkkanit, vai livččii okta lávdi gos
+            deaivvadit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l>lávdi</l>
+      </lg>
+      <dg id="a">
+         <d>guhkes, duolba muorraávnnas snihkkema váras</d>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l>lemma</l>
+      </lg>
+      <dg id="a">
+         <d>definition</d>
+      </dg>
    </e>
    <e>
       <lg pos="N">
