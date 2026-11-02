@@ -660,14 +660,26 @@
       </lg>
       <dg id="a">
          <d>luopmu beassážiid oktavuođas</d>
+         <syng>
+            <d_ref lemma="beassášlohpi">beassášlohpi</d_ref>
+         </syng>
+         <xg>
+            <x>Otne lea vuosttaš skuvlabeaivi beassášluomu maŋŋel.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2604">
-      <lg>
+      <lg pos="N">
          <l>beassášlohpi</l>
       </lg>
       <dg id="a">
          <d>lohpi beassážiid oktavuođas</d>
+         <syng>
+            <d_ref lemma="beassášluopmu" pos="N">beassášluopmu</d_ref>
+         </syng>
+         <xg>
+            <x>Otne lea vuosttaš skuvlabeaivi beassášlobi maŋŋel.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
