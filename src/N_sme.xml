@@ -661,7 +661,7 @@
       <dg id="a">
          <d>luopmu beassážiid oktavuođas</d>
          <syng>
-            <d_ref lemma="beassášlohpi">beassášlohpi</d_ref>
+            <d_ref lemma="beassášlohpi" pos="N">beassášlohpi</d_ref>
          </syng>
          <xg>
             <x>Otne lea vuosttaš skuvlabeaivi beassášluomu maŋŋel.</x>
