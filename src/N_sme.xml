@@ -2097,6 +2097,13 @@
       </lg>
       <dg id="a">
          <d>olmmoš Estteeatnamis eret</d>
+         <syng>
+            <d_ref lemma="esttelaš" pos="N">esttelaš</d_ref>
+         </syng>
+         <xg>
+            <x>Son lea estteeatnalaš.</x>
+            <x>Mun deiven muhtun estteeatnalaččaid ikte.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2601">
@@ -2105,6 +2112,13 @@
       </lg>
       <dg id="a">
          <d>olmmoš Estteeatnamis eret</d>
+         <syng>
+            <d_ref lemma="estteeatnalaš" pos="N">estteeatnalaš</d_ref>
+         </syng>
+         <xg>
+            <x>Son lea esttelaš.</x>
+            <x>Mun deiven muhtun esttelaččaid ikte.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2601">
