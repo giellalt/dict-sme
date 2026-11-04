@@ -1576,7 +1576,7 @@
       <dg id="a">
          <d>olmmoš Dánmárkkus eret</d>
          <xg>
-            <x>dánskalaš</x>
+            <x>Son lea dánskalaš.</x>
          </xg>
       </dg>
    </e>
@@ -1911,7 +1911,7 @@
       <dg id="a">
          <d>boradeapmi dábálaččat maŋŋit eahkedis</d>
          <xg>
-            <x>borrat eahkesborramuša</x>
+            <x>Mii borrat eahkesborramuša.</x>
          </xg>
       </dg>
    </e>
@@ -1956,7 +1956,7 @@
             <d_ref lemma="eahketborramuš" pos="N">eahketborramuš</d_ref>
          </syng>
          <xg>
-            <x>borrat eahketbiepmu</x>
+            <x>Mii borrat eahketbiepmu.</x>
          </xg>
       </dg>
    </e>
@@ -1970,7 +1970,7 @@
             <d_ref lemma="eahketbiebmu" pos="N">eahketbiebmu</d_ref>
          </syng>
          <xg>
-            <x>borrat eahketborramuša</x>
+            <x>Mii borrat eahketborramuša.</x>
          </xg>
       </dg>
    </e>
@@ -2252,6 +2252,10 @@
       </lg>
       <dg id="a">
          <d>olmmoš Frankriikkas eret</d>
+         <xg>
+            <x>Son lea frankriikalaš.</x>
+            <x>Mii deaivvaimet muhtun frankriikalaččaid ikte.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2601">
@@ -2260,6 +2264,10 @@
       </lg>
       <dg id="a">
          <d>olmmoš Frankriikkas eret</d>
+         <xg>
+            <x>Son lea fránskalaš.</x>
+            <x>Mii deaivvaimet muhtun fránskalaččaid ikte.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2604">
