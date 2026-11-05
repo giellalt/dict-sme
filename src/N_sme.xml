@@ -2880,6 +2880,7 @@
       <dg id="a">
          <d>fievrridahtti jođaskeahtes telefovdna</d>
          <syng>
+            <d_ref lemma="mátketelefovdna" pos="N">mátketelefovdna</d_ref>
             <d_ref lemma="mobiilatelefovdna" pos="N">mobiilatelefovdna</d_ref>
             <d_ref lemma="mobiila" pos="N">mobiila</d_ref>
          </syng>
@@ -5085,6 +5086,7 @@
       <dg id="a">
          <d>fievrridahtti jođaskeahtes telefovdna</d>
          <syng>
+            <d_ref lemma="mátketelefovdna" pos="N">mátketelefovdna</d_ref>
             <d_ref lemma="giehtatelefovdna" pos="N">giehtatelefovdna</d_ref>
             <d_ref lemma="mobiilatelefovdna" pos="N">mobiilatelefovdna</d_ref>
          </syng>
@@ -5102,6 +5104,7 @@
          <d>fievrridahtti jođaskeahtes telefovdna</d>
          <syng>
             <d_ref lemma="mobiila" pos="N">mobiila</d_ref>
+            <d_ref lemma="mátketelefovdna" pos="N">mátketelefovdna</d_ref>
             <d_ref lemma="giehtatelefovdna" pos="N">giehtatelefovdna</d_ref>
          </syng>
          <xg>
@@ -5861,7 +5864,7 @@
          <l>pianista</l>
       </lg>
       <dg id="a">
-         <d>olmmoš gii čuojaha piáno, erenoamážit ámmátlaččat</d>
+         <d>olmmoš gii čuojaha piáno, erenoamážit ámmáhin</d>
       </dg>
    </e>
    <e batch="2605">
