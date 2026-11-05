@@ -2885,7 +2885,7 @@
             <d_ref lemma="mobiila" pos="N">mobiila</d_ref>
          </syng>
          <xg>
-            <x>giehtatelefovdna čuodjá</x>
+            <x>Giehtatelefovdna čuodjá.</x>
          </xg>
       </dg>
    </e>
@@ -5108,7 +5108,7 @@
             <d_ref lemma="giehtatelefovdna" pos="N">giehtatelefovdna</d_ref>
          </syng>
          <xg>
-            <x>mobiilatelefovdna čuodjá</x>
+            <x>Mobiilatelefovdna čuodjá.</x>
          </xg>
       </dg>
    </e>
@@ -87190,10 +87190,16 @@
          <l>mátkešukkoláde</l>
       </lg>
    </e>
-   <e>
+   <e batch="2604">
       <lg pos="N">
          <l>mátketelefovdna</l>
       </lg>
+      <dg id="a">
+         <d>fievrridahtti jođaskeahtes telefovdna</d>
+         <xg>
+            <x>Mátketelefovdna čuodjá.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
