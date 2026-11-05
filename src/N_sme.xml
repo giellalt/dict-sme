@@ -626,14 +626,19 @@
          <l>bealgi</l>
       </lg>
       <dg id="a">
-         <d>gieđa siskkimus suorbma</d>
+         <d>gieđa siskkimus ja gasimus suorbma, mas leat guokte lađđasa</d>
          <xg>
             <x>Bealgi bohtanii.</x>
+            <x>Mánná njammá bealggi.</x>
+            <x>Doala dan čuvddi ja bealggi gaskkas.</x>
             <x>Moai johte aivve belggiin.</x>
          </xg>
       </dg>
       <dg id="b">
          <d>siskkimus ja stuorimus juolgesuorbma</d>
+         <syng>
+            <d_ref lemma="juolgebealgi" pos="N">juolgebealgi</d_ref>
+         </syng>
       </dg>
    </e>
    <e batch="2601">
