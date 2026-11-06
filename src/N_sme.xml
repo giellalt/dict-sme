@@ -87190,12 +87190,17 @@
          <l>mátkešukkoláde</l>
       </lg>
    </e>
-   <e batch="2604">
+   <e batch="2609">
       <lg pos="N">
          <l>mátketelefovdna</l>
       </lg>
       <dg id="a">
          <d>fievrridahtti jođaskeahtes telefovdna</d>
+         <syng>
+            <d_ref lemma="mobiilatelefovdna" pos="N">mobiilatelefovdna</d_ref>
+            <d_ref lemma="mobiila" pos="N">mobiila</d_ref>
+            <d_ref lemma="giehtatelefovdna" pos="N">giehtatelefovdna</d_ref>
+         </syng>
          <xg>
             <x>Mátketelefovdna čuodjá.</x>
          </xg>
