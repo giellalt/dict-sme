@@ -55418,8 +55418,8 @@
       <dg id="a">
          <d>geahppasit bivttas maid olmmoš atná geasset</d>
          <xg>
-            <x>Sus lei čáppa, čuvges ivdni dien geassebiktasis. </x>
-            <x>Cokka fal geassebiktasiid go lea ná báhkka! </x>
+            <x>Sus lei čáppa, čuvges ivdni dien geassebiktasis.</x>
+            <x>Cokka fal geassebiktasiid go lea ná báhkka!</x>
             <x>Várut vai it durddit lákcajieŋa dien čuvges geassebiktasii!</x>
          </xg>
       </dg>
@@ -59341,6 +59341,26 @@
       <lg pos="N">
          <l>girjevuorká</l>
       </lg>
+      <dg id="a">
+         <d>fysalaš vuorká mas vurkkoduvvojit girjjit; girjearkiiva </d>
+         <xg>
+            <x>Sii eai ollen loktet girjiid girjevuorkká hilduide ovdal go čáhci vahágis golggai láhttái, ja
+            girjevuorkkás njuske olu girjjit.</x>
+            <x>Girjevuorkkás lea hildut áibbas dievva, ja mii eat čáhkket šat eambbo girjjiid dohko hilduide.</x>
+            <x>Gos din lágádusas lea girjevuorká?</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d>vuorká gosa leat olu girjjit čohkkejuvvon seamma sadjái, nu go olbmuin dahje ásahusain</d>
+         <syng>
+            <d_ref lemma="girječoakkáldat" pos="N">girječoakkáldat</d_ref>
+         </syng>
+         <xg>
+            <x>Sierračoakkáldagain gávnnat čohkkejuvvon dovddus sámi dutkiid girjevuorkkáid.</x>
+            <x>Sámedikkis sáhttet skuvllat ohcat oažžut nuvttá oahpponeavvuid Sámedikki girjevuorkkás.</x>
+            <x>Sámi girječálli skeŋkii olles girjevuorkkás allaskuvlla girjerádjosii.</x>
+         </xg>
+      </dg>
    </e>
    <e batch="2622">
       <lg pos="N">
@@ -59626,9 +59646,16 @@
       </dg>
       <ig>
          <i>In leat oaidnán dan in ruošša girkus ge.</i>
+         <idg>
+            <id>Mearkkaša ahte it leat oba oaidnán ge dan ášši, olbmo, jnv.</id>
+         </idg>
       </ig>
       <ig>
          <i>Mađi lagabus girku, dađi geafit boanddat.</i>
+         <idg>
+            <id>Dološ girku gáibidii vearu boanddain. Lei buoret orrut guhkkelis eret girkus, go dalle girku ii olahan
+            nu dávjá gáibidit ruđa. </id>
+         </idg>
       </ig>
    </e>
    <e>
