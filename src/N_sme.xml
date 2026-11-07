@@ -79675,10 +79675,20 @@
          <l>lánsa</l>
       </lg>
    </e>
-   <e>
+   <e batch="2605">
       <lg pos="N">
          <l>láppis</l>
       </lg>
+      <dg id="a">
+         <d>sávzza čivga</d>
+         <xg>
+            <x>Láppis meahku.</x>
+            <x>Hoahput álget giđđat, go lábbát riegádit.</x>
+         </xg>
+      </dg>
+      <ig>
+         <i>lodji dego láppis</i>
+      </ig>
    </e>
    <e>
       <lg pos="N">
