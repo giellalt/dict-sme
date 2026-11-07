@@ -79690,10 +79690,16 @@
          <i>lodji dego láppis</i>
       </ig>
    </e>
-   <e>
+   <e batch="2605">
       <lg pos="N">
          <l>lábbábiergu</l>
       </lg>
+      <dg id="a">
+         <d>biergu mii boahtá lábbás</d>
+         <xg>
+            <x>Mii borrat olu lábbábierggu čakčat.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
