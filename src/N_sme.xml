@@ -40774,6 +40774,11 @@
    </e>
    <e>
       <lg pos="N">
+         <l>dorskenjuovčča</l>
+      </lg>
+   </e>
+   <e>
+      <lg pos="N">
          <l>dorskevuotna</l>
       </lg>
    </e>
@@ -79711,7 +79716,7 @@
          <l>burrubiergu</l>
       </lg>
    </e>
-   <e>
+   <e batch="2605">
       <lg pos="N">
          <l>fállábiergu</l>
       </lg>
