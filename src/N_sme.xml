@@ -4760,6 +4760,20 @@
             <x>Sotnabeaivve leat spábbačiekčangilvvut mánáide.</x>
          </xg>
       </dg>
+      <ig>
+         <i>mánáid ládje</i>
+         <idg>
+            <id>áhpeheapme</id>
+            <ix>Son lea mánáid ládje.</ix>
+         </idg>
+      </ig>
+      <ig>
+         <i>máná vuostá</i>
+         <idg>
+            <id>áhpeheapme</id>
+            <ix>Son lea máná vuostá.</ix>
+         </idg>
+      </ig>
    </e>
    <e batch="2609">
       <lg pos="N">
@@ -21526,7 +21540,7 @@
          <i>gievra dego bierdna</i>
       </ig>
       <ig>
-         <i>oađđit dego guovža</i>
+         <i>oađđit dego bierdna</i>
       </ig>
       <ig>
          <i>ale biertna náhki vuovdde, ovdalgo biertna leat goddán</i>
