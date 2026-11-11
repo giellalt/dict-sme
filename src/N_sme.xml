@@ -27717,6 +27717,11 @@
          </xg>
       </dg>
    </e>
+   <e batch="2623">
+      <lg pos="N">
+         <l>gissi</l>
+      </lg>
+   </e>
    <e>
       <lg pos="N">
          <l type="NomAg">bussáealli</l>
@@ -52811,7 +52816,7 @@
          <l>gáhttobielka</l>
       </lg>
    </e>
-   <e>
+   <e batch="2623">
       <lg pos="N">
          <l>gáhttu</l>
       </lg>
