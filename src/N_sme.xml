@@ -1679,6 +1679,17 @@
          <d><d_ref lemma="dihtorduolbbus" pos="N">dihtorduolbbus</d_ref></d>
       </dg>
    </e>
+   <e>
+      <lg pos="N">
+         <l>guoskanšearbma</l>
+      </lg>
+      <dg id="a">
+         <d>šearbma maid stivre guoskkahemiin</d>
+         <xg>
+            <x>Dihtordulbosa stivre guoskanšearpmain.</x>
+         </xg>
+      </dg>
+   </e>
    <e batch="2604">
       <lg pos="N">
          <l>diibmobealli</l>
@@ -119984,8 +119995,8 @@
       </lg>
       <dg id="a">
          <d>šealgi árvometálla, árvvosadnon sámiid gaskkas go dat árbevirolaččat oidnojuvvo suodjaleaddjin ja riggodaga
-         mearkan, majoritehtakultuvrrain dávjá oidnojuvvo nubbin deháleamos árvometállan, kemihkkalaččat merkejuvvon Ag
-         </d>
+         mearkan, majoritehtakultuvrrain dávjá oidnojuvvo nubbin deháleamos árvometállan, kemihkkalaččat merkejuvvon
+         Ag</d>
       </dg>
       <dg id="b">
          <d>gilvvuid oktavuođas: nuppi saji ánsu</d>
