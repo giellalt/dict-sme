@@ -2440,11 +2440,27 @@
       <lg pos="A">
          <l>afghánalaš</l>
       </lg>
+      <dg id="a">
+         <d>mii gullá Afghanistanii dahje Afghanistana kultuvrii</d>
+         <xg>
+            <x>Mun lean oastán afghánalaš láhtteránu.</x>
+            <x>Kafeas vuvdet afghánalaš biepmu.</x>
+            <x>Dát bivttas gal lea afghánalaš.</x>
+         </xg>
+      </dg>
    </e>
    <e batch="2622">
       <lg pos="A">
          <l>afrihkálaš</l>
       </lg>
+      <dg id="a">
+         <d>mii gullá Afrihkái dahje Afrihká kultuvrii</d>
+         <xg>
+            <x>Dát eai leat afrihkálaš biktasat.</x>
+            <x>Afrihkálaš biepmus sáhttet leat garra máistagat.</x>
+            <x>Museadávvir lea afrihkálaš.</x>
+         </xg>
+      </dg>
    </e>
    <e batch="2622">
       <lg pos="A">
