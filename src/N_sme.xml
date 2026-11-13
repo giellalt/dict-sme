@@ -741,7 +741,7 @@
          <l>beavdi</l>
       </lg>
       <dg id="a">
-         <d>stohpogálvu mas lea láskkonjuolga pláhta julggiid dahje eará vuloštusa alde</d>
+         <d>stohpogálvu mas lea láskkonjuolga duolbbus julggiid dahje eará vuloštusa alde</d>
          <xg>
             <x>Son bijai leavssuid ja mielkki beavdái.</x>
             <x>Sáhtátgo láhčit beavddi?</x>
@@ -749,12 +749,19 @@
             <x>Dihtor lea beavddis.</x>
             <x>Girji lea beavddi alde.</x>
             <x>Soai čohkkába seamma beavddis.</x>
+            <x>Buot bevddiin ledje lieđit.</x>
          </xg>
       </dg>
       <ig>
          <i>jalget beavddi</i>
          <idg>
             <id>vuoitit visot</id>
+         </idg>
+      </ig>
+      <ig>
+         <i>bierggohis beavdái mannat</i>
+         <idg>
+            <id>dahkat juoidá ávkkehis áigumušaiguin</id>
          </idg>
       </ig>
    </e>
