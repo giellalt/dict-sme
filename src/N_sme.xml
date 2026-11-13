@@ -120006,14 +120006,52 @@
          <l>silba</l>
       </lg>
       <dg id="a">
-         <d>šealgi árvometálla, árvvosadnon sámiid gaskkas go dat árbevirolaččat oidnojuvvo suodjaleaddjin ja riggodaga
-         mearkan, majoritehtakultuvrrain dávjá oidnojuvvo nubbin deháleamos árvometállan, kemihkkalaččat merkejuvvon
-         Ag</d>
+         <d>šealgi árvometálla, árvvosadnon sámiid gaskkas gč. omd. <d_ref lemma="silbafiertu"
+         pos="N">silbafiertu</d_ref>, <d_ref lemma="silbafávru" pos="N">silbafávru</d_ref>, vuođđoávnnas mii
+         kemihkkalaččat merkejuvvo Ag, </d>
+         <xg>
+            <x>Silba lea divron ollu dán jagi muitala silbačeahppi.</x>
+            <x>Sáhttá báidnit borramušgálvvuid silbbain. </x>
+            <x>Silbba atomanummar lea 47.</x>
+            <x>Dát goit čájeha ahte silbbas lea árvu, measta seamma árvosaš go golli. </x>
+         </xg>
+      </dg>
+      <dg id="c">
+         <d>silbadávvir omd. boallu, baste, šiella jna.</d>
+         <xg>
+            <x>Son vurkkodii silbbaidis giissas.</x>
+            <x>Silbbat ja gollit skilihedje.</x>
+            <x>Son dajai vieljaidasas: “Silba lea addojuvvon munnje ruoktot, dat lea mu seahkas!” </x>
+         </xg>
       </dg>
       <dg id="b">
          <d>gilvvuid oktavuođas: nuppi saji ánsu</d>
          <xg>
             <x>Son vuittii silbba</x>
+         </xg>
+      </dg>
+   </e>
+   <e batch="2621">
+      <lg pos="N">
+         <l>silbafiertu</l>
+      </lg>
+      <dg id="a">
+         <d>hui fiertu</d>
+         <xg>
+            <x>Otne lea silbafiertu.</x>
+            <x>Silbafiertun lea hávski vájaldit.</x>
+         </xg>
+      </dg>
+   </e>
+   <e batch="2621">
+      <lg pos="N">
+         <l>silbafávru</l>
+      </lg>
+      <dg id="a">
+         <d>hui fávrros olmmoš</d>
+         <d>mearehis čáppa olmmoš</d>
+         <xg>
+            <x>De lei nieida mii lei silbafávru.</x>
          </xg>
       </dg>
    </e>
@@ -120026,6 +120064,15 @@
       <lg pos="N">
          <l>silbačeahppi</l>
       </lg>
+      <dg id="a">
+         <d>silbaduojár</d>
+         <d>olmmoš gii ráhkada silbačiŋaid</d>
+         <xg>
+            <x>Son bargá silbačeahppin.</x>
+            <x>Dáin guovlluin eai leat šat nu galle silbačeahpit.</x>
+            <x>Mii, silbačeahpit, fertet buohkat jurddašit ahte eat lokte hatti nu ollu.</x>
+         </xg>
+      </dg>
    </e>
    <e batch="2621">
       <lg pos="N">
