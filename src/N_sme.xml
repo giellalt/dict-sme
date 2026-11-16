@@ -751,10 +751,12 @@
             <x>Son bijai leavssuid ja mielkki beavdái.</x>
             <x>Sáhtátgo láhčit beavddi?</x>
             <x>Buresboahtin beavdái!</x>
-            <x>Dihtor lea beavddis.</x>
+            <x>Girji lea beavddis.</x>
             <x>Girji lea beavddi alde.</x>
             <x>Soai čohkkába seamma beavddis.</x>
             <x>Buot bevddiin ledje lieđit.</x>
+            <x>Muitte fal diŋgot beavddi borranbáikkis.</x>
+            <x>Mun lean várren beavddi midjiide borranbáikkis.</x>
          </xg>
       </dg>
       <ig>
@@ -767,6 +769,13 @@
          <i>bierggohis beavdái mannat</i>
          <idg>
             <id>dahkat juoidá ávkkehis áigumušaiguin</id>
+         </idg>
+      </ig>
+      <ig>
+         <i>beavddi alde/beavddis</i>
+         <idg>
+            <id>gean nu bargoovddasvástádus</id>
+            <ix>Ášši lea dál ráđđehusa beavddis.</ix>
          </idg>
       </ig>
    </e>
