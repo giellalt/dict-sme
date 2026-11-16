@@ -9918,7 +9918,11 @@
          <l>atnudávvir</l>
       </lg>
       <dg id="a">
-         <d/>
+         <d><d_ref lemma="dávvir" pos="N">dávvir</d_ref> maid geavaha beaivválaš bargguid váras</d>
+         <syng>
+            <d_ref lemma="atnudiŋga" pos="N">atnudiŋga</d_ref>
+            <d_ref lemma="atnubierggas" pos="N">atnubierggas</d_ref>
+         </syng>
          <xg>
             <x>Buot dát ledje atnudávvirat, maidda beaivválaččat lei dárbu.</x>
          </xg>
@@ -35553,28 +35557,28 @@
          <l>dávvir</l>
       </lg>
       <dg id="c">
-         <d>diŋga; gálvu; gávdni; oapmi</d>
+         <d>diŋga; gálvu; bierggas; gávdni; oapmi</d>
          <xg>
             <x>Sii vuvde feara makkár dávviriid doppe.</x>
-            <x>Son čohkkii iežas dávviriid. </x>
+            <x>Son čohkkii iežas dávviriid.</x>
             <x>Leago dát du dávvir?</x>
          </xg>
       </dg>
       <dg id="b">
-         <d>árvvusadnon dahje divrras diŋga, gálvu, gávdni dahje oapmi </d>
+         <d>árvvusadnon dahje divrras diŋga, gálvu, bierggas, gávdni dahje oapmi</d>
          <xg>
             <x>Divrras dávvir.</x>
-            <x>Sii juhke dávviriid árbbolaččaid gaskkas. </x>
+            <x>Sii juhke dávviriid árbbolaččaid gaskkas.</x>
             <x>Golli ja bearralat gal leat ollu, muhto viissis sánit leat hárvenaš dávvir.</x>
             <x>Riggodat ii bistte agálaččat iige dávvir buolvvas bulvii.</x>
-            <x>Viisodat ja máhttu lea dávvir mii addá bestojumi. </x>
+            <x>Viisodat ja máhttu lea dávvir mii addá bestojumi.</x>
          </xg>
       </dg>
       <dg id="a">
          <d>dološ diŋga; bázáhus</d>
          <xg>
             <x>Davviriikkalaš museas leat 8000 sámi dávvira.</x>
-            <x>Jos leat gávdnan dávviriid maid jáhkát leat boarrásat, de váldde oktavuođa minguin. </x>
+            <x>Jos leat gávdnan dávviriid maid jáhkát leat boarrásat, de váldde oktavuođa minguin.</x>
             <x>Sámi dávviriidda guoská kulturmuitoláhka seamma láhkai go eará kulturmuittuide.</x>
             <x>Iskagohtet sámi dávviriid museačoakkáldagain.</x>
             <x>Sámi dávvirat leat almmolaččat máhcahuvvon.</x>
