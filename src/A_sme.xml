@@ -2550,6 +2550,35 @@
       <lg pos="A">
          <l>allajienat</l>
       </lg>
+      <dg id="a">
+         <d>geas dahje mas lea alla dahje garra jietna; geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
+         <syng>
+            <d_ref lemma="jiednái" pos="A">jiednái</d_ref>
+            <d_ref lemma="jidnii" pos="A">jidnii</d_ref>
+         </syng>
+         <xg>
+            <x>Gávppis čuodjá skájanasain allajienat juovlamusihkka.</x>
+            <x>Gávpot sáhttá dávjá leat allajienat.</x>
+            <x>Son lea allajienat olmmoš.</x>
+         </xg>
+      </dg>
+   </e>
+   <e batch="2622">
+      <lg pos="A">
+         <l>jiednái</l>
+      </lg>
+      <dg id="a">
+         <d>geas dahje mas lea alla dahje garra jietna; geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
+         <syng>
+            <d_ref lemma="jidnii" pos="A">jidnii</d_ref>
+            <d_ref lemma="allajienat" pos="A">allajienat</d_ref>
+         </syng>
+         <xg>
+            <x>Ale leage nu jiednái!</x>
+            <x>Son lea jiednás bártnáš.</x>
+            <x>Dát skuvlaluohkká lea dat jiednámus luohkká skuvllas.</x>
+         </xg>
+      </dg>
    </e>
    <e batch="2622">
       <lg pos="A">
@@ -8086,10 +8115,21 @@
          <l>jegolaš</l>
       </lg>
    </e>
-   <e>
+   <e batch="2622">
       <lg pos="A">
          <l>jidnii</l>
       </lg>
+      <dg id="a">
+         <d>geas dahje mas lea alla dahje garra jietna, ; geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
+         <syng>
+            <d_ref lemma="jiednái" pos="A">jiednái</d_ref>
+            <d_ref lemma="allajienat" pos="A">allajienat</d_ref>
+         </syng>
+         <xg>
+            <x>Son lea jidnes bártnáš.</x>
+            <x>Nisu lea jidnii.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="A">
