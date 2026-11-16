@@ -65,6 +65,18 @@
          <d>olmmoš Andorras eret</d>
       </dg>
    </e>
+   <e>
+      <lg pos="N">
+         <l>argentiinnálaš</l>
+      </lg>
+      <dg id="a">
+         <d>olmmoš Argentiinnás eret</d>
+         <xg>
+            <x>Moallafákta lea argentiinnálaš.</x>
+            <x>Mun deiven muhtun argentiinnálaččaid ikte.</x>
+         </xg>
+      </dg>
+   </e>
    <e batch="2601">
       <lg pos="N">
          <l>arkiiva</l>
