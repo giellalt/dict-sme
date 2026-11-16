@@ -35552,6 +35552,35 @@
       <lg pos="N">
          <l>dávvir</l>
       </lg>
+      <dg id="c">
+         <d>diŋga; gálvu; gávdni; oapmi</d>
+         <xg>
+            <x>Sii vuvde feara makkár dávviriid doppe.</x>
+            <x>Son čohkkii iežas dávviriid. </x>
+            <x>Leago dát du dávvir?</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d>árvvusadnon dahje divrras diŋga, gálvu, gávdni dahje oapmi </d>
+         <xg>
+            <x>Divrras dávvir.</x>
+            <x>Sii juhke dávviriid árbbolaččaid gaskkas. </x>
+            <x>Golli ja bearralat gal leat ollu, muhto viissis sánit leat hárvenaš dávvir.</x>
+            <x>Riggodat ii bistte agálaččat iige dávvir buolvvas bulvii.</x>
+            <x>Viisodat ja máhttu lea dávvir mii addá bestojumi. </x>
+         </xg>
+      </dg>
+      <dg id="a">
+         <d>dološ diŋga; bázáhus</d>
+         <xg>
+            <x>Davviriikkalaš museas leat 8000 sámi dávvira.</x>
+            <x>Jos leat gávdnan dávviriid maid jáhkát leat boarrásat, de váldde oktavuođa minguin. </x>
+            <x>Sámi dávviriidda guoská kulturmuitoláhka seamma láhkai go eará kulturmuittuide.</x>
+            <x>Iskagohtet sámi dávviriid museačoakkáldagain.</x>
+            <x>Sámi dávvirat leat almmolaččat máhcahuvvon.</x>
+            <x>Čájáhusas leat ávdnasat geađggeáiggis, hávddiin gávdnon dávvirat ja árbevirolaš mearrásámi ávdnasat.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -120013,12 +120042,12 @@
       <dg id="a">
          <d>šealgi árvometálla, árvvosadnon sámiid gaskkas gč. omd. <d_ref lemma="silbafiertu"
          pos="N">silbafiertu</d_ref>, <d_ref lemma="silbafávru" pos="N">silbafávru</d_ref>, vuođđoávnnas mii
-         kemihkkalaččat merkejuvvo Ag, </d>
+         kemihkkalaččat merkejuvvo Ag,</d>
          <xg>
             <x>Silba lea divron ollu dán jagi muitala silbačeahppi.</x>
-            <x>Sáhttá báidnit borramušgálvvuid silbbain. </x>
+            <x>Sáhttá báidnit borramušgálvvuid silbbain.</x>
             <x>Silbba atomanummar lea 47.</x>
-            <x>Dát goit čájeha ahte silbbas lea árvu, measta seamma árvosaš go golli. </x>
+            <x>Dát goit čájeha ahte silbbas lea árvu, measta seamma árvosaš go golli.</x>
          </xg>
       </dg>
       <dg id="c">
@@ -120026,7 +120055,7 @@
          <xg>
             <x>Son vurkkodii silbbaidis giissas.</x>
             <x>Silbbat ja gollit skilihedje.</x>
-            <x>Son dajai vieljaidasas: “Silba lea addojuvvon munnje ruoktot, dat lea mu seahkas!” </x>
+            <x>Son dajai vieljaidasas: “Silba lea addojuvvon munnje ruoktot, dat lea mu seahkas!”</x>
          </xg>
       </dg>
       <dg id="b">
