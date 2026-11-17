@@ -1110,6 +1110,20 @@
       </lg>
       <dg id="a">
          <d>bussá čivga</d>
+         <syng>
+            <d_ref lemma="gáhttočivga" pos="N">gáhttočivga</d_ref>
+         </syng>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l>gáhttočivga</l>
+      </lg>
+      <dg id="a">
+         <d>gáhtu čivga</d>
+         <syng>
+            <d_ref lemma="bussáčivga" pos="N">bussáčivga</d_ref>
+         </syng>
       </dg>
    </e>
    <e batch="2602">
