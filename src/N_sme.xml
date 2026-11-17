@@ -1113,6 +1113,11 @@
          <syng>
             <d_ref lemma="gáhttočivga" pos="N">gáhttočivga</d_ref>
          </syng>
+         <xg>
+            <x>Bussáčivga čuohká mielkki.</x>
+            <x>Mánná njávká bussáčivgga.</x>
+            <x>Bussáčivggat stohket láiggiin.</x>
+         </xg>
       </dg>
    </e>
    <e>
@@ -1124,6 +1129,11 @@
          <syng>
             <d_ref lemma="bussáčivga" pos="N">bussáčivga</d_ref>
          </syng>
+         <xg>
+            <x>Gáhttočivga čuohká mielkki.</x>
+            <x>Mánná njávká gáhttočivgga.</x>
+            <x>Gáhttočivggat stohket láiggiin.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
@@ -31541,7 +31551,7 @@
          <l>čikŋabivttas</l>
       </lg>
       <dg id="a">
-         <d>bivttas mainna čiŋadat; geahča <d_ref lemma="čikŋa" pos="N">čikŋa</d_ref> </d>
+         <d>bivttas mainna čiŋadat; geahča <d_ref lemma="čikŋa" pos="N">čikŋa</d_ref></d>
          <xg>
             <x>Son cokkai čikŋabiktasiid doaluide.</x>
             <x>Ale duolvvit čikŋabiktasa!</x>
