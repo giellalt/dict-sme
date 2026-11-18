@@ -1103,6 +1103,14 @@
          <d>niibi mainna rahpá breavaid</d>
       </dg>
    </e>
+   <e>
+      <lg pos="N">
+         <l>reiveniibi</l>
+      </lg>
+      <dg id="a">
+         <d>niibi mainna rahpá reivviid</d>
+      </dg>
+   </e>
    <e batch="2602">
       <lg pos="N">
          <l>breavaviehkat</l>
