@@ -743,10 +743,6 @@
       </lg>
       <dg id="a">
          <d>niibi mii geavahuvvo ovttas gáffaliin boradettiin</d>
-         <xg>
-            <x>Mun geavahan beavdeniibbi go boradan.</x>
-            <x>Beavdeniibbit leat lođás.</x>
-         </xg>
       </dg>
    </e>
    <e batch="2602">
@@ -754,12 +750,7 @@
          <l>beavdetennis</l>
       </lg>
       <dg id="a">
-         <d>spáppastallan mas časká uhca, geahppa spáppaža speččoniin vuollegis, doares fierpmi badjel mii lea gasku
-         beavddi</d>
-         <xg>
-            <x>Mii speallat beavdetennisa.</x>
-            <x>Beavdetennis lea somás áigegollu.</x>
-         </xg>
+         <d>spáppastallan mas časká uhca, geahppa spáppa speččoniin vuollegis fierpmi badjel mii lea beavddi alde</d>
       </dg>
    </e>
    <e batch="2602">
@@ -1119,30 +1110,6 @@
       </lg>
       <dg id="a">
          <d>bussá čivga</d>
-         <syng>
-            <d_ref lemma="gáhttočivga" pos="N">gáhttočivga</d_ref>
-         </syng>
-         <xg>
-            <x>Bussáčivga čuohká mielkki.</x>
-            <x>Mánná njávká bussáčivgga.</x>
-            <x>Bussáčivggat stohket láiggiin.</x>
-         </xg>
-      </dg>
-   </e>
-   <e>
-      <lg pos="N">
-         <l>gáhttočivga</l>
-      </lg>
-      <dg id="a">
-         <d>gáhtu čivga</d>
-         <syng>
-            <d_ref lemma="bussáčivga" pos="N">bussáčivga</d_ref>
-         </syng>
-         <xg>
-            <x>Gáhttočivga čuohká mielkki.</x>
-            <x>Mánná njávká gáhttočivgga.</x>
-            <x>Gáhttočivggat stohket láiggiin.</x>
-         </xg>
       </dg>
    </e>
    <e batch="2602">
@@ -31560,7 +31527,7 @@
          <l>čikŋabivttas</l>
       </lg>
       <dg id="a">
-         <d>bivttas mainna čiŋadat; geahča <d_ref lemma="čikŋa" pos="N">čikŋa</d_ref></d>
+         <d>bivttas mainna olmmoš čiŋada, geahča <d_ref lemma="čikŋa" pos="N">čikŋa, bivttas</d_ref></d>
          <xg>
             <x>Son cokkai čikŋabiktasiid doaluide.</x>
             <x>Ale duolvvit čikŋabiktasa!</x>
@@ -34636,6 +34603,34 @@
       <lg pos="N">
          <l>dálvebivttas</l>
       </lg>
+      <dg id="a">
+         <d>(liegga, assás) bivttas maid olmmoš atná dálvet</d>
+         <syng>
+            <d_ref lemma="dálvegárvu" pos="N">dálvegárvu</d_ref>
+         </syng>
+         <xg>
+            <x>Dát eai lean nu buorit dálvebiktasat go leat menddo asehaččat.</x>
+            <x>Olbmot eai dábálaččat ane dálvebiktasiid geasset.</x>
+            <x>Diet orru leamen liegga, assás dálvebivttas!</x>
+         </xg>
+      </dg>
+   </e>
+   <e batch="2622">
+      <lg pos="N">
+         <l>dálvegárvu</l>
+      </lg>
+      <dg id="a">
+         <d>(liegga, assás) gárvu maid olmmoš atná dálvet</d>
+         <syng>
+            <d_ref lemma="dálvebivttas" pos="N">dálvebivttas</d_ref>
+         </syng>
+         <xg>
+            <x>Cokka dálvegárvvuid go manat olggos!</x>
+            <x>Dá lea buorre, liegga dálvegárvu. </x>
+            <x>Sámi dálvegárvvut leat ovdamearkka dihte beaska, dorka, nuvttohat, gistát, bittut dahje gálssohat,
+            jna.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
