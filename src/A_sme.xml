@@ -2551,7 +2551,7 @@
          <l>allajienat</l>
       </lg>
       <dg id="a">
-         <d>geas dahje mas lea alla dahje garra jietna; geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
+         <d>geas dahje mas lea alla dahje garra jietna, geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
          <syng>
             <d_ref lemma="jiednái" pos="A">jiednái</d_ref>
             <d_ref lemma="jidnii" pos="A">jidnii</d_ref>
@@ -2568,7 +2568,7 @@
          <l>jiednái</l>
       </lg>
       <dg id="a">
-         <d>geas dahje mas lea alla dahje garra jietna; geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
+         <d>geas dahje mas lea alla dahje garra jietna, geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
          <syng>
             <d_ref lemma="jidnii" pos="A">jidnii</d_ref>
             <d_ref lemma="allajienat" pos="A">allajienat</d_ref>
@@ -2697,7 +2697,7 @@
          <l>amerihkálaš</l>
       </lg>
       <dg id="a">
-         <d>mii gullá Amerihkái dahje Amerihká kultuvrii </d>
+         <d>mii gullá Amerihkái dahje Amerihká kultuvrii</d>
          <xg>
             <x>Amerihkálaš biebmu.</x>
          </xg>
@@ -8140,7 +8140,7 @@
          <l>jidnii</l>
       </lg>
       <dg id="a">
-         <d>geas dahje mas lea alla dahje garra jietna, ; geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
+         <d>geas dahje mas lea alla dahje garra jietna, geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
          <syng>
             <d_ref lemma="jiednái" pos="A">jiednái</d_ref>
             <d_ref lemma="allajienat" pos="A">allajienat</d_ref>
