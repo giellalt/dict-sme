@@ -1147,6 +1147,30 @@
       </lg>
       <dg id="a">
          <d>bussá čivga</d>
+         <syng>
+            <d_ref lemma="gáhttočivga" pos="N">gáhttočivga</d_ref>
+         </syng>
+         <xg>
+            <x>Bussáčivga čuohká mielkki.</x>
+            <x>Mánná njávká bussáčivgga.</x>
+            <x>Bussáčivggat stohket láiggiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l>gáhttočivga</l>
+      </lg>
+      <dg id="a">
+         <d>gáhtu čivga</d>
+         <syng>
+            <d_ref lemma="bussáčivga" pos="N">bussáčivga</d_ref>
+         </syng>
+         <xg>
+            <x>Gáhttočivga čuohká mielkki.</x>
+            <x>Mánná njávká gáhttočivgga.</x>
+            <x>Gáhttočivggat stohket láiggiin.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
