@@ -1101,6 +1101,13 @@
       </lg>
       <dg id="a">
          <d>niibi mainna rahpá breavaid</d>
+         <syng>
+            <d_ref lemma="reiveniibi" pos="N">reiveniibi</d_ref>
+         </syng>
+         <xg>
+            <x>Son duddjui breavaniibbi.</x>
+            <x>Mun raban reivve breavaniibbiin.</x>
+         </xg>
       </dg>
    </e>
    <e>
@@ -1109,6 +1116,13 @@
       </lg>
       <dg id="a">
          <d>niibi mainna rahpá reivviid</d>
+         <syng>
+            <d_ref lemma="breavaniibi" pos="N">breavaniibi</d_ref>
+         </syng>
+         <xg>
+            <x>Son duddjui reiveniibbi.</x>
+            <x>Mun raban reivve reiveniibbiin.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
