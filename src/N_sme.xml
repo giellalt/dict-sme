@@ -5242,7 +5242,6 @@
    <e batch="2609">
       <lg pos="N">
          <l>mobiilatelefovdna</l>
-         <l>mobiltelefovdna</l>
       </lg>
       <dg id="a">
          <d>fievrridahtti jođaskeahtes telefovdna</d>
@@ -6471,7 +6470,6 @@
    <e batch="2611">
       <lg pos="N">
          <l>skábmamánnu</l>
-         <l>skápmamánnu</l>
       </lg>
       <dg id="a">
          <d>jagi oktanuppelogát mánnu (gregoriánalaš kaleandara mielde)</d>
@@ -6691,7 +6689,6 @@
    <e batch="2612">
       <lg pos="N">
          <l>spábbačiekčan</l>
-         <l>spáppačiekčan</l>
       </lg>
       <dg id="a">
          <d>spáppastallan guovtti joavkku gaskkas mas čiekčá spáppa ja ulbmil lea oažžut spáppa vuostálasti mollii</d>
@@ -7049,7 +7046,6 @@
    <e batch="2613">
       <lg pos="N">
          <l>tráktor</l>
-         <l>traktor</l>
       </lg>
       <dg id="a">
          <d>mohtorfievru mainna geassá eanandoalloneavvuid ja/dahje addá fámu daidda</d>
@@ -9868,13 +9864,11 @@
    <e>
       <lg pos="N">
          <l>astoáiggeklubba</l>
-         <l>astoáigeklubba</l>
       </lg>
    </e>
    <e>
       <lg pos="N">
          <l>astoáiggeopmodat</l>
-         <l>astoáigeopmodat</l>
       </lg>
    </e>
    <e>
@@ -11714,7 +11708,6 @@
    <e>
       <lg pos="N">
          <l>álbmotriekti</l>
-         <l>álbmot-riekti</l>
       </lg>
    </e>
    <e>
@@ -13621,7 +13614,6 @@
    <e>
       <lg pos="N">
          <l>árvosátni</l>
-         <l>árvvosátni</l>
       </lg>
    </e>
    <e>
@@ -16717,7 +16709,6 @@
    <e>
       <lg pos="N">
          <l>bargostipeanda</l>
-         <l>bargostipenda</l>
       </lg>
    </e>
    <e>
@@ -24772,8 +24763,6 @@
    <e>
       <lg pos="N">
          <l>boazodoalloealáhus</l>
-         <l>boazodoallo-ealáhus</l>
-         <l>boazodoaloealáhus</l>
       </lg>
    </e>
    <e>
@@ -36201,7 +36190,6 @@
    <e>
       <lg pos="N">
          <l>dearvvašvuođabálvalus</l>
-         <l>dearvvašvuođa-bálvalus</l>
       </lg>
    </e>
    <e>
@@ -37852,7 +37840,6 @@
    <e>
       <lg pos="N">
          <l>digaštallanfáddá</l>
-         <l>digáštallanfáddá</l>
       </lg>
    </e>
    <e>
@@ -39492,7 +39479,6 @@
    <e>
       <lg pos="N">
          <l>doaibmaplána</l>
-         <l>doaibma-plána</l>
       </lg>
    </e>
    <e>
@@ -40455,7 +40441,6 @@
    <e>
       <lg pos="N">
          <l>doavtterbálvalus</l>
-         <l>doaktárbálvalus</l>
       </lg>
    </e>
    <e>
@@ -43653,7 +43638,6 @@
    <e>
       <lg pos="N">
          <l>ealáhusovdáneapmi</l>
-         <l>ealáhusaovddideapmi</l>
       </lg>
    </e>
    <e>
@@ -45190,7 +45174,6 @@
    <e>
       <lg pos="N">
          <l>eanadoallu</l>
-         <l>eanodoallu</l>
          <l>eanandoallu</l>
          <l>eatnandoallu</l>
       </lg>
@@ -45889,7 +45872,6 @@
    <e>
       <lg pos="N">
          <l>eanetlohkoráđđehus</l>
-         <l>eanetloguráđđehus</l>
       </lg>
    </e>
    <e>
@@ -45911,7 +45893,6 @@
    <e>
       <lg pos="N">
          <l>eanetlohku</l>
-         <l>eanet-lohku</l>
       </lg>
    </e>
    <e>
@@ -51436,7 +51417,6 @@
    <e>
       <lg pos="N">
          <l>fylkkadiggi</l>
-         <l>filkadiggi</l>
       </lg>
    </e>
    <e>
@@ -51506,7 +51486,6 @@
    <e>
       <lg pos="N">
          <l>fylkkagielda</l>
-         <l>fylkagielda</l>
       </lg>
    </e>
    <e>
@@ -51588,7 +51567,6 @@
    <e>
       <lg pos="N">
          <l>fylkkamánni</l>
-         <l>mobiltelefovdna</l>
       </lg>
    </e>
    <e>
@@ -58629,7 +58607,6 @@
    <e>
       <lg pos="N">
          <l>giliskuvla</l>
-         <l>gilliskuvla</l>
       </lg>
    </e>
    <e>
@@ -60254,7 +60231,6 @@
    <e>
       <lg pos="N">
          <l>goallosvovdna</l>
-         <l>goallovovdna</l>
       </lg>
    </e>
    <e>
@@ -60398,7 +60374,6 @@
    <e>
       <lg pos="N">
          <l>goarrunmašiidna</l>
-         <l>goarrunmášiidna</l>
       </lg>
    </e>
    <e>
@@ -64754,7 +64729,6 @@
    <e>
       <lg pos="N">
          <l>guovllustivra</l>
-         <l>guovlluidstivra</l>
       </lg>
    </e>
    <e>
@@ -64801,8 +64775,6 @@
    <e>
       <lg pos="N">
          <l>guovlodepartemeanta</l>
-         <l>guovlodepartementa</l>
-         <l>guovlludepartemeanta</l>
       </lg>
    </e>
    <e>
@@ -65503,7 +65475,6 @@
    <e>
       <lg pos="N">
          <l>hábmen</l>
-         <l>hápmen</l>
       </lg>
    </e>
    <e>
@@ -70630,7 +70601,6 @@
    <e>
       <lg pos="N">
          <l>jagiáigi</l>
-         <l>jahkeáigi</l>
       </lg>
    </e>
    <e>
@@ -74634,7 +74604,6 @@
    <e>
       <lg pos="N">
          <l>káija</l>
-         <l>kájá</l>
          <l>gája</l>
          <l>kádja</l>
       </lg>
@@ -76573,7 +76542,6 @@
    <e>
       <lg pos="N">
          <l>kulturárbi</l>
-         <l>kultuvraárbi</l>
          <l>kulttorárbi</l>
       </lg>
    </e>
@@ -76974,7 +76942,6 @@
    <e>
       <lg pos="N">
          <l type="NomAg">kulturguoddi</l>
-         <l type="NomAg">kultuvraguoddi</l>
          <l type="NomAg">kulttorguoddi</l>
       </lg>
    </e>
@@ -77147,7 +77114,6 @@
    <e>
       <lg pos="N">
          <l>kulturministtar</l>
-         <l>kultuvraministtar</l>
          <l>kulttorministtar</l>
       </lg>
    </e>
@@ -77326,7 +77292,6 @@
    <e>
       <lg pos="N">
          <l>kulturmuitoráđđi</l>
-         <l>kulturmuitoráddi</l>
          <l>kulttormuitoráđđi</l>
       </lg>
    </e>
@@ -77533,7 +77498,6 @@
    <e>
       <lg pos="N">
          <l>kulturráđđi</l>
-         <l>kulturráddi</l>
          <l>kulttorráđđi</l>
       </lg>
    </e>
@@ -79183,7 +79147,6 @@
    <e>
       <lg pos="N">
          <l>lágamánneriekti</l>
-         <l>lágamanneriekti</l>
       </lg>
    </e>
    <e>
@@ -79415,7 +79378,6 @@
    <e>
       <lg pos="N">
          <l>láhkadiggi</l>
-         <l>lágadiggi</l>
       </lg>
    </e>
    <e>
@@ -89053,7 +89015,6 @@
    <e>
       <lg pos="N">
          <l>mediaplána</l>
-         <l>mediijaplána</l>
       </lg>
    </e>
    <e>
@@ -92919,7 +92880,6 @@
    <e batch="2623">
       <lg pos="N">
          <l>našuvdna</l>
-         <l>nášuvdna</l>
       </lg>
    </e>
    <e>
@@ -92969,7 +92929,6 @@
    <e>
       <lg pos="N">
          <l>nationálabušeahtta</l>
-         <l>našunálabušeahtta</l>
       </lg>
    </e>
    <e>
@@ -96799,7 +96758,6 @@
    <e>
       <lg pos="N">
          <l>oahpaheaddjeoahppu</l>
-         <l>oahpaheaddjioahppu</l>
       </lg>
    </e>
    <e>
@@ -99282,7 +99240,6 @@
    <e>
       <lg pos="N">
          <l>oasseprošeakta</l>
-         <l>oasse-prošeakta</l>
       </lg>
    </e>
    <e>
@@ -100104,7 +100061,6 @@
    <e>
       <lg pos="N">
          <l>ohcanáigemearri</l>
-         <l>ohccanáigemearri</l>
       </lg>
    </e>
    <e>
@@ -101300,7 +101256,6 @@
    <e>
       <lg pos="N">
          <l>olgoriikalaš</l>
-         <l>olgoriikkalaš</l>
       </lg>
    </e>
    <e>
@@ -102415,7 +102370,6 @@
    <e>
       <lg pos="N">
          <l>organisašuvdna</l>
-         <l>orgánisašuvdna</l>
       </lg>
    </e>
    <e>
@@ -103394,7 +103348,6 @@
    <e>
       <lg pos="N">
          <l type="NomAg">ovdaskuvlaoahpaheaddji</l>
-         <l type="NomAg">ovdaskuvllaoahpaheaddji</l>
       </lg>
    </e>
    <e>
@@ -103682,7 +103635,6 @@
    <e>
       <lg pos="N">
          <l>ovdánanvejolašvuohta</l>
-         <l>ovdánan-vejolašvuohta</l>
       </lg>
    </e>
    <e>
@@ -106425,7 +106377,6 @@
    <e>
       <lg pos="N">
          <l>politiija</l>
-         <l>politiijá</l>
       </lg>
    </e>
    <e>
@@ -108110,7 +108061,6 @@
    <e>
       <lg pos="N">
          <l>raporta</l>
-         <l>rapporta</l>
       </lg>
    </e>
    <e>
@@ -108383,7 +108333,6 @@
    <e>
       <lg pos="N">
          <l>rádio</l>
-         <l>radio</l>
       </lg>
    </e>
    <e>
@@ -108456,7 +108405,6 @@
    <e>
       <lg pos="N">
          <l>rádiosátta</l>
-         <l>radio-sátta</l>
       </lg>
    </e>
    <e>
@@ -114818,7 +114766,6 @@
    <e>
       <lg pos="N">
          <l>rukto</l>
-         <l>ruktu</l>
       </lg>
    </e>
    <e>
@@ -117157,7 +117104,6 @@
    <e>
       <lg pos="N">
          <l type="NomAg">sámegieloahpaheaddji</l>
-         <l type="NomAg">sámegielaoahpaheaddji</l>
       </lg>
    </e>
    <e>
@@ -117360,7 +117306,6 @@
    <e>
       <lg pos="N">
          <l>sámerádio</l>
-         <l>Sámeradio</l>
       </lg>
    </e>
    <e>
@@ -117387,7 +117332,6 @@
    <e>
       <lg pos="N">
          <l>sámeskuvla</l>
-         <l>sámiskuvla</l>
       </lg>
    </e>
    <e>
@@ -117520,7 +117464,6 @@
    <e>
       <lg pos="N">
          <l>sárdnestuollu</l>
-         <l>sártnestuollu</l>
       </lg>
    </e>
    <e>
@@ -118583,8 +118526,6 @@
    <e>
       <lg pos="N">
          <l>sektor</l>
-         <l>sektovra</l>
-         <l>sektuvra</l>
       </lg>
    </e>
    <e>
@@ -121781,8 +121722,6 @@
    <e>
       <lg pos="N">
          <l>skuvlaastoáiggeortnet</l>
-         <l>skuvlaastoáigeortnet</l>
-         <l>skuvlaasttoáiggeortnet</l>
       </lg>
    </e>
    <e>
@@ -122424,7 +122363,6 @@
    <e>
       <lg pos="N">
          <l>skuvlaservodat</l>
-         <l>skuvllaservodat</l>
          <l>skuvlaservvodat</l>
       </lg>
    </e>
@@ -122501,7 +122439,6 @@
    <e>
       <lg pos="N">
          <l>skuvlašillju</l>
-         <l>skuvllašillju</l>
       </lg>
    </e>
    <e>
@@ -123649,7 +123586,6 @@
    <e>
       <lg pos="N">
          <l>sosiálabálvalus</l>
-         <l>sosialabálvalus</l>
       </lg>
    </e>
    <e>
@@ -129471,8 +129407,6 @@
    <e>
       <lg pos="N">
          <l>telefovdna</l>
-         <l>telefon</l>
-         <l>telefuvdna</l>
       </lg>
    </e>
    <e>
@@ -132847,7 +132781,6 @@
    <e>
       <lg pos="N">
          <l>váldočoahkkin</l>
-         <l>váldo-čoahkkin</l>
       </lg>
    </e>
    <e>
