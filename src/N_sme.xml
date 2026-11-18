@@ -1005,6 +1005,9 @@
       </lg>
       <dg id="a">
          <d>boddu boradeami várás</d>
+         <syng>
+            <d_ref lemma="borranboddu" pos="N">borranboddu</d_ref>
+         </syng>
       </dg>
    </e>
    <e batch="2602">
@@ -1057,6 +1060,9 @@
       </lg>
       <dg id="a">
          <d>boddu borrama várás</d>
+         <syng>
+            <d_ref lemma="boradanboddu" pos="N">boradanboddu</d_ref>
+         </syng>
       </dg>
    </e>
    <e batch="2604">
