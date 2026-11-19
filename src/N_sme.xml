@@ -835,7 +835,7 @@
          <l>biilageaidnu</l>
       </lg>
       <dg id="a">
-         <d>geaidnu mii lea oaivvilduvvon biilavuodjimii</d>
+         <d>geaidnu mii lea oaivvilduvvon biilavuodjimii (ja eará stuorit mohtorfievrruide)</d>
          <syng>
             <d_ref lemma="biilaluodda" pos="N">biilaluodda</d_ref>
          </syng>
@@ -850,7 +850,7 @@
          <l>biilaluodda</l>
       </lg>
       <dg id="a">
-         <d>luodda mii lea oaivvilduvvon biilavuodjimii</d>
+         <d>luodda mii lea oaivvilduvvon biilavuodjimii (ja eará stuorit mohtorfievrruide)</d>
          <syng>
             <d_ref lemma="biilageaidnu" pos="N">biilageaidnu</d_ref>
          </syng>
