@@ -17,7 +17,7 @@ redigere i dei.
 (når du skriv git pull). Problemet er at du
 risikerer å lagre din gamle versjon
 
-> Documnmet .. seems to have been modified using an external
+> Document .. seems to have been modified using an external
   application. "Do you still want to save this document to its current
   location?
   
@@ -28,8 +28,8 @@ Måter å ordne dette på:
 
 1. Lukk dictfila i xmlmind **før** du oppdaterer (før git pull)
 2. Viss du glømte det og **ikke har valgt yes** for å lagre dictfila: 
-Kopier det som du har gjort til ei notatdokument og velg **no** for å lagre dictfila. Deretter legger du til det du har kopiert i dictfila.
-3. Viss du glømte det og **valgte yes for å lagre fila**: da får du ein **konflikt**. Be om hjelp.  Ingenting er tapt, og vi tar opp hvordan du gjør dette teknisk seinare. 
+Kopier det som du har gjort til ei notatdokument og velg **no** for å lagre dictfila. Lukk dictfila uten å lagre og åpne den på nytt. Deretter legger du til det du har kopiert i dictfila.
+3. Viss du glømte det og **valgte yes for å lagre fila**: da får du ein **konflikt**, dvs at det er blitt rot i fila eller noe er overskrevet. Be om hjelp.  Ingenting er tapt, alt er tatt vare på i historikken til fila. Vi tar opp hvordan du gjør dette teknisk seinare. 
 
 
 ### Navigering i "treet":
