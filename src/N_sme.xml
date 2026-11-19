@@ -880,6 +880,10 @@
       </lg>
       <dg id="a">
          <d>latnja biljárdaspeallama várás</d>
+         <xg>
+            <x>Son manai biljárdalatnjii.</x>
+            <x>Biljárdabeavdi lea biljárdalanjas.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
@@ -888,6 +892,9 @@
       </lg>
       <dg id="a">
          <d>kuvla mii geavahuvvo biljárdas</d>
+         <xg>
+            <x>Biljárdaspáppat leat beavddis.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2612">
@@ -1113,7 +1120,7 @@
          </xg>
       </dg>
    </e>
-   <e>
+   <e batch="2602">
       <lg pos="N">
          <l>reiveniibi</l>
       </lg>
