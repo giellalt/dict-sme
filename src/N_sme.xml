@@ -1023,6 +1023,10 @@
          <syng>
             <d_ref lemma="borranboddu" pos="N">borranboddu</d_ref>
          </syng>
+         <xg>
+            <x>Mii váldit boradanbottu dál.</x>
+            <x>Son logai áviissa boradanbottus.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
@@ -1078,6 +1082,10 @@
          <syng>
             <d_ref lemma="boradanboddu" pos="N">boradanboddu</d_ref>
          </syng>
+         <xg>
+            <x>Mii váldit borranbottu dál.</x>
+            <x>Son logai áviissa borranbottus.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2604">
