@@ -1007,9 +1007,10 @@
          <l>bohccomiessi</l>
       </lg>
       <dg id="a">
-         <d>bohcco čivga</d>
+         <d><d_ref lemma="áldu" pos="N">álddu</d_ref> čivga</d>
          <xg>
             <x>Bohccomiesit ruvget.</x>
+            <x>Badjeolbmot merkot bohccomisiid.</x>
          </xg>
       </dg>
    </e>
