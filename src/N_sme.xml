@@ -995,7 +995,11 @@
          <l>bohccomielki</l>
       </lg>
       <dg id="a">
-         <d>mielki mii boahtá bohccos</d>
+         <d>mielki mii boahtá <d_ref lemma="áldu" pos="N">álddus</d_ref></d>
+         <xg>
+            <x>Soai juhkaba bohccomielkki.</x>
+            <x>Sii dahke vuoja bohccomielkkis.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
