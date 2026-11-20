@@ -34686,7 +34686,8 @@
          <l>dálvebivttas</l>
       </lg>
       <dg id="a">
-         <d>(liegga, assás) bivttas maid olmmoš atná dálvet</d>
+         <d>(liegga, assás) bivttas maid olmmoš atná dálvet, geahča <d_ref lemma="dálvi" pos="N">dálvi</d_ref>, <d_ref
+         lemma="bivttas" pos="N">bivttas</d_ref></d>
          <syng>
             <d_ref lemma="dálvegárvu" pos="N">dálvegárvu</d_ref>
          </syng>
@@ -34702,7 +34703,8 @@
          <l>dálvegárvu</l>
       </lg>
       <dg id="a">
-         <d>(liegga, assás) gárvu maid olmmoš atná dálvet</d>
+         <d>(liegga, assás) gárvu maid olmmoš atná dálvet, geahča <d_ref lemma="dálvi" pos="N">dálvi</d_ref>, <d_ref
+         lemma="gárvu" pos="N">gárvu</d_ref></d>
          <syng>
             <d_ref lemma="dálvebivttas" pos="N">dálvebivttas</d_ref>
          </syng>

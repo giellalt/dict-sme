@@ -2551,7 +2551,8 @@
          <l>allajienat</l>
       </lg>
       <dg id="a">
-         <d>geas dahje mas lea alla dahje garra jietna, geahča <d_ref lemma="jietna" pos="N">jietna</d_ref></d>
+         <d>geas dahje mas lea alla dahje garra jietna, geahča <d_ref lemma="allat" pos="A">allat</d_ref>, <d_ref
+         lemma="jietna" pos="N">jietna</d_ref></d>
          <syng>
             <d_ref lemma="jiednái" pos="A">jiednái</d_ref>
             <d_ref lemma="jidnii" pos="A">jidnii</d_ref>
@@ -2560,6 +2561,7 @@
             <x>Gávppis čuodjá skájanasain allajienat juovlamusihkka.</x>
             <x>Gávpot sáhttá dávjá leat allajienat.</x>
             <x>Son lea allajienat olmmoš.</x>
+            <x>Viesus gullui allajienat diggon.</x>
          </xg>
       </dg>
    </e>
