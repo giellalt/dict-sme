@@ -13432,6 +13432,14 @@
       <lg pos="N">
          <l>árvodávvir</l>
       </lg>
+      <dg id="a">
+         <d>árvvusadnon dahje divrras <d_ref lemma="dávvir" pos="N">dávvir</d_ref></d>
+         <xg>
+            <x>Dát leat mu árvodávvir.</x>
+            <x>Sii juhke árvodávviriid árbbolaččaid gaskkas. </x>
+            <x>Eai doppe gal lean árvodávvirat.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -47677,7 +47685,7 @@
          <l>etnologiija</l>
       </lg>
    </e>
-   <e batch="2621">
+   <e>
       <lg pos="N">
          <l>etnomusihkka</l>
       </lg>
@@ -80303,7 +80311,7 @@
       </dg>
       <dg id="c">
          <d>abstrákta sadji gos ságastallamat dáhpáhuvvet dahje áššit ovdanbuktojuvvojit</d>
-         <d>vrd <d_ref lemma="arena" pos="N">arena</d_ref>, <d_ref lemma="forum" pos="N">forum</d_ref></d>
+         <d><d_ref lemma="arena" pos="N">arena</d_ref>, <d_ref lemma="forum" pos="N">forum</d_ref></d>
          <xg>
             <x>Sámi musihkkárat ja sámi musihkka ovdánahttojuvvojit máŋggalágan lávddiin.</x>
             <x>Dan ulbmil lea doaibmat lávdin sihke álbmotmusihkkii ja álbmotdánsumii.</x>
@@ -113262,7 +113270,7 @@
          <l>riikkakonsearta</l>
       </lg>
    </e>
-   <e batch="2621">
+   <e>
       <lg pos="N">
          <l>riikkalávdi</l>
       </lg>
@@ -135901,6 +135909,9 @@
       <lg pos="N">
          <l>viessodávvir</l>
       </lg>
+      <dg id="a">
+         <d/>
+      </dg>
    </e>
    <e>
       <lg pos="N">
