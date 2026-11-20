@@ -13436,7 +13436,7 @@
          <d>árvvusadnon dahje divrras <d_ref lemma="dávvir" pos="N">dávvir</d_ref></d>
          <xg>
             <x>Dát leat mu árvodávvir.</x>
-            <x>Sii juhke árvodávviriid árbbolaččaid gaskkas. </x>
+            <x>Sii juhke árvodávviriid árbbolaččaid gaskkas.</x>
             <x>Eai doppe gal lean árvodávvirat.</x>
          </xg>
       </dg>
@@ -35704,17 +35704,19 @@
          <l>dávvir</l>
       </lg>
       <dg id="c">
-         <d>diŋga; gálvu; bierggas; gávdni; oapmi</d>
+         <d>albmamáilmmi diŋga; gálvu; bierggas; gávdni; oapmi</d>
          <xg>
             <x>Sii vuvde feara makkár dávviriid doppe.</x>
             <x>Son čohkkii iežas dávviriid.</x>
             <x>Leago dát du dávvir?</x>
+            <x>Dáhkádusárvu galgá mearriduvvot dan riikka valuhta mielde gosa dávvir gullá, vejolaččat euro dahje
+            dollar.</x>
          </xg>
       </dg>
       <dg id="b">
-         <d>árvvusadnon dahje divrras diŋga, gálvu, bierggas, gávdni dahje oapmi</d>
+         <d>árvvusadnon dahje divrras diŋga, gálvu, bierggas, gávdni dahje oapmi, maiddái abstrákta mearkkašumis</d>
          <xg>
-            <x>Divrras dávvir.</x>
+            <x>Boazu lea dávvir.</x>
             <x>Sii juhke dávviriid árbbolaččaid gaskkas.</x>
             <x>Golli ja bearralat gal leat ollu, muhto viissis sánit leat hárvenaš dávvir.</x>
             <x>Riggodat ii bistte agálaččat iige dávvir buolvvas bulvii.</x>
