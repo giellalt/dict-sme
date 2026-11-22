@@ -927,6 +927,19 @@
          <d>gávpi mii vuovdá biktasiid</d>
       </dg>
    </e>
+   <e>
+      <lg pos="N">
+         <l>bivttasrámbuvra</l>
+      </lg>
+      <dg id="a">
+         <d>rámbuvra mii vuovdá biktasiid</d>
+         <xg>
+            <x>Moai finaime bivttasrámbuvrras.</x>
+            <x>Son osttii buvssaid bivttasrámbuvrras.</x>
+            <x>Mun álggahin bivttasrámbuvrra diibmá.</x>
+         </xg>
+      </dg>
+   </e>
    <e batch="2611">
       <lg pos="N">
          <l>boadnjá</l>
