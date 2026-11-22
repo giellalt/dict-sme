@@ -925,6 +925,10 @@
       </lg>
       <dg id="a">
          <d>gávpi mii vuovdá biktasiid</d>
+         <syng>
+            <d_ref lemma="bivttasbuvda" pos="N">bivttasbuvda</d_ref>
+            <d_ref lemma="bivttasrámbuvra" pos="N">bivttasrámbuvra</d_ref>
+         </syng>
          <xg>
             <x>Moai finaime bivttasgávppis.</x>
             <x>Son osttii buvssaid bivttasgávppis.</x>
@@ -938,6 +942,10 @@
       </lg>
       <dg id="a">
          <d>rámbuvra mii vuovdá biktasiid</d>
+         <syng>
+            <d_ref lemma="bivttasgávpi" pos="N">bivttasgávpi</d_ref>
+            <d_ref lemma="bivttasbuvda" pos="N">bivttasbuvda</d_ref>
+         </syng>
          <xg>
             <x>Moai finaime bivttasrámbuvrras.</x>
             <x>Son osttii buvssaid bivttasrámbuvrras.</x>
