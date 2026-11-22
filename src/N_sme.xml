@@ -945,6 +945,23 @@
          </xg>
       </dg>
    </e>
+   <e>
+      <lg pos="N">
+         <l>bivttasbuvda</l>
+      </lg>
+      <dg id="a">
+         <d>buvda mii vuovdá biktasiid</d>
+         <syng>
+            <d_ref lemma="bivttasgávpi" pos="N">bivttasgávpi</d_ref>
+            <d_ref lemma="bivttasrámbuvra" pos="N">bivttasrámbuvra</d_ref>
+         </syng>
+         <xg>
+            <x>Moai finaime bivttasbuvddas.</x>
+            <x>Son osttii buvssaid bivttasbuvddas.</x>
+            <x>Mun álggahin bivttasbuvdda diibmá.</x>
+         </xg>
+      </dg>
+   </e>
    <e batch="2611">
       <lg pos="N">
          <l>boadnjá</l>
