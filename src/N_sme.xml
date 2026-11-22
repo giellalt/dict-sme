@@ -1090,6 +1090,11 @@
       </lg>
       <dg id="a">
          <d>latnja gos lea lohpi borgguhit</d>
+         <xg>
+            <x>Borranbáikkis ii lean šat borgguhanlatnja.</x>
+            <x>Eadni lea borgguhanlanjas.</x>
+            <x>Áhčči manai borgguhanlatnjii.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
@@ -84475,7 +84480,7 @@
          <l>luopmoláhka</l>
       </lg>
    </e>
-   <e>
+   <e batch="2607">
       <lg pos="N">
          <l>luopmománnu</l>
       </lg>
