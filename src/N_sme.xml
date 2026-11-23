@@ -1207,6 +1207,9 @@
       </lg>
       <dg id="a">
          <d>viehkat mainna vihkke breavaid ja páhkaid mearridan dihte sáddengoluid</d>
+         <syng>
+            <d_ref lemma="reiveviehkat" pos="N">reiveviehkat</d_ref>
+         </syng>
          <xg>
             <x>Mun vihkkejin breava breavaviehkagiin.</x>
          </xg>
@@ -1218,6 +1221,9 @@
       </lg>
       <dg id="a">
          <d>viehkat mainna vihkke reivviid ja páhkaid mearridan dihte sáddengoluid</d>
+         <syng>
+            <d_ref lemma="breavaviehkat" pos="N">breavaviehkat</d_ref>
+         </syng>
          <xg>
             <x>Mun vihkkejin reivve reiveviehkagiin.</x>
          </xg>
