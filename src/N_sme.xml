@@ -1207,6 +1207,20 @@
       </lg>
       <dg id="a">
          <d>viehkat mainna vihkke breavaid ja páhkaid mearridan dihte sáddengoluid</d>
+         <xg>
+            <x>Mun vihkkejin breava breavaviehkagiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l>reiveviehkat</l>
+      </lg>
+      <dg id="a">
+         <d>viehkat mainna vihkke reivviid ja páhkaid mearridan dihte sáddengoluid</d>
+         <xg>
+            <x>Mun vihkkejin reivve reiveviehkagiin.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2604">
