@@ -15731,12 +15731,17 @@
          <l>balláda</l>
       </lg>
    </e>
-   <e>
+   <e batch="2621">
       <lg pos="N">
          <l>ballin</l>
       </lg>
       <dg id="a">
-         <d>definition</d>
+         <d>veažir mainna dearpá goavdá dahje meavrresgári</d>
+         <xg>
+            <x>Čájáhusas lea ballin biddjon buot ovddemussii.</x>
+            <x>Ballima lávejit duddjot čoarvvis.</x>
+            <x>Dolin girku doalvvui sámiin sihke goavdáid ja ballimiid.</x>
+         </xg>
       </dg>
    </e>
    <e>
