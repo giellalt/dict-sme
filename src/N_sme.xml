@@ -11475,7 +11475,7 @@
          <l>álbmot</l>
       </lg>
       <dg id="a">
-         <d>olmmošjoavku geat gullet oktii kultuvrra, giela, historjjá dahje ássama dáfus</d>
+         <d>olmmošjoavku mii gullá oktii kultuvrra, giela, historjjá dahje ássama dáfus</d>
          <d><d_ref lemma="našuvdna" pos="N">našuvdna</d_ref></d>
          <xg>
             <x>Sámi álbmot ja eará álbmogat.</x>
@@ -12174,6 +12174,19 @@
       <lg pos="N">
          <l>álgoálbmot</l>
       </lg>
+      <dg id="a">
+         <d><d_ref lemma="álbmot" pos="N">álbmot</d_ref> mii lea ássan dihto guovllus ovdal riikaválddi dahje iežá
+         joavkkuid politihkalalaš stivrejumi</d>
+         <syng>
+            <d_ref lemma="eamiálbmot" pos="N">eamiálbmot</d_ref>
+         </syng>
+         <xg>
+            <x>Sámit leat Suoma, Norgga ja Ruota áidna álgoálbmot.</x>
+            <x>Sámit ja eará álgoálbmogat.</x>
+            <x>Olmmošvuoigatvuođat ja álgoálbmogiid vuoigatvuođat.</x>
+            <x>ON:a máilmmikonferánsa álgoálbmogiid birra. </x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -44360,6 +44373,16 @@
       <lg pos="N">
          <l>eamiálbmot</l>
       </lg>
+      <dg id="a">
+         <d><d_ref lemma="álbmot" pos="N">álbmot</d_ref> mii lea ássan dihto guovllus ovdal riikaválddi dahje iežá
+         joavkkuid politihkalalaš stivrejumi</d>
+         <xg>
+            <x>Sámit leat Suoma, Norgga ja Ruota áidna eamiálbmot.</x>
+            <x>Sámit ja eará eamiálbmogat.</x>
+            <x>Olmmošvuoigatvuođat ja eamiálbmogiid vuoigatvuođat.</x>
+            <x>ON:a máilmmikonferánsa eamiálbmogiid birra.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
