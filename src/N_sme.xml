@@ -59745,8 +59745,7 @@
          <d>historjjálaččat girkuid registtar searvegotti miellahtuide ja maiddái eiseválddiid almmolaš álbmotregisttar
          gosa čálle dieđuid olbmuid birra go sii gásttašuvvojedje, risttašuvvojedje, konfirmerejuvvojedje,
          vihahuvvojedje, hávdáduvvojedje, sin váhnema nama (váhnemiid namaid), makkár báikkis orro ja sullasaš dieđuid
-         (go sii riegádedje ja jápme, olbmuid birra geat fárrejedje eret suohkanis dahje suohkanii gosa girku gulai)
-         </d>
+         (go sii riegádedje ja jápme, olbmuid birra geat fárrejedje eret suohkanis dahje suohkanii gosa girku gulai)</d>
          <xg>
             <x>Girkogirjjit ledje ovdalaš áiggi álbmotregistarat, ja doppe sáhttá gávdnat dieđuid sohkadutkamii.</x>
             <x>Suohkanbáhpain lei ovddasvástádus čállit girkogirjjiid.</x>
@@ -59758,7 +59757,7 @@
       <dg id="b">
          <d>girkuid registtar searvegottiin gosa čállet olbmuid dieđut olbmuid birra geat gásttašuvvojit,
          risttašuvvojit, konfirmerejuvvojit, vihahuvvojit, hávdáduvvojit, ja geat celket eret ja dieđihit iežaset
-         miellahttun girkui, ja sullasaš dieđuid </d>
+         miellahttun girkui, ja sullasaš dieđuid</d>
          <xg>
             <x>Girkus lea girkogirji.</x>
             <x>Girkogirjjis sáhttá oaidnit dieđuid geat leat gásttašuvvon, konfirmerejuvvon, vihahuvvon ja
@@ -59770,7 +59769,7 @@
       </dg>
       <dg id="c">
          <d>girji maid searvegottit Norgga girkus skeŋkejit searvegotti mánáide mas leat sálmmat ja teavsttat
-         risttalašvuođa birra </d>
+         risttalašvuođa birra</d>
          <xg>
             <x>Searvegoddi bovde mánáid ipmilbálvalussii oažžut girkogirjjiid.</x>
             <x>Mánát geat leat njealjejahkásaččat ožžot girkogirjji.</x>
@@ -59920,14 +59919,6 @@
             <x>Mun in leat šat miellahttun Ruoŧa girkus.</x>
          </xg>
       </dg>
-      <dg id="c">
-         <d><d_ref lemma="ipmilbálvalus" pos="N">ipmilbálvalus</d_ref></d>
-         <xg>
-            <x>Lea go odne girku?</x>
-            <x>Go lei girku, de juhke 6-luohkáhasaide biibbaliid.</x>
-            <x>In veaje odne girkui.</x>
-         </xg>
-      </dg>
       <dg id="d">
          <d>ásahus historjjálaččat mas lei ekonomalaš ja politihkalaš fápmu</d>
          <xg>
@@ -59935,6 +59926,14 @@
             <x>Olbmot šadde ovdalaš áiggi máksit girkui jahkásaččat ovtta logádasoasi dálu dietnasis.</x>
             <x>Girku lea historjjálaččat leamaš mielde dáruiduhttinproseassain ja áigu váldit ovddasvástádusa dán
             vearrivuođas maid sápmelaččat šadde gillát girku daguid dihte.</x>
+         </xg>
+      </dg>
+      <dg id="c">
+         <d><d_ref lemma="ipmilbálvalus" pos="N">ipmilbálvalus</d_ref></d>
+         <xg>
+            <x>Lea go odne girku?</x>
+            <x>Go lei girku, de juhke 6-luohkáhasaide biibbaliid.</x>
+            <x>In veaje odne girkui.</x>
          </xg>
       </dg>
       <ig>
