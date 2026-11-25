@@ -925,6 +925,49 @@
       </lg>
       <dg id="a">
          <d>gávpi mii vuovdá biktasiid</d>
+         <syng>
+            <d_ref lemma="bivttasbuvda" pos="N">bivttasbuvda</d_ref>
+            <d_ref lemma="bivttasrámbuvra" pos="N">bivttasrámbuvra</d_ref>
+         </syng>
+         <xg>
+            <x>Moai finaime bivttasgávppis.</x>
+            <x>Son osttii buvssaid bivttasgávppis.</x>
+            <x>Mun álggahin bivttasgávppi diibmá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l>bivttasrámbuvra</l>
+      </lg>
+      <dg id="a">
+         <d>rámbuvra mii vuovdá biktasiid</d>
+         <syng>
+            <d_ref lemma="bivttasgávpi" pos="N">bivttasgávpi</d_ref>
+            <d_ref lemma="bivttasbuvda" pos="N">bivttasbuvda</d_ref>
+         </syng>
+         <xg>
+            <x>Moai finaime bivttasrámbuvrras.</x>
+            <x>Son osttii buvssaid bivttasrámbuvrras.</x>
+            <x>Mun álggahin bivttasrámbuvrra diibmá.</x>
+         </xg>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l>bivttasbuvda</l>
+      </lg>
+      <dg id="a">
+         <d>buvda mii vuovdá biktasiid</d>
+         <syng>
+            <d_ref lemma="bivttasgávpi" pos="N">bivttasgávpi</d_ref>
+            <d_ref lemma="bivttasrámbuvra" pos="N">bivttasrámbuvra</d_ref>
+         </syng>
+         <xg>
+            <x>Moai finaime bivttasbuvddas.</x>
+            <x>Son osttii buvssaid bivttasbuvddas.</x>
+            <x>Mun álggahin bivttasbuvdda diibmá.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2611">
@@ -1034,9 +1077,10 @@
          <l>borgemánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi gávccát mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi gávccát mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea borgemánu 27. beaivvi.</x>
+            <x>Festivála lágiduvvo borgemánus.</x>
          </xg>
       </dg>
    </e>
@@ -1046,6 +1090,11 @@
       </lg>
       <dg id="a">
          <d>latnja gos lea lohpi borgguhit</d>
+         <xg>
+            <x>Borranbáikkis ii lean šat borgguhanlatnja.</x>
+            <x>Eadni lea borgguhanlanjas.</x>
+            <x>Áhčči manai borgguhanlatnjii.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
@@ -1053,12 +1102,16 @@
          <l>borranbaste</l>
       </lg>
       <dg id="a">
-         <d>stuorit baste mainna borrá (omd. buvrru, máli)</d>
+         <d>stuorit baste mainna borrá dahje gazzá juoidá (omd. buvrru, máli)</d>
+         <xg>
+            <x>Son gazzá máli borranbasttiin.</x>
+            <x>Borranbasttet leat lođás.</x>
+         </xg>
       </dg>
       <dg id="b">
          <d>mearri mii čáhká borranbastii, geavahuvvo mihttoovttadahkan omd. málesteamis, oaniduvvo bb.</d>
          <xg>
-            <x>3 borranbastte sohkar</x>
+            <x>Lasit 3 borranbastte sohkkara dáigái.</x>
          </xg>
       </dg>
    </e>
@@ -1154,6 +1207,26 @@
       </lg>
       <dg id="a">
          <d>viehkat mainna vihkke breavaid ja páhkaid mearridan dihte sáddengoluid</d>
+         <syng>
+            <d_ref lemma="reiveviehkat" pos="N">reiveviehkat</d_ref>
+         </syng>
+         <xg>
+            <x>Mun vihkkejin breava breavaviehkagiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
+         <l>reiveviehkat</l>
+      </lg>
+      <dg id="a">
+         <d>viehkat mainna vihkke reivviid ja páhkaid mearridan dihte sáddengoluid</d>
+         <syng>
+            <d_ref lemma="breavaviehkat" pos="N">breavaviehkat</d_ref>
+         </syng>
+         <xg>
+            <x>Mun vihkkejin reivve reiveviehkagiin.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2604">
@@ -1180,7 +1253,7 @@
          </xg>
       </dg>
    </e>
-   <e>
+   <e batch="2602">
       <lg pos="N">
          <l>gáhttočivga</l>
       </lg>
@@ -1198,13 +1271,26 @@
    </e>
    <e batch="2602">
       <lg pos="N">
+         <l>gissičivga</l>
+      </lg>
+      <dg id="a">
+         <d>gissi čivga</d>
+         <xg>
+            <x>Gissičivga čuohká mielkki.</x>
+            <x>Mánná njávká gissičivgga.</x>
+            <x>Gissičivggat stohket láiggiin.</x>
+         </xg>
+      </dg>
+   </e>
+   <e batch="2602">
+      <lg pos="N">
          <l hid="1">busse</l>
       </lg>
       <dg id="a">
          <d>stuorit mohtorfievru (mii ii jođe ruovdemáđija mielde) mas lea sadji máŋga mátkkošteddjiide</d>
          <xg>
-            <x>johtit bussiin</x>
-            <x>váldit busse</x>
+            <x>Mii johtit bussiin.</x>
+            <x>Mun válddán busse measta juohke beaivve.</x>
             <x>Moai vurde busse.</x>
             <x>Busse lea maŋŋonan.</x>
             <x>Busse boahtá viđa minuhta geahčen.</x>
@@ -1218,6 +1304,10 @@
       </lg>
       <dg id="a">
          <d>busse mas leat eanemusat 17 čohkkánsaji</d>
+         <xg>
+            <x>Sii vudjet miehtá riikka bussebiillažiin.</x>
+            <x>Sii fertejedje diŋgot bussebiillaža.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2612">
@@ -1272,9 +1362,10 @@
          <l type="NomAg">bussevuoddji</l>
       </lg>
       <dg id="a">
-         <d>olmmoš gii vuodjá busse ámmáhin</d>
+         <d>olmmoš gii vuodjá bussiin ámmáhin</d>
          <xg>
-            <x>Son jearai ovtta bussevuoddjis guđe busse fárrui galggai.</x>
+            <x>Son bargá bussevuoddjin.</x>
+            <x>Son jearai bussevuoddjis guđe busse fárrui galggai.</x>
          </xg>
       </dg>
    </e>
@@ -1284,6 +1375,11 @@
       </lg>
       <dg id="a">
          <d>jahki masa bušeahtta gusto (ja mii sáhttá spiehkastit kaleandarjagis)</d>
+         <xg>
+            <x>Vuosttaš máksin lea bušeahttajagi álggus.</x>
+            <x>Boahtte jagi lea gáržžes bušeahttajahki.</x>
+            <x>Doarjjaruđaid ii sáhte sirdit maŋit bušeahttajahkái.</x>
+         </xg>
       </dg>
    </e>
    <e batch="2602">
@@ -1330,9 +1426,10 @@
          <l>cuoŋománnu</l>
       </lg>
       <dg id="a">
-         <d>jagi njealját mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi njealját mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea cuoŋománu 29. beaivvi.</x>
+            <x>Ášši galgá diggái cuoŋománus.</x>
          </xg>
       </dg>
    </e>
@@ -1414,9 +1511,10 @@
          <l>čakčamánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi ovccát mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi ovccát mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea čakčamánu 9. beaivvi.</x>
+            <x>Son almmuhii ođđa skearru čakčamánus.</x>
          </xg>
       </dg>
    </e>
@@ -2792,9 +2890,10 @@
          <l>geassemánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi guđát mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi guđát mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea geassemánu 18. beaivvi.</x>
+            <x>Sii almmuhit ođđa skearru geassemánus.</x>
          </xg>
       </dg>
    </e>
@@ -3258,9 +3357,10 @@
          <l>golggotmánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi logát mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi logát mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea golggotmánu 18. beaivvi.</x>
+            <x>Festivála lágiduvvo golggotmánus.</x>
          </xg>
       </dg>
    </e>
@@ -3485,9 +3585,10 @@
          <l>guovvamánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi nubbi mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi nubbi mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea guovvamánu 15. beaivvi.</x>
+            <x>Konferánsa lágiduvvo guovvamánu álggus.</x>
          </xg>
       </dg>
    </e>
@@ -4182,9 +4283,10 @@
          <l>juovlamánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi guoktenuppelogát ja maŋimuš mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi guoktenuppelogát ja maŋimuš mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea juovlamánu 14. beaivvi.</x>
+            <x>Mun álggán ođđa bargui juovlamánus.</x>
          </xg>
       </dg>
    </e>
@@ -5128,9 +5230,10 @@
          <l>miessemánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi viđát mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi viđát mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea miessemánu 5. beaivvi.</x>
+            <x>Miessemánus leat máŋga rukses beaivvit.</x>
          </xg>
       </dg>
    </e>
@@ -5551,9 +5654,10 @@
          <l>njukčamánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi goalmmát mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi goalmmát mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea njukčamánu 11. beaivvi.</x>
+            <x>Konferánsa lágiduvvo njukčamánu loahpas.</x>
          </xg>
       </dg>
    </e>
@@ -5773,9 +5877,10 @@
          <l>ođđajagimánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi vuosttaš mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi vuosttaš mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea ođđajagemánu 23. beaivvi.</x>
+            <x>Festivála lágiduvvo ođđajagemánu loahpas.</x>
          </xg>
       </dg>
    </e>
@@ -6495,9 +6600,10 @@
          <l>skábmamánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi oktanuppelogát mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi oktanuppelogát mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea skábmamánu 2. beaivvi.</x>
+            <x>Son álgá ođđa bargui skábmamánus.</x>
          </xg>
       </dg>
    </e>
@@ -6897,9 +7003,10 @@
          <l>suoidnemánnu</l>
       </lg>
       <dg id="a">
-         <d>jagi čihččet mánnu (gregoriánalaš kaleandara mielde)</d>
+         <d>jagi čihččet mánu namma (gregoriánalaš kaleandara mielde)</d>
          <xg>
             <x>Su riegádanbeaivi lea suoidnemánu 20. beaivvi.</x>
+            <x>Festivála lágiduvvo suoidnemánus.</x>
          </xg>
       </dg>
    </e>
@@ -11377,6 +11484,28 @@
       <lg pos="N">
          <l>álbmot</l>
       </lg>
+      <dg id="a">
+         <d>olmmošjoavku mii gullá oktii kultuvrra, giela, historjjá dahje ássama dáfus</d>
+         <d><d_ref lemma="našuvdna" pos="N">našuvdna</d_ref></d>
+         <xg>
+            <x>Sámi álbmot ja eará álbmogat.</x>
+            <x>Okta álbmot njealji riikkas.</x>
+            <x>Eará álbmot sámi guovlluin.</x>
+            <x>Álgoálbmogiid riekti oassálastit ferte álo mearkkašit ahte sii ovddastit iežaset sierra álbmogin.</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d>riikka dahje guovllu olbmot</d>
+         <d/>
+         <xg>
+            <x>Ruoŧa álbmot.</x>
+            <x>Árktisa álbmot</x>
+            <x>Báikkálaš álbmot.</x>
+            <x>Kulturdoaimmaid galgá álbmot ieš ovddidit.</x>
+            <x>Sáddagiid galgá olles álbmot gullat.</x>
+            <x>Suoma álbmot guldala rádio gaskamearálaččat lagabui golbma diimmu beaivvis.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -12055,6 +12184,19 @@
       <lg pos="N">
          <l>álgoálbmot</l>
       </lg>
+      <dg id="a">
+         <d><d_ref lemma="álbmot" pos="N">álbmot</d_ref> mii lea ássan dihto guovllus ovdal riikaválddi dahje iežá
+         joavkkuid politihkalalaš stivrejumi</d>
+         <syng>
+            <d_ref lemma="eamiálbmot" pos="N">eamiálbmot</d_ref>
+         </syng>
+         <xg>
+            <x>Sámit leat Suoma, Norgga ja Ruota áidna álgoálbmot.</x>
+            <x>Sámit ja eará álgoálbmogat.</x>
+            <x>Olmmošvuoigatvuođat ja álgoálbmogiid vuoigatvuođat.</x>
+            <x>ON:a máilmmikonferánsa álgoálbmogiid birra.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -15626,6 +15768,19 @@
       <lg pos="N">
          <l>balláda</l>
       </lg>
+   </e>
+   <e batch="2621">
+      <lg pos="N">
+         <l>ballin</l>
+      </lg>
+      <dg id="a">
+         <d>veažir mainna dearpá goavdá dahje meavrresgári</d>
+         <xg>
+            <x>Čájáhusas lea ballin biddjon buot ovddemussii.</x>
+            <x>Ballima lávejit duddjot čoarvvis.</x>
+            <x>Dolin girku doalvvui sámiin sihke goavdáid ja ballimiid.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -44228,6 +44383,16 @@
       <lg pos="N">
          <l>eamiálbmot</l>
       </lg>
+      <dg id="a">
+         <d><d_ref lemma="álbmot" pos="N">álbmot</d_ref> mii lea ássan dihto guovllus ovdal riikaválddi dahje iežá
+         joavkkuid politihkalalaš stivrejumi</d>
+         <xg>
+            <x>Sámit leat Suoma, Norgga ja Ruota áidna eamiálbmot.</x>
+            <x>Sámit ja eará eamiálbmogat.</x>
+            <x>Olmmošvuoigatvuođat ja eamiálbmogiid vuoigatvuođat.</x>
+            <x>ON:a máilmmikonferánsa eamiálbmogiid birra.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -65054,6 +65219,17 @@
    </e>
    <e>
       <lg pos="N">
+         <l>guovžaáddjá</l>
+      </lg>
+      <dg id="a">
+         <d>definition</d>
+         <xg>
+            <x>Guovžaáddjá lea lihkkan árrat dán jagi.</x>
+         </xg>
+      </dg>
+   </e>
+   <e>
+      <lg pos="N">
          <l>guppar</l>
       </lg>
    </e>
@@ -80229,6 +80405,15 @@
       <lg pos="N">
          <l>lávdedávvir</l>
       </lg>
+      <dg id="a">
+         <d><d_ref lemma="dávvir" pos="N">dávvir</d_ref> mii geavahuvvo teahterbihttás, filmmas jna.</d>
+         <xg>
+            <x>Sihke láhtti ja lávdedávvirat attii geahččái dakkár dovddu ahte livččii dego 1700-logu adelmáilmmis
+            leame</x>
+            <x>Dán filbmii eai lean háhkán ođđa lávdedávviriid.</x>
+            <x>Sii besse mproviseret rupmašiin, mearkagiela hutkkálaš geavahemiin, jienain ja lávdedávviriiguin.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -84396,7 +84581,7 @@
          <l>luopmoláhka</l>
       </lg>
    </e>
-   <e>
+   <e batch="2607">
       <lg pos="N">
          <l>luopmománnu</l>
       </lg>
@@ -97467,6 +97652,15 @@
       <lg pos="N">
          <l>oahppanlávdi</l>
       </lg>
+      <dg id="a">
+         <d>sadji gos oahpaheapmi dáhpáhuvvá, dávjá digitálalaččat</d>
+         <xg>
+            <x>Skuvllat geavahit dávjá oahppanlávddi, mii lea intraneahtta gos oahpaheaddjit, oahppit ja váhnemat
+            sáhttet gulahallat.</x>
+            <x>Diekkár oahppanlávddit geavahuvvojit sihke pedagogalaččat ja hálddahusbargguin.</x>
+            <x>Lea buorre oahpástuvvat oahppanlávddiin dakkaviđe go leat álgán gursii.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
@@ -135944,7 +136138,15 @@
          <l>viessodávvir</l>
       </lg>
       <dg id="a">
-         <d/>
+         <d><d_ref lemma="dávvir" pos="N"> dávvir</d_ref> mii geavahuvvo viesus sihke ávkkálašvuođa dihte ja hearvan</d>
+         <xg>
+            <x>Ásodagas lea visot gievkkanbiergasat, galmmihanskábe, bassanmašiinnat ja muđui buotlágan
+            viessodávvirat.</x>
+            <x>Nuortasámi musea oažžu 2,5 miljovnna ruvnno earret eará čájáhusaide ja viessodávviriidda.</x>
+            <x>Mánát ja váhnemat lágidit doaluid, ja sii leat ožžon ollu biktasiid ja viessodávviriid sisa.</x>
+            <x>Duodjin gohčoduvvojit gieđain ráhkaduvvon sámi atnudiŋggat nugo biktasat, ávdnasat, viessodávvirat,
+            bivdobiergasat ja čiŋat.</x>
+         </xg>
       </dg>
    </e>
    <e>
