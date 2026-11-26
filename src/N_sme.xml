@@ -139089,6 +139089,44 @@
       <lg pos="N">
          <l>vuorká</l>
       </lg>
+      <dg id="a">
+         <d>(systemáhtalaččat ordnejuvvon) čoakkáldat masa leat čohkkejuvvon dahje vurkejuvvon dokumeanttat, girjjit,
+         dávvirat ja sullasaččat, geavahuvvo vuođđooassin goallosániin dego girjevuorká, govvavuorká jna. dahje
+         mearusoassin sániin dego vuorkádávvir </d>
+         <syng>
+            <d_ref lemma="rádju" pos="N">rádju</d_ref>
+         </syng>
+         <xg>
+            <x>Digitálalaš vuorkkáin sáhtát gávdnat dološ govaid.</x>
+            <x>Mun vurken divrras dávviriid vuorkái.</x>
+            <x>Leat go ohcan vuorkkás?</x>
+            <x>Leat báddejuvvon dološ luođit ja eará sámi musihkka vuorkkáin, maid galggašii oažžut albmosii.</x>
+            <x>vuorkkás leat</x>
+         </xg>
+      </dg>
+      <dg id="b">
+         <d>fysalaš visti dahje latnja masa leat čohkkejuvvon dahje vurkejuvvon dokumeanttat, girjjit, dávvirat ja
+         sullasaččat, geavahuvvo vuođđooassin goallosániin dego girjevuorká, dávvirvuorká</d>
+         <syng>
+            <d_ref lemma="rádju" pos="N">rádju</d_ref>
+            <d_ref lemma="arkiiva" pos="N">arkiiva</d_ref>
+         </syng>
+         <xg>
+            <x>Min lágádusas ii leat nu stuora vuorká.</x>
+            <x>Vuorkái mii lea gealláris, dohko leat vurkejuvvon boares sámi oahpponeavvut.</x>
+            <x>Vuorkkás leat olu hildut masa leat čohkkejuvvon buotlágan dávvirat.</x>
+            <x>vuorkái bidjat</x>
+         </xg>
+      </dg>
+      <dg id="c">
+         <d>(abstrákta geavahusas) čoakkáldat masa leat vurkejuvvon jurdagat, máhtut, dieđut, buorrevuohta, viisodat,
+         bahávuohta, dávvirat, áššit, jna. </d>
+         <xg>
+            <x>Somá go sápmelaš lohkkit gávdnet riggodagaid min máttuid vuorkkáin.</x>
+            <x>Buorre olmmoš buktá ovdan buriid iežas váimmu buorrevuođa vuorkkás.</x>
+            <x>Son lea čohkken ábi čáziid dego lihttái, ja bidjan čiekŋalasaid rávnnjiid vuorkkáidasas.</x>
+         </xg>
+      </dg>
    </e>
    <e>
       <lg pos="N">
